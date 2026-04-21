@@ -1,0 +1,140 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { SeoMeta } from "../lib/seo";
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
+const meta: SeoMeta = {
+  title: "Motivation — StartupBasket",
+  description:
+    "Why StartupBasket exists: a tech-founder's public idea catalog — built to sharpen thinking, surface the next thing to build, and let anyone else steal what sparks.",
+  canonical: `${siteUrl}/motivation`,
+  ogImage: `${siteUrl}/og-default.png`,
+  ogType: "website",
+};
+---
+
+<BaseLayout meta={meta}>
+  <!-- HERO -->
+  <section class="relative overflow-hidden border-b border-surface-border">
+    <div class="absolute inset-0 bg-hero-light dark:bg-hero-dark opacity-60" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-dotgrid opacity-40" aria-hidden="true"></div>
+
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 pt-16 pb-14">
+      <p class="text-xs uppercase tracking-widest text-muted font-medium mb-3">Motivation</p>
+      <h1 class="display text-4xl sm:text-5xl font-semibold tracking-tight leading-[1.05]">
+        Why this exists,<br/>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-accent-600 to-amber-500 dark:from-accent-300 dark:to-amber-400">
+          and why it's public.
+        </span>
+      </h1>
+      <p class="mt-5 text-lg text-surface-fg/75 leading-relaxed">
+        I'm a tech enthusiast and founder, hunting for the next thing to build. This is
+        my idea catalog — in public, because the discipline is better that way, and
+        because someone else might ship it before I do.
+      </p>
+    </div>
+  </section>
+
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-14 prose-idea">
+    <h2>The itch</h2>
+    <p>
+      I keep lists of ideas. Always have. Notebooks, Notes.app, a dozen half-finished
+      Google Docs. Most of them are junk I'd be embarrassed to read six months later —
+      clever premises with no demand signal, AI reskins of tools nobody asked for,
+      "wouldn't it be cool if" with zero "who would actually pay."
+    </p>
+    <p>
+      The useful ones — the ideas that survived a hard second look — were the exception.
+      I wanted a system that produced more of those, on purpose, and threw the junk
+      out before it earned a folder.
+    </p>
+
+    <h2>Why public</h2>
+    <p>Three reasons, in order of importance:</p>
+    <ol>
+      <li>
+        <strong>Public is a discipline tax.</strong> A private idea can be vague. A
+        public idea has to hold up — which means I actually do the research, cite the
+        signals, and pick a verdict. If I can't, the idea gets killed instead of
+        rotting in a notebook.
+      </li>
+      <li>
+        <strong>Most ideas aren't zero-sum.</strong> I can only build one thing at a
+        time. If twenty decent ideas sit unbuilt for a year, that's a worse outcome
+        than someone else shipping one of them. Steal anything that sparks.
+      </li>
+      <li>
+        <strong>Feedback beats pondering.</strong> A proposal with a score and a
+        verdict invites disagreement. People tell me where the math is wrong, where
+        the wedge is weaker than I think, where a competitor already ate the market.
+        That's worth more than a hundred solo brainstorms.
+      </li>
+    </ol>
+
+    <h2>What I'm actually hunting for</h2>
+    <p>
+      Something I can build with a small team — one to five people — in under six
+      months, that could realistically hit $1M–$5M ARR in eighteen to twenty-four
+      months. No unicorns. No ten-million-dollar capex. No crypto revivals. No
+      regulated markets unless the regulation itself is the moat.
+    </p>
+    <p>
+      What does catch my eye: boring markets where incumbents have terrible UX,
+      workflows where AI collapses a two-hour task into two minutes, tools that
+      professionals will pay for <em>this week</em>, localized plays where global SaaS
+      hasn't bothered, and micro-SaaS niches too small for venture capital but perfect
+      for a bootstrapper with taste.
+    </p>
+
+    <h2>What I get out of it</h2>
+    <p>
+      Sharpened thinking, mostly. Every idea I write forces me to articulate who the
+      customer is, what they pay today, why now, and how I'd get the first hundred —
+      in a voice that doesn't let me hedge. Some days the answer is "this is the one,
+      I'm building it." Most days the answer is "nope, move on." Both outcomes are
+      useful.
+    </p>
+    <p>
+      If an idea turns out to be the one I build, the catalog becomes the archive
+      of why. If someone else builds it first, I either congratulate them or learn
+      something from what they got wrong.
+    </p>
+
+    <h2>What you get out of it</h2>
+    <p>
+      A growing catalog of pressure-tested ideas you can read, disagree with, copy, or
+      ignore. Everything's free. No gated content, no paywall, no "subscribe for the
+      juicy ones." The PASSes stay too — they're often more useful than the GOs,
+      because they show you what the market already figured out.
+    </p>
+    <p>
+      If you ship something from here, I'd love to know. If you think the rubric is
+      miscalibrated or the math is wrong, I'd love that more. Email's on GitHub.
+    </p>
+
+    <h2>The honest disclaimers</h2>
+    <ul>
+      <li>I have biases. The operator persona skews toward SMB B2B SaaS, because that's what I know best. Consumer and deep-tech ideas are under-represented.</li>
+      <li>I'm sometimes wrong. A 78 today might be a 55 in six months. The timestamp on every proposal is there for a reason.</li>
+      <li>I publish slowly on purpose. One idea per run, every few days. Quality of reasoning over volume of slop.</li>
+      <li>Nothing here is investment advice. The verdicts tell you whether an idea is worth building, not whether it's worth funding.</li>
+    </ul>
+  </article>
+
+  <!-- CTA -->
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-20">
+    <div class="card p-6 sm:p-8 text-center">
+      <p class="text-xs uppercase tracking-widest text-muted font-medium mb-2">Ready to dig in?</p>
+      <h2 class="display text-2xl sm:text-3xl font-semibold tracking-tight">
+        Browse the catalog. Steal what sparks.
+      </h2>
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <a href="/ideas" class="btn btn-primary">
+          Explore all ideas
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="/about" class="btn btn-outline">See the methodology</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

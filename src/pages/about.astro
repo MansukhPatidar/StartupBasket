@@ -6,63 +6,200 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
 const meta: SeoMeta = {
   title: "About — StartupBasket",
   description:
-    "StartupBasket is a daily catalog of AI product ideas, filtered through a 4-layer, 7-axis feasibility rubric.",
+    "How StartupBasket works: a 6-stage signal-to-idea pipeline, a 4-layer scoring rubric, and a deliberate portfolio balance. Every idea is traceable to real-world signals.",
   canonical: `${siteUrl}/about`,
   ogImage: `${siteUrl}/og-default.png`,
   ogType: "website",
 };
 
+const pipeline = [
+  {
+    n: "01",
+    name: "Signal harvesting",
+    desc: "5–10 raw signals per run from complaint mines, demand trackers, regulatory shifts, technology unlocks, and geographic arbitrage. Each signal gets a source URL and a date.",
+  },
+  {
+    n: "02",
+    name: "Triangulation",
+    desc: "An idea candidate requires three independent signals: one demand, one feasibility, one economic. Single-signal ideas are noise. They get discarded.",
+  },
+  {
+    n: "03",
+    name: "Shape",
+    desc: "Answer six concrete questions — who exactly, what pain how often, what do they pay today, what the product literally does, why now, why not already. If any answer is fuzzy, the idea isn't ready.",
+  },
+  {
+    n: "04",
+    name: "Audience filter",
+    desc: "Kill filter against the builder profile: no $50K+ capex, no 6-month enterprise sales, no network-effect chicken-and-egg, no regulatory approval gates. 60–70% of candidates die here. That's correct.",
+  },
+  {
+    n: "05",
+    name: "Deep research",
+    desc: "Market map, customer voice (5–10 verbatim quotes), unit economics, distribution playbook with conversion math, competitive moat. Zero tolerance for fabricated stats.",
+  },
+  {
+    n: "06",
+    name: "Score & publish",
+    desc: "4-layer rubric: gating → 7-axis scoring → qualitative modifiers → structured verdict with kill criteria. Provenance block trails every idea back to its source signals.",
+  },
+];
+
 const axes = [
   { name: "Problem intensity", weight: 20, desc: "How painful is this problem? How often is it felt? Would users pay to solve it today?" },
   { name: "Demand evidence", weight: 15, desc: "Hard signals — existing spend, competitor traction, search volume, forum complaints. Not hunches." },
   { name: "Build feasibility", weight: 15, desc: "A small team can ship v1 in 90 days with available tools and standard infra." },
-  { name: "Distribution clarity", weight: 15, desc: "A concrete, cheap path to first 100 customers. Named channels, named lists, realistic conversion." },
+  { name: "Distribution clarity", weight: 15, desc: "A concrete, cheap path to first 100 customers. Named channels, named lists, realistic conversion math." },
   { name: "Revenue mechanics", weight: 15, desc: "Clear pricing, willingness to pay, unit economics that work below $5M ARR." },
   { name: "Time to first revenue", weight: 10, desc: "Weeks to first paying customer. For bootstrappers, this matters more than TAM." },
   { name: "Defensibility", weight: 10, desc: "Soft moats — workflow lock-in, data advantage, community, regulatory knowledge." },
 ];
+
+const categories = [
+  { name: "Tech-unlock", share: "~25%", desc: "Became possible in the last 6–12 months — new model capabilities, cheaper inference, new APIs, new hardware." },
+  { name: "Geographic arbitrage", share: "~20%", desc: "Proven in one market, absent in another. US SMB tools missing in India; Indian patterns useful in LatAm/SEA." },
+  { name: "Underserved niches", share: "~20%", desc: "Markets too small for a VC fund but perfect for a focused bootstrapper." },
+  { name: "Regulatory arbitrage", share: "~15%", desc: "New law creates new compliance needs — DPDP, EU AI Act, SB 346, GST shifts." },
+  { name: "Workflow automation", share: "~15%", desc: "Manual work in $1B+ industries that AI can collapse from hours to minutes." },
+  { name: "Platform shifts", share: "~5%", desc: "New platforms create new app categories — WhatsApp-as-OS, UPI ubiquity, ESP32 generation." },
+];
 ---
 
 <BaseLayout meta={meta}>
+  <!-- HERO -->
   <section class="relative overflow-hidden border-b border-surface-border">
     <div class="absolute inset-0 bg-hero-light dark:bg-hero-dark opacity-60" aria-hidden="true"></div>
-    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 pt-16 pb-12">
+    <div class="absolute inset-0 bg-dotgrid opacity-40" aria-hidden="true"></div>
+
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 pt-16 pb-14">
       <p class="text-xs uppercase tracking-widest text-muted font-medium mb-3">About</p>
       <h1 class="display text-4xl sm:text-5xl font-semibold tracking-tight leading-[1.05]">
-        How StartupBasket&nbsp;works.
+        A research pipeline,<br/>
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-accent-600 to-amber-500 dark:from-accent-300 dark:to-amber-400">
+          not a creative-writing exercise.
+        </span>
       </h1>
       <p class="mt-5 text-lg text-surface-fg/75 leading-relaxed">
-        One AI product idea, every day, filtered through the same operator persona and
-        scored against the same rubric. The goal: surface ideas a small team could
-        realistically ship and scale to $1M–$5M ARR.
+        Most AI idea generators remix what already exists or hallucinate plausible-sounding
+        concepts. Both produce slop. StartupBasket runs every idea through a 6-stage
+        pipeline grounded in real-world signals, then scores it honestly against a
+        4-layer rubric. The goal: surface ideas a small team could realistically ship and
+        scale to $1M–$5M ARR.
       </p>
     </div>
   </section>
 
-  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-12 prose-idea">
-    <h2>The persona</h2>
+  <!-- PERSONA -->
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-14 prose-idea">
+    <h2>The persona behind every idea</h2>
     <p>
       An experienced tech entrepreneur — fifteen-plus years shipping software, two prior
-      exits — looking for the next thing to build. They reject:
+      exits — currently angel-investing while hunting for the next thing to build.
+      Direct, opinionated, slightly impatient, allergic to fluff. Every idea is written
+      in that voice, filtered through that taste.
     </p>
-    <ul>
-      <li>Unicorns, billion-dollar TAMs, or "change the world" pitches</li>
-      <li>Ideas that need $10M+ before first revenue</li>
-      <li>Regulated markets unless the regulation itself is the moat</li>
-      <li>Crypto / NFT / web3 revivals</li>
-      <li>"Uber for X" without a genuine underlying insight</li>
-    </ul>
-    <p>They're hunting for:</p>
-    <ul>
-      <li>Boring, unsexy markets where incumbents have terrible UX</li>
-      <li>Workflows where AI collapses a 2-hour task into 2 minutes</li>
-      <li>Tools existing professionals will pay for <em>this week</em></li>
-      <li>Localized plays — especially India and emerging markets</li>
-      <li>Micro-SaaS too small for VCs, perfect for a bootstrapped operator</li>
-    </ul>
 
-    <h2>The rubric</h2>
-    <p>Seven weighted axes, summing to 100. Each idea scored honestly — not aspirationally. Ideas also pass through gating criteria, qualitative modifiers, and a structured verdict with kill criteria.</p>
+    <div class="not-prose grid sm:grid-cols-2 gap-4 my-8">
+      <div class="card p-5">
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-2">Rejects</p>
+        <ul class="space-y-1.5 text-sm text-surface-fg/80">
+          <li>— Unicorns, billion-dollar TAMs, "change the world" pitches</li>
+          <li>— Ideas needing $10M+ before first revenue</li>
+          <li>— Regulated markets unless regulation is the moat</li>
+          <li>— Crypto / NFT / web3 revivals</li>
+          <li>— "Uber for X" without a genuine insight</li>
+        </ul>
+      </div>
+      <div class="card p-5">
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-2">Hunts for</p>
+        <ul class="space-y-1.5 text-sm text-surface-fg/80">
+          <li>— Boring markets where incumbents have bad UX</li>
+          <li>— Workflows where AI collapses 2 hours into 2 minutes</li>
+          <li>— Tools professionals will pay for <em>this week</em></li>
+          <li>— Localized plays — India, SEA, LatAm, MENA — and global SMB SaaS where the wedge is real</li>
+          <li>— Micro-SaaS too small for VCs, perfect for a bootstrapper</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- THE PIPELINE -->
+    <h2>The 6-stage pipeline</h2>
+    <p>
+      Signals → Triangulation → Shape → Filter → Research → Score → Publish. Most
+      candidates die between stage 2 and stage 4. That's the point — filtering before
+      generation is what keeps the bar honest.
+    </p>
+
+    <ol class="not-prose mt-6 space-y-3">
+      {pipeline.map((s) => (
+        <li class="card p-5 flex gap-5">
+          <div class="shrink-0 font-mono tabular-nums text-sm text-muted pt-0.5">{s.n}</div>
+          <div>
+            <p class="font-semibold display">{s.name}</p>
+            <p class="text-sm text-surface-fg/70 mt-1 leading-relaxed">{s.desc}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <!-- TRIANGULATION RULE -->
+    <h2 class="mt-14">The 3-signal rule</h2>
+    <p>
+      A single complaint on Reddit is noise. Three independent signals pointing at the
+      same pain are an opportunity. Every published idea carries a <strong>Provenance</strong>
+      block naming the three signals — one demand, one feasibility, one economic — with
+      source URLs and dates. If a claim can't be sourced, it doesn't make it in.
+    </p>
+
+    <div class="not-prose card p-5 mt-5 font-mono text-[13px] leading-relaxed text-surface-fg/80">
+      <div>Provenance:</div>
+      <div class="pl-4">
+        <div><span class="text-muted">Signal 1 (demand):</span> 42% of STR operators spend 51–100 hrs/yr on lodging-tax compliance — avalara.com/... — 2026-02</div>
+        <div class="mt-1"><span class="text-muted">Signal 2 (feasibility):</span> California SB 346 data-sharing law live Jan 2026 — bbklaw.com/... — 2026-01</div>
+        <div class="mt-1"><span class="text-muted">Signal 3 (economic):</span> Avalara MyLodgeTax priced $27/mo/property + $299 setup — strspecialist.com/... — 2026-02</div>
+        <div class="mt-2"><span class="text-muted">Category:</span> Regulatory arbitrage</div>
+      </div>
+    </div>
+
+    <!-- THE RUBRIC — 4 LAYERS -->
+    <h2 class="mt-14">The 4-layer rubric</h2>
+    <p>
+      Survivors of the pipeline get scored. No single number is enough — each idea
+      passes through four layers.
+    </p>
+
+    <ol class="not-prose space-y-3 my-6">
+      <li class="card p-5">
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-1">Layer 1</p>
+        <p class="font-semibold display">Gating criteria — pass/fail</p>
+        <p class="text-sm text-surface-fg/70 mt-1 leading-relaxed">
+          Legal in target markets · ethical floor · market evidence · buildable by 1–5 people · launchable under $50K. Fail any one, the idea is rejected before scoring begins.
+        </p>
+      </li>
+      <li class="card p-5">
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-1">Layer 2</p>
+        <p class="font-semibold display">7-axis weighted scoring — 100 points</p>
+        <p class="text-sm text-surface-fg/70 mt-1 leading-relaxed">
+          Each axis has explicit scoring bands. A 78 isn't a vibe — it's 17+13+10+12+12+8+6 with notes on each one.
+        </p>
+      </li>
+      <li class="card p-5">
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-1">Layer 3</p>
+        <p class="font-semibold display">Qualitative modifiers</p>
+        <p class="text-sm text-surface-fg/70 mt-1 leading-relaxed">
+          Founder-fit tags (technical-heavy, sales-heavy, domain-expertise-required, etc.), 3–5 assumptions with specific validation methods, and risk flags the score doesn't capture.
+        </p>
+      </li>
+      <li class="card p-5">
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-1">Layer 4</p>
+        <p class="font-semibold display">Structured verdict + kill criteria</p>
+        <p class="text-sm text-surface-fg/70 mt-1 leading-relaxed">
+          Score, verdict, confidence, best-fit builder, time to revenue, capital to launch, top three assumptions to validate first, and — most importantly — measurable kill criteria. When to quit matters more than when to start.
+        </p>
+      </li>
+    </ol>
+
+    <h3>The seven axes</h3>
     <table>
       <thead>
         <tr><th>Axis</th><th>Weight</th><th>What it measures</th></tr>
@@ -77,10 +214,60 @@ const axes = [
         ))}
       </tbody>
     </table>
+
+    <h3>Verdict thresholds</h3>
     <p>
-      Total ≥ 80 = <strong>STRONG GO</strong>. 70–79 = <strong>GO</strong>. 55–69 = <strong>VALIDATE</strong>.
-      Below 55 = <strong>PASS</strong>. PASSes stay in the catalog as negative examples.
+      <strong>80+</strong> = STRONG GO · <strong>70–79</strong> = GO · <strong>55–69</strong> = VALIDATE · <strong>below 55</strong> = PASS.
+      {" "}
+      PASSes stay in the catalog as negative examples. An honest 68 is more useful than
+      an inflated 82 — if every idea scored 80+, the rubric would mean nothing.
     </p>
 
+    <!-- PORTFOLIO BALANCE -->
+    <h2 class="mt-14">Portfolio balance, on purpose</h2>
+    <p>
+      Left alone, an idea generator drifts — five India SaaS copilots in a row, ten
+      DevTools plays, every idea a B2B workflow. Before every run, the pipeline audits
+      the last 15–20 published ideas and deliberately targets an under-represented
+      category or geography. Category targets:
+    </p>
+
+    <div class="not-prose grid sm:grid-cols-2 gap-3 my-6">
+      {categories.map((c) => (
+        <div class="card p-4">
+          <div class="flex items-baseline justify-between gap-3">
+            <p class="font-semibold display text-sm">{c.name}</p>
+            <span class="font-mono tabular-nums text-xs text-muted">{c.share}</span>
+          </div>
+          <p class="text-sm text-surface-fg/70 mt-1.5 leading-relaxed">{c.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <!-- WHAT THIS IS NOT -->
+    <h2>What this is not</h2>
+    <ul>
+      <li><strong>Not investment advice.</strong> The verdict tells you whether the idea is worth building, not whether it's worth funding.</li>
+      <li><strong>Not a marketplace.</strong> Nothing is for sale. Every proposal is free to read, copy, remix, or ignore.</li>
+      <li><strong>Not exhaustive.</strong> One idea per run. The catalog grows slowly on purpose — quality of reasoning beats volume of slop.</li>
+      <li><strong>Not a crystal ball.</strong> Markets change. A 78 today might be a 55 in six months because a funded competitor shipped. The timestamp on every proposal is there for a reason.</li>
+    </ul>
   </article>
+
+  <!-- CTA -->
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-20">
+    <div class="card p-6 sm:p-8 text-center">
+      <p class="text-xs uppercase tracking-widest text-muted font-medium mb-2">Start exploring</p>
+      <h2 class="display text-2xl sm:text-3xl font-semibold tracking-tight">
+        Pick an idea. Steal it. Ship it.
+      </h2>
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <a href="/ideas" class="btn btn-primary">
+          Browse all ideas
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="/" class="btn btn-outline">Back to home</a>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
