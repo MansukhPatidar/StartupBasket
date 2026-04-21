@@ -111,13 +111,13 @@ export default function FilterSidebar({ tags, total }: Props) {
         <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
           Verdict
         </label>
-        <div className="flex flex-wrap gap-1 p-1 rounded-lg border border-surface-border bg-surface-card">
+        <div className="flex gap-0.5 p-0.5 rounded-lg border border-surface-border bg-surface-card">
           {(["ALL", "STRONG GO", "GO", "VALIDATE", "PASS"] as const).map((v) => (
             <button
               key={v}
               type="button"
               onClick={() => setActiveVerdict(v)}
-              className={`h-7 px-2 text-[11px] font-semibold rounded-md whitespace-nowrap transition ${
+              className={`h-6 px-1.5 text-[10px] font-semibold rounded-md whitespace-nowrap transition ${
                 activeVerdict === v
                   ? "bg-surface-fg text-surface shadow-soft"
                   : "text-surface-fg/60 hover:text-surface-fg hover:bg-surface-subtle"
