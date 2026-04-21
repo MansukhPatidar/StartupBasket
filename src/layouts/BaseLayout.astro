@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import type { SeoMeta } from "../lib/seo";
 import ThemeToggle from "../components/ThemeToggle.tsx";
+import interLatinUrl from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
 
 interface Props {
   meta: SeoMeta;
@@ -20,6 +21,15 @@ const year = new Date().getFullYear();
     <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
     <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Preload the primary (Latin) font so it's fetched before CSS is parsed -->
+    <link
+      rel="preload"
+      href={interLatinUrl}
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
 
     <title>{meta.title}</title>
     <meta name="description" content={meta.description} />

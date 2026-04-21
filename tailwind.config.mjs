@@ -10,6 +10,7 @@ export default {
           "Inter",
           "ui-sans-serif",
           "system-ui",
+          "-apple-system",
           "sans-serif",
         ],
         display: [
@@ -17,6 +18,7 @@ export default {
           "Inter",
           "ui-sans-serif",
           "system-ui",
+          "-apple-system",
           "sans-serif",
         ],
         mono: [
