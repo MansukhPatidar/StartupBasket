@@ -57,7 +57,7 @@ const stats = {
 
         <p class="mt-5 text-[17px] sm:text-[19px] text-surface-fg/70 leading-relaxed max-w-2xl">
           For solo founders and small teams chasing the next SMB SaaS. Every idea is
-          pressure-tested across five axes — demand, build, distribution, revenue, moat.
+          pressure-tested across seven axes — problem intensity, demand evidence, build feasibility, distribution, revenue, time-to-revenue, and defensibility.
         </p>
 
         <div class="mt-7 flex flex-wrap items-center gap-3">
@@ -116,22 +116,24 @@ const stats = {
       <div>
         <p class="text-xs uppercase tracking-widest text-muted font-medium mb-3">The rubric</p>
         <h2 class="display text-3xl sm:text-4xl font-semibold tracking-tight mb-4">
-          Five axes, weighted to&nbsp;100.
+          Seven axes, weighted to&nbsp;100.
         </h2>
         <p class="text-surface-fg/70 leading-relaxed mb-6">
-          Every proposal is graded against the same operator filter: real demand,
-          shippable in 12 weeks, a clear path to first 100 customers, math that pencils
-          out, and at least a soft moat.
+          Every proposal passes gating criteria, then is scored across seven weighted axes
+          with qualitative modifiers and a structured verdict — including kill criteria
+          that tell you when to quit.
         </p>
         <a href="/about" class="btn btn-outline">Read the methodology</a>
       </div>
       <ul class="space-y-3">
         {[
-          { name: "Demand signal", weight: 25, desc: "Is the pain real and measurable today?" },
-          { name: "Build simplicity", weight: 25, desc: "Can a small team ship v1 in ≤12 weeks?" },
-          { name: "Distribution", weight: 20, desc: "Concrete path to the first 100 customers." },
-          { name: "Revenue path", weight: 20, desc: "Does the math pencil out without heroics?" },
-          { name: "Moat", weight: 10, desc: "What stops a copycat in 6 months?" },
+          { name: "Problem intensity", weight: 20, desc: "How painful is this? Would they pay today?" },
+          { name: "Demand evidence", weight: 15, desc: "Hard signals — spend, competitors, complaints." },
+          { name: "Build feasibility", weight: 15, desc: "Can a small team ship v1 in 90 days?" },
+          { name: "Distribution clarity", weight: 15, desc: "Concrete path to the first 100 customers." },
+          { name: "Revenue mechanics", weight: 15, desc: "Does the math pencil out without heroics?" },
+          { name: "Time to revenue", weight: 10, desc: "Weeks to first paying customer." },
+          { name: "Defensibility", weight: 10, desc: "What stops a copycat in 6 months?" },
         ].map((axis) => (
           <li class="card p-4 flex items-center justify-between">
             <div>

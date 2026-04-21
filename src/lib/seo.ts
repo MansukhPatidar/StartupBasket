@@ -15,7 +15,7 @@ export function homepageMeta(siteUrl: string): SeoMeta {
   return {
     title: `${SITE_NAME} — daily AI product ideas, scored honestly`,
     description:
-      "A daily catalog of AI-powered product ideas hunting for $1M–$5M ARR. Each idea is scored on demand, build simplicity, distribution, revenue path, and moat.",
+      "A daily catalog of AI-powered product ideas hunting for $1M–$5M ARR. Each idea is scored across 7 weighted axes with a 4-layer rubric framework.",
     canonical: siteUrl,
     ogImage: `${siteUrl}/og-default.png`,
     ogType: "website",
@@ -56,7 +56,7 @@ export function ideaMeta(idea: Idea, siteUrl: string): SeoMeta {
 export function tagMeta(tag: string, count: number, siteUrl: string): SeoMeta {
   return {
     title: `${tag} ideas — ${SITE_NAME}`,
-    description: `${count} product idea${count === 1 ? "" : "s"} tagged ${tag}, each scored on a 5-axis feasibility rubric.`,
+    description: `${count} product idea${count === 1 ? "" : "s"} tagged ${tag}, each scored on a 7-axis feasibility rubric.`,
     canonical: `${siteUrl}/tags/${tag}`,
     ogImage: `${siteUrl}/og-default.png`,
     ogType: "website",
