@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import { getSupabase } from "../lib/supabase";
 
 interface Props {
@@ -13,11 +13,25 @@ interface Props {
 export default function ShareButton({ url, title, text, slug, variant = "detail" }: Props) {
   const [copied, setCopied] = useState(false);
   const [open, setOpen] = useState(false);
+  const [shareCount, setShareCount] = useState<number | null>(null);
   const tracked = useRef(false);
+
+  useEffect(() => {
+    const sb = getSupabase();
+    if (!sb) return;
+    sb.from("idea_engagement")
+      .select("shares")
+      .eq("slug", slug)
+      .maybeSingle()
+      .then(({ data }) => {
+        if (data) setShareCount(data.shares ?? 0);
+      });
+  }, [slug]);
 
   const trackShare = useCallback(() => {
     if (tracked.current) return;
     tracked.current = true;
+    setShareCount((c) => (c ?? 0) + 1);
     const sb = getSupabase();
     if (sb) sb.rpc("increment_share", { p_slug: slug }).then(() => {});
   }, [slug]);
@@ -106,6 +120,9 @@ export default function ShareButton({ url, title, text, slug, variant = "detail"
           <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
         </svg>
         {!isCard && <span>Share</span>}
+        {shareCount != null && shareCount > 0 && (
+          <span className="tabular-nums text-[11px] font-medium">{shareCount}</span>
+        )}
       </button>
 
       {open && (
