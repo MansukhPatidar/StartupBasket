@@ -11,11 +11,28 @@ export interface SeoMeta {
 
 const SITE_NAME = "StartupBasket";
 
+// Target length for <meta description> — SERP snippets usually cap around
+// 155–160 chars. We pack the one-liner plus score/verdict/category as
+// differentiators, but never trim mid-word.
+const META_DESC_MAX = 158;
+
+function composeIdeaDescription(idea: Idea): string {
+  const base = idea.data.oneLiner.trim().replace(/\s+/g, " ");
+  // Score + verdict vary per idea and differentiate SB's results inside a SERP
+  // cluster. Category is longer and often won't fit — skipped here, exposed via
+  // JSON-LD keywords instead.
+  const suffix = ` Scored ${idea.data.score}/100 — ${idea.data.verdict}.`;
+  const full = base.endsWith(".") ? `${base}${suffix}` : `${base}.${suffix}`;
+  if (full.length <= META_DESC_MAX) return full;
+  // Fall back to the one-liner — still useful, and we never truncate the suffix.
+  return base.length <= META_DESC_MAX ? base : base.slice(0, META_DESC_MAX - 1).trimEnd() + "…";
+}
+
 export function homepageMeta(siteUrl: string): SeoMeta {
   return {
-    title: `${SITE_NAME} — daily AI product ideas, scored honestly`,
+    title: `${SITE_NAME} — AI startup & SaaS ideas for bootstrapped founders`,
     description:
-      "A daily catalog of AI-powered product ideas hunting for $1M–$5M ARR. Each idea is scored across 7 weighted axes with a 4-layer rubric framework.",
+      "A daily catalog of AI startup and SaaS ideas for bootstrapped founders, scored across 7 weighted axes. Find your next $1M–$5M ARR play, validated by a 4-layer rubric.",
     canonical: `${siteUrl}/`,
     ogImage: `${siteUrl}/og-default.png`,
     ogType: "website",
@@ -24,10 +41,7 @@ export function homepageMeta(siteUrl: string): SeoMeta {
 
 export function ideaMeta(idea: Idea, siteUrl: string): SeoMeta {
   const url = `${siteUrl}/ideas/${idea.data.slug}/`;
-  const description =
-    idea.data.oneLiner.length > 160
-      ? idea.data.oneLiner.slice(0, 157) + "…"
-      : idea.data.oneLiner;
+  const description = composeIdeaDescription(idea);
   return {
     title: `${idea.data.title} — ${SITE_NAME}`,
     description,
