@@ -1,6 +1,6 @@
 # SEO TODO
 
-Backlog from the 2026-04-22 SEO audit. Items #1–#5 shipped; the rest remain.
+Backlog from the 2026-04-22 SEO audit. Items #1–#5, #11, #13 shipped; the rest remain.
 
 Ordered by bang-for-buck.
 
@@ -12,6 +12,8 @@ Ordered by bang-for-buck.
 - **#4** Homepage title + H1 + subcopy rewritten around "AI startup & SaaS ideas for bootstrapped founders" — commit `7a835ce`
 - **#5** Sitemap carries `lastmod` / `changefreq` / `priority` per route type; idea URLs use proposal date — commit `7a835ce`
 - **Extra** `/404` page with home link and Explore CTA — commit `7a835ce`
+- **#11** `BreadcrumbList` JSON-LD on idea pages (Home → Ideas → Title); Article JSON-LD gains `image` + `publisher.logo` for rich-result eligibility
+- **#13** Idea page hero wrapped in `<header>`; related-ideas block wrapped in `<nav aria-label="Related ideas">` so AI extractors and screen readers read the page cleanly
 
 ---
 
@@ -78,14 +80,6 @@ Ordered by bang-for-buck.
 
 ---
 
-### #11 — Breadcrumb schema on idea pages
-
-**Fix:** Add `BreadcrumbList` JSON-LD to idea pages: Home → Ideas → {Vertical} → {Title}.
-
-**Effort:** 20 min. **Impact:** Low (minor rich-result eligibility).
-
----
-
 ### #12 — Category landing pages with editorial intros
 
 **Problem:** We have 1,500+ word proposals but no SEO-bait landing pages that bundle them by theme ("12 AI SaaS ideas for Indian SMBs, scored and validated"). IdeaBrowser and SaaSIdeas.xyz rank via this pattern.
@@ -93,14 +87,6 @@ Ordered by bang-for-buck.
 **Fix:** `/collections/<slug>` pages with a 200–400 word editorial intro + a curated list of ideas. Start with 4–6 (India SMB, US vertical SaaS, Compliance-driven, Solo-builder, IoT+SaaS).
 
 **Effort:** 1 day. **Impact:** High — opens a new query space.
-
----
-
-### #13 — Semantic landmarks on idea page hero
-
-**Fix:** Wrap the idea-detail hero band in `<header>` and ensure the prose is inside `<article>`. Verifies accessibility scores and helps AI extractors (perplexity, chatgpt browsing, etc.) read the page cleanly.
-
-**Effort:** 10 min. **Impact:** Low.
 
 ---
 

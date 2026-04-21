@@ -57,6 +57,14 @@ const year = new Date().getFullYear();
         />
       )
     }
+    {
+      meta.extraJsonLd?.map((block) => (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(block)}
+        />
+      ))
+    }
 
     <!-- FOUC-free theme initialization. Runs before paint. -->
     <script is:inline>

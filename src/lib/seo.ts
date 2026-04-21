@@ -6,7 +6,13 @@ export interface SeoMeta {
   canonical: string;
   ogImage: string;
   ogType: "website" | "article";
+  // Primary JSON-LD (Article for ideas, WebSite for home, etc.). Emitted as a
+  // separate <script> tag so crawlers can parse each entity independently.
   jsonLd?: Record<string, unknown>;
+  // Extra JSON-LD blocks — e.g. BreadcrumbList on idea pages. Keeping entities
+  // separate (rather than a single @graph) matches Google's own examples and
+  // avoids one malformed field nuking the whole blob.
+  extraJsonLd?: Record<string, unknown>[];
 }
 
 const SITE_NAME = "StartupBasket";
@@ -42,20 +48,27 @@ export function homepageMeta(siteUrl: string): SeoMeta {
 export function ideaMeta(idea: Idea, siteUrl: string): SeoMeta {
   const url = `${siteUrl}/ideas/${idea.data.slug}/`;
   const description = composeIdeaDescription(idea);
+  const ogImage = `${siteUrl}/og-default.png`;
   return {
     title: `${idea.data.title} — ${SITE_NAME}`,
     description,
     canonical: url,
-    ogImage: `${siteUrl}/og-default.png`,
+    ogImage,
     ogType: "article",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "Article",
       headline: idea.data.title,
       description,
+      image: ogImage,
       datePublished: idea.data.date.toISOString().slice(0, 10),
-      author: { "@type": "Organization", name: SITE_NAME },
-      publisher: { "@type": "Organization", name: SITE_NAME },
+      author: { "@type": "Organization", name: SITE_NAME, url: `${siteUrl}/` },
+      publisher: {
+        "@type": "Organization",
+        name: SITE_NAME,
+        url: `${siteUrl}/`,
+        logo: { "@type": "ImageObject", url: `${siteUrl}/favicon.svg` },
+      },
       mainEntityOfPage: url,
       keywords: [
         idea.data.tags.vertical,
@@ -64,6 +77,17 @@ export function ideaMeta(idea: Idea, siteUrl: string): SeoMeta {
         ...idea.data.tags.secondary,
       ].join(", "),
     },
+    extraJsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "Ideas", item: `${siteUrl}/ideas/` },
+          { "@type": "ListItem", position: 3, name: idea.data.title, item: url },
+        ],
+      },
+    ],
   };
 }
 
