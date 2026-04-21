@@ -1,0 +1,2 @@
+Placeholder. Replace with a real 1200x630 PNG before deploy.
+The og-default.png referenced in src/lib/seo.ts must exist at /og-default.png.

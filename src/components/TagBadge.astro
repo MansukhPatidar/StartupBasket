@@ -1,0 +1,29 @@
+---
+import { tagSlug, tagTone } from "../lib/tags";
+
+interface Props {
+  label: string;
+  kind?: "vertical" | "model" | "geography" | "secondary";
+  href?: string;
+  /**
+   * When `static`, render as a non-clickable <span> (used inside <a> cards
+   * to avoid nested anchors that the HTML parser silently reflows).
+   */
+  static?: boolean;
+}
+
+const { label, kind = "secondary", href, static: isStatic = false } = Astro.props;
+const url = href ?? `/tags/${tagSlug(label)}`;
+const tone = tagTone(kind);
+const cls = `pill ${tone}`;
+---
+
+{
+  isStatic ? (
+    <span class={cls}>{label}</span>
+  ) : (
+    <a href={url} class={`${cls} hover:opacity-80 transition`}>
+      {label}
+    </a>
+  )
+}

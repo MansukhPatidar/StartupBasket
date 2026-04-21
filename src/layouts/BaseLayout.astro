@@ -1,0 +1,129 @@
+---
+import "../styles/global.css";
+import type { SeoMeta } from "../lib/seo";
+import ThemeToggle from "../components/ThemeToggle.tsx";
+
+interface Props {
+  meta: SeoMeta;
+}
+
+const { meta } = Astro.props;
+const siteName = "StartupBasket";
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>{meta.title}</title>
+    <meta name="description" content={meta.description} />
+    <link rel="canonical" href={meta.canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={meta.ogType} />
+    <meta property="og:title" content={meta.title} />
+    <meta property="og:description" content={meta.description} />
+    <meta property="og:url" content={meta.canonical} />
+    <meta property="og:image" content={meta.ogImage} />
+    <meta property="og:site_name" content={siteName} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={meta.title} />
+    <meta name="twitter:description" content={meta.description} />
+    <meta name="twitter:image" content={meta.ogImage} />
+
+    {
+      meta.jsonLd && (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(meta.jsonLd)}
+        />
+      )
+    }
+
+    <!-- FOUC-free theme initialization. Runs before paint. -->
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme") || "system";
+          var systemDark =
+            window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var dark = stored === "dark" || (stored === "system" && systemDark);
+          if (dark) document.documentElement.classList.add("dark");
+          document.documentElement.style.colorScheme = dark
+            ? "dark"
+            : "light";
+        } catch (_) {
+          /* ignore */
+        }
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen flex flex-col antialiased">
+    <header
+      class="sticky top-0 z-30 border-b border-surface-border bg-surface/80 backdrop-blur-xl supports-[backdrop-filter]:bg-surface/70"
+    >
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+        <a href="/" class="flex items-center gap-2 group">
+          <span
+            class="inline-grid place-items-center w-7 h-7 rounded-md bg-surface-fg text-surface text-[11px] font-mono font-bold transition group-hover:rotate-3"
+            >SB</span
+          >
+          <span class="font-display font-semibold tracking-tight text-[15px]">
+            StartupBasket
+          </span>
+        </a>
+        <nav class="flex items-center gap-1 sm:gap-2 text-sm">
+          <a
+            href="/ideas"
+            class="px-3 py-1.5 rounded-md text-surface-fg/70 hover:text-surface-fg hover:bg-surface-subtle transition"
+            >Explore</a
+          >
+          <a
+            href="/about"
+            class="px-3 py-1.5 rounded-md text-surface-fg/70 hover:text-surface-fg hover:bg-surface-subtle transition hidden sm:inline-block"
+            >About</a
+          >
+          <ThemeToggle client:idle />
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="border-t border-surface-border mt-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        <div class="flex flex-wrap items-start justify-between gap-8">
+          <div class="max-w-md">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="inline-grid place-items-center w-7 h-7 rounded-md bg-surface-fg text-surface text-[11px] font-mono font-bold">SB</span>
+              <span class="font-display font-semibold tracking-tight">StartupBasket</span>
+            </div>
+            <p class="text-sm text-muted leading-relaxed">
+              AI product ideas, scored across 5 axes. For solo founders and small teams
+              chasing the next SMB SaaS.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-x-12 gap-y-2 text-sm">
+            <a href="/" class="text-surface-fg/70 hover:text-surface-fg">Home</a>
+            <a href="/ideas" class="text-surface-fg/70 hover:text-surface-fg">Explore</a>
+            <a href="/about" class="text-surface-fg/70 hover:text-surface-fg">About</a>
+          </div>
+        </div>
+        <div class="mt-10 pt-6 border-t border-surface-border flex flex-wrap justify-between gap-2 text-xs text-muted">
+          <p>© {year} StartupBasket. Built for operators.</p>
+          <p class="font-mono">v0.1 · Astro · Tailwind</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

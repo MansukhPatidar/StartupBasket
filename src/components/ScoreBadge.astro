@@ -1,0 +1,20 @@
+---
+import { scoreClasses } from "../lib/tags";
+
+interface Props {
+  score: number;
+  size?: "sm" | "md";
+}
+
+const { score, size = "sm" } = Astro.props;
+const classes = scoreClasses(score);
+const sizeStyle =
+  size === "md"
+    ? "font-size:13px; height:28px; padding-left:10px; padding-right:10px;"
+    : "";
+---
+
+<span class={`pill ${classes} font-semibold`} style={sizeStyle}>
+  <span class="font-mono tabular-nums">{score}</span>
+  <span class="text-[10px] uppercase tracking-wider opacity-70">/100</span>
+</span>

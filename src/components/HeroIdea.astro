@@ -1,0 +1,103 @@
+---
+import type { Idea } from "../lib/ideas";
+import ScoreBadge from "./ScoreBadge.astro";
+import VerdictBadge from "./VerdictBadge.astro";
+import TagBadge from "./TagBadge.astro";
+
+interface Props {
+  idea: Idea;
+}
+
+const { idea } = Astro.props;
+---
+
+<a
+  href={`/ideas/${idea.data.slug}`}
+  class="group relative block rounded-2xl overflow-hidden border border-surface-border bg-surface-card hover:border-surface-fg/40 transition-all"
+>
+  <!-- Decorative gradient/grid layer -->
+  <div
+    class="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-transparent dark:from-accent/10 pointer-events-none"
+    aria-hidden="true"
+  ></div>
+  <div
+    class="absolute inset-0 bg-dotgrid opacity-60 pointer-events-none"
+    aria-hidden="true"
+  ></div>
+  <!-- Top accent line that fills on hover -->
+  <span
+    class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent to-transparent"
+    aria-hidden="true"
+  ></span>
+
+  <div class="relative grid lg:grid-cols-[1fr_auto] gap-8 p-8 sm:p-10 lg:p-12">
+    <!-- LEFT — copy -->
+    <div>
+      <div class="inline-flex items-center gap-2 mb-5 text-[10px] uppercase tracking-widest text-accent-700 dark:text-accent-300 font-semibold">
+        <span class="relative flex h-1.5 w-1.5">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-accent"></span>
+        </span>
+        Featured idea
+      </div>
+
+      <h2
+        class="display text-3xl sm:text-4xl lg:text-[42px] font-semibold tracking-tight leading-[1.1] group-hover:text-accent-700 dark:group-hover:text-accent-300 transition"
+      >
+        {idea.data.title}
+      </h2>
+
+      <p class="mt-4 text-[17px] sm:text-[18px] text-surface-fg/75 leading-relaxed max-w-2xl">
+        {idea.data.oneLiner}
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-1.5">
+        <TagBadge label={idea.data.tags.vertical} kind="vertical" static />
+        <TagBadge label={idea.data.tags.model} kind="model" static />
+        <TagBadge label={idea.data.tags.geography} kind="geography" static />
+        {
+          idea.data.tags.secondary
+            .slice(0, 3)
+            .map((t) => <TagBadge label={t} kind="secondary" static />)
+        }
+      </div>
+
+      <div class="mt-8 flex items-center gap-3">
+        <span class="btn btn-primary">
+          Read the proposal
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+        <span class="text-xs text-muted">
+          {idea.data.complexity} complexity · {idea.data.category}
+        </span>
+      </div>
+    </div>
+
+    <!-- RIGHT — score panel -->
+    <div class="lg:pl-8 lg:border-l lg:border-surface-border flex lg:flex-col gap-6 lg:gap-4 lg:min-w-[200px]">
+      <div class="flex flex-col items-start lg:items-stretch">
+        <span class="text-[10px] uppercase tracking-widest text-muted font-semibold mb-2">Score</span>
+        <div class="flex items-baseline gap-1">
+          <span class="display text-5xl sm:text-6xl font-semibold tabular-nums leading-none">
+            {idea.data.score}
+          </span>
+          <span class="text-sm text-muted font-mono">/100</span>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-start lg:items-stretch">
+        <span class="text-[10px] uppercase tracking-widest text-muted font-semibold mb-2">Verdict</span>
+        <div>
+          <VerdictBadge verdict={idea.data.verdict} size="md" />
+        </div>
+      </div>
+
+      <div class="hidden lg:block pt-2 mt-auto">
+        <span class="inline-flex items-center gap-1 text-xs text-surface-fg/50 group-hover:text-accent group-hover:translate-x-0.5 transition-all">
+          Open
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</a>

@@ -1,0 +1,17 @@
+---
+import { verdictClasses } from "../lib/tags";
+
+interface Props {
+  verdict: "GO" | "MAYBE" | "PASS";
+  size?: "sm" | "md";
+}
+
+const { verdict, size = "sm" } = Astro.props;
+const classes = verdictClasses(verdict);
+const sizeStyle =
+  size === "md"
+    ? "font-size:12px; height:28px; padding-left:10px; padding-right:10px;"
+    : "";
+---
+
+<span class={`pill ${classes} font-bold tracking-wider`} style={sizeStyle}>{verdict}</span>

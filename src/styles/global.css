@@ -1,0 +1,178 @@
+@import "@fontsource-variable/inter/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens — light theme */
+:root {
+  --surface: 250 250 249;        /* paper */
+  --surface-fg: 15 17 21;        /* ink */
+  --surface-muted: 100 116 139;  /* slate-500 */
+  --surface-subtle: 244 244 245; /* zinc-100 */
+  --surface-border: 226 232 240; /* slate-200 */
+  --surface-card: 255 255 255;
+  --brand: 245 158 11;           /* accent-500 */
+  --brand-fg: 30 25 12;
+}
+
+/* Dark theme overrides */
+:root.dark {
+  --surface: 9 11 14;
+  --surface-fg: 237 237 240;
+  --surface-muted: 148 163 184;  /* slate-400 */
+  --surface-subtle: 24 27 33;
+  --surface-border: 39 42 48;
+  --surface-card: 18 20 25;
+  --brand: 251 191 36;           /* accent-400 — slightly brighter for dark */
+  --brand-fg: 30 25 12;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  html,
+  body {
+    background-color: rgb(var(--surface));
+    color: rgb(var(--surface-fg));
+  }
+  body {
+    @apply font-sans;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    @apply bg-accent/40;
+    color: rgb(var(--surface-fg));
+  }
+  /* Scrollbar polish */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--surface-border));
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--surface-muted) / 0.4);
+  }
+}
+
+@layer components {
+  /* Marketing buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 h-10 rounded-lg text-sm font-medium transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 focus-visible:ring-offset-2;
+    --tw-ring-offset-color: rgb(var(--surface));
+  }
+  .btn-primary {
+    @apply bg-surface-fg text-surface hover:opacity-90 shadow-soft;
+  }
+  .btn-ghost {
+    @apply text-surface-fg hover:bg-surface-subtle;
+  }
+  .btn-outline {
+    @apply border border-surface-border text-surface-fg hover:bg-surface-subtle;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-surface-card border border-surface-border rounded-xl transition-all;
+  }
+  .card-hover {
+    @apply hover:border-surface-fg/40 hover:shadow-soft-lg hover:-translate-y-0.5;
+  }
+
+  /* Marketing hero copy */
+  .display {
+    @apply font-display tracking-tight;
+    letter-spacing: -0.025em;
+  }
+
+  /* Tag pill base — must be self-sizing (no flex stretch from parent flex containers). */
+  .pill {
+    @apply inline-flex items-center gap-1 px-2.5 rounded-full ring-1 whitespace-nowrap font-medium;
+    flex: 0 0 auto;
+    width: fit-content;
+    height: 22px;
+    font-size: 11px;
+    line-height: 1;
+  }
+
+  /* Idea page prose */
+  .prose-idea {
+    @apply max-w-none text-[15px] leading-[1.75] text-surface-fg/90;
+  }
+  .prose-idea h1 {
+    @apply text-3xl md:text-4xl font-semibold tracking-tight mt-0 mb-6 text-surface-fg;
+    letter-spacing: -0.02em;
+  }
+  .prose-idea h2 {
+    @apply text-xl md:text-2xl font-semibold tracking-tight mt-12 mb-4 text-surface-fg pb-2 border-b border-surface-border;
+    letter-spacing: -0.015em;
+  }
+  .prose-idea h3 {
+    @apply text-lg font-semibold mt-8 mb-2 text-surface-fg;
+  }
+  .prose-idea p {
+    @apply my-4;
+  }
+  .prose-idea ul {
+    @apply list-disc pl-6 my-4 space-y-2;
+  }
+  .prose-idea ol {
+    @apply list-decimal pl-6 my-4 space-y-2;
+  }
+  .prose-idea li > p {
+    @apply my-1;
+  }
+  .prose-idea strong {
+    @apply text-surface-fg font-semibold;
+  }
+  .prose-idea a {
+    @apply text-accent-600 dark:text-accent-400 underline decoration-accent/40 hover:decoration-accent underline-offset-2;
+  }
+  .prose-idea blockquote {
+    @apply border-l-4 border-accent/40 pl-4 italic text-surface-fg/80 my-4;
+  }
+  .prose-idea hr {
+    @apply my-10 border-surface-border;
+  }
+  .prose-idea table {
+    @apply w-full text-sm my-6 border-collapse;
+  }
+  .prose-idea th,
+  .prose-idea td {
+    @apply border border-surface-border px-3 py-2 text-left;
+  }
+  .prose-idea th {
+    @apply bg-surface-subtle font-semibold text-surface-fg;
+  }
+  .prose-idea code {
+    @apply bg-surface-subtle px-1.5 py-0.5 rounded text-[13px] font-mono text-accent-700 dark:text-accent-300;
+  }
+  .prose-idea pre {
+    @apply bg-zinc-900 text-zinc-100 rounded-lg p-4 overflow-x-auto text-[13px] my-4;
+  }
+
+  /* Subtle dot grid background for hero */
+  .bg-dotgrid {
+    background-image: radial-gradient(circle, rgb(var(--surface-fg) / 0.07) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
+@layer utilities {
+  .ink {
+    color: rgb(var(--surface-fg));
+  }
+  .text-muted {
+    color: rgb(var(--surface-muted));
+  }
+  /* Animation helper */
+  .animate-fade-in {
+    animation: fade-in 0.4s ease-out both;
+  }
+}
