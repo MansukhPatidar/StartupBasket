@@ -69,7 +69,5 @@ export default defineConfig({
       },
     }),
   ],
-  // Enforce trailing slashes so canonical URLs align with the sitemap and
-  // generated directory-style paths (e.g. /ideas/<slug>/index.html).
-  trailingSlash: "always",
+  trailingSlash: "ignore",
 });
