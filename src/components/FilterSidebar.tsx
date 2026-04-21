@@ -20,7 +20,7 @@ const KIND_LABEL: Record<Kind | "verdict", string> = {
 export default function FilterSidebar({ tags, total }: Props) {
   const [search, setSearch] = useState("");
   const [active, setActive] = useState<Set<string>>(new Set());
-  const [activeVerdict, setActiveVerdict] = useState<"ALL" | "GO" | "MAYBE" | "PASS">("ALL");
+  const [activeVerdict, setActiveVerdict] = useState<"ALL" | "STRONG GO" | "GO" | "VALIDATE" | "PASS">("ALL");
   const [visibleCount, setVisibleCount] = useState<number>(total);
 
   const grouped = useMemo(() => {
@@ -111,8 +111,8 @@ export default function FilterSidebar({ tags, total }: Props) {
         <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
           Verdict
         </label>
-        <div className="grid grid-cols-4 gap-1 p-1 rounded-lg border border-surface-border bg-surface-card">
-          {(["ALL", "GO", "MAYBE", "PASS"] as const).map((v) => (
+        <div className="grid grid-cols-5 gap-1 p-1 rounded-lg border border-surface-border bg-surface-card">
+          {(["ALL", "STRONG GO", "GO", "VALIDATE", "PASS"] as const).map((v) => (
             <button
               key={v}
               type="button"

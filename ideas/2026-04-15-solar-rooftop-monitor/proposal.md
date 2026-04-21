@@ -4,14 +4,16 @@ slug: solar-rooftop-monitor
 date: 2026-04-15
 category: CleanTech IoT + SaaS / India
 complexity: Medium
-score: 77
+score: 74
 verdict: GO
+confidence: High
 oneLiner: A ₹2,499 clamp-on device that monitors any rooftop solar system's output and sends WhatsApp performance reports — so Indian homeowners know whether their panels are earning what the installer promised.
 tags:
   vertical: CleanTech
   model: IoT+SaaS
   geography: India
   secondary: [WhatsApp-first, AI-powered, Consumer, Compliance-driven]
+founderFit: [technical-heavy, operations-heavy]
 featured: true
 ---
 
@@ -93,26 +95,76 @@ This is India-only and deeply localized:
 
 **Medium.** Hardware: ESP32 + SCT-013 split-core CT clamp (₹150 off-the-shelf) + burden resistor + ADC (built into ESP32) + 3D-printed enclosure + USB power. No custom PCB for v1. Firmware: sample AC current via CT clamp at 1-second intervals, calculate power (W) and energy (Wh), send hourly totals to cloud via WiFi MQTT. Software: time-series database, integration with ISRO/IMD solar irradiance APIs for expected generation modeling, WhatsApp Business API for reports. The AI expected-generation model is the most complex piece — requires per-location solar irradiance data and basic solar engineering formulas (PVWatts-style) — but these are well-documented. Two builders, 10-12 weeks. Same hardware logistics challenges as BatteryBuddy and ChillGuard — assembly, shipping, QC.
 
-## 11. Feasibility score
+## 11. Gating checklist
 
-| Axis                       | Weight | Score | Notes |
-|----------------------------|--------|-------|-------|
-| Demand signal strength     | 25     | 23/25 | 26 lakh installations and accelerating. Government target of 1 crore. IEEFA confirming post-installation support gaps. PM Surya Ghar Facebook groups full of "is my system working?" questions. This is not speculative — the installed base exists and is growing faster than any other IoT hardware market in India. |
-| Build simplicity           | 25     | 16/25 | CT clamp energy measurement is well-understood. But hardware logistics (assembly, CT clamp calibration across different wire gauges, shipping) adds complexity. Solar irradiance API integration for expected generation adds software scope. |
-| Distribution feasibility   | 20     | 17/20 | Solar installer bundling is the killer channel — they want to reduce support calls, and this does it. PM Surya Ghar communities are concentrated, vocal, and actively seeking solutions. Amazon/Flipkart solar accessories category is growing fast. |
-| Revenue path clarity       | 20     | 15/20 | ₹2,499 hardware with ₹2,049 margin is the best margin of the three IoT ideas. Premium SaaS at ₹149/month adds recurring revenue. The installer accountability report is a feature people will pay for. Panel cleaning service marketplace is a clear monetization expansion. |
-| Moat / defensibility       | 10     | 6/10  | Fleet-wide benchmarking data is a genuine network effect moat — the more devices deployed, the better the "is my system underperforming vs. neighbors" comparison becomes. But the hardware is commodity-simple. The moat is in the data layer, not the device. |
-| **Total**                  | **100**| **77/100** | |
+| Gate | Pass? | Note |
+|---|---|---|
+| Legal in target market | ✅ | Non-invasive energy monitoring device; no licensing required in India |
+| Ethical — no harm / dark patterns | ✅ | Empowers homeowners with transparency on their own solar systems |
+| Market exists (evidence above) | ✅ | 26 lakh PM Surya Ghar installations and accelerating; monitoring gap well-documented |
+| 1–5 person team can build this | ✅ | 2 builders, 10-12 weeks; off-the-shelf hardware components |
+| Launchable with <$50K / ₹40L | ✅ | ₹2,500 BOM for 5 prototypes; first 100 units at ₹45K BOM + ₹50K tooling; software dev is labor |
 
-**Verdict:** GO
+## 12. Feasibility score
 
-## 12. Risks & unknowns — top 3 things that could kill this
+| Axis | Weight | Score | Notes |
+|---|---|---|---|
+| Problem intensity | 20 | 17/20 | Homeowners spent ₹60K-2L on solar with zero visibility into performance. Installer accountability is emotionally charged. But it's a "nice to have" for many — they won't die without monitoring, and the savings delta (₹500/mo) is modest. Pain is real but not hair-on-fire. |
+| Demand evidence | 15 | 13/15 | 26 lakh installations, PM Surya Ghar groups full of complaints, IEEFA documenting support gaps. Government target of 1 crore. Hard evidence of a growing installed base with no monitoring layer. |
+| Build feasibility | 15 | 10/15 | CT clamp energy measurement is well-understood, but hardware logistics (assembly, calibration across wire gauges, shipping, QC, returns) are a real drag on a small team. Solar irradiance API integration adds scope. Not pure software. |
+| Distribution clarity | 15 | 12/15 | Solar installer bundling is a strong channel. PM Surya Ghar communities are concentrated. Amazon listing is viable. But hardware distribution (inventory, shipping, returns) is harder than SaaS distribution. |
+| Revenue mechanics | 15 | 11/15 | ₹2,499 one-time hardware with ₹2,049 margin is strong. But SaaS conversion at ₹149/mo is unproven — consumers rarely pay monthly for monitoring. Hardware revenue is lumpy, not recurring. Path to $1M needs 33K units/year — significant manufacturing scale. |
+| Time to first revenue | 10 | 5/10 | Hardware requires prototyping, testing, small-batch manufacturing, and shipping before first sale. Realistic first revenue is 8-12 weeks after build start, not 2-4 weeks like pure SaaS. |
+| Defensibility | 10 | 6/10 | Fleet-wide benchmarking data is a genuine network effect moat. But the hardware is commodity-simple. Any well-funded competitor can clone the device. The moat is in the data layer + installer relationships, not the product. |
+| **Total** | **100** | **74/100** | |
+
+## 13. Qualitative modifiers
+
+### Founder-fit tags
+
+`technical-heavy` · `operations-heavy`
+
+Hardware product requires embedded firmware skills (ESP32, CT clamp calibration), cloud infrastructure, and significant operations overhead (BOM sourcing, assembly, QC, shipping, returns). Not a solo-developer play — needs someone comfortable with physical product logistics.
+
+### Key assumptions to validate (3–5)
+
+1. **Assumption:** CT clamp accuracy is within 10% across different wire gauges and inverter types in real Indian installations. **How to test:** Install 5 prototypes on different solar systems, compare readings against inverter display and DISCOM net meter for 7 days.
+2. **Assumption:** Homeowners will pay ₹2,499 for a monitoring device (not just want it for free). **How to test:** List a pre-order page at full price in PM Surya Ghar WhatsApp groups; measure conversion vs. "interested but won't pay" responses.
+3. **Assumption:** Solar installers will bundle the device at ₹1,800 wholesale to differentiate their installations. **How to test:** Pitch 10 top-volume EPC vendors in one city; measure how many commit to a 50-unit trial order.
+4. **Assumption:** Premium SaaS conversion (₹149/mo) will reach 25% of hardware buyers. **How to test:** Offer the premium tier free for 3 months to early users, then measure willingness to pay when the trial ends.
+
+### Risk flags
+
+1. **[Hardware logistics]:** Assembly, calibration, shipping, and returns are operationally heavy for a small team. Every hardware startup underestimates this. QC failures at scale (dead ESP32s, miscalibrated clamps) could eat margins.
+2. **[Inverter commoditization]:** If budget inverter brands (Growatt, Solis) add WiFi monitoring as standard in their cheapest models, the retrofit market shrinks for new installations. Existing installed base remains, but the growth wedge narrows.
+3. **[Consumer apathy]:** Many homeowners installed solar and forgot about it. If they're not motivated to optimize (saving ₹500/mo doesn't move the needle), the ₹2,499 purchase never happens. The emotional sell ("your installer may be cheating you") has to land hard.
+
+## 14. Structured verdict
+
+```
+Score:                  74/100
+Verdict:                GO
+Confidence:             High
+Best-fit builder:       Technical founder with embedded/IoT experience + operations co-founder comfortable with hardware supply chain (BOM, assembly, shipping). India-based, ideally with personal solar installation for dogfooding.
+Time to revenue:        10-14 weeks (prototype + small batch + first installer partnerships)
+Capital to launch:      ₹8-12L ($10-15K) — prototyping, first 200-unit manufacturing run, WhatsApp API, cloud infra
+Top 3 assumptions to validate first:
+  1. CT clamp accuracy within 10% on real Indian installations (test 5 systems against reference meters)
+  2. Homeowners will pay ₹2,499 (pre-order test in PM Surya Ghar groups)
+  3. Solar installers will bundle at ₹1,800 wholesale (pitch 10 EPC vendors)
+Kill criteria:
+  - CT clamp accuracy >20% off reference across multiple installations (hardware not viable without better sensor)
+  - <5 of 20 homeowners willing to pay ₹2,499 in pre-order test (price sensitivity too high)
+  - Zero installer interest in bundling after pitching 10+ vendors (channel thesis is wrong)
+```
+
+## 15. Risks & unknowns — top 3 things that could kill this
 
 1. **CT clamp accuracy at low power.** Cheap SCT-013 CT clamps lose accuracy below 100W. A 3kW system generating 200-300W during cloudy mornings might get inaccurate readings. If the daily kWh total is off by 15-20%, the "underperformance detection" feature is unreliable. Need to test with a calibrated reference meter across multiple installations.
 2. **Solar inverter brands add monitoring to cheap models.** If Growatt, Solis, and other budget inverter brands include WiFi monitoring as standard in their ₹15,000 inverters, the retrofit market shrinks. Mitigation: even with brand monitoring, homeowners want an independent, brand-agnostic tool — especially for installer accountability. But it's a real risk for new installations.
 3. **Homeowner apathy.** The homeowner installed solar and forgot about it. They see ₹500/month savings on their bill and don't care whether it should be ₹700/month. If they're not motivated to optimize, they won't buy a monitor. The sell has to be emotional ("your installer may be cheating you") not rational ("optimize your generation by 12%").
 
-## 13. Next step — 1-week validation sprint
+## 16. Next step — 1-week validation sprint
 
 - **Day 1-2:** Build 5 prototype units: ESP32 + SCT-013-030 CT clamp + burden resistor. Calibrate against a known reference meter (Kill A Watt or similar). Flash firmware that measures AC power and sends hourly kWh to a cloud endpoint. Build a WhatsApp bot that sends a daily generation summary. Total BOM: ₹2,500 for 5 units.
 - **Day 3-4:** Install on 5 residential solar systems (own home if applicable, neighbors, family, friends-of-friends who installed PM Surya Ghar). Record: panel capacity, inverter brand, installation date. Compare SolarSathi's kWh reading against the inverter's display (if available) or the DISCOM net meter reading. Ask homeowners: "Did you know your system generated X kWh yesterday? Is that what you expected?"

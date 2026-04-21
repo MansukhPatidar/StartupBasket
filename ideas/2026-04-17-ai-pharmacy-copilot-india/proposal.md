@@ -6,12 +6,14 @@ category: HealthTech SaaS / India
 complexity: Medium
 score: 71
 verdict: GO
+confidence: Medium
 oneLiner: AI copilot that turns a prescription photo into an itemized bill, flags near-expiry stock first, and sends the customer a WhatsApp receipt with refill reminders.
 tags:
   vertical: HealthTech
   model: SaaS
   geography: India
   secondary: [WhatsApp-first, UPI-native, Multilingual, AI-agent, SMB, Compliance-driven]
+founderFit: [technical-heavy, sales-heavy, domain-expertise-required]
 featured: false
 ---
 

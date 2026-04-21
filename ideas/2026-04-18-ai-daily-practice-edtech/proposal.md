@@ -4,14 +4,16 @@ slug: ai-daily-practice-edtech
 date: 2026-04-18
 category: EdTech SaaS / India
 complexity: Medium
-score: 71
+score: 70
 verdict: GO
+confidence: Medium
 oneLiner: AI engine that auto-generates personalized daily practice problems for each student, delivers via WhatsApp, auto-grades photo submissions, and sends weekly parent reports.
 tags:
   vertical: EdTech
   model: SaaS
   geography: India
   secondary: [WhatsApp-first, AI-agent, Multilingual, SMB]
+founderFit: [technical-heavy, sales-heavy, content-heavy, domain-expertise-required]
 featured: false
 ---
 
@@ -103,26 +105,77 @@ This buyer is in Kota, in coaching WhatsApp groups, and on Hindi YouTube — not
 
 **Medium.** MVP needs: LLM (GPT-4o/Claude) with exam-specific prompting for MCQ generation + solution generation, a curated NCERT topic-tree (manual but one-time, ~2 weeks for JEE + NEET Physics/Chemistry/Biology/Maths), WhatsApp Business API for delivery + photo collection, vision model for answer-sheet OCR (handwritten A/B/C/D recognition — simpler than full handwriting OCR), a mobile-first web dashboard for faculty + performance analytics, and a report-card image generator for parent WhatsApp messages. Two builders (one full-stack, one AI/pipeline) can ship a credible v1 for JEE Main Physics + Chemistry (2 subjects) in 10–12 weeks. Scope risk: trying to cover all subjects and all exams on day one. Ship JEE Physics first, expand weekly.
 
-## 11. Feasibility score
+## 11. Gating checklist
 
-| Axis                       | Weight | Score | Notes |
-|----------------------------|--------|-------|-------|
-| Demand signal strength     | 25     | 19/25 | Every coaching institute assigns DPPs — universal practice, zero automation. Allen/PW set parent expectations that small institutes can't meet. Strong structural demand. Dock 6: no explicit "I want this" online signal from institute owners. |
-| Build simplicity           | 25     | 17/25 | LLM MCQ generation is proven. Answer-sheet OCR for A/B/C/D options is simpler than full handwriting. NCERT topic tree is manual grind. 10–12 weeks for 2 subjects. |
-| Distribution feasibility   | 20     | 15/20 | Kota cluster is the single densest pool of coaching buyers on Earth. WhatsApp communities are a concrete channel. But each institute is a consultative sale, not self-serve. |
-| Revenue path clarity       | 20     | 14/20 | ₹2,999 base + per-student pricing pushes ACV to ₹50K+ which makes $1M at 170 customers. Per-student add-on is the key lever — without it, ACV is too low. |
-| Moat / defensibility       | 10     | 6/10  | Proprietary question corpus + student performance data compounds. Faculty-contributed content marketplace locks in supply side. Allen/PW won't sell their DPP engine to competitors. Copyable by a well-funded EdTech but niche enough for a bootstrap. |
-| **Total**                  | **100**| **71/100** |   |
+| Gate | Pass? | Note |
+|---|---|---|
+| Legal in target market | ✅ | No regulatory barrier. Generating practice questions is not regulated. |
+| Ethical — no harm / dark patterns | ✅ | Helps students practice more effectively. No cheating facilitation — these are practice problems, not exam papers. |
+| Market exists (evidence above) | ✅ | 75K–100K coaching institutes, DPPs are universal practice, Allen/PW set expectations. |
+| 1–5 person team can build this | ✅ | 2 builders, 10–12 weeks for 2-subject MVP. |
+| Launchable with <$50K / ₹40L | ✅ | LLM API costs + WhatsApp API + 2 developers for 3 months ≈ ₹20–30L. |
 
-**Verdict:** GO
+## 12. Feasibility score
 
-## 12. Risks & unknowns — top 3 things that could kill this
+| Axis | Weight | Score | Notes |
+|---|---|---|---|
+| Problem intensity | 20 | 16/20 | Universal practice (every institute assigns DPPs), zero automation today. Parents demanding Allen-level personalization from small institutes. The gap between what parents expect and what the institute delivers is widening. Dock 4: the institute owner feels the pain indirectly (through lost admissions), not as a daily burning problem. |
+| Demand evidence | 15 | 10/15 | Allen/PW DPP systems set expectations. 75K+ coaching institutes exist. Static question-bank tools (Gyanam, PaperKatta) prove partial demand. But no explicit "I want this" signal from institute owners online — this buyer doesn't post on forums. |
+| Build feasibility | 15 | 11/15 | LLM MCQ generation is proven but needs rigorous quality control for competitive exams. Answer-sheet OCR from handwritten photos is non-trivial (messy student handwriting, poor lighting). NCERT topic tree is manual grind. 10–12 weeks is realistic but tight. |
+| Distribution clarity | 15 | 12/15 | Kota cluster is the single densest pool of coaching buyers on Earth — physically visit 50 in 2 weeks. WhatsApp communities of coaching owners are a real channel. But each sale is consultative (demo, convince the owner, onboard faculty), not self-serve. |
+| Revenue mechanics | 15 | 11/15 | ₹2,999 base + per-student pricing pushes ACV to ₹50K+. 170 institutes for $1M is achievable. Per-student add-on is the key lever — without it, ACV is too low. The math works if per-student pricing is adopted. |
+| Time to first revenue | 10 | 5/10 | 10–12 week build + Kota blitz + onboarding + 1-month free trial = ~5 months to first revenue. Consultative sales cycle adds time. |
+| Defensibility | 10 | 5/10 | Proprietary question corpus + student performance data compounds over time. Faculty-contributed content marketplace locks supply side. Allen/PW won't sell their DPP engine to competitors. Copyable by a funded EdTech but niche enough for a bootstrap. |
+| **Total** | **100** | **70/100** | |
+
+## 13. Qualitative modifiers
+
+### Founder-fit tags
+
+`technical-heavy` · `sales-heavy` · `content-heavy` · `domain-expertise-required`
+
+The AI question generation needs strong prompting and quality evaluation (content-heavy + technical-heavy). Selling to coaching-institute owners requires in-person demos and relationship building (sales-heavy). Understanding JEE/NEET exam patterns, difficulty calibration, and NCERT alignment requires someone who has either taught or taken these exams (domain-expertise-required).
+
+### Key assumptions to validate (3–5)
+
+1. **Assumption:** AI-generated JEE/NEET MCQs are usable with minor faculty edits (>90% accuracy). **How to test:** Generate 100 Physics MCQs, have a current JEE faculty member grade for correctness, difficulty, and exam-alignment.
+2. **Assumption:** Coaching-institute owners will pay ₹2,999/mo for a DPP tool. **How to test:** Visit 15 institutes in Kota, demo the concept, ask for verbal ₹1 commit.
+3. **Assumption:** Students will actually photograph and submit their answer sheets via WhatsApp. **How to test:** Run a 1-week manual pilot with one institute — send DPPs via WhatsApp, measure submission rate.
+4. **Assumption:** Answer-sheet OCR can reliably read A/B/C/D from student photos. **How to test:** Collect 50 student answer-sheet photos, run through vision model, measure accuracy.
+5. **Assumption:** Per-student pricing is accepted by institute owners (critical for ACV). **How to test:** In the Kota visits, pitch both flat-rate and per-student pricing, gauge reaction.
+
+### Risk flags
+
+1. **Content quality risk:** AI-generated competitive-exam questions have zero tolerance for errors. A wrong answer key or a dimensionally inconsistent Physics problem destroys faculty trust instantly. Faculty review must be mandatory in v1.
+2. **Student compliance risk:** If students don't submit answers via WhatsApp, the grading and adaptive loop breaks. The product becomes an expensive PDF sender. Gamification and parent pressure are the levers.
+3. **Price sensitivity:** A 200-student institute in Patna earning ₹3L/month may resist ₹2,999/month. The ROI pitch must be concrete: "retain 5 students who would switch to Allen Online = ₹25K/month saved."
+
+## 14. Structured verdict
+
+```
+Score:                  70/100
+Verdict:                GO
+Confidence:             Medium
+Best-fit builder:       Technical founder with LLM/AI experience + a JEE/NEET faculty co-founder or advisor. Must be comfortable with in-person sales in Kota/Patna.
+Time to revenue:        ~5 months (10–12 week build + Kota sales blitz + trial period)
+Capital to launch:      ₹20–30L ($24K–$36K)
+Top 3 assumptions to validate first:
+  1. AI MCQ quality >90% usable — generate 100, have faculty grade them
+  2. Institute owner willingness to pay ₹2,999/mo — visit 15 in Kota, get verbal commits
+  3. Student submission rate >50% — run 1-week WhatsApp DPP pilot with one institute
+Kill criteria:
+  - AI question quality <80% usable after faculty review = content engine isn't exam-ready
+  - <6 of 15 institute owners say "bill me" = price or need doesn't justify the product
+  - Student submission rate <30% in pilot = the feedback loop won't close
+```
+
+## 15. Risks & unknowns — top 3 things that could kill this
 
 1. **AI-generated questions are wrong or trivially easy.** If an MCQ has two correct options, or a Physics question violates dimensional analysis, faculty loses trust instantly. Competitive-exam content has zero tolerance for errors. **What has to be true:** a faculty review step before every DPP release is mandatory in v1. AI generates, faculty approves. Over time, build an eval set of 10,000+ verified questions to benchmark quality. Never auto-release without review until accuracy exceeds 98%.
 2. **Student submission rate is too low.** If students don't photograph and send their answers back on WhatsApp, the grading and adaptive loop breaks. The product becomes a fancy PDF sender. **Mitigation:** gamification (streak counts, batch leaderboards), institute-enforced submission deadlines, and parent visibility ("Your child didn't submit today's DPP"). Social pressure from parents is the strongest compliance mechanism in Indian coaching.
 3. **Coaching-owner price sensitivity.** A 200-student institute in Patna with ₹3L/month revenue may balk at ₹2,999/month. **Mitigation:** ROI pitch: "If this helps you retain 5 students who would have switched to Allen Online (₹5,000/student/month × 5 = ₹25,000/month), the tool pays for itself 8× over." Alternatively, offer a ₹999 starter tier for institutes under 50 students and prove value before upselling.
 
-## 13. Next step — 1-week validation sprint
+## 16. Next step — 1-week validation sprint
 
 - **Day 1:** Generate 100 JEE Main Physics MCQs using GPT-4o with a detailed exam-pattern prompt. Have a current JEE faculty member grade them for correctness, difficulty accuracy, and exam-alignment. Target: >90% are usable with minor edits.
 - **Day 2–3:** Visit 15 coaching institutes in Kota (or call if remote). Two questions: "How do you create and distribute DPPs today?" and "Would you pay ₹2,999/month for a system that auto-generates, delivers via WhatsApp, auto-grades, and reports to parents?"

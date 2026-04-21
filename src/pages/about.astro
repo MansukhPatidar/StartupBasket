@@ -13,11 +13,13 @@ const meta: SeoMeta = {
 };
 
 const axes = [
-  { name: "Demand signal strength", weight: 25, desc: "Real evidence people want this today — search traffic, paid competitors, viral threads. No \"I think people would buy this.\"" },
-  { name: "Build simplicity", weight: 25, desc: "A small team can ship a credible v1 in 8–12 weeks on off-the-shelf APIs and standard infra." },
-  { name: "Distribution feasibility", weight: 20, desc: "A concrete first-100-customers playbook. Named channels, named lists, realistic conversion." },
-  { name: "Revenue path clarity", weight: 20, desc: "Pricing benchmarked against incumbents. The math to $1M ARR pencils out without aggressive assumptions." },
-  { name: "Moat / defensibility", weight: 10, desc: "A reason this doesn't get cloned in 6 months — data, integrations, regulatory, or sheer execution speed." },
+  { name: "Problem intensity", weight: 20, desc: "How painful is this problem? How often is it felt? Would users pay to solve it today?" },
+  { name: "Demand evidence", weight: 15, desc: "Hard signals — existing spend, competitor traction, search volume, forum complaints. Not hunches." },
+  { name: "Build feasibility", weight: 15, desc: "A small team can ship v1 in 90 days with available tools and standard infra." },
+  { name: "Distribution clarity", weight: 15, desc: "A concrete, cheap path to first 100 customers. Named channels, named lists, realistic conversion." },
+  { name: "Revenue mechanics", weight: 15, desc: "Clear pricing, willingness to pay, unit economics that work below $5M ARR." },
+  { name: "Time to first revenue", weight: 10, desc: "Weeks to first paying customer. For bootstrappers, this matters more than TAM." },
+  { name: "Defensibility", weight: 10, desc: "Soft moats — workflow lock-in, data advantage, community, regulatory knowledge." },
 ];
 ---
 
@@ -60,7 +62,7 @@ const axes = [
     </ul>
 
     <h2>The rubric</h2>
-    <p>Five weighted axes, summing to 100. Each idea scored honestly — not aspirationally.</p>
+    <p>Seven weighted axes, summing to 100. Each idea scored honestly — not aspirationally. Ideas also pass through gating criteria, qualitative modifiers, and a structured verdict with kill criteria.</p>
     <table>
       <thead>
         <tr><th>Axis</th><th>Weight</th><th>What it measures</th></tr>
@@ -76,8 +78,8 @@ const axes = [
       </tbody>
     </table>
     <p>
-      Total ≥ <strong>70</strong> = <strong>GO</strong>. 50–69 = <strong>MAYBE</strong>.
-      Below 50 = <strong>PASS</strong>. PASSes stay in the catalog as negative examples.
+      Total ≥ 80 = <strong>STRONG GO</strong>. 70–79 = <strong>GO</strong>. 55–69 = <strong>VALIDATE</strong>.
+      Below 55 = <strong>PASS</strong>. PASSes stay in the catalog as negative examples.
     </p>
 
     <h2>The catalog</h2>

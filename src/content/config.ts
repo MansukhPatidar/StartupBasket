@@ -14,7 +14,8 @@ const ideas = defineCollection({
     category: z.string(),
     complexity: z.enum(["Low", "Medium", "High"]),
     score: z.number().int().min(0).max(100),
-    verdict: z.enum(["GO", "MAYBE", "PASS"]),
+    verdict: z.enum(["STRONG GO", "GO", "VALIDATE", "PASS"]),
+    confidence: z.enum(["High", "Medium", "Low"]).default("Medium"),
     oneLiner: z.string(),
     tags: z.object({
       vertical: z.string(),
@@ -22,6 +23,7 @@ const ideas = defineCollection({
       geography: z.string(),
       secondary: z.array(z.string()).default([]),
     }),
+    founderFit: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
   }),
 });

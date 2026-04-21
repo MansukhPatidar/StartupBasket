@@ -11,8 +11,8 @@ const tags = await getAllTags();
 
 const stats = {
   total: ideas.length,
-  go: ideas.filter((i) => i.data.verdict === "GO").length,
-  maybe: ideas.filter((i) => i.data.verdict === "MAYBE").length,
+  go: ideas.filter((i) => i.data.verdict === "GO" || i.data.verdict === "STRONG GO").length,
+  validate: ideas.filter((i) => i.data.verdict === "VALIDATE").length,
   pass: ideas.filter((i) => i.data.verdict === "PASS").length,
   avg: Math.round(ideas.reduce((s, i) => s + i.data.score, 0) / ideas.length),
 };
@@ -57,7 +57,7 @@ const meta: SeoMeta = {
           {[
             { label: "Ideas", value: stats.total, tone: "text-surface-fg" },
             { label: "GO", value: stats.go, tone: "text-emerald-600 dark:text-emerald-400" },
-            { label: "MAYBE", value: stats.maybe, tone: "text-amber-600 dark:text-amber-400" },
+            { label: "VALIDATE", value: stats.validate, tone: "text-amber-600 dark:text-amber-400" },
             { label: "Avg", value: stats.avg, tone: "text-surface-fg" },
           ].map((s) => (
             <div class="bg-surface-card p-4">

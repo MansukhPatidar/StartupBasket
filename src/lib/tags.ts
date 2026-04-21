@@ -48,10 +48,12 @@ export function tagSlug(tag: string): string {
 }
 
 // Verdict colors — works in light & dark via Tailwind dark: variants.
-export function verdictClasses(verdict: "GO" | "MAYBE" | "PASS"): string {
+export function verdictClasses(verdict: "STRONG GO" | "GO" | "VALIDATE" | "PASS"): string {
+  if (verdict === "STRONG GO")
+    return "bg-emerald-100 text-emerald-800 ring-emerald-300 dark:bg-emerald-400/20 dark:text-emerald-100 dark:ring-emerald-400/50";
   if (verdict === "GO")
     return "bg-emerald-50 text-emerald-700 ring-emerald-200 dark:bg-emerald-400/15 dark:text-emerald-200 dark:ring-emerald-400/40";
-  if (verdict === "MAYBE")
+  if (verdict === "VALIDATE")
     return "bg-amber-50 text-amber-700 ring-amber-200 dark:bg-amber-400/15 dark:text-amber-200 dark:ring-amber-400/40";
   return "bg-rose-50 text-rose-700 ring-rose-200 dark:bg-rose-400/15 dark:text-rose-200 dark:ring-rose-400/40";
 }

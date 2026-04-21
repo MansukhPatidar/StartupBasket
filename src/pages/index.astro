@@ -26,8 +26,8 @@ const topVerticals = (await getAllTags())
 
 const stats = {
   total: all.length,
-  go: all.filter((i) => i.data.verdict === "GO").length,
-  maybe: all.filter((i) => i.data.verdict === "MAYBE").length,
+  go: all.filter((i) => i.data.verdict === "GO" || i.data.verdict === "STRONG GO").length,
+  validate: all.filter((i) => i.data.verdict === "VALIDATE").length,
   avg: Math.round(all.reduce((s, i) => s + i.data.score, 0) / all.length),
 };
 ---
