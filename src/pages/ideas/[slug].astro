@@ -6,6 +6,7 @@ import VerdictBadge from "../../components/VerdictBadge.astro";
 import TagBadge from "../../components/TagBadge.astro";
 import IdeaCard from "../../components/IdeaCard.astro";
 import Engagement from "../../components/Engagement.tsx";
+import ShareButton from "../../components/ShareButton.tsx";
 import { getAllIdeas } from "../../lib/ideas";
 import { ideaMeta } from "../../lib/seo";
 
@@ -66,8 +67,15 @@ const { Content } = await render(idea);
         {idea.data.tags.secondary.map((t) => <TagBadge label={t} kind="secondary" />)}
       </div>
 
-      <div class="mt-6">
+      <div class="mt-6 flex items-center gap-4">
         <Engagement client:load slug={idea.data.slug} variant="detail" countView />
+        <ShareButton
+          client:idle
+          url={`${siteUrl}/ideas/${idea.data.slug}`}
+          title={idea.data.title}
+          text={idea.data.oneLiner}
+          variant="detail"
+        />
       </div>
     </div>
   </section>
