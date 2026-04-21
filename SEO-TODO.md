@@ -1,52 +1,21 @@
 # SEO TODO
 
-Backlog from the 2026-04-22 SEO audit. Items #1 and #2 ("Ship real OG image" and "Fix canonical/sitemap trailing-slash mismatch") are being worked in the current session and are not on this list.
+Backlog from the 2026-04-22 SEO audit. Items #1–#5 shipped; the rest remain.
 
 Ordered by bang-for-buck.
 
----
+## ✅ Shipped
 
-## 🔴 Critical
-
-### #3 — Enrich idea-page `meta description` with score/verdict/category
-
-**Problem:** `ideaMeta()` in `src/lib/seo.ts` uses the raw `oneLiner` (~90 chars avg). SERP snippets do best at 140–160 chars, and we're not differentiating one SB result from another when Google clusters them.
-
-**Fix:** Compose description as:
-```
-{oneLiner} Scored {score}/100 ({verdict}). {category}. From StartupBasket's rubric-scored AI idea catalog.
-```
-…trimmed to 158 chars. Adds score/verdict differentiation + category keywords.
-
-**Effort:** 20 min. **Impact:** Medium (better SERP CTR).
+- **#1** Real `og-default.png` (1200×630 branded) — commit `6679dfd`
+- **#2** Canonical / sitemap trailing-slash alignment + tag-slug canonical bug fix — commit `6679dfd`
+- **#3** Idea-page `<meta description>` now appends `Scored X/100 — VERDICT.` when the one-liner has room — commit `7a835ce`
+- **#4** Homepage title + H1 + subcopy rewritten around "AI startup & SaaS ideas for bootstrapped founders" — commit `7a835ce`
+- **#5** Sitemap carries `lastmod` / `changefreq` / `priority` per route type; idea URLs use proposal date — commit `7a835ce`
+- **Extra** `/404` page with home link and Explore CTA — commit `7a835ce`
 
 ---
 
 ## 🟡 High-value
-
-### #4 — Rewrite homepage H1/title with intent keywords
-
-**Problem:** Current H1 "AI product ideas, scored honestly" is a tagline, not a ranking surface. Nobody searches for "scored honestly." We're leaving queries like "AI SaaS ideas 2026," "bootstrapped SaaS ideas," "micro-SaaS niche ideas" on the table.
-
-**Fix:** Keep the designed H1 but add an H2 right under it with intent copy: *"Startup and SaaS ideas for bootstrapped founders, validated by a 4-layer rubric."* Update `homepageMeta()` title to `StartupBasket — Validated AI startup & SaaS ideas for bootstrapped founders`.
-
-**Effort:** 30 min. **Impact:** High (new ranking surface).
-
----
-
-### #5 — Add `lastmod` to sitemap
-
-**Problem:** Sitemap has only `<loc>`. Without `lastmod`, Google guesses recrawl priority. For a site publishing a new page every few days, this matters.
-
-**Fix:** Configure `@astrojs/sitemap` with custom `serialize`:
-- Idea pages: `lastmod` = `idea.data.date`, `changefreq: weekly`
-- `/ideas`: `changefreq: weekly`
-- `/`: `changefreq: daily`
-- `/about`, `/motivation`: `changefreq: monthly`
-
-**Effort:** 15 min. **Impact:** Medium (better recrawl cadence).
-
----
 
 ### #6 — Per-idea dynamic OG cards
 
