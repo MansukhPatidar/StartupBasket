@@ -1,16 +1,26 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
+import { getSupabase } from "../lib/supabase";
 
 interface Props {
   url: string;
   title: string;
   text: string;
+  slug: string;
   /** "card" = small icon only, "detail" = icon + label */
   variant?: "card" | "detail";
 }
 
-export default function ShareButton({ url, title, text, variant = "detail" }: Props) {
+export default function ShareButton({ url, title, text, slug, variant = "detail" }: Props) {
   const [copied, setCopied] = useState(false);
   const [open, setOpen] = useState(false);
+  const tracked = useRef(false);
+
+  const trackShare = useCallback(() => {
+    if (tracked.current) return;
+    tracked.current = true;
+    const sb = getSupabase();
+    if (sb) sb.rpc("increment_share", { p_slug: slug }).then(() => {});
+  }, [slug]);
 
   const shareLinks = [
     {
@@ -45,10 +55,11 @@ export default function ShareButton({ url, title, text, variant = "detail" }: Pr
   const handleNativeShare = useCallback(async () => {
     try {
       await navigator.share({ title, text, url });
+      trackShare();
     } catch {
       // User cancelled or not supported — fall through
     }
-  }, [title, text, url]);
+  }, [title, text, url, trackShare]);
 
   const handleCopy = useCallback(async () => {
     try {
@@ -112,7 +123,7 @@ export default function ShareButton({ url, title, text, variant = "detail" }: Pr
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm text-surface-fg/80 hover:bg-surface-subtle hover:text-surface-fg transition"
-                onClick={() => setOpen(false)}
+                onClick={() => { trackShare(); setOpen(false); }}
               >
                 {link.icon}
                 {link.name}
@@ -122,6 +133,7 @@ export default function ShareButton({ url, title, text, variant = "detail" }: Pr
               type="button"
               onClick={() => {
                 handleCopy();
+                trackShare();
                 setOpen(false);
               }}
               className="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm text-surface-fg/80 hover:bg-surface-subtle hover:text-surface-fg transition w-full"
