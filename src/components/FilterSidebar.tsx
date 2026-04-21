@@ -111,7 +111,7 @@ export default function FilterSidebar({ tags, total }: Props) {
         <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
           Verdict
         </label>
-        <div className="flex gap-1 p-1 rounded-lg border border-surface-border bg-surface-card">
+        <div className="flex flex-wrap gap-1 p-1 rounded-lg border border-surface-border bg-surface-card">
           {(["ALL", "STRONG GO", "GO", "VALIDATE", "PASS"] as const).map((v) => (
             <button
               key={v}
