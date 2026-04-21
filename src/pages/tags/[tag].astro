@@ -26,7 +26,7 @@ const matched = ideas.filter((i) => {
 });
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
-const meta = tagMeta(tagValue, count, siteUrl);
+const meta = tagMeta(tagValue, tagSlug(tagValue), count, siteUrl);
 ---
 
 <BaseLayout meta={meta}>

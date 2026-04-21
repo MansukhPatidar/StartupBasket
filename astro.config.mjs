@@ -11,5 +11,7 @@ export default defineConfig({
   site: SITE,
   output: "static",
   integrations: [tailwind({ applyBaseStyles: false }), react(), sitemap()],
-  trailingSlash: "ignore",
+  // Enforce trailing slashes so canonical URLs align with the sitemap and
+  // generated directory-style paths (e.g. /ideas/<slug>/index.html).
+  trailingSlash: "always",
 });
