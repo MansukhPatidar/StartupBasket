@@ -1,7 +1,11 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-const url = import.meta.env.PUBLIC_SUPABASE_URL as string | undefined;
-const anonKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY as string | undefined;
+const url =
+  import.meta.env.PUBLIC_SUPABASE_URL ||
+  "https://dfexwbnrzsfbxkvpnmwm.supabase.co";
+const anonKey =
+  import.meta.env.PUBLIC_SUPABASE_ANON_KEY ||
+  "sb_publishable_N9NFoNEF4QFCSRwYbkaTHw_LNw-xNGg";
 
 let client: SupabaseClient | null = null;
 
@@ -14,7 +18,7 @@ export function getSupabase(): SupabaseClient | null {
   return client;
 }
 
-const ANON_ID_KEY = "if_anon_id";
+const ANON_ID_KEY = "sb_anon_id";
 
 export function getAnonId(): string {
   if (typeof window === "undefined") return "";
@@ -26,7 +30,7 @@ export function getAnonId(): string {
   return id;
 }
 
-const LIKED_KEY = "if_liked_slugs";
+const LIKED_KEY = "sb_liked_slugs";
 
 export function getLikedSet(): Set<string> {
   if (typeof window === "undefined") return new Set();
