@@ -1,5 +1,5 @@
 ---
-title: "DocPull — AI document-chase autopilot for solo accountants and small tax practices"
+title: "DocPull — AI document-chase autopilot for solo accountants"
 slug: ai-doc-chase-accountants
 date: 2026-04-23
 category: ProfessionalServices SaaS / US+Global
