@@ -1,5 +1,5 @@
 ---
-title: "LetPilot — AI compliance copilot for UK small landlords navigating MTD + Renters' Rights"
+title: "LetPilot — AI compliance copilot for UK small landlords"
 slug: uk-landlord-compliance-copilot
 date: 2026-04-22
 category: PropTech SaaS / UK SMB
