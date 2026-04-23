@@ -1,5 +1,5 @@
 ---
-title: "QuoteHound — AI quote-chase autopilot for home service contractors"
+title: "QuoteHound — AI quote-chase for home service pros"
 slug: quote-chase-contractors
 date: 2026-04-23
 category: HomeServices SaaS / US
