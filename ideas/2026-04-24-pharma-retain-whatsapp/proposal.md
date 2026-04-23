@@ -1,5 +1,5 @@
 ---
-title: "RefillKaro — WhatsApp retention copilot for India's neighborhood chemists"
+title: "RefillKaro — WhatsApp retention copilot for Indian chemists"
 slug: pharma-retain-whatsapp
 date: 2026-04-24
 category: HealthTech SaaS / India Retail Pharmacy
