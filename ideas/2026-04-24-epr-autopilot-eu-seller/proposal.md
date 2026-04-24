@@ -1,5 +1,5 @@
 ---
-title: "PackPass — AI EPR compliance autopilot for small EU e-commerce sellers"
+title: "PackPass — AI EPR compliance autopilot for EU sellers"
 slug: epr-autopilot-eu-seller
 date: 2026-04-24
 category: Compliance SaaS / EU
