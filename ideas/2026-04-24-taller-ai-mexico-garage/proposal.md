@@ -1,5 +1,5 @@
 ---
-title: "TallerYa — WhatsApp AI copilot for Mexico's independent auto repair shops"
+title: "TallerYa — WhatsApp AI garage copilot for Mexico"
 slug: taller-ai-mexico-garage
 date: 2026-04-24
 category: Automotive SaaS / Mexico
