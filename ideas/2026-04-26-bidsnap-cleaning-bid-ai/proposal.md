@@ -1,5 +1,5 @@
 ---
-title: "BidSnap — AI walkthrough-to-bid copilot for commercial cleaning companies"
+title: "BidSnap — AI bid copilot for commercial cleaning"
 slug: bidsnap-cleaning-bid-ai
 date: 2026-04-26
 category: HomeServices SaaS / US+Global
