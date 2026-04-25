@@ -1,5 +1,5 @@
 ---
-title: "TradePipe — AI hiring copilot that fills skilled-trade jobs for small contractors"
+title: "TradePipe — AI hiring copilot for small trade contractors"
 slug: tradepipe-ai-trades-hiring
 date: 2026-04-26
 category: ProfessionalServices SaaS / US
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: "AI hiring copilot that matches small HVAC, plumbing, and electrical shops with trade-school grads and journeymen in days, not months."
+oneLiner: "AI copilot that matches small HVAC, plumbing, and electrical shops with verified tradespeople in days."
 tags:
   vertical: ProfessionalServices
   model: SaaS
@@ -21,7 +21,7 @@ featured: true
 
 ## 1. One-liner
 
-AI hiring copilot that matches small HVAC, plumbing, and electrical shops with trade-school grads and journeymen in days, not months.
+AI copilot that matches small HVAC, plumbing, and electrical shops with verified tradespeople in days.
 
 ## 2. Trend signal — why now?
 
