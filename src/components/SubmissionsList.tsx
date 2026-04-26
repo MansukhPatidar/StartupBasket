@@ -12,10 +12,22 @@ interface Submission {
   created_at: string;
 }
 
+function buildPrompt(r: Submission): string {
+  const parts = [
+    `'auto commit and push, theme: ${r.problem.trim()}`,
+  ];
+  if (r.vertical) parts.push(`vertical: ${r.vertical}`);
+  if (r.team_size) parts.push(`team size: ${r.team_size}`);
+  if (r.budget) parts.push(`budget: ${r.budget}`);
+  parts.push(`requested by: ${r.name} (${r.email})'`);
+  return `/new-idea ${parts.join(", ")}`;
+}
+
 export default function SubmissionsList() {
   const [rows, setRows] = useState<Submission[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [copied, setCopied] = useState<string | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -98,6 +110,32 @@ export default function SubmissionsList() {
           <p className="text-sm text-surface-fg/80 leading-relaxed whitespace-pre-line">
             {r.problem}
           </p>
+
+          <div className="pt-2 flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => {
+                const prompt = buildPrompt(r);
+                navigator.clipboard.writeText(prompt).then(() => {
+                  setCopied(r.id);
+                  setTimeout(() => setCopied(null), 2000);
+                });
+              }}
+              className="inline-flex items-center gap-1.5 px-2.5 h-7 text-xs font-medium rounded-md border border-surface-border bg-surface-card hover:bg-surface-subtle transition"
+            >
+              {copied === r.id ? (
+                <>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-emerald-600 dark:text-emerald-400"><polyline points="20 6 9 17 4 12" /></svg>
+                  <span className="text-emerald-600 dark:text-emerald-400">Copied</span>
+                </>
+              ) : (
+                <>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
+                  Copy /new-idea prompt
+                </>
+              )}
+            </button>
+          </div>
         </div>
       ))}
     </div>
