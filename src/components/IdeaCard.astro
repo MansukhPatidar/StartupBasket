@@ -21,6 +21,8 @@ const allTags: { label: string; kind: "vertical" | "model" | "geography" | "seco
 const MAX_VISIBLE = 3;
 const visibleTags = allTags.slice(0, MAX_VISIBLE);
 const hiddenCount = Math.max(0, allTags.length - MAX_VISIBLE);
+
+const dateStr = idea.data.date.toISOString().slice(0, 10);
 ---
 
 <a
@@ -40,6 +42,9 @@ const hiddenCount = Math.max(0, allTags.length - MAX_VISIBLE);
   <div class="flex items-center gap-2 mb-3">
     <ScoreBadge score={idea.data.score} />
     <VerdictBadge verdict={idea.data.verdict} />
+    <time class="ts-badge hidden ml-auto text-[11px] text-surface-fg/50 tabular-nums" datetime={dateStr}>
+      {dateStr}
+    </time>
   </div>
 
   <h3

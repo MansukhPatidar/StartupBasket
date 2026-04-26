@@ -50,6 +50,12 @@ const { Content } = await render(idea);
         <span class="pill bg-surface-subtle text-surface-fg/70 ring-surface-border h-7 text-xs">
           {idea.data.complexity} complexity
         </span>
+        <time
+          class="ts-badge hidden pill bg-surface-subtle text-surface-fg/50 ring-surface-border h-7 text-xs tabular-nums"
+          datetime={idea.data.date.toISOString()}
+        >
+          {idea.data.date.toISOString().slice(0, 10)}
+        </time>
       </div>
 
       <h1 class="display mt-5 text-3xl sm:text-4xl lg:text-[44px] font-semibold tracking-tight leading-[1.1]">

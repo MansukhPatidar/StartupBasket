@@ -83,6 +83,17 @@ const year = new Date().getFullYear();
         }
       })();
     </script>
+
+    <!-- Show date timestamps on cards and idea pages when ?ts is in the URL -->
+    <script is:inline>
+      if (new URLSearchParams(window.location.search).has("ts")) {
+        document.addEventListener("DOMContentLoaded", function () {
+          document.querySelectorAll(".ts-badge").forEach(function (el) {
+            el.classList.remove("hidden");
+          });
+        });
+      }
+    </script>
   </head>
   <body class="min-h-screen flex flex-col antialiased">
     <header
