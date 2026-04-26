@@ -22,6 +22,7 @@ export default function FilterSidebar({ tags, total }: Props) {
   const [active, setActive] = useState<Set<string>>(new Set());
   const [activeVerdict, setActiveVerdict] = useState<"ALL" | "STRONG GO" | "GO" | "VALIDATE" | "PASS">("ALL");
   const [visibleCount, setVisibleCount] = useState<number>(total);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const grouped = useMemo(() => {
     const g: Record<Kind, TagItem[]> = {
@@ -80,15 +81,13 @@ export default function FilterSidebar({ tags, total }: Props) {
   }
 
   const hasFilters = active.size > 0 || activeVerdict !== "ALL" || search !== "";
+  const filterCount = active.size + (activeVerdict !== "ALL" ? 1 : 0);
 
   return (
-    <aside className="lg:sticky lg:top-20 lg:self-start space-y-6">
-      {/* Search */}
-      <div>
-        <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
-          Search
-        </label>
-        <div className="relative">
+    <aside className="lg:sticky lg:top-20 lg:self-start space-y-4 lg:space-y-6">
+      {/* Search — always visible */}
+      <div className="flex gap-2 lg:block">
+        <div className="relative flex-1">
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-surface-fg/40">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="11" cy="11" r="7" />
@@ -98,54 +97,76 @@ export default function FilterSidebar({ tags, total }: Props) {
           <input
             type="search"
             autoComplete="off"
-            placeholder="Title, tag, vertical…"
+            placeholder="Search ideas…"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-8 pr-3 h-9 text-sm rounded-lg border border-surface-border bg-surface-card placeholder:text-surface-fg/40 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent/60 transition"
           />
         </div>
+
+        {/* Mobile filter toggle — hidden on desktop */}
+        <button
+          type="button"
+          onClick={() => setMobileOpen((o) => !o)}
+          className="lg:hidden flex items-center gap-1.5 px-3 h-9 text-sm rounded-lg border border-surface-border bg-surface-card hover:bg-surface-subtle transition whitespace-nowrap"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="8" y1="12" x2="20" y2="12" />
+            <line x1="12" y1="18" x2="20" y2="18" />
+          </svg>
+          <span>Filters</span>
+          {filterCount > 0 && (
+            <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-accent text-[10px] font-bold text-white leading-none">
+              {filterCount}
+            </span>
+          )}
+        </button>
       </div>
 
-      {/* Verdict segment */}
-      <div>
-        <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
-          Verdict
-        </label>
-        <div className="flex gap-0.5 p-0.5 rounded-lg border border-surface-border bg-surface-card">
-          {(["ALL", "STRONG GO", "GO", "VALIDATE", "PASS"] as const).map((v) => (
-            <button
-              key={v}
-              type="button"
-              onClick={() => setActiveVerdict(v)}
-              className={`h-6 px-1.5 text-[10px] font-semibold rounded-md whitespace-nowrap transition ${
-                activeVerdict === v
-                  ? "bg-surface-fg text-surface shadow-soft"
-                  : "text-surface-fg/60 hover:text-surface-fg hover:bg-surface-subtle"
-              }`}
-            >
-              {v}
-            </button>
-          ))}
+      {/* Filter groups — always visible on desktop, collapsible on mobile */}
+      <div className={`space-y-4 lg:space-y-6 ${mobileOpen ? "" : "hidden lg:block"}`}>
+        {/* Verdict segment */}
+        <div>
+          <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
+            Verdict
+          </label>
+          <div className="flex gap-0.5 p-0.5 rounded-lg border border-surface-border bg-surface-card">
+            {(["ALL", "STRONG GO", "GO", "VALIDATE", "PASS"] as const).map((v) => (
+              <button
+                key={v}
+                type="button"
+                onClick={() => setActiveVerdict(v)}
+                className={`h-6 px-1.5 text-[10px] font-semibold rounded-md whitespace-nowrap transition ${
+                  activeVerdict === v
+                    ? "bg-surface-fg text-surface shadow-soft"
+                    : "text-surface-fg/60 hover:text-surface-fg hover:bg-surface-subtle"
+                }`}
+              >
+                {v}
+              </button>
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Filter groups */}
-      {(["vertical", "model", "geography", "secondary"] as const).map((kind) => {
-        const items = grouped[kind];
-        if (items.length === 0) return null;
-        return (
-          <FilterGroup
-            key={kind}
-            label={KIND_LABEL[kind]}
-            items={items}
-            active={active}
-            onToggle={toggleTag}
-          />
-        );
-      })}
+        {/* Filter groups */}
+        {(["vertical", "model", "geography", "secondary"] as const).map((kind) => {
+          const items = grouped[kind];
+          if (items.length === 0) return null;
+          return (
+            <FilterGroup
+              key={kind}
+              label={KIND_LABEL[kind]}
+              items={items}
+              active={active}
+              onToggle={toggleTag}
+            />
+          );
+        })}
+      </div>
 
       {/* Active state bar */}
-      <div className="pt-4 border-t border-surface-border flex items-center justify-between text-xs">
+      <div className={`pt-4 border-t border-surface-border flex items-center justify-between text-xs ${mobileOpen || hasFilters ? "" : "hidden lg:flex"}`}>
         <span className="text-muted">
           <span className="font-mono tabular-nums text-surface-fg">{visibleCount}</span>{" "}
           of {total}

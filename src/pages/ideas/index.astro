@@ -46,9 +46,8 @@ const meta: SeoMeta = {
             </span>
           </h1>
           <p class="mt-5 text-[17px] text-surface-fg/70 leading-relaxed max-w-xl">
-            {ideas.length} proposals, {stats.go} scored GO. Use the sidebar to narrow by
-            vertical, model, geography, theme, or verdict. Search pins the grid in real
-            time.
+            <span class="lg:hidden">{ideas.length} proposals, {stats.go} scored GO. Filter by vertical, model, geography, or verdict.</span>
+            <span class="hidden lg:inline">{ideas.length} proposals, {stats.go} scored GO. Use the sidebar to narrow by vertical, model, geography, theme, or verdict. Search pins the grid in real time.</span>
           </p>
         </div>
 
