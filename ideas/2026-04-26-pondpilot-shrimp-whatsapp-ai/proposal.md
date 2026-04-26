@@ -1,5 +1,5 @@
 ---
-title: "PondPilot — WhatsApp AI copilot that helps small shrimp farmers prevent disease and optimize yields"
+title: "PondPilot — WhatsApp AI pond copilot for small shrimp farmers"
 slug: pondpilot-shrimp-whatsapp-ai
 date: 2026-04-26
 category: AgriTech SaaS / SEA
@@ -7,7 +7,7 @@ complexity: Medium
 score: 76
 verdict: GO
 confidence: Medium
-oneLiner: "WhatsApp AI copilot that reads shrimp pond photos and voice notes to catch disease early and optimize daily farm decisions."
+oneLiner: "WhatsApp AI copilot that reads pond photos and voice notes to catch shrimp disease early."
 tags:
   vertical: AgriTech
   model: SaaS
@@ -21,7 +21,7 @@ featured: false
 
 ## 1. One-liner
 
-WhatsApp AI copilot that reads shrimp pond photos and voice notes to catch disease early and optimize daily farm decisions.
+WhatsApp AI copilot that reads pond photos and voice notes to catch shrimp disease early and optimize daily farm decisions.
 
 ## 2. Trend signal — why now?
 
