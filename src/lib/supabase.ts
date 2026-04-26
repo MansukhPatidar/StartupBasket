@@ -44,6 +44,15 @@ export function getLikedSet(): Set<string> {
   }
 }
 
+export interface ProposalRequest {
+  name: string;
+  email: string;
+  vertical: string;
+  problem: string;
+  team_size: string | null;
+  budget: string | null;
+}
+
 export function setLiked(slug: string, liked: boolean) {
   if (typeof window === "undefined") return;
   const set = getLikedSet();

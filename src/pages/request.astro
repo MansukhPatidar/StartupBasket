@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import RequestForm from "../components/RequestForm.tsx";
+import type { SeoMeta } from "../lib/seo";
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
+
+const meta: SeoMeta = {
+  title: "Request a Proposal — StartupBasket",
+  description:
+    "Tell us about a market or problem you want explored. We'll research it and deliver a scored startup proposal.",
+  canonical: `${siteUrl}/request/`,
+  ogImage: `${siteUrl}/og-default.png`,
+  ogType: "website",
+};
+---
+
+<BaseLayout meta={meta}>
+  <section class="relative overflow-hidden border-b border-surface-border">
+    <div class="absolute inset-0 bg-hero-light dark:bg-hero-dark" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-dotgrid opacity-60" aria-hidden="true"></div>
+
+    <div class="relative max-w-2xl mx-auto px-4 sm:px-6 pt-14 sm:pt-20 pb-12">
+      <div class="inline-flex items-center gap-2 mb-4 text-xs font-medium text-surface-fg/70">
+        <span class="inline-block w-1.5 h-1.5 rounded-full bg-accent"></span>
+        <span class="uppercase tracking-widest">Request</span>
+      </div>
+      <h1 class="display text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight leading-[1.05]">
+        Request a proposal
+      </h1>
+      <p class="mt-4 text-[17px] text-surface-fg/70 leading-relaxed">
+        Have a market or problem in mind? Tell us what you're thinking and we'll
+        research it — complete with signals, scoring, and a go/no-go verdict.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+    <RequestForm client:load />
+  </section>
+</BaseLayout>
