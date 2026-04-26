@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SubmissionsList from "../components/SubmissionsList.tsx";
+import type { SeoMeta } from "../lib/seo";
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
+
+const meta: SeoMeta = {
+  title: "Submissions — StartupBasket",
+  description: "Proposal request submissions.",
+  canonical: `${siteUrl}/submissions/`,
+  ogImage: `${siteUrl}/og-default.png`,
+  ogType: "website",
+};
+---
+
+<BaseLayout meta={meta}>
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-16">
+    <h1 class="display text-2xl font-semibold tracking-tight mb-6">Proposal Requests</h1>
+    <SubmissionsList client:load />
+  </section>
+</BaseLayout>
