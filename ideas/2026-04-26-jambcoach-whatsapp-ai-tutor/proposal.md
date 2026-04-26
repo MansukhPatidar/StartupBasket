@@ -1,5 +1,5 @@
 ---
-title: "JambCoach — WhatsApp AI tutor that explains, not just quizzes, for Nigerian exam candidates"
+title: "JambCoach — WhatsApp AI exam tutor for Nigeria"
 slug: jambcoach-whatsapp-ai-tutor
 date: 2026-04-26
 category: EdTech SaaS / Nigeria
