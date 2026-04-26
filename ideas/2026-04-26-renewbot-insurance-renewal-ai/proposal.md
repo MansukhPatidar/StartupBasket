@@ -1,5 +1,5 @@
 ---
-title: "RenewBot — AI renewal autopilot for independent insurance agencies"
+title: "RenewBot — AI renewal autopilot for indie insurance agencies"
 slug: renewbot-insurance-renewal-ai
 date: 2026-04-26
 category: InsurTech SaaS / US
