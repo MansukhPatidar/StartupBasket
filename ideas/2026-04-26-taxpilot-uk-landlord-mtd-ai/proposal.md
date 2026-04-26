@@ -1,5 +1,5 @@
 ---
-title: "TaxPilot — AI tax copilot that handles Making Tax Digital for UK landlords"
+title: "TaxPilot — AI Making Tax Digital copilot for UK landlords"
 slug: taxpilot-uk-landlord-mtd-ai
 date: 2026-04-26
 category: PropTech SaaS / UK Landlords
