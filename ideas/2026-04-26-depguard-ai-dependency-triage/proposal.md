@@ -1,5 +1,5 @@
 ---
-title: "DepGuard — AI triage layer that silences dependency alert noise for small dev teams"
+title: "DepGuard — AI dependency alert triage for dev teams"
 slug: depguard-ai-dependency-triage
 date: 2026-04-26
 category: DevTools SaaS / Global
