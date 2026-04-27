@@ -1,5 +1,5 @@
 ---
-title: "TaxJinn — AI corporate tax & e-invoicing copilot for UAE freelancers and micro-businesses"
+title: "TaxJinn — AI tax & e-invoicing copilot for UAE freelancers"
 slug: taxjinn-uae-compliance-copilot
 date: 2026-04-27
 category: Compliance SaaS / UAE+MENA
@@ -7,7 +7,7 @@ complexity: Medium
 score: 79
 verdict: GO
 confidence: High
-oneLiner: "AI copilot that handles UAE corporate tax registration, filing, and e-invoicing prep for freelancers and micro-businesses at a fraction of consultant fees."
+oneLiner: "AI copilot that handles UAE corporate tax filing and e-invoicing prep for freelancers at 1/50th of consultant fees."
 tags:
   vertical: Compliance
   model: SaaS
@@ -21,7 +21,7 @@ featured: false
 
 ## 1. One-liner
 
-AI copilot that handles UAE corporate tax registration, filing, and e-invoicing prep for freelancers and micro-businesses at a fraction of consultant fees.
+AI copilot that handles UAE corporate tax filing and e-invoicing prep for freelancers at 1/50th of consultant fees.
 
 ## 2. Trend signal — why now?
 
