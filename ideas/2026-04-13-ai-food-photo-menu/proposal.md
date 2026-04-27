@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: India+Global
   secondary: [AI-powered, Solo-builder, SMB]
+axes:
+  problem: 14
+  demand: 10
+  build: 13
+  distribution: 9
+  revenue: 8
+  time: 8
+  defensibility: 6
 founderFit: [technical-heavy, content-heavy]
 featured: false
 ---

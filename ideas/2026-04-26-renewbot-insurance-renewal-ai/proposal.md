@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: US
   secondary: [AI-agent, SMB, Workflow-automation, InsurTech]
+axes:
+  problem: 17
+  demand: 12
+  build: 11
+  distribution: 12
+  revenue: 12
+  time: 7
+  defensibility: 8
 founderFit: [technical-heavy, sales-heavy]
 featured: false
 ---

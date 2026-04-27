@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: EU
   secondary: [Compliance-driven, SMB, Multilingual, AI-agent, Solo-builder, Regulatory-deadline]
+axes:
+  problem: 17
+  demand: 14
+  build: 11
+  distribution: 12
+  revenue: 13
+  time: 9
+  defensibility: 6
 founderFit: [technical-heavy, domain-expertise-required]
 featured: true
 ---

@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: US
   secondary: [AI-agent, SMB, Solo-builder, Revenue-management, Self-storage, Dynamic-pricing]
+axes:
+  problem: 17
+  demand: 13
+  build: 11
+  distribution: 12
+  revenue: 13
+  time: 7
+  defensibility: 8
 founderFit: [technical-heavy]
 featured: true
 ---

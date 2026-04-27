@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: US
   secondary: [AI-agent, SMB, Compliance-driven, Solo-builder, Trucking]
+axes:
+  problem: 17
+  demand: 12
+  build: 11
+  distribution: 12
+  revenue: 11
+  time: 7
+  defensibility: 6
 founderFit: [technical-heavy, domain-expertise-required]
 featured: false
 ---

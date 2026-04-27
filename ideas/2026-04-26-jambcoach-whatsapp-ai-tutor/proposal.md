@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: Nigeria
   secondary: [WhatsApp-first, AI-agent, Voice-first, Multilingual, SMB, Consumer]
+axes:
+  problem: 17
+  demand: 13
+  build: 14
+  distribution: 12
+  revenue: 10
+  time: 8
+  defensibility: 4
 founderFit: [technical-heavy]
 featured: false
 ---

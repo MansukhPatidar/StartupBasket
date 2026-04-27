@@ -1,0 +1,120 @@
+---
+interface Axis {
+  label: string;
+  short: string;
+  score: number;
+  max: number;
+}
+
+interface Props {
+  score: number;
+  verdict: string;
+  axes: {
+    problem: number;
+    demand: number;
+    build: number;
+    distribution: number;
+    revenue: number;
+    time: number;
+    defensibility: number;
+  };
+}
+
+const { score, verdict, axes } = Astro.props;
+
+const axisItems: Axis[] = [
+  { label: "Problem", short: "Problem", score: axes.problem, max: 20 },
+  { label: "Demand", short: "Demand", score: axes.demand, max: 15 },
+  { label: "Build", short: "Build", score: axes.build, max: 15 },
+  { label: "Distribution", short: "Distrib.", score: axes.distribution, max: 15 },
+  { label: "Revenue", short: "Revenue", score: axes.revenue, max: 15 },
+  { label: "Time", short: "Time", score: axes.time, max: 10 },
+  { label: "Defensibility", short: "Defense", score: axes.defensibility, max: 10 },
+];
+
+const hasScores = axisItems.some((a) => a.score > 0);
+
+function pct(s: number, m: number) {
+  return Math.round((s / m) * 100);
+}
+
+function ringColor(ratio: number) {
+  if (ratio >= 0.8) return "stroke-emerald-500 dark:stroke-emerald-400";
+  if (ratio >= 0.6) return "stroke-amber-500 dark:stroke-amber-400";
+  return "stroke-rose-500 dark:stroke-rose-400";
+}
+
+function verdictColor(v: string) {
+  if (v === "STRONG GO") return "text-emerald-600 dark:text-emerald-400";
+  if (v === "GO") return "text-emerald-600 dark:text-emerald-400";
+  if (v === "VALIDATE") return "text-amber-600 dark:text-amber-400";
+  return "text-rose-600 dark:text-rose-400";
+}
+
+// SVG ring constants
+const R = 28;
+const CIRC = 2 * Math.PI * R;
+---
+
+{hasScores && (
+  <div class="card p-5 sm:p-6">
+    <div class="flex items-center gap-2 mb-5">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-500">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+      </svg>
+      <span class="text-sm font-semibold text-surface-fg">Evaluation Scores</span>
+    </div>
+
+    <div class="flex items-center gap-6 sm:gap-8">
+      {/* Overall score ring */}
+      <div class="flex items-center gap-3 shrink-0">
+        <div class="relative w-16 h-16 sm:w-20 sm:h-20">
+          <svg viewBox="0 0 64 64" class="w-full h-full -rotate-90">
+            <circle cx="32" cy="32" r={R} fill="none" stroke-width="5"
+              class="stroke-surface-border/40" />
+            <circle cx="32" cy="32" r={R} fill="none" stroke-width="5"
+              stroke-linecap="round"
+              stroke-dasharray={`${(score / 100) * CIRC} ${CIRC}`}
+              class={ringColor(score / 100)} />
+          </svg>
+          <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <span class="text-xl sm:text-2xl font-bold tabular-nums text-surface-fg leading-none">{score}</span>
+            <span class="text-[9px] text-muted leading-none mt-0.5">/100</span>
+          </div>
+        </div>
+        <div>
+          <p class={`text-sm sm:text-base font-semibold ${verdictColor(verdict)}`}>{verdict}</p>
+          <p class="text-[11px] text-muted">Overall Score</p>
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div class="w-px h-12 bg-surface-border/60 shrink-0 hidden sm:block" />
+
+      {/* Per-axis rings */}
+      <div class="flex flex-wrap gap-x-4 gap-y-3 sm:gap-x-5">
+        {axisItems.map((axis) => {
+          const ratio = axis.score / axis.max;
+          return (
+            <div class="flex flex-col items-center gap-1">
+              <div class="relative w-10 h-10 sm:w-11 sm:h-11">
+                <svg viewBox="0 0 64 64" class="w-full h-full -rotate-90">
+                  <circle cx="32" cy="32" r={R} fill="none" stroke-width="5"
+                    class="stroke-surface-border/30" />
+                  <circle cx="32" cy="32" r={R} fill="none" stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-dasharray={`${ratio * CIRC} ${CIRC}`}
+                    class={ringColor(ratio)} />
+                </svg>
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <span class="text-xs sm:text-sm font-bold tabular-nums text-surface-fg">{axis.score}</span>
+                </div>
+              </div>
+              <span class="text-[10px] text-muted text-center leading-tight">{axis.short}</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+)}

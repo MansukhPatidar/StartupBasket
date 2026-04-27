@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: SEA
   secondary: [Mobile-first, WhatsApp-first, AI-agent, SMB, Live-commerce, Social-commerce]
+axes:
+  problem: 17
+  demand: 12
+  build: 12
+  distribution: 13
+  revenue: 11
+  time: 7
+  defensibility: 6
 founderFit: [technical-heavy]
 featured: false
 ---

@@ -13,6 +13,14 @@ tags:
   model: IoT+SaaS
   geography: India
   secondary: [WhatsApp-first, IoT, Embedded, Compliance-driven, SMB, Smart-home, LoRa]
+axes:
+  problem: 18
+  demand: 13
+  build: 11
+  distribution: 13
+  revenue: 12
+  time: 7
+  defensibility: 6
 founderFit: [technical-heavy]
 featured: true
 ---

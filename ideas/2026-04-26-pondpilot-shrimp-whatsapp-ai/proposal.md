@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: SEA
   secondary: [WhatsApp-first, AI-agent, Voice-first, Multilingual, SMB, Aquaculture]
+axes:
+  problem: 17
+  demand: 12
+  build: 10
+  distribution: 11
+  revenue: 10
+  time: 6
+  defensibility: 6
 founderFit: [technical-heavy, operations-heavy]
 featured: false
 ---

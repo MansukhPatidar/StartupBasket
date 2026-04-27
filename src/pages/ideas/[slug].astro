@@ -7,6 +7,7 @@ import TagBadge from "../../components/TagBadge.astro";
 import IdeaCard from "../../components/IdeaCard.astro";
 import Engagement from "../../components/Engagement.tsx";
 import ShareButton from "../../components/ShareButton.tsx";
+import ScoreCard from "../../components/ScoreCard.astro";
 import { getAllIdeas } from "../../lib/ideas";
 import { ideaMeta } from "../../lib/seo";
 
@@ -88,6 +89,10 @@ const { Content } = await render(idea);
   </header>
 
   <article class="max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-16">
+    <div class="mb-8">
+      <ScoreCard score={idea.data.score} verdict={idea.data.verdict} axes={idea.data.axes} />
+    </div>
+
     <div class="prose-idea">
       <Content />
     </div>

@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: US
   secondary: [AI-agent, SMB, Workforce, Skilled-trades, Recruitment, Solo-builder]
+axes:
+  problem: 18
+  demand: 13
+  build: 11
+  distribution: 12
+  revenue: 12
+  time: 7
+  defensibility: 7
 founderFit: [technical-heavy, sales-heavy]
 featured: true
 ---

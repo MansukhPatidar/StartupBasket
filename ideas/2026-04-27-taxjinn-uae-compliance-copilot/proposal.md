@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: MENA
   secondary: [AI-agent, Compliance-driven, SMB, Solo-builder, Arabic+English, WhatsApp-first]
+axes:
+  problem: 17
+  demand: 13
+  build: 11
+  distribution: 12
+  revenue: 12
+  time: 8
+  defensibility: 6
 founderFit: [technical-heavy, domain-expertise-required]
 featured: false
 ---

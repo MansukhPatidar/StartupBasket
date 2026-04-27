@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: Global
   secondary: [AI-agent, SMB, Solo-builder, WhatsApp-first, Workflow-automation]
+axes:
+  problem: 17
+  demand: 12
+  build: 14
+  distribution: 11
+  revenue: 11
+  time: 7
+  defensibility: 4
 founderFit: [technical-heavy]
 featured: false
 ---

@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: Kenya
   secondary: [WhatsApp-first, M-Pesa-native, Compliance-driven, SMB, AI-agent, Multilingual]
+axes:
+  problem: 17
+  demand: 13
+  build: 10
+  distribution: 12
+  revenue: 10
+  time: 8
+  defensibility: 7
 founderFit: [technical-heavy, sales-heavy]
 featured: false
 ---

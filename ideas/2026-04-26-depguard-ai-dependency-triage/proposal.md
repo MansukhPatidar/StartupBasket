@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: Global
   secondary: [AI-agent, SMB, GitHub-native, Developer-security, Alert-triage]
+axes:
+  problem: 16
+  demand: 13
+  build: 10
+  distribution: 13
+  revenue: 11
+  time: 7
+  defensibility: 7
 founderFit: [technical-heavy]
 featured: false
 ---

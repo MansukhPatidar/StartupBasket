@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: SEA
   secondary: [AI-agent, Freelancer, Mobile-first, Compliance-driven, SMB, Messenger-native]
+axes:
+  problem: 16
+  demand: 12
+  build: 14
+  distribution: 12
+  revenue: 10
+  time: 8
+  defensibility: 5
 founderFit: [technical-heavy]
 featured: false
 ---

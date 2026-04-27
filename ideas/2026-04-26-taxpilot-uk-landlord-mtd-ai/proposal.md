@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: UK
   secondary: [AI-agent, Compliance-driven, SMB, Solo-builder]
+axes:
+  problem: 18
+  demand: 14
+  build: 12
+  distribution: 13
+  revenue: 13
+  time: 7
+  defensibility: 5
 founderFit: [technical-heavy]
 featured: true
 ---

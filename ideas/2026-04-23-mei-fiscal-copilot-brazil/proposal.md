@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: LATAM
   secondary: [WhatsApp-first, AI-agent, Compliance-driven, SMB, Solo-builder, Multilingual]
+axes:
+  problem: 17
+  demand: 13
+  build: 12
+  distribution: 12
+  revenue: 12
+  time: 7
+  defensibility: 6
 founderFit: [technical-heavy]
 featured: false
 ---

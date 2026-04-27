@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: India
   secondary: [AI-powered, Compliance-driven, SMB]
+axes:
+  problem: 16
+  demand: 12
+  build: 10
+  distribution: 12
+  revenue: 12
+  time: 5
+  defensibility: 6
 founderFit: [technical-heavy, sales-heavy, domain-expertise-required]
 featured: true
 ---

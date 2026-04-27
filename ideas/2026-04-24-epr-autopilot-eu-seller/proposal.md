@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: EU
   secondary: [AI-agent, SMB, Compliance-driven, Shopify-native, Amazon-native]
+axes:
+  problem: 18
+  demand: 14
+  build: 11
+  distribution: 13
+  revenue: 12
+  time: 7
+  defensibility: 3
 founderFit: [technical-heavy]
 featured: false
 ---

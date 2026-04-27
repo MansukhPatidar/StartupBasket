@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: India+Global
   secondary: [AI-agent, SMB, Manufacturing, Computer-vision, Quality-control, BIS-compliance]
+axes:
+  problem: 16
+  demand: 11
+  build: 11
+  distribution: 13
+  revenue: 11
+  time: 8
+  defensibility: 8
 founderFit: [technical-heavy]
 featured: false
 ---

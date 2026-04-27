@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: US
   secondary: [Compliance-driven, SMB, AI-agent, Multi-location, Payroll-adjacent]
+axes:
+  problem: 17
+  demand: 11
+  build: 10
+  distribution: 11
+  revenue: 13
+  time: 7
+  defensibility: 7
 founderFit: [technical-heavy, domain-expertise-required]
 featured: false
 ---

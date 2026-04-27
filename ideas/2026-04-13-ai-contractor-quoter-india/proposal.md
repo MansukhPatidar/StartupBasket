@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: India
   secondary: [WhatsApp-first, Voice-first, Multilingual, SMB]
+axes:
+  problem: 14
+  demand: 8
+  build: 11
+  distribution: 10
+  revenue: 7
+  time: 5
+  defensibility: 6
 founderFit: [technical-heavy, sales-heavy, operations-heavy]
 featured: false
 ---

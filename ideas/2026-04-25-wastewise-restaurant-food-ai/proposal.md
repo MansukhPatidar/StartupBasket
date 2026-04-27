@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: US
   secondary: [AI-agent, SMB, Computer-vision, Food-waste, Inventory, Phone-camera]
+axes:
+  problem: 17
+  demand: 12
+  build: 12
+  distribution: 12
+  revenue: 12
+  time: 7
+  defensibility: 7
 founderFit: [technical-heavy]
 featured: false
 ---

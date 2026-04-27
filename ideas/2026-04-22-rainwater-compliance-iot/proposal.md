@@ -13,6 +13,14 @@ tags:
   model: IoT+SaaS
   geography: India
   secondary: [Embedded, ESP32, Compliance-driven, Water, RWA, SMB, AI-agent]
+axes:
+  problem: 16
+  demand: 13
+  build: 11
+  distribution: 12
+  revenue: 12
+  time: 8
+  defensibility: 6
 founderFit: [technical-heavy, operations-heavy, domain-expertise-required]
 featured: false
 ---

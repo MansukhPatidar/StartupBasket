@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: Global
   secondary: [Embedded, SMB, AI-agent, Solo-builder, Mechatronics, IoT]
+axes:
+  problem: 16
+  demand: 11
+  build: 10
+  distribution: 12
+  revenue: 12
+  time: 6
+  defensibility: 7
 founderFit: [technical-heavy, domain-expertise-required]
 featured: false
 ---

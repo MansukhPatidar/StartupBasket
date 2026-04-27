@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: LATAM
   secondary: [Social-commerce, Multilingual, AI-agent, SMB, Solo-builder, Platform-shift]
+axes:
+  problem: 16
+  demand: 12
+  build: 13
+  distribution: 12
+  revenue: 13
+  time: 8
+  defensibility: 4
 founderFit: [technical-heavy, sales-heavy]
 featured: false
 ---

@@ -13,6 +13,14 @@ tags:
   model: IoT+SaaS
   geography: India
   secondary: [WhatsApp-first, SMB, AI-agent, Multilingual]
+axes:
+  problem: 17
+  demand: 12
+  build: 11
+  distribution: 13
+  revenue: 11
+  time: 5
+  defensibility: 6
 founderFit: [technical-heavy, sales-heavy, domain-expertise-required]
 featured: false
 ---
