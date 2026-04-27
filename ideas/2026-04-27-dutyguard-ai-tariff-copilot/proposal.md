@@ -1,5 +1,5 @@
 ---
-title: "DutyGuard — AI tariff copilot that saves e-commerce importers from overpaying customs duties"
+title: "DutyGuard — AI tariff copilot for e-commerce importers"
 slug: dutyguard-ai-tariff-copilot
 date: 2026-04-27
 category: TradeTech SaaS / US+Global
