@@ -1,5 +1,5 @@
 ---
-title: "KeyBot — AI carrier-portal autopilot that eliminates re-keying for independent P&C agencies"
+title: "KeyBot — AI portal autopilot for P&C insurance agents"
 slug: keybot-insurance-portal-autopilot
 date: 2026-04-28
 category: InsurTech SaaS / US
