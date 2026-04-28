@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: India+Global
   secondary: [AI-agent, SMB, Compliance-driven, D2C, WhatsApp-first]
+axes:
+  problem: 17
+  demand: 13
+  build: 14
+  distribution: 12
+  revenue: 12
+  time: 9
+  defensibility: 4
 founderFit: [technical-heavy]
 featured: true
 ---

@@ -13,6 +13,14 @@ tags:
   model: SaaS
   geography: UK
   secondary: [WhatsApp-first, AI-agent, Voice-first, SMB, Solo-builder, Workflow-automation]
+axes:
+  problem: 17
+  demand: 12
+  build: 13
+  distribution: 12
+  revenue: 13
+  time: 8
+  defensibility: 5
 founderFit: [technical-heavy]
 featured: true
 ---
