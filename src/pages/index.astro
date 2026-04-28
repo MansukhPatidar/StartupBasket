@@ -11,13 +11,16 @@ const meta = homepageMeta(siteUrl);
 
 const all = await getAllIdeas();
 
-// Hero idea: pick the most recent idea with `featured: true`.
-// Falls back to highest-scored if none are featured.
-const featured = all.filter((i) => i.data.featured);
-const heroIdea =
-  featured.length > 0
-    ? featured[0] // already sorted by date desc from getAllIdeas()
-    : [...all].sort((a, b) => b.data.score - a.data.score)[0];
+// Hero idea: highest-scored idea from the current week (Mon-Sun).
+// Falls back to highest-scored overall if no ideas this week.
+const now = new Date();
+const monday = new Date(now);
+monday.setDate(now.getDate() - ((now.getDay() + 6) % 7));
+monday.setHours(0, 0, 0, 0);
+
+const thisWeek = all.filter((i) => i.data.date >= monday);
+const heroPool = thisWeek.length > 0 ? thisWeek : all;
+const heroIdea = [...heroPool].sort((a, b) => b.data.score - a.data.score)[0];
 
 const recent = all.filter((i) => i.data.slug !== heroIdea.data.slug).slice(0, 6);
 
