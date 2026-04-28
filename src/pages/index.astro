@@ -24,6 +24,12 @@ const heroIdea = [...heroPool].sort((a, b) => b.data.score - a.data.score)[0];
 
 const recent = all.filter((i) => i.data.slug !== heroIdea.data.slug).slice(0, 6);
 
+const recentSlugs = new Set(recent.map((i) => i.data.slug));
+const topPicks = [...all]
+  .filter((i) => i.data.slug !== heroIdea.data.slug && !recentSlugs.has(i.data.slug))
+  .sort((a, b) => b.data.score - a.data.score)
+  .slice(0, 6);
+
 const topVerticals = (await getAllTags())
   .filter((t) => t.kind === "vertical")
   .sort((a, b) => b.count - a.count)
@@ -117,40 +123,23 @@ const stats = {
     </div>
   </section>
 
-  <!-- HOW IT WORKS / RUBRIC TEASER -->
-  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-20 border-t border-surface-border">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
+  <!-- TOP PICKS — highest-scored ideas overall -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 border-t border-surface-border">
+    <div class="flex items-end justify-between mb-6">
       <div>
-        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-3">The rubric</p>
-        <h2 class="display text-3xl sm:text-4xl font-semibold tracking-tight mb-4">
-          Seven axes, weighted to&nbsp;100.
-        </h2>
-        <p class="text-surface-fg/70 leading-relaxed mb-6">
-          Every proposal passes gating criteria, then is scored across seven weighted axes
-          with qualitative modifiers and a structured verdict — including kill criteria
-          that tell you when to quit.
-        </p>
-        <a href="/about" class="btn btn-outline">Read the methodology</a>
+        <p class="text-xs uppercase tracking-widest text-muted font-medium mb-1">Top picks</p>
+        <h2 class="display text-2xl sm:text-3xl font-semibold tracking-tight">Highest-scored ideas</h2>
       </div>
-      <ul class="space-y-3">
-        {[
-          { name: "Problem intensity", weight: 20, desc: "How painful is this? Would they pay today?" },
-          { name: "Demand evidence", weight: 15, desc: "Hard signals — spend, competitors, complaints." },
-          { name: "Build feasibility", weight: 15, desc: "Can a small team ship v1 in 90 days?" },
-          { name: "Distribution clarity", weight: 15, desc: "Concrete path to the first 100 customers." },
-          { name: "Revenue mechanics", weight: 15, desc: "Does the math pencil out without heroics?" },
-          { name: "Time to revenue", weight: 10, desc: "Weeks to first paying customer." },
-          { name: "Defensibility", weight: 10, desc: "What stops a copycat in 6 months?" },
-        ].map((axis) => (
-          <li class="card p-4 flex items-center justify-between">
-            <div>
-              <p class="font-semibold display">{axis.name}</p>
-              <p class="text-sm text-muted mt-0.5">{axis.desc}</p>
-            </div>
-            <span class="font-mono text-sm text-surface-fg/60 tabular-nums">+{axis.weight}</span>
-          </li>
-        ))}
-      </ul>
+      <a href="/top" class="text-sm text-surface-fg/70 hover:text-surface-fg flex items-center gap-1">
+        See the full ranking
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
     </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {topPicks.map((idea) => <IdeaCard idea={idea} />)}
+    </div>
+    <p class="mt-8 text-sm text-muted text-center">
+      Curious how scoring works? <a href="/about" class="underline decoration-surface-border hover:decoration-surface-fg/40 hover:text-surface-fg transition">Read the methodology</a>.
+    </p>
   </section>
 </BaseLayout>
