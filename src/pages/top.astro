@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import IdeaCard from "../components/IdeaCard.astro";
+import { getAllIdeas } from "../lib/ideas";
+import type { SeoMeta } from "../lib/seo";
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
+const all = await getAllIdeas();
+const top = all
+  .filter((i) => i.data.score >= 80)
+  .sort((a, b) => b.data.score - a.data.score);
+
+const meta: SeoMeta = {
+  title: `Top Ideas — ${top.length} scored 80+ | StartupBasket`,
+  description: `The strongest startup ideas from StartupBasket, all scoring 80/100 or above. STRONG GO verdicts only.`,
+  canonical: `${siteUrl}/top/`,
+  ogImage: `${siteUrl}/og-default.png`,
+  ogType: "website",
+};
+---
+
+<BaseLayout meta={meta}>
+  <section class="relative overflow-hidden border-b border-surface-border">
+    <div class="absolute inset-0 bg-hero-light dark:bg-hero-dark" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-dotgrid opacity-60" aria-hidden="true"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-14 sm:pt-20 pb-14">
+      <div class="inline-flex items-center gap-2 mb-4 text-xs font-medium text-surface-fg/70">
+        <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+        <span class="uppercase tracking-widest">Strong GO</span>
+      </div>
+      <h1 class="display text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.02]">
+        Top ideas
+      </h1>
+      <p class="mt-5 text-[17px] text-surface-fg/70 leading-relaxed max-w-xl">
+        {top.length} ideas scored 80 or above — the strongest signals, clearest
+        distribution, and most compelling unit economics in the portfolio.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+    <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
+      {top.map((idea) => <IdeaCard idea={idea} />)}
+    </div>
+  </section>
+</BaseLayout>
