@@ -11,11 +11,13 @@ const meta = homepageMeta(siteUrl);
 
 const all = await getAllIdeas();
 
-// Pinned hero idea — DocScribe by default. Falls back to highest-scored if not present.
-const HERO_SLUG = "ai-medical-scribe-india";
+// Hero idea: pick the most recent idea with `featured: true`.
+// Falls back to highest-scored if none are featured.
+const featured = all.filter((i) => i.data.featured);
 const heroIdea =
-  all.find((i) => i.data.slug === HERO_SLUG) ??
-  [...all].sort((a, b) => b.data.score - a.data.score)[0];
+  featured.length > 0
+    ? featured[0] // already sorted by date desc from getAllIdeas()
+    : [...all].sort((a, b) => b.data.score - a.data.score)[0];
 
 const recent = all.filter((i) => i.data.slug !== heroIdea.data.slug).slice(0, 6);
 
