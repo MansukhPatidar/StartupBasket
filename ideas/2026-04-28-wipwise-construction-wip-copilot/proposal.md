@@ -1,5 +1,5 @@
 ---
-title: "WIPWise — AI work-in-progress copilot for small construction contractors"
+title: "WIPWise — AI WIP copilot for small construction contractors"
 slug: wipwise-construction-wip-copilot
 date: 2026-04-28
 category: FinTech SaaS / US Construction
