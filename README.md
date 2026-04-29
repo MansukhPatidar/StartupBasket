@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-04-30 | NotaZap — WhatsApp AI receptionist + auto-NFS-e for Brazil's 15M MEIs | Compliance SaaS / Brazil MEIs & Service Freelancers | 78 | GO | [folder](./ideas/2026-04-30-notazap-brasil-mei-whatsapp-nfse/) |
 | 2026-04-29 | MortClerk — AI back-office clerk for independent US funeral homes | ProfessionalServices SaaS / US Funeral Homes | 80 | STRONG GO | [folder](./ideas/2026-04-29-mortclerk-funeral-home-paperwork-ai/) |
 | 2026-04-29 | CleatCheck — AI SafeSport compliance copilot for US studios | Compliance SaaS / US Youth Sports Studios | 81 | STRONG GO | [folder](./ideas/2026-04-29-cleatcheck-safesport-studio-compliance/) |
 | 2026-04-29 | RentClerk — eRITS rent-tax copilot for Kenyan landlords | Compliance SaaS / Kenya Residential Landlords | 79 | GO | [folder](./ideas/2026-04-29-rentclerk-kenya-landlord-erits/) |
