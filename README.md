@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-04-29 | RentClerk — eRITS rent-tax copilot for Kenyan landlords | Compliance SaaS / Kenya Residential Landlords | 79 | GO | [folder](./ideas/2026-04-29-rentclerk-kenya-landlord-erits/) |
 | 2026-04-29 | QuoteShield — AI underquoting compliance copilot for Australian agents | Compliance SaaS / Australia Real Estate | 83 | STRONG GO | [folder](./ideas/2026-04-29-quoteshield-au-underquoting-copilot/) |
 | 2026-04-29 | HeatShield — AI heat-safety compliance copilot for small outdoor contractors | Compliance SaaS / US Outdoor Trades | 82 | STRONG GO | [folder](./ideas/2026-04-29-ai-heat-compliance-copilot/) |
 | 2026-04-29 | LienGuard — AI lien waiver and payment-rights copilot for small US subcontractors | FinTech SaaS / US Construction | 78 | GO | [folder](./ideas/2026-04-29-ai-lien-waiver-sub-copilot/) |
