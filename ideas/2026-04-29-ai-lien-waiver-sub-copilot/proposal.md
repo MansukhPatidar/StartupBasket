@@ -1,5 +1,5 @@
 ---
-title: "LienGuard — AI lien waiver and payment-rights copilot for small US subcontractors"
+title: "LienGuard — AI lien waiver copilot for US subcontractors"
 slug: ai-lien-waiver-sub-copilot
 date: 2026-04-29
 category: FinTech SaaS / US Construction
