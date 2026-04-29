@@ -37,12 +37,12 @@ For each matching idea, read the **full proposal.md**, not just the frontmatter.
 
 - **≤ 240 characters effective**, where "effective" is what X actually counts: any URL in the tweet collapses to 23 chars in X's character counter, regardless of the URL's true length. So when you pre-flight count, sum (raw text excluding the URL) + 23. Note that the *raw text the user pastes into the composer* will look longer because the full URL is visible — that's fine, X re-counts it on submit.
 - **URL must be exactly:** `https://startupbasket.ai/ideas/<slug>/` (trailing slash, no query string)
-- **Hashtags required.** Build the list from the frontmatter tags:
+- **Hashtags required — emit all of them.** Build the list from the frontmatter tags:
   - Always include `#StartupIdeas` and `#StartupBasket`
-  - Add one hashtag per `tags.*` value: vertical, model, geography, plus each item in `tags.secondary[]`
+  - Add one hashtag per `tags.*` value: **vertical, model, geography, AND every item in `tags.secondary[]`** — emit them all, don't drop any to fit
   - Hashtag-ify by stripping all non-alphanumerics: `IoT+SaaS` → `#IoTSaaS`, `India+Global` → `#IndiaGlobal`, `WhatsApp-first` → `#WhatsAppfirst`
-  - If the full hashtag tail won't fit in 240 chars, drop tags from the *end of secondary[]* until it fits, but keep `#StartupIdeas`, `#StartupBasket`, vertical, geography (those four are the floor).
-- **Score + verdict if it fits.** Format: `Score: 83/100 — STRONG GO`. If even after dropping non-floor hashtags it still doesn't fit, drop the score line.
+  - If the full hashtag tail blows the 240-char ceiling, do NOT drop hashtags. Tighten the hook and product line instead. Last resort if still over: drop the score line. Hashtags are the SEO surface; they are non-negotiable.
+- **Score + verdict if it fits.** Format: `Score: 83/100 — STRONG GO`. Drop only if every other lever (tighter hook, tighter product line) has been pulled and the tweet is still over.
 
 ### Structure
 
@@ -77,7 +77,11 @@ https://startupbasket.ai/ideas/quoteshield-au-underquoting-copilot/
 
 **Output ONLY the formatted block below. No preamble, no commentary, no "I'll now produce…", no closing summary.** The user is going to copy-paste straight from the terminal.
 
-Print each snippet **inside a fenced code block** so the user can triple-click to select. Separate snippets with `---` on its own line.
+Each snippet has two parts:
+1. A header line with **just the product name**: `--- <Product Name> ---`. This is a visible label, NOT for copying. No idea numbers, no totals.
+2. The tweet text, wrapped **between two lines of exactly `========`** (8 equals signs, on their own lines, with no surrounding code fence). Between the two markers, print **only the tweet text** — nothing else. No length line, no commentary. The user copies whatever sits between one pair of `========` lines.
+
+Pre-flight the character count internally to make sure each tweet is ≤ 240 effective chars, but **do not print the length** in the output.
 
 Format:
 
@@ -85,17 +89,15 @@ Format:
 Date: 2026-04-29
 Found N idea(s) on this date.
 
---- Idea 1 of N: <Product Name> ---
-```
+--- <Product Name> ---
+========
 <tweet text here, 240 chars or less>
-```
-Length: 234 chars (URL counted as 23)
+========
 
---- Idea 2 of N: <Product Name> ---
-```
-<tweet text here>
-```
-Length: 218 chars
+--- <Product Name> ---
+========
+<next tweet text here>
+========
 ```
 
 That's it. **Do not post anything.** Do not write any files. Do not run any git commands.
