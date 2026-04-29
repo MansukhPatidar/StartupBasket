@@ -1,5 +1,5 @@
 ---
-title: "ClaimShield — AI audit defense copilot for independent pharmacies"
+title: "ClaimShield — AI PBM audit shield for indie pharmacies"
 slug: ai-pharmacy-pbm-audit-shield
 date: 2026-04-29
 category: HealthTech SaaS / US Independent Pharmacy
