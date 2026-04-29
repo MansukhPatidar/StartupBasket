@@ -92,7 +92,19 @@ export default function ShareButton({ url, title, text, slug, variant = "detail"
       <button
         type="button"
         onClick={() => {
-          if (typeof navigator !== "undefined" && navigator.share) {
+          // Use the native share sheet only on touch / coarse-pointer devices
+          // (phones, tablets). On desktop the OS sheet shows AirDrop/Messages/
+          // Notes which is useless for sharing a link socially — fall back to
+          // the in-app popover with explicit X / LinkedIn / Copy actions.
+          const isTouch =
+            typeof window !== "undefined" &&
+            window.matchMedia &&
+            window.matchMedia("(pointer: coarse)").matches;
+          if (
+            isTouch &&
+            typeof navigator !== "undefined" &&
+            navigator.share
+          ) {
             handleNativeShare();
           } else {
             setOpen((o) => !o);
