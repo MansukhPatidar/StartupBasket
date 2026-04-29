@@ -1,5 +1,5 @@
 ---
-title: "SuppleMint — AI supplement copilot for independent collision repair shops"
+title: "SuppleMint — AI supplement copilot for collision shops"
 slug: ai-collision-supplement-copilot
 date: 2026-04-29
 category: InsurTech SaaS / US Collision Repair
