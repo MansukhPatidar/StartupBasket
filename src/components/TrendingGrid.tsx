@@ -31,7 +31,11 @@ export default function TrendingGrid({ ideas }: Props) {
       const sb = getSupabase();
       if (!sb) {
         // No Supabase — fall back to static order
-        setItems(ideas.map((i) => ({ ...i, views: 0, likes: 0, trending: 0 })));
+        setItems(
+          ideas
+            .map((i) => ({ ...i, views: 0, likes: 0, trending: 0 }))
+            .slice(0, 9),
+        );
         setLoading(false);
         return;
       }
@@ -56,7 +60,7 @@ export default function TrendingGrid({ ideas }: Props) {
       });
 
       scored.sort((a, b) => b.trending - a.trending);
-      setItems(scored);
+      setItems(scored.slice(0, 9));
       setLoading(false);
     })();
   }, [ideas]);
@@ -64,7 +68,7 @@ export default function TrendingGrid({ ideas }: Props) {
   if (loading) {
     return (
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
-        {[...Array(6)].map((_, i) => (
+        {[...Array(9)].map((_, i) => (
           <div key={i} className="card p-5 h-48 animate-pulse" />
         ))}
       </div>

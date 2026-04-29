@@ -12,10 +12,10 @@ export async function getAllIdeas(): Promise<Idea[]> {
 export async function getFeaturedIdeas(): Promise<Idea[]> {
   const ideas = await getAllIdeas();
   const featured = ideas.filter((i) => i.data.featured);
-  if (featured.length >= 3) return featured.slice(0, 6);
+  if (featured.length >= 3) return featured.slice(0, 9);
   // Fall back to top-scored ideas if not enough are explicitly featured.
   const topScored = [...ideas].sort((a, b) => b.data.score - a.data.score);
-  return topScored.slice(0, 6);
+  return topScored.slice(0, 9);
 }
 
 export async function getIdeasByTag(tag: string): Promise<Idea[]> {
