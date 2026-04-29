@@ -1,0 +1,135 @@
+# StartupBasket
+
+A daily product-idea generator run by a persona: an experienced tech entrepreneur hunting for low-to-medium complexity products that can realistically hit **$1M–$5M in annual recurring revenue** in 18–24 months. AI-powered angles and localized plays (India-first, emerging markets) are prioritized.
+
+One new idea lands here every day. Each idea is its own folder under `ideas/`, scored against a 4-layer rubric, and indexed in the table below.
+
+## How it works
+
+- **[PERSONA.md](./PERSONA.md)** — the operator voice loaded on every run. Defines what gets filtered in and out.
+- **[TEMPLATE.md](./TEMPLATE.md)** — the 15-section proposal schema every idea fills.
+- **[RUBRIC.md](./RUBRIC.md)** — 4-layer scoring framework: gating criteria → 7-axis scoring (0–100) → qualitative modifiers → structured verdict.
+- **[PIPELINE.md](./PIPELINE.md)** — the 6-stage generation framework: Signals → Triangulation → Shape → Filter → Research → Score → Publish. Every idea must have ≥3 triangulated signals.
+- **`ideas/`** — one folder per idea, named `YYYY-MM-DD-<slug>/`.
+- **`/new-idea`** — project-scoped slash command that runs the full pipeline. Invoked manually or on a 3-hour cron.
+
+## Verdicts
+
+| Score | Verdict | Meaning |
+|-------|---------|---------|
+| 80–100 | **STRONG GO** | Build now. Signals are strong. |
+| 70–79 | **GO** | Build with conditions. Validate weakest axis first. |
+| 55–69 | **VALIDATE** | Interesting but unproven. Run the 1-week sprint first. |
+| 0–54 | **PASS** | Structural issues. Skip or revisit later. |
+
+## Index
+
+Newest first. Click a row's folder link to read the full proposal.
+
+| Date | Idea | Category | Score | Verdict | Folder |
+|------|------|----------|-------|---------|--------|
+<!-- new ideas get inserted here, directly below this line -->
+| 2026-04-29 | HeatShield — AI heat-safety compliance copilot for small outdoor contractors | Compliance SaaS / US Outdoor Trades | 82 | STRONG GO | [folder](./ideas/2026-04-29-ai-heat-compliance-copilot/) |
+| 2026-04-29 | LienGuard — AI lien waiver and payment-rights copilot for small US subcontractors | FinTech SaaS / US Construction | 78 | GO | [folder](./ideas/2026-04-29-ai-lien-waiver-sub-copilot/) |
+| 2026-04-29 | ClaimShield — AI audit defense copilot for independent pharmacies | HealthTech SaaS / US | 80 | STRONG GO | [folder](./ideas/2026-04-29-ai-pharmacy-pbm-audit-shield/) |
+| 2026-04-29 | SuppleMint — AI supplement copilot for independent collision repair shops | InsurTech SaaS / US | 79 | GO | [folder](./ideas/2026-04-29-ai-collision-supplement-copilot/) |
+| 2026-04-29 | LeadLock — AI compliance copilot for EPA lead-paint renovation contractors | Compliance SaaS / US | 82 | STRONG GO | [folder](./ideas/2026-04-29-ai-rrp-lead-compliance/) |
+| 2026-04-29 | ClassPilot — WhatsApp AI copilot for India's small coaching classes | EdTech SaaS / India | 79 | GO | [folder](./ideas/2026-04-29-ai-coaching-class-whatsapp/) |
+| 2026-04-28 | KeyBot — AI carrier-portal autopilot for independent P&C agencies | InsurTech SaaS / US | 78 | GO | [folder](./ideas/2026-04-28-keybot-insurance-portal-autopilot/) |
+| 2026-04-28 | ChillSentry — HACCP cold-chain monitor for US restaurants | IoT+SaaS / US RestaurantTech | 81 | STRONG GO | [folder](./ideas/2026-04-28-chillsentry-haccp-iot-restaurants/) |
+| 2026-04-28 | InvoicePH — AI e-invoice copilot for Filipino online sellers | Compliance SaaS / Philippines E-commerce | 80 | STRONG GO | [folder](./ideas/2026-04-28-invoiceph-ai-seller-einvoice/) |
+| 2026-04-28 | MarginMate | RestaurantTech SaaS / US | 81 | STRONG GO | [folder](./ideas/2026-04-28-marginmate-ai-food-cost-copilot/) |
+| 2026-04-28 | WrenchChat | Automotive SaaS / UK | 80 | STRONG GO | [folder](./ideas/2026-04-28-wrenchchat-uk-garage-comms-ai/) |
+| 2026-04-28 | WIPWise | FinTech SaaS / US Construction | 79 | GO | [folder](./ideas/2026-04-28-wipwise-construction-wip-copilot/) |
+| 2026-04-28 | PackPass — AI packaging compliance copilot for EU e-commerce sellers | Compliance SaaS / EU E-commerce | 80 | STRONG GO | [folder](./ideas/2026-04-28-packpass-eu-packaging-compliance-ai/) |
+| 2026-04-28 | RateGenie | PropTech SaaS / US | 81 | STRONG GO | [folder](./ideas/2026-04-28-rategenie-self-storage-pricing-ai/) |
+| 2026-04-28 | LabelSahay — AI label compliance copilot for India's small food brands | Compliance SaaS / India D2C Food | 81 | STRONG GO | [folder](./ideas/2026-04-28-ai-food-label-india/) |
+| 2026-04-28 | AgendaBot — WhatsApp AI receptionist for LATAM's 1.2M micro-salons | ProfessionalServices SaaS / LATAM | 82 | STRONG GO | [folder](./ideas/2026-04-28-agendabot-whatsapp-booking-latam/) |
+| 2026-04-27 | ReformaAI — AI tax-reform copilot for Brazil's small accounting firms | Compliance SaaS / Brazil | 76 | GO | [folder](./ideas/2026-04-27-reformaai-brazil-tax-copilot/) |
+| 2026-04-27 | PodPilot — back-office copilot for US microschool founders | EdTech SaaS / US Microschool | 83 | STRONG GO | [folder](./ideas/2026-04-27-microschool-ops-copilot/) |
+| 2026-04-27 | DutyGuard — AI tariff copilot that saves e-commerce importers from overpaying customs duties | TradeTech SaaS / US+Global | 81 | STRONG GO | [folder](./ideas/2026-04-27-dutyguard-ai-tariff-copilot/) |
+| 2026-04-27 | TaxJinn — AI corporate tax & e-invoicing copilot for UAE freelancers and micro-businesses | Compliance SaaS / UAE+MENA | 79 | GO | [folder](./ideas/2026-04-27-taxjinn-uae-compliance-copilot/) |
+| 2026-04-27 | CreatorTax — AI compliance copilot handling GST, TDS, disclosure tagging, and Creator Economy Bill compliance for Indian creators | Creator Economy SaaS / India | 82 | STRONG GO | [folder](./ideas/2026-04-27-creatortax-india-compliance-copilot/) |
+| 2026-04-27 | VibeSafe — AI code health dashboard for non-technical founders who vibe-code | DevTools SaaS / Global | 81 | STRONG GO | [folder](./ideas/2026-04-27-vibesafe-ai-code-health-check/) |
+| 2026-04-27 | PetQ — WhatsApp AI receptionist that books appointments and chases vaccination reminders for India's independent vet clinics | HealthTech SaaS / India | 78 | GO | [folder](./ideas/2026-04-27-petq-whatsapp-vet-receptionist/) |
+| 2026-04-27 | CargoClerk — AI carrier invoice auditor that catches the 18% billing error rate bleeding small freight brokers | Logistics SaaS / US | 77 | GO | [folder](./ideas/2026-04-27-cargoclerk-freight-invoice-audit-ai/) |
+| 2026-04-27 | NetraQC — Phone-camera AI inspection that replaces manual eyeballing for India's small manufacturers | Manufacturing SaaS / India | 78 | GO | [folder](./ideas/2026-04-27-netraqc-phone-ai-factory-inspection/) |
+| 2026-04-26 | DepGuard — AI triage layer that silences dependency alert noise for small dev teams | DevTools SaaS / Global | 77 | GO | [folder](./ideas/2026-04-26-depguard-ai-dependency-triage/) |
+| 2026-04-26 | TaxPilot — AI tax copilot that handles Making Tax Digital for UK landlords | PropTech SaaS / UK | 82 | STRONG GO | [folder](./ideas/2026-04-26-taxpilot-uk-landlord-mtd-ai/) |
+| 2026-04-26 | BinBuzz — IoT bin sensors + SWM 2026 compliance dashboard for Indian housing societies | IoT+SaaS / India CleanTech | 80 | STRONG GO | [folder](./ideas/2026-04-26-smart-bin-iot-india/) |
+| 2026-04-26 | JambCoach — WhatsApp AI exam tutor for Nigeria | EdTech SaaS / Nigeria | 78 | GO | [folder](./ideas/2026-04-26-jambcoach-whatsapp-ai-tutor/) |
+| 2026-04-26 | RenewBot — AI renewal autopilot for independent insurance agencies | InsurTech SaaS / US | 79 | GO | [folder](./ideas/2026-04-26-renewbot-insurance-renewal-ai/) |
+| 2026-04-26 | PayUp — AI invoice chaser that gets UK freelancers paid without burning bridges | FinTech SaaS / UK | 78 | GO | [folder](./ideas/2026-04-26-payup-ai-uk-invoice-chaser/) |
+| 2026-04-26 | PondPilot — WhatsApp AI copilot for small shrimp farmers to prevent disease and optimize yields | AgriTech SaaS / SEA | 72 | GO | [folder](./ideas/2026-04-26-pondpilot-shrimp-whatsapp-ai/) |
+| 2026-04-26 | TradePipe — AI hiring copilot that fills skilled-trade jobs for small contractors | ProfessionalServices SaaS / US | 80 | STRONG GO | [folder](./ideas/2026-04-26-tradepipe-ai-trades-hiring/) |
+| 2026-04-26 | BidSnap — AI walkthrough-to-bid copilot for commercial cleaning companies | HomeServices SaaS / US | 81 | STRONG GO | [folder](./ideas/2026-04-26-bidsnap-cleaning-bid-ai/) |
+| 2026-04-25 | WasteWise — AI food cost copilot for independent restaurants | RestaurantTech SaaS / US+Global | 79 | GO | [folder](./ideas/2026-04-25-wastewise-restaurant-food-ai/) |
+| 2026-04-25 | RateBot — AI revenue copilot for independent self-storage operators | PropTech SaaS / US+Global | 81 | STRONG GO | [folder](./ideas/2026-04-25-ratebot-storage-revenue-ai/) |
+| 2026-04-25 | DealKaro — WhatsApp AI sales assistant for India's solo real estate brokers | PropTech SaaS / India | 79 | GO | [folder](./ideas/2026-04-25-dealkaro-realtor-whatsapp-ai/) |
+| 2026-04-25 | RigReady — AI compliance copilot for small trucking carriers and owner-operators | Logistics SaaS / US Trucking | 80 | STRONG GO | [folder](./ideas/2026-04-25-rigready-dot-compliance-copilot/) |
+| 2026-04-25 | PassportReady — AI supply-chain data copilot for EU Digital Product Passport compliance | Compliance SaaS / EU+Global | 77 | GO | [folder](./ideas/2026-04-25-passportready-dpp-data-copilot/) |
+| 2026-04-25 | SuryaCare — WhatsApp AI copilot for rooftop solar after-sales and O&M | CleanTech SaaS / India | 78 | GO | [folder](./ideas/2026-04-25-suryacare-solar-om-copilot/) |
+| 2026-04-25 | SafeSite AI — OSHA compliance copilot for small construction crews | Compliance SaaS / US Construction | 79 | GO | [folder](./ideas/2026-04-25-safesite-ai-osha-copilot/) |
+| 2026-04-25 | LocalPilot | Local Marketing AI / US-SMB | 76 | GO | [folder](./ideas/2026-04-25-localpilot-ai-presence-agent/) |
+| 2026-04-24 | PackPass — AI EPR compliance autopilot for small EU e-commerce sellers | Compliance SaaS / EU | 78 | GO | [folder](./ideas/2026-04-24-epr-autopilot-eu-seller/) |
+| 2026-04-24 | CasePilot — AI phone receptionist for solo and small law firms | Legal-AI SaaS / US | 78 | GO | [folder](./ideas/2026-04-24-casepilot-legal-ai-receptionist/) |
+| 2026-04-24 | ShipSafe — AI hazmat compliance copilot for e-commerce and small shippers | Logistics SaaS / Global | 76 | GO | [folder](./ideas/2026-04-24-shipsafe-hazmat-copilot/) |
+| 2026-04-24 | StockKaro — auto-restock for Indian households via quick commerce | Consumer SaaS / India Retail | 77 | GO | [folder](./ideas/2026-04-24-household-restock-autopilot/) |
+| 2026-04-24 | PesaBooks | FinTech SaaS / Kenya | 77 | GO | [folder](./ideas/2026-04-24-mpesa-books-kenya-sme/) |
+| 2026-04-24 | TallerYa | Automotive SaaS / Mexico | 76 | GO | [folder](./ideas/2026-04-24-taller-ai-mexico-garage/) |
+| 2026-04-24 | LiveSold | Creator Economy SaaS / SEA | 78 | GO | [folder](./ideas/2026-04-24-livesold-sea-comment-commerce/) |
+| 2026-04-24 | MarkdownIQ | Retail SaaS / US | 76 | GO | [folder](./ideas/2026-04-24-markdown-copilot-fashion/) |
+| 2026-04-24 | RefillKaro | HealthTech SaaS / India Retail Pharmacy | 81 | STRONG GO | [folder](./ideas/2026-04-24-pharma-retain-whatsapp/) |
+| 2026-04-23 | NotaZap | FinTech SaaS / Brazil MEI | 79 | GO | [folder](./ideas/2026-04-23-mei-fiscal-copilot-brazil/) |
+| 2026-04-23 | BatchKaro | EdTech SaaS / India | 77 | GO | [folder](./ideas/2026-04-23-tuition-fee-whatsapp/) |
+| 2026-04-23 | QuoteHound | HomeServices SaaS / US | 79 | GO | [folder](./ideas/2026-04-23-quote-chase-contractors/) |
+| 2026-04-23 | CostKari | RestaurantTech / India | 78 | GO | [folder](./ideas/2026-04-23-ai-recipe-cost-india/) |
+| 2026-04-23 | SuppleMint | Automotive SaaS / US SMB | 76 | GO | [folder](./ideas/2026-04-23-supplement-ai-body-shop/) |
+| 2026-04-23 | CrewReady — AI crew-readiness copilot for small trade contractors | HomeServices SaaS / US | 77 | GO | [folder](./ideas/2026-04-23-crew-ready-trades/) |
+| 2026-04-23 | DocPull | ProfessionalServices SaaS / Global | 76 | GO | [folder](./ideas/2026-04-23-ai-doc-chase-accountants/) |
+| 2026-04-23 | FilaTax — AI tax copilot for Filipino freelancers | FinTech SaaS / Philippines | 77 | GO | [folder](./ideas/2026-04-23-freelancer-tax-copilot-ph/) |
+| 2026-04-22 | RainCheck — IoT rainwater-harvesting compliance monitor for Indian RWAs | CleanTech IoT+SaaS / India Urban Residential | 78 | GO | [folder](./ideas/2026-04-22-rainwater-compliance-iot/) |
+| 2026-04-22 | JalSync — wireless dual-tank water manager with tanker auto-reorder | IoT+SaaS / India HomeServices | 79 | GO | [folder](./ideas/2026-04-22-smart-dual-tank-water/) |
+| 2026-04-22 | SterileTrace — autoclave & spore-test compliance logger for dental practices | HealthTech Compliance / US SMB | 76 | GO | [folder](./ideas/2026-04-22-dental-sterile-log/) |
+| 2026-04-22 | AuditReady — AI DOT compliance copilot for new US trucking authorities | Logistics SaaS / US Small Fleet | 76 | GO | [folder](./ideas/2026-04-22-dot-audit-copilot-trucking/) |
+| 2026-04-22 | ExportBabu — AI export-documentation copilot for Indian MSME exporters | TradeTech SaaS / India MSME | 78 | GO | [folder](./ideas/2026-04-22-ai-export-docs-india/) |
+| 2026-04-22 | FixA11y — AI accessibility fixer that patches your code, not your conscience | Compliance SaaS / US+EU SMB | 81 | STRONG GO | [folder](./ideas/2026-04-22-ai-accessibility-fixer/) |
+| 2026-04-22 | LetPilot — AI compliance copilot for UK small landlords (MTD + Renters' Rights) | PropTech SaaS / UK SMB | 78 | GO | [folder](./ideas/2026-04-22-uk-landlord-compliance-copilot/) |
+| 2026-04-22 | HalalReady — AI halal-certification copilot for Indonesian food MSMEs | Compliance SaaS / Indonesia SEA | 77 | GO | [folder](./ideas/2026-04-22-halal-ready-indonesia/) |
+| 2026-04-22 | TariffPilot — AI landed-cost copilot for small US importers | TradeTech SaaS / US SMB | 79 | GO | [folder](./ideas/2026-04-22-tariff-pilot-smb-importer/) |
+| 2026-04-22 | FansLedger — tax & bookkeeping copilot for fan-subscription creators | FinTech SaaS / US Creator Economy | 77 | GO | [folder](./ideas/2026-04-22-creator-tax-copilot/) |
+| 2026-04-22 | DisputaYa — TikTok Shop dispute autopilot for LATAM sellers | E-commerce SaaS / LATAM | 78 | GO | [folder](./ideas/2026-04-22-tiktok-shop-dispute-latam/) |
+| 2026-04-22 | ShiftShield — wage-compliance copilot for US restaurant groups | RestaurantTech SaaS / US SMB | 76 | GO | [folder](./ideas/2026-04-22-restaurant-wage-compliance/) |
+| 2026-04-22 | CrashCatch — AI crash reporter for STM32 and ESP32 field devices | DevTools IoT SaaS / Global | 74 | GO | [folder](./ideas/2026-04-22-embedded-crash-observer/) |
+| 2026-04-22 | ActReady — EU AI Act compliance autopilot for 10-50 person SMEs | Compliance SaaS / EU SMB | 82 | STRONG GO | [folder](./ideas/2026-04-22-eu-ai-act-sme-compliance/) |
+| 2026-04-22 | WasteSnap — phone-camera food waste tracker for independent restaurants | RestaurantTech SaaS / Global | 76 | GO | [folder](./ideas/2026-04-22-ai-food-waste-tracker/) |
+| 2026-04-22 | LodgePilot — AI lodging-tax autopilot for small US short-term rental hosts | FinTech SaaS / US SMB | 78 | GO | [folder](./ideas/2026-04-22-str-tax-autopilot/) |
+| 2026-04-21 | ShipLog — AI-powered product changelog that writes itself | DevTools SaaS / Global | 72 | GO | [folder](./ideas/2026-04-21-ai-changelog-saas/) |
+| 2026-04-21 | MotorGuard — plug-and-play predictive maintenance for MSME factories | Industrial IoT + SaaS / India | 73 | GO | [folder](./ideas/2026-04-21-iot-factory-motor-guard/) |
+| 2026-04-20 | QuoteWala — AI procurement assistant for Indian manufacturers | Manufacturing SaaS / India | 77 | GO | [folder](./ideas/2026-04-20-ai-procurement-whatsapp/) |
+| 2026-04-19 | ReplyKaro — AI order manager for WhatsApp-first micro-businesses | Conversational Commerce SaaS / India | 72 | GO | [folder](./ideas/2026-04-19-ai-whatsapp-order-bot/) |
+| 2026-04-19 | ReportPilot — AI client reporting for solo marketers | Marketing SaaS / Global | 70 | GO | [folder](./ideas/2026-04-19-ai-client-report-freelancer/) |
+| 2026-04-19 | SiteSync — AI project copilot for Indian interior designers | HomeServices SaaS / India | 66 | VALIDATE | [folder](./ideas/2026-04-19-ai-interior-project-copilot/) |
+| 2026-04-18 | ContractKaro — AI contract co-pilot for Indian SMBs | Legal-Tech SaaS / India SMB | 72 | GO | [folder](./ideas/2026-04-18-ai-contract-copilot-india/) |
+| 2026-04-18 | DPPGenie — AI adaptive daily practice engine for coaching institutes | EdTech SaaS / India | 70 | GO | [folder](./ideas/2026-04-18-ai-daily-practice-edtech/) |
+| 2026-04-18 | DraftWala — AI legal drafting copilot for Indian solo advocates | LegalTech SaaS / India | 72 | GO | [folder](./ideas/2026-04-18-ai-legal-drafter-india/) |
+| 2026-04-17 | PakkaShip — AI-powered RTO prevention for small Indian D2C sellers | E-commerce SaaS / India | 74 | GO | [folder](./ideas/2026-04-17-ai-rto-shield-d2c/) |
+| 2026-04-17 | MedCounter — AI prescription-to-bill copilot for Indian chemist shops | HealthTech SaaS / India | 68 | VALIDATE | [folder](./ideas/2026-04-17-ai-pharmacy-copilot-india/) |
+| 2026-04-17 | WellnessDesk — AI practice copilot for solo wellness practitioners | Wellness SaaS / India | 67 | VALIDATE | [folder](./ideas/2026-04-17-ai-wellness-practice-copilot/) |
+| 2026-04-16 | TruckBahi — AI dispatch copilot for small Indian trucking fleets | Logistics SaaS / India | 72 | GO | [folder](./ideas/2026-04-16-ai-fleet-dispatch-india/) |
+| 2026-04-16 | FPOSaathi — AI back-office copilot for Indian FPOs | AgriTech SaaS / India | 71 | GO | [folder](./ideas/2026-04-16-ai-fpo-copilot-india/) |
+| 2026-04-16 | HomeBuddy — AI smart home app for India's Tuya generation | Smart Home SaaS / India | 62 | VALIDATE | [folder](./ideas/2026-04-16-ai-smart-home-india/) |
+| 2026-04-16 | DocScribe — multilingual AI scribe for Indian doctors | HealthTech SaaS / India | 74 | GO | [folder](./ideas/2026-04-16-ai-medical-scribe-india/) |
+| 2026-04-15 | SolarSathi — plug-and-play solar rooftop monitor | CleanTech IoT + SaaS / India | 74 | GO | [folder](./ideas/2026-04-15-solar-rooftop-monitor/) |
+| 2026-04-14 | BatteryBuddy — retrofit smart inverter monitor | IoT + SaaS / India | 63 | VALIDATE | [folder](./ideas/2026-04-14-smart-inverter-monitor/) |
+| 2026-04-14 | ChillGuard — IoT cold-chain monitor for Indian SMBs | IoT + SaaS / India | 57 | VALIDATE | [folder](./ideas/2026-04-14-iot-cold-monitor-india/) |
+| 2026-04-14 | MemberPulse — AI retention co-pilot for paid communities | Creator Economy SaaS / Global | 72 | GO | [folder](./ideas/2026-04-14-ai-community-retention-copilot/) |
+| 2026-04-13 | DishSnap — AI food photography for restaurants | Restaurant Tech / Global + India | 68 | VALIDATE | [folder](./ideas/2026-04-13-ai-food-photo-menu/) |
+| 2026-04-13 | QuoteKaro — AI job estimator for home service contractors | Home Services SaaS / India | 61 | VALIDATE | [folder](./ideas/2026-04-13-ai-contractor-quoter-india/) |
+| 2026-04-12 | AgentLens — lightweight observability for AI agents | DevTools / Global | 66 | VALIDATE | [folder](./ideas/2026-04-12-ai-agent-debugger/) |
+| 2026-04-12 | BidSaathi — AI tender-response co-pilot for Indian SMBs | GovTech SaaS / India | 76 | GO | [folder](./ideas/2026-04-12-ai-tender-response-india/) |
+| 2026-04-11 | ShipGlobal — AI export co-pilot for Indian MSMEs | Trade-Tech SaaS / India | 73 | GO | [folder](./ideas/2026-04-11-ai-export-copilot-msme/) |
+| 2026-04-11 | CompliMate — AI compliance co-pilot for Indian CA firms | Compliance SaaS / India | 68 | VALIDATE | [folder](./ideas/2026-04-11-ai-ca-compliance-copilot/) |
+| 2026-04-10 | RentEasy — AI rental management for Indian landlords | PropTech SaaS / India | 59 | VALIDATE | [folder](./ideas/2026-04-10-ai-rental-manager-india/) |
+| 2026-04-10 | PracticePilot — AI practice co-pilot for Indian CA firms | Professional Services SaaS / India | 74 | GO | [folder](./ideas/2026-04-10-ai-ca-practice-copilot/) |
+| 2026-04-09 | KiranaRush — AI quick-commerce co-pilot for neighborhood stores | Retail SaaS / India | 72 | GO | [folder](./ideas/2026-04-09-kirana-quick-commerce-ai/) |
