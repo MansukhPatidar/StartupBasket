@@ -8,11 +8,12 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
 const all = await getAllIdeas();
 const top = all
   .filter((i) => i.data.score >= 80)
-  .sort((a, b) => b.data.score - a.data.score);
+  .sort((a, b) => b.data.score - a.data.score)
+  .slice(0, 9);
 
 const meta: SeoMeta = {
-  title: `Top Ideas — ${top.length} scored 80+ | StartupBasket`,
-  description: `The strongest startup ideas from StartupBasket, all scoring 80/100 or above. STRONG GO verdicts only.`,
+  title: `Top Ideas — top ${top.length} STRONG GO picks | StartupBasket`,
+  description: `The top ${top.length} startup ideas from StartupBasket, all scoring 80/100 or above. STRONG GO verdicts only.`,
   canonical: `${siteUrl}/top/`,
   ogImage: `${siteUrl}/og-default.png`,
   ogType: "website",
