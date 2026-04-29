@@ -14,7 +14,7 @@ echo "$(ts) — Pulling latest from origin..."
 git pull --ff-only origin main 2>/dev/null || true
 
 echo "$(ts) — Starting idea generation..."
-/Users/mpatidar/.local/bin/claude -p --dangerously-skip-permissions --model claude-opus-4-6 "/new-idea"
+/Users/mpatidar/.local/bin/claude -p --dangerously-skip-permissions "/new-idea"
 
 echo "$(ts) — Idea generation complete. Running axes safety net..."
 node scripts/extract-axes.mjs 2>&1 || echo "$(ts) — extract-axes.mjs reported a non-zero exit (continuing)."
