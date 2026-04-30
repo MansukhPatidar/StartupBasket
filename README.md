@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-04-30 | RoofRebut — AI counter-evidence reports for US roofers vs insurer drone-AI denials | InsurTech SaaS / US Roofing Contractors | 81 | STRONG GO | [folder](./ideas/2026-04-30-roofrebut-insurance-appeal-ai/) |
 | 2026-04-30 | NaijaBooks — voice-first FIRS-ready bookkeeper for Nigerian micro-SMEs | Compliance SaaS / Nigeria Micro-SMEs | 73 | GO | [folder](./ideas/2026-04-30-naijabooks-voice-firs-bookkeeper/) |
 | 2026-04-30 | TroncPilot — AI tronc-master-in-a-box for UK indie pubs and restaurants | Compliance SaaS / UK Hospitality | 76 | GO | [folder](./ideas/2026-04-30-troncpilot-uk-indie-hospitality/) |
 | 2026-04-30 | PorteVoz — voice-first Carta Porte capture for Mexican fleets | Logistics SaaS / Mexico Trucking | 72 | GO | [folder](./ideas/2026-04-30-portevoz-mexico-trucker-carta-porte/) |
