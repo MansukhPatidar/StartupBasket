@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-04-30 | NaijaBooks — voice-first FIRS-ready bookkeeper for Nigerian micro-SMEs | Compliance SaaS / Nigeria Micro-SMEs | 73 | GO | [folder](./ideas/2026-04-30-naijabooks-voice-firs-bookkeeper/) |
 | 2026-04-30 | TroncPilot — AI tronc-master-in-a-box for UK indie pubs and restaurants | Compliance SaaS / UK Hospitality | 76 | GO | [folder](./ideas/2026-04-30-troncpilot-uk-indie-hospitality/) |
 | 2026-04-30 | PorteVoz — voice-first Carta Porte capture for Mexican fleets | Logistics SaaS / Mexico Trucking | 72 | GO | [folder](./ideas/2026-04-30-portevoz-mexico-trucker-carta-porte/) |
 | 2026-04-30 | NotaZap — WhatsApp AI receptionist + auto-NFS-e for Brazil's 15M MEIs | Compliance SaaS / Brazil MEIs & Service Freelancers | 78 | GO | [folder](./ideas/2026-04-30-notazap-brasil-mei-whatsapp-nfse/) |
