@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-01 | PayorPilot — AI PPO fee-schedule negotiator for independent US dental practices | HealthTech SaaS / US Independent Dental Practices | 82 | STRONG GO | [folder](./ideas/2026-05-01-payorpilot-dental-ppo-ai/) |
 | 2026-04-30 | ProtoVet — AI onboarding copilot for independent vet clinics | HealthTech SaaS / US Independent Veterinary Practices | 80 | STRONG GO | [folder](./ideas/2026-04-30-protovet-clinic-onboarding-ai/) |
 | 2026-04-30 | CBAMReady — CBAM emissions reports for MSME EU exporters | Compliance SaaS / Emerging-market MSME Exporters to EU | 80 | STRONG GO | [folder](./ideas/2026-04-30-cbamready-msme-exporter-eu/) |
 | 2026-04-30 | SoEasy — Zalo AI bookkeeper for Vietnam household businesses | Compliance SaaS / Vietnam Household Businesses | 79 | GO | [folder](./ideas/2026-04-30-sokeasy-vietnam-hkd-bookkeeper/) |
