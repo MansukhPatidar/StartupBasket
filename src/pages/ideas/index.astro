@@ -83,6 +83,7 @@ const meta: SeoMeta = {
       <FilterSidebar tags={tags} total={allIdeas.length} client:load />
 
       <div>
+        <h2 class="sr-only">Idea catalog</h2>
         <!--
           All ideas rendered at build time. Cards on pages 2+ start hidden via
           [data-init-page] CSS rule below; the inline filter script (last) toggles
@@ -286,15 +287,18 @@ const meta: SeoMeta = {
           if (disabled) {
             return `<span class="px-3 py-2 rounded-lg border border-surface-border text-muted/50 cursor-not-allowed" aria-disabled="true">${label}</span>`;
           }
-          return `<button type="button" data-page="${page}" class="px-3 py-2 rounded-lg border border-surface-border hover:bg-surface-card text-surface-fg/80 hover:text-surface-fg transition tabular-nums" aria-label="Page ${page}">${label}</button>`;
+          // Visible text becomes the accessible name (no aria-label) — keeps
+          // Lighthouse label-content-name-mismatch happy and screen readers
+          // announce the visible label directly.
+          return `<button type="button" data-page="${page}" class="px-3 py-2 rounded-lg border border-surface-border hover:bg-surface-card text-surface-fg/80 hover:text-surface-fg transition tabular-nums">${label}</button>`;
         };
         const parts = [];
-        parts.push(btn("‹ Prev", cur - 1, { disabled: cur === 1 }));
+        parts.push(btn("‹ Previous page", cur - 1, { disabled: cur === 1 }));
         for (const p of pages) {
           if (p === "…") parts.push(`<span class="px-2 text-muted" aria-hidden="true">…</span>`);
           else parts.push(btn(String(p), p, { current: p === cur }));
         }
-        parts.push(btn("Next ›", cur + 1, { disabled: cur === last }));
+        parts.push(btn("Next page ›", cur + 1, { disabled: cur === last }));
         paginationNav.innerHTML = parts.join("");
       }
 

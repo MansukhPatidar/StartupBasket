@@ -45,16 +45,15 @@ const nextHref = currentPage < lastPage ? hrefForPage(currentPage + 1) : null;
         href={prevHref}
         rel="prev"
         class="px-3 py-2 rounded-lg border border-surface-border hover:bg-surface-card text-surface-fg/80 hover:text-surface-fg transition"
-        aria-label="Previous page"
       >
-        ‹ Prev
+        ‹ Previous page
       </a>
     ) : (
       <span
         class="px-3 py-2 rounded-lg border border-surface-border text-muted/50 cursor-not-allowed"
         aria-disabled="true"
       >
-        ‹ Prev
+        ‹ Previous page
       </span>
     )}
 
@@ -72,7 +71,6 @@ const nextHref = currentPage < lastPage ? hrefForPage(currentPage + 1) : null;
         <a
           href={hrefForPage(p)}
           class="px-3 py-2 rounded-lg border border-surface-border hover:bg-surface-card text-surface-fg/80 hover:text-surface-fg transition tabular-nums"
-          aria-label={`Page ${p}`}
         >
           {p}
         </a>
@@ -84,16 +82,15 @@ const nextHref = currentPage < lastPage ? hrefForPage(currentPage + 1) : null;
         href={nextHref}
         rel="next"
         class="px-3 py-2 rounded-lg border border-surface-border hover:bg-surface-card text-surface-fg/80 hover:text-surface-fg transition"
-        aria-label="Next page"
       >
-        Next ›
+        Next page ›
       </a>
     ) : (
       <span
         class="px-3 py-2 rounded-lg border border-surface-border text-muted/50 cursor-not-allowed"
         aria-disabled="true"
       >
-        Next ›
+        Next page ›
       </span>
     )}
   </nav>
