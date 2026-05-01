@@ -59,6 +59,12 @@ export default defineConfig({
           return { ...item, lastmod: LATEST_IDEA_DATE ?? TODAY, changefreq: "daily", priority: 0.9 };
         }
 
+        // /ideas/page/N/ — paginated catalog pages. Same cadence; lower priority
+        // than page 1 so search engines preferentially recrawl /ideas/.
+        if (path.startsWith("/ideas/page/")) {
+          return { ...item, lastmod: LATEST_IDEA_DATE ?? TODAY, changefreq: "daily", priority: 0.6 };
+        }
+
         // Tag listings — refresh as new ideas tagged land.
         if (path.startsWith("/tags/")) {
           return { ...item, lastmod: LATEST_IDEA_DATE ?? TODAY, changefreq: "weekly", priority: 0.5 };

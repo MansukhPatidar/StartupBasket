@@ -1,23 +1,37 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import IdeaCard from "../../components/IdeaCard.astro";
-import FilterSidebar from "../../components/FilterSidebar.tsx";
-import Pagination from "../../components/Pagination.astro";
-import { getAllIdeas, getAllTags } from "../../lib/ideas";
-import type { SeoMeta } from "../../lib/seo";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import IdeaCard from "../../../components/IdeaCard.astro";
+import FilterSidebar from "../../../components/FilterSidebar.tsx";
+import Pagination from "../../../components/Pagination.astro";
+import { getAllIdeas, getAllTags } from "../../../lib/ideas";
+import type { SeoMeta } from "../../../lib/seo";
 
-const PAGE_SIZE = 24;
+export const PAGE_SIZE = 24;
+
+export async function getStaticPaths() {
+  const ideas = await getAllIdeas();
+  const lastPage = Math.max(1, Math.ceil(ideas.length / PAGE_SIZE));
+  // Page 1 lives at /ideas/ (handled by ../index.astro). Skip it here.
+  const pages: { params: { page: string }; props: { page: number; lastPage: number } }[] = [];
+  for (let p = 2; p <= lastPage; p++) {
+    pages.push({ params: { page: String(p) }, props: { page: p, lastPage } });
+  }
+  return pages;
+}
+
+interface PageProps {
+  page: number;
+  lastPage: number;
+}
+const { page: currentPage, lastPage } = Astro.props as PageProps;
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
 const allIdeas = await getAllIdeas();
 const tags = await getAllTags();
 
-const currentPage = 1;
-const lastPage = Math.max(1, Math.ceil(allIdeas.length / PAGE_SIZE));
-const pageIdeas = allIdeas.slice(0, PAGE_SIZE);
+const start = (currentPage - 1) * PAGE_SIZE;
+const pageIdeas = allIdeas.slice(start, start + PAGE_SIZE);
 
-// Stats are calculated against the full catalog, not the current page —
-// the hero tiles describe the whole portfolio.
 const stats = {
   total: allIdeas.length,
   go: allIdeas.filter(
@@ -33,13 +47,17 @@ const stats = {
 const hrefForPage = (p: number) =>
   p === 1 ? `${siteUrl}/ideas/` : `${siteUrl}/ideas/page/${p}/`;
 
+// Self-canonical per page (NOT pointed at page 1) — Google treats paginated
+// pages as independent. A canonical to page 1 would de-index the cards on
+// pages 2+.
 const meta: SeoMeta = {
-  title: `All ideas — StartupBasket`,
-  description: `Browse all ${allIdeas.length} AI product ideas, filterable by vertical, business model, geography, and verdict.`,
-  canonical: `${siteUrl}/ideas/`,
+  title: `All ideas — Page ${currentPage} — StartupBasket`,
+  description: `Browse all ${allIdeas.length} AI product ideas (page ${currentPage} of ${lastPage}), filterable by vertical, business model, geography, and verdict.`,
+  canonical: hrefForPage(currentPage),
   ogImage: `${siteUrl}/og-default.png`,
   ogType: "website",
-  next: lastPage > 1 ? hrefForPage(2) : undefined,
+  prev: hrefForPage(currentPage - 1),
+  next: currentPage < lastPage ? hrefForPage(currentPage + 1) : undefined,
 };
 ---
 
@@ -54,7 +72,7 @@ const meta: SeoMeta = {
         <div>
           <div class="inline-flex items-center gap-2 mb-4 text-xs font-medium text-surface-fg/70">
             <span class="inline-block w-1.5 h-1.5 rounded-full bg-accent"></span>
-            <span class="uppercase tracking-widest">Explore</span>
+            <span class="uppercase tracking-widest">Explore — page {currentPage} of {lastPage}</span>
           </div>
           <h1 class="display text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.02]">
             Every idea,<br/>
@@ -63,8 +81,8 @@ const meta: SeoMeta = {
             </span>
           </h1>
           <p class="mt-5 text-[17px] text-surface-fg/70 leading-relaxed max-w-xl">
-            <span class="lg:hidden">{stats.total} proposals, {stats.go} scored GO. Filter by vertical, model, geography, or verdict.</span>
-            <span class="hidden lg:inline">{stats.total} proposals, {stats.go} scored GO. Use the sidebar to narrow by vertical, model, geography, theme, or verdict. Search pins the grid in real time.</span>
+            <span class="lg:hidden">{stats.total} proposals, {stats.go} scored GO. Page {currentPage} of {lastPage}.</span>
+            <span class="hidden lg:inline">{stats.total} proposals, {stats.go} scored GO. Page {currentPage} of {lastPage}. Use the sidebar to narrow this page by vertical, model, geography, theme, or verdict.</span>
           </p>
         </div>
 

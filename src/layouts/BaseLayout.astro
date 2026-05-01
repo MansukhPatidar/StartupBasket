@@ -34,6 +34,8 @@ const year = new Date().getFullYear();
     <title>{meta.title}</title>
     <meta name="description" content={meta.description} />
     <link rel="canonical" href={meta.canonical} />
+    {meta.prev && <link rel="prev" href={meta.prev} />}
+    {meta.next && <link rel="next" href={meta.next} />}
 
     <!-- Open Graph -->
     <meta property="og:type" content={meta.ogType} />

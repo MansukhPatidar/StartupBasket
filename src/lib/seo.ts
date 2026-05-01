@@ -13,6 +13,10 @@ export interface SeoMeta {
   // separate (rather than a single @graph) matches Google's own examples and
   // avoids one malformed field nuking the whole blob.
   extraJsonLd?: Record<string, unknown>[];
+  // Pagination link refs. Google deprecated rel=prev/next as a strong signal
+  // but Bing still uses them and they're cheap; emit when set.
+  prev?: string;
+  next?: string;
 }
 
 const SITE_NAME = "StartupBasket";
