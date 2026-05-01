@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-01 | MenuPass — AI multilingual QR menu for Japan tourist restaurants | RestaurantTech SaaS / Japan Inbound Tourism | 81 | STRONG GO | [folder](./ideas/2026-05-01-menupass-japan-tourist-multilingual/) |
 | 2026-05-01 | AuditPass — AI FMCSA audit copilot for new US motor carriers | Compliance SaaS / US Small-Fleet Trucking | 81 | STRONG GO | [folder](./ideas/2026-05-01-auditpass-trucking-newentrant-ai/) |
 | 2026-05-01 | VendorPoke — WhatsApp ITC vendor-chase for India MSMEs | Compliance SaaS / India MSME | 83 | STRONG GO | [folder](./ideas/2026-05-01-vendorpoke-itc-2b-vendor-chase/) |
 | 2026-05-01 | PayorPilot — AI PPO fee-schedule negotiator for independent US dental practices | HealthTech SaaS / US Independent Dental Practices | 82 | STRONG GO | [folder](./ideas/2026-05-01-payorpilot-dental-ppo-ai/) |
