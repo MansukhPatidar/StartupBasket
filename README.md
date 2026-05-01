@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-02 | VoucherClerk — AI Section 8 copilot for small US landlords | PropTech SaaS / US Small Landlords | 81 | STRONG GO | [folder](./ideas/2026-05-02-voucherclerk-section8-landlord-ai/) |
 | 2026-05-01 | PermitSanity — AI pre-submission checker for US solar installers | CleanTech SaaS / US Solar Installers | 80 | STRONG GO | [folder](./ideas/2026-05-01-permitsanity-solar-permit-checker/) |
 | 2026-05-01 | MenuPass — AI multilingual QR menu for Japan tourist restaurants | RestaurantTech SaaS / Japan Inbound Tourism | 81 | STRONG GO | [folder](./ideas/2026-05-01-menupass-japan-tourist-multilingual/) |
 | 2026-05-01 | AuditPass — AI FMCSA audit copilot for new US motor carriers | Compliance SaaS / US Small-Fleet Trucking | 81 | STRONG GO | [folder](./ideas/2026-05-01-auditpass-trucking-newentrant-ai/) |
