@@ -41,13 +41,9 @@ export default function Engagement({ slug, variant = "card", countView = false }
 
     (async () => {
       if (countView && !viewedThisSession(slug)) {
-        await sb.rpc("increment_view", { p_slug: slug });
+        try { await sb.incrementView(slug); } catch {}
       }
-      const { data } = await sb
-        .from("idea_engagement")
-        .select("views,likes")
-        .eq("slug", slug)
-        .maybeSingle();
+      const data = await sb.selectEngagement(slug);
       setViews(data?.views ?? 0);
       setLikes(data?.likes ?? 0);
     })();
@@ -67,9 +63,9 @@ export default function Engagement({ slug, variant = "card", countView = false }
     setLiked(slug, !wasLiked);
     try {
       if (wasLiked) {
-        await sb.from("idea_likes").delete().eq("slug", slug).eq("anon_id", anonId);
+        await sb.deleteLike(slug, anonId);
       } else {
-        await sb.from("idea_likes").insert({ slug, anon_id: anonId });
+        await sb.insertLike(slug, anonId);
       }
     } catch {
       // Roll back on failure.

@@ -40,12 +40,10 @@ export default function TrendingGrid({ ideas }: Props) {
         return;
       }
 
-      const { data } = await sb
-        .from("idea_engagement")
-        .select("slug,views,likes");
+      const data = await sb.selectAllEngagement();
 
       const engMap = new Map<string, { views: number; likes: number }>();
-      for (const row of data ?? []) {
+      for (const row of data) {
         engMap.set(row.slug, { views: row.views ?? 0, likes: row.likes ?? 0 });
       }
 

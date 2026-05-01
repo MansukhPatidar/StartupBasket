@@ -19,13 +19,7 @@ export default function ShareButton({ url, title, text, slug, variant = "detail"
   useEffect(() => {
     const sb = getSupabase();
     if (!sb) return;
-    sb.from("idea_engagement")
-      .select("shares")
-      .eq("slug", slug)
-      .maybeSingle()
-      .then(({ data }) => {
-        if (data) setShareCount(data.shares ?? 0);
-      });
+    sb.selectShares(slug).then((n) => setShareCount(n));
   }, [slug]);
 
   const trackShare = useCallback(() => {
@@ -33,7 +27,7 @@ export default function ShareButton({ url, title, text, slug, variant = "detail"
     tracked.current = true;
     setShareCount((c) => (c ?? 0) + 1);
     const sb = getSupabase();
-    if (sb) sb.rpc("increment_share", { p_slug: slug }).then(() => {});
+    if (sb) sb.incrementShare(slug).catch(() => {});
   }, [slug]);
 
   const shareLinks = [

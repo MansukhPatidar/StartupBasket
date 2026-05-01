@@ -37,15 +37,11 @@ export default function SubmissionsList() {
         setLoading(false);
         return;
       }
-      const { data, error: err } = await sb
-        .from("proposal_requests")
-        .select("*")
-        .order("created_at", { ascending: false });
-
-      if (err) {
-        setError(err.message);
-      } else {
-        setRows(data ?? []);
+      try {
+        const data = await sb.selectProposals();
+        setRows(data as Submission[]);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Failed to load");
       }
       setLoading(false);
     })();

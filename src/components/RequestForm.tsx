@@ -48,16 +48,16 @@ export default function RequestForm() {
       return;
     }
 
-    const { error } = await sb.from("proposal_requests").insert({
-      name: form.name.trim(),
-      email: form.email.trim(),
-      vertical,
-      problem: form.problem.trim(),
-      team_size: form.teamSize || null,
-      budget: form.budget || null,
-    });
-
-    if (error) {
+    try {
+      await sb.insertProposal({
+        name: form.name.trim(),
+        email: form.email.trim(),
+        vertical,
+        problem: form.problem.trim(),
+        team_size: form.teamSize || null,
+        budget: form.budget || null,
+      });
+    } catch (err) {
       setErrorMsg("Something went wrong. Please email info@startupbasket.ai instead.");
       setStatus("error");
       return;
