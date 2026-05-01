@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-02 | RERA AdGenie — QR-safe ad generator + compliance copilot for India brokers | PropTech SaaS / India Real Estate Brokers | 78 | GO | [folder](./ideas/2026-05-02-rera-ad-genie-broker-compliance/) |
 | 2026-05-02 | RackQ — per-rack live availability sensors for indie gyms | IoT+SaaS / US Independent Gyms + CrossFit + Climbing | 78 | GO | [folder](./ideas/2026-05-02-rackq-gym-availability-iot/) |
 | 2026-05-02 | AquaLog — IoT chlorine + pH compliance kit for small US pools | IoT+SaaS / US Swim Schools + Hotel Pools + HOA + Boutique Gyms | 80 | STRONG GO | [folder](./ideas/2026-05-02-aqualog-pool-compliance-iot/) |
 | 2026-05-02 | MushPilot — plug-and-play climate + relay kit for mushroom farms | Hardware+SaaS / US Specialty Indoor Mushroom Farms | 76 | GO | [folder](./ideas/2026-05-02-mushpilot-mushroom-farm-mechatronics/) |
