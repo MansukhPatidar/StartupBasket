@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-01 | SILSanity — AI audit copilot for small Australian NDIS SIL providers | Compliance SaaS / Australia NDIS SIL Providers | 82 | STRONG GO | [folder](./ideas/2026-05-01-silsanity-ndis-audit-copilot/) |
 | 2026-05-01 | RentAct — RRA compliance copilot for UK landlords | PropTech SaaS / UK Small Landlords | 82 | STRONG GO | [folder](./ideas/2026-05-01-rentact-uk-landlord-copilot/) |
 | 2026-05-02 | VoucherClerk — AI Section 8 copilot for small US landlords | PropTech SaaS / US Small Landlords | 81 | STRONG GO | [folder](./ideas/2026-05-02-voucherclerk-section8-landlord-ai/) |
 | 2026-05-01 | PermitSanity — AI pre-submission checker for US solar installers | CleanTech SaaS / US Solar Installers | 80 | STRONG GO | [folder](./ideas/2026-05-01-permitsanity-solar-permit-checker/) |
