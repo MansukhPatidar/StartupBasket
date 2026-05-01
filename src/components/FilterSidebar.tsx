@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { tagSlug } from "../lib/tags";
 
 type TagItem = { value: string; kind: "vertical" | "model" | "geography" | "secondary"; count: number };
 
@@ -17,9 +18,12 @@ const KIND_LABEL: Record<Kind | "verdict", string> = {
   verdict: "Verdict",
 };
 
+// Tag clicks navigate to /tags/<slug>/ — full-catalog view of that tag.
+// Search + verdict stay client-side and filter the cards on the current
+// page only. The empty-state hint nudges users to a tag page when their
+// query has no hits in the visible window.
 export default function FilterSidebar({ tags, total }: Props) {
   const [search, setSearch] = useState("");
-  const [active, setActive] = useState<Set<string>>(new Set());
   const [activeVerdict, setActiveVerdict] = useState<"ALL" | "STRONG GO" | "GO" | "VALIDATE" | "PASS">("ALL");
   const [visibleCount, setVisibleCount] = useState<number>(total);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -38,7 +42,8 @@ export default function FilterSidebar({ tags, total }: Props) {
     return g;
   }, [tags]);
 
-  // Apply filters to the card grid (cards live in a sibling <section>).
+  // Apply search + verdict to the card grid (cards live in a sibling <section>).
+  // Tag filtering happens via navigation to /tags/<slug>/ instead of DOM hide.
   useEffect(() => {
     const cards = document.querySelectorAll<HTMLElement>("[data-search]");
     const q = search.trim().toLowerCase();
@@ -48,44 +53,24 @@ export default function FilterSidebar({ tags, total }: Props) {
       const verdictMatch =
         activeVerdict === "ALL" || card.dataset.verdict === activeVerdict;
       const queryMatch = q === "" || haystack.includes(q);
-      // Active tags: card must match ALL selected tags (AND across different kinds, but within a kind it's OR — simpler UX: AND all).
-      const tagMatch = [...active].every((tagValue) => {
-        const v = card.dataset.vertical === tagValue;
-        const m = card.dataset.model === tagValue;
-        const g = card.dataset.geography === tagValue;
-        const sec = (card.dataset.search || "")
-          .toLowerCase()
-          .includes(tagValue.toLowerCase());
-        return v || m || g || sec;
-      });
-      const show = verdictMatch && queryMatch && tagMatch;
+      const show = verdictMatch && queryMatch;
       card.style.display = show ? "" : "none";
       if (show) visible += 1;
     });
     setVisibleCount(visible);
-  }, [search, active, activeVerdict]);
-
-  function toggleTag(value: string) {
-    setActive((prev) => {
-      const next = new Set(prev);
-      if (next.has(value)) next.delete(value);
-      else next.add(value);
-      return next;
-    });
-  }
+  }, [search, activeVerdict]);
 
   function clearAll() {
-    setActive(new Set());
     setActiveVerdict("ALL");
     setSearch("");
   }
 
-  const hasFilters = active.size > 0 || activeVerdict !== "ALL" || search !== "";
-  const filterCount = active.size + (activeVerdict !== "ALL" ? 1 : 0);
+  const hasFilters = activeVerdict !== "ALL" || search !== "";
+  const filterCount = activeVerdict !== "ALL" ? 1 : 0;
 
   return (
     <aside className="lg:sticky lg:top-20 lg:self-start space-y-4 lg:space-y-6">
-      {/* Search — always visible */}
+      {/* Search — always visible. Searches within the current page. */}
       <div className="flex gap-2 lg:block">
         <div className="relative flex-1">
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-surface-fg/40">
@@ -97,7 +82,7 @@ export default function FilterSidebar({ tags, total }: Props) {
           <input
             type="search"
             autoComplete="off"
-            placeholder="Search ideas…"
+            placeholder="Search this page…"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-8 pr-3 h-9 text-sm rounded-lg border border-surface-border bg-surface-card placeholder:text-surface-fg/40 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent/60 transition"
@@ -126,7 +111,7 @@ export default function FilterSidebar({ tags, total }: Props) {
 
       {/* Filter groups — always visible on desktop, collapsible on mobile */}
       <div className={`space-y-4 lg:space-y-6 ${mobileOpen ? "" : "hidden lg:block"}`}>
-        {/* Verdict segment */}
+        {/* Verdict segment — client-side filter on current page */}
         <div>
           <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
             Verdict
@@ -149,7 +134,7 @@ export default function FilterSidebar({ tags, total }: Props) {
           </div>
         </div>
 
-        {/* Filter groups */}
+        {/* Tag groups — anchors to /tags/<slug>/ */}
         {(["vertical", "model", "geography", "secondary"] as const).map((kind) => {
           const items = grouped[kind];
           if (items.length === 0) return null;
@@ -158,8 +143,6 @@ export default function FilterSidebar({ tags, total }: Props) {
               key={kind}
               label={KIND_LABEL[kind]}
               items={items}
-              active={active}
-              onToggle={toggleTag}
             />
           );
         })}
@@ -188,13 +171,9 @@ export default function FilterSidebar({ tags, total }: Props) {
 function FilterGroup({
   label,
   items,
-  active,
-  onToggle,
 }: {
   label: string;
   items: TagItem[];
-  active: Set<string>;
-  onToggle: (v: string) => void;
 }) {
   const [open, setOpen] = useState(true);
   const [showAll, setShowAll] = useState(false);
@@ -226,43 +205,19 @@ function FilterGroup({
       </button>
       {open && (
         <ul className="space-y-0.5">
-          {visible.map((t) => {
-            const on = active.has(t.value);
-            return (
-              <li key={t.value}>
-                <button
-                  type="button"
-                  onClick={() => onToggle(t.value)}
-                  className={`w-full flex items-center justify-between gap-2 px-2 h-7 rounded-md text-[13px] transition ${
-                    on
-                      ? "bg-accent/10 text-accent-700 dark:text-accent-300 font-medium"
-                      : "text-surface-fg/80 hover:bg-surface-subtle"
-                  }`}
-                >
-                  <span className="flex items-center gap-2 truncate">
-                    <span
-                      className={`inline-block w-3 h-3 rounded border transition ${
-                        on
-                          ? "bg-accent border-accent"
-                          : "border-surface-border"
-                      }`}
-                      aria-hidden="true"
-                    >
-                      {on && (
-                        <svg viewBox="0 0 16 16" className="w-3 h-3 text-white" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                          <polyline points="3 8 7 12 13 4" />
-                        </svg>
-                      )}
-                    </span>
-                    <span className="truncate">{t.value}</span>
-                  </span>
-                  <span className="text-[11px] font-mono tabular-nums text-muted">
-                    {t.count}
-                  </span>
-                </button>
-              </li>
-            );
-          })}
+          {visible.map((t) => (
+            <li key={t.value}>
+              <a
+                href={`/tags/${tagSlug(t.value)}/`}
+                className="w-full flex items-center justify-between gap-2 px-2 h-7 rounded-md text-[13px] text-surface-fg/80 hover:bg-surface-subtle hover:text-surface-fg transition"
+              >
+                <span className="truncate">{t.value}</span>
+                <span className="text-[11px] font-mono tabular-nums text-muted">
+                  {t.count}
+                </span>
+              </a>
+            </li>
+          ))}
           {hidden > 0 && (
             <li>
               <button
