@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from "react";
-import { tagSlug } from "../lib/tags";
 
 type TagItem = { value: string; kind: "vertical" | "model" | "geography" | "secondary"; count: number };
 
@@ -18,14 +17,24 @@ const KIND_LABEL: Record<Kind | "verdict", string> = {
   verdict: "Verdict",
 };
 
-// Tag clicks navigate to /tags/<slug>/ — full-catalog view of that tag.
-// Search + verdict stay client-side and filter the cards on the current
-// page only. The empty-state hint nudges users to a tag page when their
-// query has no hits in the visible window.
+// FilterSidebar dispatches events the inline filter script on /ideas/ listens
+// for. No direct DOM mutation, no shared state — decoupled.
+//
+// Events emitted:
+//   ideas:set-search { value: string }
+//   ideas:set-verdict { value: "ALL" | "STRONG GO" | "GO" | "VALIDATE" | "PASS" }
+//   ideas:set-tag    { value: string | null }
+//   ideas:reset
+//
+// Events listened for:
+//   ideas:filter-applied { total, matched, page, lastPage } — updates count
+//   ideas:state-restored { search, verdict, tag, page }    — syncs UI on load /
+//                                                            popstate
 export default function FilterSidebar({ tags, total }: Props) {
   const [search, setSearch] = useState("");
   const [activeVerdict, setActiveVerdict] = useState<"ALL" | "STRONG GO" | "GO" | "VALIDATE" | "PASS">("ALL");
-  const [visibleCount, setVisibleCount] = useState<number>(total);
+  const [activeTag, setActiveTag] = useState<string | null>(null);
+  const [matched, setMatched] = useState<number>(total);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const grouped = useMemo(() => {
@@ -42,35 +51,103 @@ export default function FilterSidebar({ tags, total }: Props) {
     return g;
   }, [tags]);
 
-  // Apply search + verdict to the card grid (cards live in a sibling <section>).
-  // Tag filtering happens via navigation to /tags/<slug>/ instead of DOM hide.
+  // Listen for state restore (inline script reads URL on boot + on popstate)
+  // and for filter-applied count updates.
   useEffect(() => {
-    const cards = document.querySelectorAll<HTMLElement>("[data-search]");
-    const q = search.trim().toLowerCase();
-    let visible = 0;
-    cards.forEach((card) => {
-      const haystack = (card.dataset.search || "").toLowerCase();
-      const verdictMatch =
-        activeVerdict === "ALL" || card.dataset.verdict === activeVerdict;
-      const queryMatch = q === "" || haystack.includes(q);
-      const show = verdictMatch && queryMatch;
-      card.style.display = show ? "" : "none";
-      if (show) visible += 1;
-    });
-    setVisibleCount(visible);
-  }, [search, activeVerdict]);
+    function onRestored(e: Event) {
+      const d = (e as CustomEvent).detail || {};
+      setSearch(d.search ?? "");
+      setActiveVerdict(d.verdict ?? "ALL");
+      setActiveTag(d.tag ?? null);
+    }
+    function onApplied(e: Event) {
+      const d = (e as CustomEvent).detail || {};
+      if (typeof d.matched === "number") setMatched(d.matched);
+    }
+    window.addEventListener("ideas:state-restored", onRestored);
+    window.addEventListener("ideas:filter-applied", onApplied);
+    return () => {
+      window.removeEventListener("ideas:state-restored", onRestored);
+      window.removeEventListener("ideas:filter-applied", onApplied);
+    };
+  }, []);
 
-  function clearAll() {
-    setActiveVerdict("ALL");
-    setSearch("");
+  // Search input is debounced with the inline-script side via a small effect.
+  // Each user keystroke updates local state + dispatches event; the script
+  // re-applies filters synchronously (cheap — display toggle on ~120 cards).
+  // On paginated pages where the filter script is absent, dispatch is no-op;
+  // the user can press Enter to navigate to /ideas/?q=... (handled below).
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (
+      window.location.pathname === "/ideas/" ||
+      window.location.pathname === "/ideas"
+    ) {
+      window.dispatchEvent(
+        new CustomEvent("ideas:set-search", { detail: { value: search } }),
+      );
+    }
+  }, [search]);
+
+  // FilterSidebar lives on /ideas/ AND /ideas/page/N/. The inline filter script
+  // only ships on /ideas/. On paginated pages, the script is absent — so a tag
+  // or verdict click here would be silently no-op. Detect that, and navigate
+  // back to /ideas/ with the filter applied via query string instead.
+  function isFilterableHere(): boolean {
+    if (typeof window === "undefined") return false;
+    return window.location.pathname === "/ideas/" || window.location.pathname === "/ideas";
   }
 
-  const hasFilters = activeVerdict !== "ALL" || search !== "";
-  const filterCount = activeVerdict !== "ALL" ? 1 : 0;
+  function navigateWithFilter(params: Record<string, string | null>) {
+    const u = new URL("/ideas/", window.location.origin);
+    for (const [k, v] of Object.entries(params)) {
+      if (v && v !== "ALL") u.searchParams.set(k, v);
+    }
+    window.location.href = u.pathname + (u.search ? u.search : "");
+  }
+
+  function setVerdict(v: typeof activeVerdict) {
+    setActiveVerdict(v);
+    if (isFilterableHere()) {
+      window.dispatchEvent(
+        new CustomEvent("ideas:set-verdict", { detail: { value: v } }),
+      );
+    } else {
+      navigateWithFilter({ verdict: v, tag: activeTag, q: search });
+    }
+  }
+
+  function toggleTag(value: string) {
+    const next = activeTag === value ? null : value;
+    setActiveTag(next);
+    if (isFilterableHere()) {
+      window.dispatchEvent(
+        new CustomEvent("ideas:set-tag", { detail: { value: next } }),
+      );
+    } else {
+      navigateWithFilter({ tag: next, verdict: activeVerdict, q: search });
+    }
+  }
+
+  function clearAll() {
+    setSearch("");
+    setActiveVerdict("ALL");
+    setActiveTag(null);
+    if (isFilterableHere()) {
+      window.dispatchEvent(new CustomEvent("ideas:reset"));
+    } else {
+      window.location.href = "/ideas/";
+    }
+  }
+
+  const hasFilters =
+    activeTag !== null || activeVerdict !== "ALL" || search !== "";
+  const filterCount =
+    (activeTag ? 1 : 0) + (activeVerdict !== "ALL" ? 1 : 0);
 
   return (
     <aside className="lg:sticky lg:top-20 lg:self-start space-y-4 lg:space-y-6">
-      {/* Search — always visible. Searches within the current page. */}
+      {/* Search — searches across the full catalog, not just the visible page. */}
       <div className="flex gap-2 lg:block">
         <div className="relative flex-1">
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-surface-fg/40">
@@ -82,14 +159,19 @@ export default function FilterSidebar({ tags, total }: Props) {
           <input
             type="search"
             autoComplete="off"
-            placeholder="Search this page…"
+            placeholder="Search ideas…"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !isFilterableHere() && search.trim()) {
+                navigateWithFilter({ q: search.trim(), tag: activeTag, verdict: activeVerdict });
+              }
+            }}
             className="w-full pl-8 pr-3 h-9 text-sm rounded-lg border border-surface-border bg-surface-card placeholder:text-surface-fg/40 focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent/60 transition"
           />
         </div>
 
-        {/* Mobile filter toggle — hidden on desktop */}
+        {/* Mobile filter toggle */}
         <button
           type="button"
           onClick={() => setMobileOpen((o) => !o)}
@@ -109,9 +191,9 @@ export default function FilterSidebar({ tags, total }: Props) {
         </button>
       </div>
 
-      {/* Filter groups — always visible on desktop, collapsible on mobile */}
+      {/* Filter groups */}
       <div className={`space-y-4 lg:space-y-6 ${mobileOpen ? "" : "hidden lg:block"}`}>
-        {/* Verdict segment — client-side filter on current page */}
+        {/* Verdict segment */}
         <div>
           <label className="text-[10px] uppercase tracking-widest text-muted font-semibold block mb-2">
             Verdict
@@ -121,7 +203,7 @@ export default function FilterSidebar({ tags, total }: Props) {
               <button
                 key={v}
                 type="button"
-                onClick={() => setActiveVerdict(v)}
+                onClick={() => setVerdict(v)}
                 className={`h-6 px-1.5 text-[10px] font-semibold rounded-md whitespace-nowrap transition ${
                   activeVerdict === v
                     ? "bg-surface-fg text-surface shadow-soft"
@@ -134,7 +216,7 @@ export default function FilterSidebar({ tags, total }: Props) {
           </div>
         </div>
 
-        {/* Tag groups — anchors to /tags/<slug>/ */}
+        {/* Tag groups — single-tag select. Click again to clear. */}
         {(["vertical", "model", "geography", "secondary"] as const).map((kind) => {
           const items = grouped[kind];
           if (items.length === 0) return null;
@@ -143,6 +225,8 @@ export default function FilterSidebar({ tags, total }: Props) {
               key={kind}
               label={KIND_LABEL[kind]}
               items={items}
+              activeTag={activeTag}
+              onToggle={toggleTag}
             />
           );
         })}
@@ -151,7 +235,7 @@ export default function FilterSidebar({ tags, total }: Props) {
       {/* Active state bar */}
       <div className={`pt-4 border-t border-surface-border flex items-center justify-between text-xs ${mobileOpen || hasFilters ? "" : "hidden lg:flex"}`}>
         <span className="text-muted">
-          <span className="font-mono tabular-nums text-surface-fg">{visibleCount}</span>{" "}
+          <span className="font-mono tabular-nums text-surface-fg">{matched}</span>{" "}
           of {total}
         </span>
         {hasFilters && (
@@ -171,9 +255,13 @@ export default function FilterSidebar({ tags, total }: Props) {
 function FilterGroup({
   label,
   items,
+  activeTag,
+  onToggle,
 }: {
   label: string;
   items: TagItem[];
+  activeTag: string | null;
+  onToggle: (v: string) => void;
 }) {
   const [open, setOpen] = useState(true);
   const [showAll, setShowAll] = useState(false);
@@ -205,19 +293,37 @@ function FilterGroup({
       </button>
       {open && (
         <ul className="space-y-0.5">
-          {visible.map((t) => (
-            <li key={t.value}>
-              <a
-                href={`/tags/${tagSlug(t.value)}/`}
-                className="w-full flex items-center justify-between gap-2 px-2 h-7 rounded-md text-[13px] text-surface-fg/80 hover:bg-surface-subtle hover:text-surface-fg transition"
-              >
-                <span className="truncate">{t.value}</span>
-                <span className="text-[11px] font-mono tabular-nums text-muted">
-                  {t.count}
-                </span>
-              </a>
-            </li>
-          ))}
+          {visible.map((t) => {
+            const on = activeTag === t.value;
+            return (
+              <li key={t.value}>
+                <button
+                  type="button"
+                  onClick={() => onToggle(t.value)}
+                  className={`w-full flex items-center justify-between gap-2 px-2 h-7 rounded-md text-[13px] transition ${
+                    on
+                      ? "bg-accent/10 text-accent-700 dark:text-accent-300 font-medium"
+                      : "text-surface-fg/80 hover:bg-surface-subtle"
+                  }`}
+                >
+                  <span className="flex items-center gap-2 truncate">
+                    <span
+                      className={`inline-block w-3 h-3 rounded-full border transition ${
+                        on
+                          ? "bg-accent border-accent"
+                          : "border-surface-border"
+                      }`}
+                      aria-hidden="true"
+                    />
+                    <span className="truncate">{t.value}</span>
+                  </span>
+                  <span className="text-[11px] font-mono tabular-nums text-muted">
+                    {t.count}
+                  </span>
+                </button>
+              </li>
+            );
+          })}
           {hidden > 0 && (
             <li>
               <button

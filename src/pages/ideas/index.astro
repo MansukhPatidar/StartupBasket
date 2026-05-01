@@ -2,7 +2,6 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import IdeaCard from "../../components/IdeaCard.astro";
 import FilterSidebar from "../../components/FilterSidebar.tsx";
-import Pagination from "../../components/Pagination.astro";
 import { getAllIdeas, getAllTags } from "../../lib/ideas";
 import type { SeoMeta } from "../../lib/seo";
 
@@ -12,12 +11,8 @@ const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
 const allIdeas = await getAllIdeas();
 const tags = await getAllTags();
 
-const currentPage = 1;
 const lastPage = Math.max(1, Math.ceil(allIdeas.length / PAGE_SIZE));
-const pageIdeas = allIdeas.slice(0, PAGE_SIZE);
 
-// Stats are calculated against the full catalog, not the current page —
-// the hero tiles describe the whole portfolio.
 const stats = {
   total: allIdeas.length,
   go: allIdeas.filter(
@@ -30,16 +25,12 @@ const stats = {
   ),
 };
 
-const hrefForPage = (p: number) =>
-  p === 1 ? `${siteUrl}/ideas/` : `${siteUrl}/ideas/page/${p}/`;
-
 const meta: SeoMeta = {
   title: `All ideas — StartupBasket`,
   description: `Browse all ${allIdeas.length} AI product ideas, filterable by vertical, business model, geography, and verdict.`,
   canonical: `${siteUrl}/ideas/`,
   ogImage: `${siteUrl}/og-default.png`,
   ogType: "website",
-  next: lastPage > 1 ? hrefForPage(2) : undefined,
 };
 ---
 
@@ -89,19 +80,289 @@ const meta: SeoMeta = {
   <!-- MAIN — sidebar + grid -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 py-10">
     <div class="grid lg:grid-cols-[260px_1fr] gap-8 lg:gap-12">
-      <FilterSidebar tags={tags} total={pageIdeas.length} client:load />
+      <FilterSidebar tags={tags} total={allIdeas.length} client:load />
 
       <div>
-        <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
-          {pageIdeas.map((idea) => <IdeaCard idea={idea} />)}
+        <!--
+          All ideas rendered at build time. Cards on pages 2+ start hidden via
+          [data-init-page] CSS rule below; the inline filter script (last) toggles
+          [data-hidden] on every card based on tag/verdict/search/page state.
+          Engagement hydrates lazily via client:visible — hidden cards never run
+          their IntersectionObserver, so the Supabase fetch only fires on cards
+          actually in view.
+        -->
+        <div id="ideas-grid" class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
+          {
+            allIdeas.map((idea, i) => {
+              const cardPage = Math.floor(i / PAGE_SIZE) + 1;
+              return <IdeaCard idea={idea} initPage={cardPage} />;
+            })
+          }
         </div>
 
-        <Pagination
-          currentPage={currentPage}
-          lastPage={lastPage}
-          hrefForPage={hrefForPage}
-        />
+        <!-- Empty-state slot — shown when no card matches the active filter. -->
+        <div
+          id="ideas-empty"
+          class="hidden mt-10 text-center text-surface-fg/60 text-sm"
+        >
+          No ideas match these filters on the current page.
+          <button
+            type="button"
+            data-action="reset-filters"
+            class="ml-1 text-accent-600 dark:text-accent-400 hover:underline"
+          >
+            Clear filters
+          </button>
+        </div>
+
+        <!-- Pagination — server-rendered baseline, JS updates it on filter. -->
+        <nav
+          id="ideas-pagination"
+          class="mt-10 flex items-center justify-center gap-1 text-sm"
+          aria-label="Pagination"
+          data-last-page={lastPage}
+        >
+        </nav>
       </div>
     </div>
   </section>
+
+  <!-- Cards on pages 2+ start hidden. Script flips data-hidden once it loads. -->
+  <style>
+    #ideas-grid > [data-init-page]:not([data-init-page="1"]) {
+      display: none;
+    }
+    #ideas-grid > [data-hidden="true"] {
+      display: none !important;
+    }
+  </style>
+
+  <!--
+    Inline filter + pagination script. Reads card data-* attrs, applies the
+    visibility predicate, drives pagination. Listens for custom events from
+    FilterSidebar (decoupled — no React/JS bridge required).
+  -->
+  <script is:inline define:vars={{ pageSize: PAGE_SIZE, lastPage }}>
+    (function () {
+      const grid = document.getElementById("ideas-grid");
+      const empty = document.getElementById("ideas-empty");
+      const paginationNav = document.getElementById("ideas-pagination");
+      if (!grid || !empty || !paginationNav) return;
+
+      const cards = Array.from(grid.querySelectorAll("[data-search]"));
+
+      // Strip data-init-page from cards now that JS owns visibility — JS will
+      // set data-hidden on every card; CSS rule above takes over.
+      cards.forEach((c) => {
+        c.removeAttribute("data-init-page");
+      });
+
+      let filterState = {
+        search: "",
+        verdict: "ALL",
+        tag: null, // single-tag select; matches /tags/<slug>/ semantics
+        page: 1,
+      };
+
+      // Read URL state on first load.
+      function syncFromUrl() {
+        const u = new URL(window.location.href);
+        filterState.search = u.searchParams.get("q") || "";
+        filterState.verdict = u.searchParams.get("verdict") || "ALL";
+        filterState.tag = u.searchParams.get("tag") || null;
+        const p = parseInt(u.searchParams.get("page") || "1", 10);
+        filterState.page = Number.isFinite(p) && p > 0 ? p : 1;
+      }
+
+      // Persist state to URL without reload. Filter combos are noindex,follow
+      // (set below) so this won't pollute the index.
+      function syncToUrl() {
+        const u = new URL(window.location.href);
+        const set = (k, v) => {
+          if (v === null || v === "" || v === "ALL" || v === 1) u.searchParams.delete(k);
+          else u.searchParams.set(k, String(v));
+        };
+        set("q", filterState.search);
+        set("verdict", filterState.verdict);
+        set("tag", filterState.tag);
+        set("page", filterState.page);
+        const newUrl = u.pathname + (u.search ? u.search : "") + u.hash;
+        window.history.replaceState(null, "", newUrl);
+        updateRobotsMeta();
+      }
+
+      // When any query string is present, mark page noindex,follow so filter
+      // permutations don't dilute crawl. Robots stays default-indexable on
+      // canonical /ideas/ with no query string.
+      function updateRobotsMeta() {
+        const hasQuery = window.location.search.length > 0;
+        let m = document.querySelector('meta[name="robots"]');
+        if (hasQuery) {
+          if (!m) {
+            m = document.createElement("meta");
+            m.setAttribute("name", "robots");
+            document.head.appendChild(m);
+          }
+          m.setAttribute("content", "noindex,follow");
+        } else if (m && m.getAttribute("data-managed") === "true") {
+          m.remove();
+        } else if (m) {
+          m.remove();
+        }
+      }
+
+      // Predicate: does this card match the active filter (excluding pagination)?
+      function matchesFilter(card) {
+        const q = filterState.search.trim().toLowerCase();
+        const haystack = (card.dataset.search || "").toLowerCase();
+        if (q && !haystack.includes(q)) return false;
+        if (filterState.verdict !== "ALL" && card.dataset.verdict !== filterState.verdict)
+          return false;
+        if (filterState.tag) {
+          const t = filterState.tag;
+          const v = card.dataset.vertical === t;
+          const m = card.dataset.model === t;
+          const g = card.dataset.geography === t;
+          const sec = (card.dataset.secondary || "").split("|").includes(t);
+          if (!(v || m || g || sec)) return false;
+        }
+        return true;
+      }
+
+      function applyFilters() {
+        const matched = cards.filter(matchesFilter);
+        const totalMatched = matched.length;
+        const newLastPage = Math.max(1, Math.ceil(totalMatched / pageSize));
+        if (filterState.page > newLastPage) filterState.page = newLastPage;
+
+        const start = (filterState.page - 1) * pageSize;
+        const end = start + pageSize;
+        const visibleSet = new Set(matched.slice(start, end));
+
+        cards.forEach((c) => {
+          c.setAttribute("data-hidden", visibleSet.has(c) ? "false" : "true");
+        });
+
+        empty.classList.toggle("hidden", totalMatched > 0);
+        renderPagination(newLastPage);
+
+        // Emit a custom event so FilterSidebar's count display can update.
+        window.dispatchEvent(
+          new CustomEvent("ideas:filter-applied", {
+            detail: {
+              total: cards.length,
+              matched: totalMatched,
+              page: filterState.page,
+              lastPage: newLastPage,
+            },
+          }),
+        );
+      }
+
+      function renderPagination(last) {
+        if (last <= 1) {
+          paginationNav.innerHTML = "";
+          return;
+        }
+        const cur = filterState.page;
+        const buildPages = (current, lastP) => {
+          if (lastP <= 7) return Array.from({ length: lastP }, (_, i) => i + 1);
+          const out = [1];
+          const s = Math.max(2, current - 1);
+          const e = Math.min(lastP - 1, current + 1);
+          if (s > 2) out.push("…");
+          for (let p = s; p <= e; p++) out.push(p);
+          if (e < lastP - 1) out.push("…");
+          out.push(lastP);
+          return out;
+        };
+        const pages = buildPages(cur, last);
+        const btn = (label, page, opts = {}) => {
+          const disabled = opts.disabled || false;
+          const current = opts.current || false;
+          if (current) {
+            return `<span class="px-3 py-2 rounded-lg bg-accent text-white font-semibold tabular-nums" aria-current="page">${label}</span>`;
+          }
+          if (disabled) {
+            return `<span class="px-3 py-2 rounded-lg border border-surface-border text-muted/50 cursor-not-allowed" aria-disabled="true">${label}</span>`;
+          }
+          return `<button type="button" data-page="${page}" class="px-3 py-2 rounded-lg border border-surface-border hover:bg-surface-card text-surface-fg/80 hover:text-surface-fg transition tabular-nums" aria-label="Page ${page}">${label}</button>`;
+        };
+        const parts = [];
+        parts.push(btn("‹ Prev", cur - 1, { disabled: cur === 1 }));
+        for (const p of pages) {
+          if (p === "…") parts.push(`<span class="px-2 text-muted" aria-hidden="true">…</span>`);
+          else parts.push(btn(String(p), p, { current: p === cur }));
+        }
+        parts.push(btn("Next ›", cur + 1, { disabled: cur === last }));
+        paginationNav.innerHTML = parts.join("");
+      }
+
+      // Pagination click handler (delegated).
+      paginationNav.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-page]");
+        if (!btn) return;
+        const p = parseInt(btn.dataset.page, 10);
+        if (!Number.isFinite(p)) return;
+        filterState.page = p;
+        syncToUrl();
+        applyFilters();
+        // Scroll to grid top so user sees new cards.
+        document.getElementById("ideas-grid")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      // Empty-state reset button.
+      empty.addEventListener("click", (e) => {
+        const btn = e.target.closest('[data-action="reset-filters"]');
+        if (!btn) return;
+        filterState = { search: "", verdict: "ALL", tag: null, page: 1 };
+        syncToUrl();
+        applyFilters();
+        window.dispatchEvent(new CustomEvent("ideas:reset-from-page"));
+      });
+
+      // FilterSidebar talks to this script via custom events. Decoupled — no
+      // React state shared, no global mutable bag.
+      window.addEventListener("ideas:set-search", (e) => {
+        filterState.search = e.detail.value || "";
+        filterState.page = 1;
+        syncToUrl();
+        applyFilters();
+      });
+      window.addEventListener("ideas:set-verdict", (e) => {
+        filterState.verdict = e.detail.value || "ALL";
+        filterState.page = 1;
+        syncToUrl();
+        applyFilters();
+      });
+      window.addEventListener("ideas:set-tag", (e) => {
+        filterState.tag = e.detail.value || null;
+        filterState.page = 1;
+        syncToUrl();
+        applyFilters();
+      });
+      window.addEventListener("ideas:reset", () => {
+        filterState = { search: "", verdict: "ALL", tag: null, page: 1 };
+        syncToUrl();
+        applyFilters();
+      });
+
+      // Browser back/forward.
+      window.addEventListener("popstate", () => {
+        syncFromUrl();
+        applyFilters();
+        window.dispatchEvent(
+          new CustomEvent("ideas:state-restored", { detail: { ...filterState } }),
+        );
+      });
+
+      // Boot.
+      syncFromUrl();
+      applyFilters();
+      // Tell sidebar to reflect URL state.
+      window.dispatchEvent(
+        new CustomEvent("ideas:state-restored", { detail: { ...filterState } }),
+      );
+    })();
+  </script>
 </BaseLayout>

@@ -7,9 +7,12 @@ import Engagement from "./Engagement.tsx";
 
 interface Props {
   idea: Idea;
+  /** Build-time page number — used by /ideas/ filter+pagination script to set
+   *  initial visibility. Cards on pages 2+ start hidden via CSS. */
+  initPage?: number;
 }
 
-const { idea } = Astro.props;
+const { idea, initPage } = Astro.props;
 
 // Compose all tags into a single ordered list, then cap and overflow.
 const allTags: { label: string; kind: "vertical" | "model" | "geography" | "secondary" }[] = [
@@ -32,7 +35,11 @@ const dateStr = idea.data.date.toISOString().slice(0, 10);
   data-vertical={idea.data.tags.vertical}
   data-model={idea.data.tags.model}
   data-geography={idea.data.tags.geography}
+  data-secondary={idea.data.tags.secondary.join("|")}
   data-verdict={idea.data.verdict}
+  data-score={idea.data.score}
+  data-date={dateStr}
+  data-init-page={initPage}
 >
   <!-- Hover accent line -->
   <span
