@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-02 | AirRoll — classroom IAQ kit + AI compliance reports for K-12 | IoT+SaaS / US Small School Districts + Private K-12 + Charter + Daycare | 80 | STRONG GO | [folder](./ideas/2026-05-02-airroll-classroom-iaq-iot/) |
 | 2026-05-02 | PartPace — clamp-on AI machine monitor for solo CNC shops | Hardware+SaaS / US Solo + Micro CNC Machine Shops | 80 | STRONG GO | [folder](./ideas/2026-05-02-partpace-cnc-monitor-solo-shop/) |
 | 2026-05-02 | ColdLog — AIM Act refrigerant compliance for small grocers | IoT+SaaS / US Independent Grocery + Convenience + Restaurants | 80 | STRONG GO | [folder](./ideas/2026-05-02-coldlog-aim-act-refrigerant-smb/) |
 | 2026-05-01 | SILSanity — AI audit copilot for small Australian NDIS SIL providers | Compliance SaaS / Australia NDIS SIL Providers | 82 | STRONG GO | [folder](./ideas/2026-05-01-silsanity-ndis-audit-copilot/) |
