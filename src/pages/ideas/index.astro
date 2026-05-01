@@ -128,8 +128,12 @@ const meta: SeoMeta = {
     </div>
   </section>
 
-  <!-- Cards on pages 2+ start hidden. Script flips data-hidden once it loads. -->
-  <style>
+  <!--
+    Cards on pages 2+ start hidden. Script flips data-hidden once it loads.
+    is:global because IdeaCard.astro is a separate component with its own
+    Astro scope hash — the page's scoped style would never match the card.
+  -->
+  <style is:global>
     #ideas-grid > [data-init-page]:not([data-init-page="1"]) {
       display: none;
     }
