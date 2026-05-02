@@ -1,5 +1,4 @@
 ---
-import ScoreCard from "../../../components/ScoreCard.astro";
 import { getAllIdeas } from "../../../lib/ideas";
 import "@fontsource-variable/inter";
 
@@ -13,7 +12,25 @@ export async function getStaticPaths() {
 
 const { idea } = Astro.props;
 const d = idea.data;
-const url = `startupbasket.ai/ideas/${d.slug}/`;
+const ideaUrl = `https://startupbasket.ai/ideas/${d.slug}/`;
+const ogImage = `/ideas/og/${d.slug}.png`;
+
+// Hashtag rules mirror the publish-to-x skill: strip non-alphanumerics from
+// each tag value, prepend # — always include #StartupIdeas + #StartupBasket
+// plus vertical, model, geography, and every secondary tag.
+function hashtag(value: string): string {
+  return "#" + value.replace(/[^A-Za-z0-9]/g, "");
+}
+const hashtags = [
+  "#StartupIdeas",
+  "#StartupBasket",
+  hashtag(d.tags.vertical),
+  hashtag(d.tags.model),
+  hashtag(d.tags.geography),
+  ...d.tags.secondary.map(hashtag),
+];
+const hashtagLine = hashtags.join(" ");
+const tweetText = `${d.title}\n${ideaUrl}\n\n${hashtagLine}`;
 ---
 
 <!doctype html>
@@ -25,9 +42,7 @@ const url = `startupbasket.ai/ideas/${d.slug}/`;
     <title>{d.title} — tweet card</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <style is:global>
-      :root {
-        color-scheme: dark;
-      }
+      :root { color-scheme: dark; }
       html, body {
         margin: 0;
         padding: 0;
@@ -42,12 +57,10 @@ const url = `startupbasket.ai/ideas/${d.slug}/`;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 24px;
+        padding: 32px;
       }
-      /* The card itself — fixed 1200x630 so screenshots match X's large-image card. */
       .tw-card {
         width: 1200px;
-        height: 630px;
         background: #0f1115;
         padding: 56px 64px;
         display: flex;
@@ -74,111 +87,63 @@ const url = `startupbasket.ai/ideas/${d.slug}/`;
         align-items: center;
         justify-content: center;
       }
-      .tw-brand {
-        font-size: 22px;
-        font-weight: 600;
-      }
+      .tw-brand { font-size: 22px; font-weight: 600; }
       .tw-url {
         margin-left: auto;
         font-size: 18px;
-        color: #9ca3af;
+        color: #60a5fa;
+        text-decoration: none;
       }
+      .tw-url:hover { text-decoration: underline; }
       .tw-title {
         font-size: 38px;
         font-weight: 700;
         line-height: 1.2;
-        margin-bottom: 32px;
+        margin-bottom: 28px;
       }
-      .tw-card-inner {
-        flex: 1;
-      }
-      /* The ScoreCard component uses Tailwind utility names; redefine the few we need
-         so this page works without the global Tailwind bundle. */
-      .card {
-        background: #15181f;
+      .tw-score-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
         border: 1px solid #2a2f3a;
-        border-radius: 18px;
-        padding: 28px 32px;
+        background: #0f1115;
       }
-      .text-surface-fg { color: #f5f5f4; }
-      .text-muted, .text-\[11px\].text-muted, .text-\[10px\].text-muted { color: #9ca3af; }
-      .text-accent { color: #f59e0b; }
-      .text-emerald-600, .dark\:text-emerald-400, .text-emerald-400 { color: #10b981; }
-      .text-amber-600, .dark\:text-amber-400, .text-amber-400 { color: #f59e0b; }
-      .text-rose-600, .dark\:text-rose-400, .text-rose-400 { color: #f43f5e; }
-      .stroke-surface-border\/40, .stroke-surface-border\/30, .stroke-surface-border\/60, .bg-surface-border\/60 {
-        stroke: rgba(120, 127, 140, 0.25);
+      .tw-hashtags {
+        margin-top: 24px;
+        font-size: 22px;
+        color: #60a5fa;
+        line-height: 1.5;
+        word-break: break-word;
+        cursor: pointer;
+        user-select: all;
       }
-      .bg-surface-border\/60 { background: #2a2f3a; }
-      .stroke-emerald-500, .dark\:stroke-emerald-400 { stroke: #10b981; }
-      .stroke-amber-500, .dark\:stroke-amber-400 { stroke: #f59e0b; }
-      .stroke-rose-500, .dark\:stroke-rose-400 { stroke: #f43f5e; }
-
-      /* Layout glue for ScoreCard's tailwind classes */
-      .flex { display: flex; }
-      .flex-col { flex-direction: column; }
-      .flex-wrap { flex-wrap: wrap; }
-      .items-center { align-items: center; }
-      .justify-center { justify-content: center; }
-      .shrink-0 { flex-shrink: 0; }
-      .relative { position: relative; }
-      .absolute { position: absolute; }
-      .inset-0 { inset: 0; }
-      .leading-none { line-height: 1; }
-      .leading-tight { line-height: 1.25; }
-      .text-center { text-align: center; }
-      .font-bold { font-weight: 700; }
-      .font-semibold { font-weight: 600; }
-      .tabular-nums { font-variant-numeric: tabular-nums; }
-      .gap-1 { gap: 4px; }
-      .gap-2 { gap: 8px; }
-      .gap-3 { gap: 12px; }
-      .gap-6 { gap: 24px; }
-      .gap-8 { gap: 32px; }
-      .gap-x-4 { column-gap: 16px; }
-      .gap-x-5 { column-gap: 20px; }
-      .gap-y-3 { row-gap: 12px; }
-      .mt-0\.5 { margin-top: 2px; }
-      .mb-5 { margin-bottom: 20px; }
-      .p-5 { padding: 20px; }
-      .p-6 { padding: 24px; }
-      .w-px { width: 1px; }
-      .h-12 { height: 48px; }
-      .w-10 { width: 40px; }
-      .h-10 { height: 40px; }
-      .w-11 { width: 44px; }
-      .h-11 { height: 44px; }
-      .w-16 { width: 64px; }
-      .h-16 { height: 64px; }
-      .w-20 { width: 80px; }
-      .h-20 { height: 80px; }
-      .w-full { width: 100%; }
-      .h-full { height: 100%; }
-      .text-\[9px\] { font-size: 9px; }
-      .text-\[10px\] { font-size: 10px; }
-      .text-\[11px\] { font-size: 11px; }
-      .text-xs { font-size: 12px; }
-      .text-sm { font-size: 14px; }
-      .text-base { font-size: 16px; }
-      .text-xl { font-size: 20px; }
-      .text-2xl { font-size: 24px; }
-      .-rotate-90 { transform: rotate(-90deg); }
-
-      /* Responsive variants used by ScoreCard — force the larger sizes since the card is fixed-width */
-      @media all {
-        .sm\:p-6 { padding: 24px; }
-        .sm\:w-20 { width: 80px; }
-        .sm\:h-20 { height: 80px; }
-        .sm\:w-11 { width: 44px; }
-        .sm\:h-11 { height: 44px; }
-        .sm\:text-2xl { font-size: 28px; }
-        .sm\:text-base { font-size: 16px; }
-        .sm\:text-sm { font-size: 14px; }
-        .sm\:gap-8 { gap: 32px; }
-        .sm\:gap-x-5 { column-gap: 20px; }
-        .sm\:block { display: block; }
+      .tw-toolbar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+        flex-wrap: wrap;
       }
-
+      .tw-btn {
+        background: #1f2937;
+        border: 1px solid #374151;
+        color: #f5f5f4;
+        padding: 10px 16px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: inherit;
+        cursor: pointer;
+        transition: background 120ms;
+      }
+      .tw-btn:hover { background: #374151; }
+      .tw-btn-accent {
+        background: #f59e0b;
+        color: #0f1115;
+        border-color: #f59e0b;
+        font-weight: 600;
+      }
+      .tw-btn-accent:hover { background: #fbbf24; border-color: #fbbf24; }
       .hint {
         position: fixed;
         bottom: 12px;
@@ -188,6 +153,22 @@ const url = `startupbasket.ai/ideas/${d.slug}/`;
         color: #6b7280;
         font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
       }
+      .tw-toast {
+        position: fixed;
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #10b981;
+        color: #0f1115;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 200ms;
+      }
+      .tw-toast.show { opacity: 1; }
     </style>
   </head>
   <body>
@@ -195,13 +176,43 @@ const url = `startupbasket.ai/ideas/${d.slug}/`;
       <div class="tw-header">
         <div class="tw-logo">SB</div>
         <div class="tw-brand">StartupBasket</div>
-        <div class="tw-url">{url}</div>
+        <a class="tw-url" href={ideaUrl}>{ideaUrl.replace("https://", "")}</a>
       </div>
       <div class="tw-title">{d.title}</div>
-      <div class="tw-card-inner">
-        <ScoreCard score={d.score} verdict={d.verdict} axes={d.axes} />
+      <img class="tw-score-img" src={ogImage} width="1200" height="630" alt={`Evaluation scores for ${d.title}`} />
+      <div class="tw-hashtags" id="hashtags" data-text={tweetText}>{hashtagLine}</div>
+      <div class="tw-toolbar">
+        <button type="button" class="tw-btn tw-btn-accent" id="copy-tweet">Copy tweet text</button>
+        <button type="button" class="tw-btn" id="copy-hashtags">Copy hashtags</button>
+        <a class="tw-btn" href={ogImage} download={`${d.slug}.png`}>Download PNG</a>
+        <a
+          class="tw-btn"
+          target="_blank"
+          rel="noopener"
+          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`}
+        >Open in X composer</a>
       </div>
     </div>
-    <div class="hint">Cmd+Shift+4 → drag over card to screenshot</div>
+    <div class="tw-toast" id="toast">Copied</div>
+    <div class="hint">Right-click PNG → Copy Image, then paste into X</div>
+
+    <script is:inline define:vars={{ tweetText, hashtagLine }}>
+      const toast = document.getElementById("toast");
+      function flash(msg) {
+        toast.textContent = msg;
+        toast.classList.add("show");
+        setTimeout(() => toast.classList.remove("show"), 1200);
+      }
+      async function copy(text, label) {
+        try {
+          await navigator.clipboard.writeText(text);
+          flash(label + " copied");
+        } catch (err) {
+          flash("Copy failed");
+        }
+      }
+      document.getElementById("copy-tweet")?.addEventListener("click", () => copy(tweetText, "Tweet"));
+      document.getElementById("copy-hashtags")?.addEventListener("click", () => copy(hashtagLine, "Hashtags"));
+    </script>
   </body>
 </html>
