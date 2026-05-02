@@ -30,7 +30,7 @@ const hashtags = [
   ...d.tags.secondary.map(hashtag),
 ];
 const hashtagLine = hashtags.join(" ");
-const tweetText = `${d.title}\n${ideaUrl}\n\n${hashtagLine}`;
+const tweetText = `🚀 New Startup Idea\n\n${d.title}\n${ideaUrl}\n\n${hashtagLine}`;
 ---
 
 <!doctype html>
@@ -95,6 +95,16 @@ const tweetText = `${d.title}\n${ideaUrl}\n\n${hashtagLine}`;
         text-decoration: none;
       }
       .tw-url:hover { text-decoration: underline; }
+      .tw-eyebrow {
+        font-size: 22px;
+        font-weight: 600;
+        color: #f59e0b;
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .tw-eyebrow .icon { font-size: 28px; }
       .tw-title {
         font-size: 38px;
         font-weight: 700;
@@ -178,6 +188,7 @@ const tweetText = `${d.title}\n${ideaUrl}\n\n${hashtagLine}`;
         <div class="tw-brand">StartupBasket</div>
         <a class="tw-url" href={ideaUrl}>{ideaUrl.replace("https://", "")}</a>
       </div>
+      <div class="tw-eyebrow"><span class="icon">🚀</span> New Startup Idea</div>
       <div class="tw-title">{d.title}</div>
       <img class="tw-score-img" src={ogImage} width="1200" height="630" alt={`Evaluation scores for ${d.title}`} />
       <div class="tw-hashtags" id="hashtags" data-text={tweetText}>{hashtagLine}</div>
