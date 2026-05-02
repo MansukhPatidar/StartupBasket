@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-02 | VendorMSME Pilot — 43B(h) copilot for India Pvt Ltd buyers | Compliance SaaS / India Mid-Market Pvt Ltd Buyers | 78 | GO | [folder](./ideas/2026-05-02-vendor-msme-pilot-india/) |
 | 2026-05-02 | ChargeClerk — AI 3PD chargeback recovery for indie restaurants | RestaurantTech SaaS / US Independent Single-Location Restaurants | 82 | STRONG GO | [folder](./ideas/2026-05-02-chargeclerk-3pd-dispute-indie-restaurant/) |
 | 2026-05-02 | PenyeliaPilot — halal-supervisor copilot for Indonesia F&B | Compliance SaaS / Indonesia Mid-Tier F&B | 79 | GO | [folder](./ideas/2026-05-02-penyeliapilot-halal-supervisor-id/) |
 | 2026-05-02 | RERA AdGenie — QR-safe ad generator + compliance copilot for India brokers | PropTech SaaS / India Real Estate Brokers | 78 | GO | [folder](./ideas/2026-05-02-rera-ad-genie-broker-compliance/) |
