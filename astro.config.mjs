@@ -39,6 +39,7 @@ export default defineConfig({
     tailwind({ applyBaseStyles: false }),
     react(),
     sitemap({
+      filter: (page) => !/\/tweetcard\/?$/.test(new URL(page).pathname),
       serialize(item) {
         const path = new URL(item.url).pathname;
 
