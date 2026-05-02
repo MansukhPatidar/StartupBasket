@@ -52,7 +52,7 @@ export function homepageMeta(siteUrl: string): SeoMeta {
 export function ideaMeta(idea: Idea, siteUrl: string): SeoMeta {
   const url = `${siteUrl}/ideas/${idea.data.slug}/`;
   const description = composeIdeaDescription(idea);
-  const ogImage = `${siteUrl}/og-default.png`;
+  const ogImage = `${siteUrl}/ideas/og/${idea.data.slug}.png`;
   return {
     title: `${idea.data.title} — ${SITE_NAME}`,
     description,
