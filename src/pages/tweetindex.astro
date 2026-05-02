@@ -1,0 +1,162 @@
+---
+import { getAllIdeas } from "../lib/ideas";
+import "@fontsource-variable/inter";
+
+const ideas = await getAllIdeas();
+
+function fmtDate(d: Date): string {
+  return d.toISOString().slice(0, 10);
+}
+---
+
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Tweet index — StartupBasket</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style is:global>
+      :root { color-scheme: dark; }
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #0a0c10;
+        font-family: "Inter Variable", "Inter", system-ui, sans-serif;
+        color: #f5f5f4;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      body { padding: 32px 24px; }
+      .wrap { max-width: 1100px; margin: 0 auto; }
+      h1 {
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 8px;
+      }
+      .sub {
+        color: #9ca3af;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      .count {
+        color: #f59e0b;
+        font-weight: 600;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      th, td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid #1f2937;
+        vertical-align: top;
+      }
+      th {
+        background: #0f1115;
+        color: #9ca3af;
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        position: sticky;
+        top: 0;
+      }
+      tr:hover td { background: #0f1115; }
+      .idea-title {
+        color: #f5f5f4;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .idea-title:hover { color: #fbbf24; }
+      .one-liner {
+        color: #9ca3af;
+        font-size: 13px;
+        margin-top: 4px;
+      }
+      .date-cell {
+        color: #9ca3af;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+        white-space: nowrap;
+      }
+      .cta-cell { white-space: nowrap; }
+      .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        margin-right: 6px;
+        border: 1px solid transparent;
+        transition: background 120ms;
+      }
+      .btn-primary {
+        background: #f59e0b;
+        color: #0f1115;
+      }
+      .btn-primary:hover { background: #fbbf24; }
+      .btn-ghost {
+        background: #1f2937;
+        color: #f5f5f4;
+        border-color: #374151;
+      }
+      .btn-ghost:hover { background: #374151; }
+      .verdict {
+        font-size: 11px;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-weight: 700;
+        margin-left: 6px;
+        vertical-align: middle;
+      }
+      .v-STRONGGO { background: #065f46; color: #d1fae5; }
+      .v-GO { background: #1e40af; color: #dbeafe; }
+      .v-VALIDATE { background: #78350f; color: #fed7aa; }
+      .v-PASS { background: #7f1d1d; color: #fecaca; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Tweet Index</h1>
+      <div class="sub">
+        All idea tweetcards. <span class="count">{ideas.length}</span> ideas, sorted newest first. Unlinked page.
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Idea</th>
+            <th>Date</th>
+            <th>CTA</th>
+          </tr>
+        </thead>
+        <tbody>
+          {ideas.map((idea) => {
+            const d = idea.data;
+            const ideaUrl = `/ideas/${d.slug}/`;
+            const tweetcardUrl = `/ideas/${d.slug}/tweetcard/`;
+            const verdictClass = `v-${d.verdict.replace(/\s+/g, "")}`;
+            return (
+              <tr>
+                <td>
+                  <a class="idea-title" href={ideaUrl}>{d.title}</a>
+                  <span class={`verdict ${verdictClass}`}>{d.verdict} {d.score}</span>
+                  <div class="one-liner">{d.oneLiner}</div>
+                </td>
+                <td class="date-cell">{fmtDate(d.date)}</td>
+                <td class="cta-cell">
+                  <a class="btn btn-primary" href={tweetcardUrl}>Tweetcard</a>
+                  <a class="btn btn-ghost" target="_blank" rel="noopener" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${d.title}\nhttps://startupbasket.ai${ideaUrl}`)}`}>X composer</a>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
