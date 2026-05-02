@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-03 | Loi25Pilot — French-first Quebec Law 25 privacy copilot for PMEs | Compliance SaaS / Quebec PME (<50 employees) | 78 | GO | [folder](./ideas/2026-05-03-loi25pilot-quebec-pme-privacy/) |
 | 2026-05-03 | ReviewFort — Fake-review extortion defense for indie restaurants | RestaurantTech SaaS / US Independent Restaurants + Small Groups | 79 | GO | [folder](./ideas/2026-05-03-reviewfort-extortion-defense/) |
 | 2026-05-02 | NotaZap — WhatsApp NFS-e copilot for Brazil's solo PJs | Compliance SaaS / Brazil Solo Service Providers (PJ + MEI) | 79 | GO | [folder](./ideas/2026-05-02-notazap-nfse-whatsapp-brasil/) |
 | 2026-05-02 | CDLGuard — FMCSA TPR audit copilot for small CDL schools | Compliance SaaS / US Small CDL Training Schools | 80 | STRONG GO | [folder](./ideas/2026-05-02-cdlguard-tpr-audit-survival/) |
