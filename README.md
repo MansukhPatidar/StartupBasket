@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-02 | CoopCool — WhatsApp climate IoT kit for India broiler & layer farmers | AgriTech IoT / India Independent + Contract Poultry Farmers | 78 | GO | [folder](./ideas/2026-05-02-coopcool-poultry-iot-india/) |
 | 2026-05-02 | FatoorMe — ZATCA Wave-24 copilot for Saudi freelancers | Compliance SaaS / Saudi Arabia Freelancers + Solo Service Micro-Businesses | 75 | GO | [folder](./ideas/2026-05-02-fatoorme-wave24-ksa-freelancer/) |
 | 2026-05-02 | FastFIR — WhatsApp RENTRI copilot for Italian micro hazardous-waste producers | Compliance SaaS / Italy Micro Hazardous-Waste Producers | 78 | GO | [folder](./ideas/2026-05-02-fastfir-rentri-italia-micro/) |
 | 2026-05-02 | VendorMSME Pilot — 43B(h) copilot for India Pvt Ltd buyers | Compliance SaaS / India Mid-Market Pvt Ltd Buyers | 78 | GO | [folder](./ideas/2026-05-02-vendor-msme-pilot-india/) |
