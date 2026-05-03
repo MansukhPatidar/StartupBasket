@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-03 | LiveSafe VN — Pre-stream compliance & evidence pack for Vietnam livestream sellers | Compliance / Vietnam SMB | 77 | GO | [folder](./ideas/2026-05-03-livesafe-vn-livestream-compliance/) |
 | 2026-05-03 | PinHunt — WhatsApp reverse-invoicer for Kenyan SMBs hit by KRA's eTIMS expense rules | Compliance SaaS / Kenya SMBs (Buyers from Informal Suppliers) | 79 | GO | [folder](./ideas/2026-05-03-pinhunt-etims-reverse-invoicer/) |
 | 2026-05-03 | Loi25Pilot — French-first Quebec Law 25 privacy copilot for PMEs | Compliance SaaS / Quebec PME (<50 employees) | 78 | GO | [folder](./ideas/2026-05-03-loi25pilot-quebec-pme-privacy/) |
 | 2026-05-03 | ReviewFort — Fake-review extortion defense for indie restaurants | RestaurantTech SaaS / US Independent Restaurants + Small Groups | 79 | GO | [folder](./ideas/2026-05-03-reviewfort-extortion-defense/) |
