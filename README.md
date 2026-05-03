@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-03 | UADBoost — UAD 3.6 transition copilot for solo US residential appraisers | PropTech SaaS / US Solo + Micro Residential Appraisers | 80 | STRONG GO | [folder](./ideas/2026-05-03-uadboost-appraiser-copilot/) |
 | 2026-05-03 | ClaimRig — Detention & bond-claim agent for small carriers | Logistics SaaS / US Owner-Operators + Small Fleets (1–10 Trucks) | 80 | STRONG GO | [folder](./ideas/2026-05-03-claimrig-detention-bond-claims/) |
 | 2026-05-03 | EnrollVoice — 24/7 AI admissions agent for small private K-12 | EdTech SaaS / US Small Private K-12 + Microschools | 78 | GO | [folder](./ideas/2026-05-03-enrollvoice-small-school-admissions/) |
 | 2026-05-03 | LiveSafe VN — Pre-stream compliance & evidence pack for Vietnam livestream sellers | Compliance / Vietnam SMB | 77 | GO | [folder](./ideas/2026-05-03-livesafe-vn-livestream-compliance/) |
