@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-04 | HandwerkBot — WhatsApp photo-to-Angebot for German trades | TradeTech SaaS / Germany Solo + Micro Handwerker (1–3 person shops) | 78 | GO | [folder](./ideas/2026-05-04-handwerkbot-foto-angebot/) |
 | 2026-05-04 | CISQuickFile — WhatsApp MTD-ITSA copilot for UK CIS tradies | Compliance SaaS / UK Self-Employed Tradespeople (CIS Subcontractors + Sole Traders) | 79 | GO | [folder](./ideas/2026-05-04-cisquickfile-mtd-tradies/) |
 | 2026-05-03 | HonorarBot — WhatsApp robot turning judicial-fee deposits into ARCA e-invoices for AR sole lawyers + peritos | Compliance SaaS / Argentina Sole Lawyers + Judicial Experts | 78 | GO | [folder](./ideas/2026-05-03-honorarbot-arca-judicial/) |
 | 2026-05-03 | UADBoost — UAD 3.6 transition copilot for solo US residential appraisers | PropTech SaaS / US Solo + Micro Residential Appraisers | 80 | STRONG GO | [folder](./ideas/2026-05-03-uadboost-appraiser-copilot/) |
