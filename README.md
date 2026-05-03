@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-03 | ClaimRig — Detention & bond-claim agent for small carriers | Logistics SaaS / US Owner-Operators + Small Fleets (1–10 Trucks) | 80 | STRONG GO | [folder](./ideas/2026-05-03-claimrig-detention-bond-claims/) |
 | 2026-05-03 | EnrollVoice — 24/7 AI admissions agent for small private K-12 | EdTech SaaS / US Small Private K-12 + Microschools | 78 | GO | [folder](./ideas/2026-05-03-enrollvoice-small-school-admissions/) |
 | 2026-05-03 | LiveSafe VN — Pre-stream compliance & evidence pack for Vietnam livestream sellers | Compliance / Vietnam SMB | 77 | GO | [folder](./ideas/2026-05-03-livesafe-vn-livestream-compliance/) |
 | 2026-05-03 | PinHunt — WhatsApp reverse-invoicer for Kenyan SMBs hit by KRA's eTIMS expense rules | Compliance SaaS / Kenya SMBs (Buyers from Informal Suppliers) | 79 | GO | [folder](./ideas/2026-05-03-pinhunt-etims-reverse-invoicer/) |
