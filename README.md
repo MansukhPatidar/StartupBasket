@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-04 | MitsuMoru — LINE photo→見積書 AI for Japan's solo リフォーム | TradeTech SaaS / Japan Solo Reform Contractors + 一人親方 | 79 | GO | [folder](./ideas/2026-05-04-mitsumoru-line-reform-estimate/) |
 | 2026-05-04 | HandwerkBot — WhatsApp photo-to-Angebot for German trades | TradeTech SaaS / Germany Solo + Micro Handwerker (1–3 person shops) | 78 | GO | [folder](./ideas/2026-05-04-handwerkbot-foto-angebot/) |
 | 2026-05-04 | CISQuickFile — WhatsApp MTD-ITSA copilot for UK CIS tradies | Compliance SaaS / UK Self-Employed Tradespeople (CIS Subcontractors + Sole Traders) | 79 | GO | [folder](./ideas/2026-05-04-cisquickfile-mtd-tradies/) |
 | 2026-05-03 | HonorarBot — WhatsApp robot turning judicial-fee deposits into ARCA e-invoices for AR sole lawyers + peritos | Compliance SaaS / Argentina Sole Lawyers + Judicial Experts | 78 | GO | [folder](./ideas/2026-05-03-honorarbot-arca-judicial/) |
