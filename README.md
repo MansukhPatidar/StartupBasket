@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-04 | NaijaBill — WhatsApp FIRS MBS copilot for Nigerian SMEs | Compliance SaaS / Nigeria Medium Businesses (₦1B–₦5B turnover) | 79 | GO | [folder](./ideas/2026-05-04-naijabill-firs-mbs-whatsapp/) |
 | 2026-05-04 | ThawDesk — Fund-release copilot for SMBs frozen by Stripe & PayPal | FinTech SaaS / US E-commerce + Digital-product SMBs | 78 | GO | [folder](./ideas/2026-05-04-thawdesk-psp-fund-release/) |
 | 2026-05-04 | BuyBox — Phone-camera buy-desk AI for indie used bookstores | Retail SaaS / US + Anglosphere Independent Used Bookstores | 78 | GO | [folder](./ideas/2026-05-04-buybox-bookstore-buy-desk/) |
 | 2026-05-04 | PaydayRails — Payday Super copilot for Australian micro-employers | Compliance SaaS / Australia 1–9 staff micro-employers | 78 | GO | [folder](./ideas/2026-05-04-paydayrails-au-micro-super/) |
