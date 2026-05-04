@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-04 | PaydayRails — Payday Super copilot for Australian micro-employers | Compliance SaaS / Australia 1–9 staff micro-employers | 78 | GO | [folder](./ideas/2026-05-04-paydayrails-au-micro-super/) |
 | 2026-05-04 | StallScribe — Offline AI scribe for solo equine vets | VetTech SaaS / US Solo Equine Ambulatory Veterinarians | 64 | VALIDATE | [folder](./ideas/2026-05-04-stallscribe-equine-mobile/) |
 | 2026-05-04 | MitsuMoru — LINE photo→見積書 AI for Japan's solo リフォーム | TradeTech SaaS / Japan Solo Reform Contractors + 一人親方 | 79 | GO | [folder](./ideas/2026-05-04-mitsumoru-line-reform-estimate/) |
 | 2026-05-04 | HandwerkBot — WhatsApp photo-to-Angebot for German trades | TradeTech SaaS / Germany Solo + Micro Handwerker (1–3 person shops) | 78 | GO | [folder](./ideas/2026-05-04-handwerkbot-foto-angebot/) |
