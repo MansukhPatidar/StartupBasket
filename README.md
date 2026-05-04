@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-05 | AcreScribe — Part 137 copilot for spray-drone operators | AgTech SaaS / US Small Spray-Drone Operators | 79 | GO | [folder](./ideas/2026-05-05-acrescribe-spray-drone-part137/) |
 | 2026-05-05 | LookbackPilot — 5-year Medicaid look-back doc collector & analyzer for solo elder law firms | ProfessionalServices SaaS / US Solo + Small Elder Law Firms | 79 | GO | [folder](./ideas/2026-05-05-lookbackpilot-elder-law-medicaid/) |
 | 2026-05-04 | NaijaBill — WhatsApp FIRS MBS copilot for Nigerian SMEs | Compliance SaaS / Nigeria Medium Businesses (₦1B–₦5B turnover) | 79 | GO | [folder](./ideas/2026-05-04-naijabill-firs-mbs-whatsapp/) |
 | 2026-05-04 | ThawDesk — Fund-release copilot for SMBs frozen by Stripe & PayPal | FinTech SaaS / US E-commerce + Digital-product SMBs | 78 | GO | [folder](./ideas/2026-05-04-thawdesk-psp-fund-release/) |
