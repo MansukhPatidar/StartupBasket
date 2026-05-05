@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-06 | Portecito — WhatsApp voice Carta Porte copilot for Mexican hombre-camión | Compliance SaaS / Mexico Hombre-Camión Owner-Operators | 80 | STRONG GO | [folder](./ideas/2026-05-06-portecito-hombrecamion-whatsapp/) |
 | 2026-05-05 | VigilDesk — AI scribe for indie funeral arrangement conferences | ProfessionalServices SaaS / US Independent Funeral Homes | 79 | GO | [folder](./ideas/2026-05-05-vigildesk-funeral-arrangement-ai/) |
 | 2026-05-05 | FatoorAI — Arabic-voice e-receipts for Egyptian micro-merchants | Compliance / Egypt SMB | 80 | STRONG GO | [folder](./ideas/2026-05-05-fatoorai-egypt-micro-receipt/) |
 | 2026-05-05 | DroneDispute — AB-75 drone-AI dispute copilot for residential roofers | PropTech SaaS / US Residential Roofing Contractors | 80 | STRONG GO | [folder](./ideas/2026-05-05-dronedispute-roofer-ab75-rescue/) |
