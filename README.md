@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-05 | OwnPanel — Credentialing AI for therapists leaving Headway | HealthTech SaaS / US Solo & Micro Mental-Health Practices | 79 | GO | [folder](./ideas/2026-05-05-ownpanel-therapist-credentialing/) |
 | 2026-05-05 | DeflectESG — VSME engine that auto-fills ESG questionnaires for EU SMEs | Compliance SaaS / EU SMEs in CSRD Supply Chains | 80 | STRONG GO | [folder](./ideas/2026-05-05-deflectesg-vsme-questionnaire/) |
 | 2026-05-05 | AcreScribe — Part 137 copilot for spray-drone operators | AgTech SaaS / US Small Spray-Drone Operators | 79 | GO | [folder](./ideas/2026-05-05-acrescribe-spray-drone-part137/) |
 | 2026-05-05 | LookbackPilot — 5-year Medicaid look-back doc collector & analyzer for solo elder law firms | ProfessionalServices SaaS / US Solo + Small Elder Law Firms | 79 | GO | [folder](./ideas/2026-05-05-lookbackpilot-elder-law-medicaid/) |
