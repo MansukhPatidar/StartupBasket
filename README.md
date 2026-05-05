@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-05 | FatoorAI — Arabic-voice e-receipts for Egyptian micro-merchants | Compliance / Egypt SMB | 80 | STRONG GO | [folder](./ideas/2026-05-05-fatoorai-egypt-micro-receipt/) |
 | 2026-05-05 | DroneDispute — AB-75 drone-AI dispute copilot for residential roofers | PropTech SaaS / US Residential Roofing Contractors | 80 | STRONG GO | [folder](./ideas/2026-05-05-dronedispute-roofer-ab75-rescue/) |
 | 2026-05-05 | Pixaderno — WhatsApp Pix Automático cobrador for Brazil micro-academias | FinTech SaaS / Brazil Micro-academias + Solo Professores | 80 | STRONG GO | [folder](./ideas/2026-05-05-pixaderno-academia-pix-automatico/) |
 | 2026-05-05 | OwnPanel — Credentialing AI for therapists leaving Headway | HealthTech SaaS / US Solo & Micro Mental-Health Practices | 79 | GO | [folder](./ideas/2026-05-05-ownpanel-therapist-credentialing/) |
