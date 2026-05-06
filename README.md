@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-06 | ToaVoice — Vietnamese voice-AI e-prescription dispensing copilot for independent pharmacies | HealthTech SaaS / Vietnam Independent Family Pharmacies | 77 | GO | [folder](./ideas/2026-05-06-toavoice-vn-pharmacy-rx/) |
 | 2026-05-06 | MatMesh — stick-on nRF24 IoT for indie laundromats | IoT+SaaS / US Independent Laundromat Owners | 79 | GO | [folder](./ideas/2026-05-06-mat-mesh-laundromat-iot/) |
 | 2026-05-06 | BinBright — pick-to-light kit for solo Shopify sellers | Logistics IoT / US + Anglosphere Solo Shopify Sellers | 78 | GO | [folder](./ideas/2026-05-06-binbright-shopify-pick-light/) |
 | 2026-05-06 | LoadLock — 30-second deepfake-resistant carrier ID check at the load tender | Logistics SaaS / US Small Freight Brokers (1–15 employees) | 80 | STRONG GO | [folder](./ideas/2026-05-06-loadlock-broker-id-verify/) |
