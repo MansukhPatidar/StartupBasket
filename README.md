@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-06 | VerifyChase — ACSP-native co-sec cockpit for the UK ID-verification crunch | Compliance SaaS / UK Small Accounting Practices | 81 | STRONG GO | [folder](./ideas/2026-05-06-verifychase-acsp-cosec-uk/) |
 | 2026-05-06 | SecondChair — AI second-chair reporter for small court-reporting agencies | LegalTech SaaS / US Small Court-Reporting Agencies | 80 | STRONG GO | [folder](./ideas/2026-05-06-secondchair-depo-overflow-agency/) |
 | 2026-05-06 | DispatchWala — Hindi/Punjabi voice-AI dispatcher for 5–20-truck Indian transporters | Logistics SaaS / India Tier-2/3 Small-Fleet Transporters | 78 | GO | [folder](./ideas/2026-05-06-dispatchwala-fleet-voice/) |
 | 2026-05-06 | Portecito — WhatsApp voice Carta Porte copilot for Mexican hombre-camión | Compliance SaaS / Mexico Hombre-Camión Owner-Operators | 80 | STRONG GO | [folder](./ideas/2026-05-06-portecito-hombrecamion-whatsapp/) |
