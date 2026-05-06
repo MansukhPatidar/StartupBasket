@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-06 | BinBright — pick-to-light kit for solo Shopify sellers | Logistics IoT / US + Anglosphere Solo Shopify Sellers | 78 | GO | [folder](./ideas/2026-05-06-binbright-shopify-pick-light/) |
 | 2026-05-06 | LoadLock — 30-second deepfake-resistant carrier ID check at the load tender | Logistics SaaS / US Small Freight Brokers (1–15 employees) | 80 | STRONG GO | [folder](./ideas/2026-05-06-loadlock-broker-id-verify/) |
 | 2026-05-06 | BondRail — AI WIP cockpit for bonded contractors | Construction-Finance SaaS / US Bonded Specialty Trade Contractors ($1M–$15M revenue) | 80 | STRONG GO | [folder](./ideas/2026-05-06-bondrail-wip-cockpit/) |
 | 2026-05-06 | EscapeDesk — AI voice receptionist + flat-fee booking-OS for indie escape rooms and experience venues | ProfessionalServices SaaS / US Independent Escape Rooms + Experience Venues | 78 | GO | [folder](./ideas/2026-05-06-escapedesk-room-receptionist/) |
