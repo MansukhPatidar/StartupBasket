@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-07 | DeckLog — Voice-AI eVTR copilot for Gulf & South Atlantic commercial fishing captains | Maritime SaaS / US Gulf + South Atlantic Federally-Permitted Commercial Fishing Captains | 78 | GO | [folder](./ideas/2026-05-07-decklog-voice-evtr-fisher/) |
 | 2026-05-07 | eTIMSPesa — WhatsApp supplier-chase + reverse-invoice copilot for Kenyan SMBs | Compliance SaaS / Kenya VAT-Registered SMBs (KES 5M–500M turnover) | 81 | STRONG GO | [folder](./ideas/2026-05-07-etimspesa-supplier-chase-kenya/) |
 | 2026-05-06 | ToaVoice — Vietnamese voice-AI e-prescription dispensing copilot for independent pharmacies | HealthTech SaaS / Vietnam Independent Family Pharmacies | 77 | GO | [folder](./ideas/2026-05-06-toavoice-vn-pharmacy-rx/) |
 | 2026-05-06 | MatMesh — stick-on nRF24 IoT for indie laundromats | IoT+SaaS / US Independent Laundromat Owners | 79 | GO | [folder](./ideas/2026-05-06-mat-mesh-laundromat-iot/) |
