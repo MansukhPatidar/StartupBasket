@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-08 | CPFmóvel — CIB copilot for Brazilian imobiliárias and contadores | PropTech SaaS / Brazil Small Imobiliárias + Accounting Offices | 79 | GO | [folder](./ideas/2026-05-08-cpfmovel-brazil-cib-copilot/) |
 | 2026-05-08 | BLTPilot — pre-spray ESA + mitigation copilot for US drone applicators | AgriTech / US-SMB | 79 | GO | [folder](./ideas/2026-05-08-bltpilot-spray-drone-compliance/) |
 | 2026-05-08 | BusLane — Tachograph & EU 561 copilot for cross-border van micro-couriers | Compliance SaaS / EU Cross-Border Van Micro-Couriers (2.5–3.5t, 1–10 vans) | 80 | STRONG GO | [folder](./ideas/2026-05-08-buslane-eu-van-tacho/) |
 | 2026-05-08 | PodLedger — ESA invoicing copilot for US microschools | EdTech SaaS / US Microschool & Learning Pod Operators (ESA states) | 80 | STRONG GO | [folder](./ideas/2026-05-08-podledger-microschool-esa/) |
