@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-07 | CertScout — AI cert-preflight robot for indie console ports | DevTools / Indie Game Studios shipping to Switch 2 / PS5 / Xbox | 78 | GO | [folder](./ideas/2026-05-07-certscout-console-cert-preflight/) |
 | 2026-05-07 | HagakiVoice — Keigo voice-AI recall for Japan dental clinics | HealthTech SaaS / Japan Independent Dental Clinics (1–2 chair owner-operator) | 80 | STRONG GO | [folder](./ideas/2026-05-07-hagakivoice-jp-dental-recall/) |
 | 2026-05-07 | DeckLog — Voice-AI eVTR copilot for Gulf & South Atlantic commercial fishing captains | Maritime SaaS / US Gulf + South Atlantic Federally-Permitted Commercial Fishing Captains | 78 | GO | [folder](./ideas/2026-05-07-decklog-voice-evtr-fisher/) |
 | 2026-05-07 | eTIMSPesa — WhatsApp supplier-chase + reverse-invoice copilot for Kenyan SMBs | Compliance SaaS / Kenya VAT-Registered SMBs (KES 5M–500M turnover) | 81 | STRONG GO | [folder](./ideas/2026-05-07-etimspesa-supplier-chase-kenya/) |
