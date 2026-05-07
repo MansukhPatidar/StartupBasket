@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-08 | PodLedger — ESA invoicing copilot for US microschools | EdTech SaaS / US Microschool & Learning Pod Operators (ESA states) | 80 | STRONG GO | [folder](./ideas/2026-05-08-podledger-microschool-esa/) |
 | 2026-05-08 | KopdesPilot — WhatsApp voice copilot that fills Simkopdes for Indonesia's 80,000 KDMP | GovTech SaaS / Indonesia Koperasi Desa Merah Putih (KDMP) | 78 | GO | [folder](./ideas/2026-05-08-kopdespilot-merahputih-companion/) |
 | 2026-05-08 | ShadeTrace — AI case-capture & change-order copilot for independent US dental labs | HealthTech / US Independent Dental Laboratories ($300K–$5M revenue) | 79 | GO | [folder](./ideas/2026-05-08-shadetrace-dental-lab-capture/) |
 | 2026-05-07 | CertScout — AI cert-preflight robot for indie console ports | DevTools / Indie Game Studios shipping to Switch 2 / PS5 / Xbox | 78 | GO | [folder](./ideas/2026-05-07-certscout-console-cert-preflight/) |
