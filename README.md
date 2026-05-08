@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-08 | KsefChase — KSeF cockpit for Polish biura rachunkowe | Compliance SaaS / Poland Small Accounting Offices (biura rachunkowe) | 80 | STRONG GO | [folder](./ideas/2026-05-08-ksefchase-poland-bookkeeper/) |
 | 2026-05-08 | WaxLister — Phone-photo listing copilot for indie record stores and pro Discogs sellers | Retail SaaS / US + UK + EU Independent Vinyl Sellers | 78 | GO | [folder](./ideas/2026-05-08-waxlister-vinyl-listing-copilot/) |
 | 2026-05-08 | QuoteBench — Photo-of-the-print quoting copilot for solo & 2–10 person CNC job shops | Manufacturing SaaS / US Small CNC Job Shops (1–10 employees) | 76 | GO | [folder](./ideas/2026-05-08-quotebench-machinist-photo-quote/) |
 | 2026-05-08 | CPFmóvel — CIB copilot for Brazilian imobiliárias and contadores | PropTech SaaS / Brazil Small Imobiliárias + Accounting Offices | 79 | GO | [folder](./ideas/2026-05-08-cpfmovel-brazil-cib-copilot/) |
