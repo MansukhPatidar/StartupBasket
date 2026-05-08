@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-08 | TenancyTrail — Section 8 evidence cockpit for UK accidental landlords after the Renters' Rights Act | PropTech SaaS / UK Private Landlords (1–4 properties, England) | 80 | STRONG GO | [folder](./ideas/2026-05-08-tenancytrail-section8-evidence/) |
 | 2026-05-08 | SuperCatch — Payday Super exception cockpit for Australian bookkeeping firms | Compliance SaaS / Australia BAS Agents & Bookkeeping Firms (1–10 staff) | 81 | STRONG GO | [folder](./ideas/2026-05-08-supercatch-payday-super-cockpit/) |
 | 2026-05-08 | KsefChase — KSeF cockpit for Polish biura rachunkowe | Compliance SaaS / Poland Small Accounting Offices (biura rachunkowe) | 80 | STRONG GO | [folder](./ideas/2026-05-08-ksefchase-poland-bookkeeper/) |
 | 2026-05-08 | WaxLister — Phone-photo listing copilot for indie record stores and pro Discogs sellers | Retail SaaS / US + UK + EU Independent Vinyl Sellers | 78 | GO | [folder](./ideas/2026-05-08-waxlister-vinyl-listing-copilot/) |
