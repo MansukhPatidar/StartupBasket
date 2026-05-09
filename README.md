@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-09 | PulsePad — iPad anesthesia cockpit for independent US vet clinics | HealthTech SaaS / US Independent Small-Animal Vet Clinics (AVImark + Cornerstone shops) | 79 | GO | [folder](./ideas/2026-05-09-pulsepad-vet-anesthesia/) |
 | 2026-05-09 | EOTrace — Coverage-decline waiver cockpit for US independent P&C agencies | InsurTech SaaS / US Independent P&C Agencies (1–10 staff) | 81 | STRONG GO | [folder](./ideas/2026-05-09-eotrace-coverage-decline-cockpit/) |
 | 2026-05-09 | BakaalaPay — Arabic Soft-POS + ETA e-receipt cockpit for Egyptian micro-merchants | Compliance SaaS / Egypt Micro-Retail (EGP 250K–3M turnover) | 80 | STRONG GO | [folder](./ideas/2026-05-09-bakaalapay-egypt-ereceipt/) |
 | 2026-05-09 | TarmacSMS — Part 135 SMS cockpit for small US charter, air-tour, and single-pilot operators | Compliance SaaS / US Small Part 135 Charter & Air-Tour Operators (1–10 aircraft) | 81 | STRONG GO | [folder](./ideas/2026-05-09-tarmacsms-part135-cockpit/) |
