@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-09 | WageCode — India Labour Codes cockpit for SMB employers | Compliance SaaS / India SMB Employers (10–100 employees) | 80 | STRONG GO | [folder](./ideas/2026-05-09-wagecode-india-cockpit/) |
 | 2026-05-09 | NightCall — AI first-call copilot for independent US funeral homes | ProfessionalServices SaaS / US Independent Funeral Homes (1–4 directors, $700K–$3M revenue) | 81 | STRONG GO | [folder](./ideas/2026-05-09-nightcall-funeral-first-call/) |
 | 2026-05-09 | CareClaim — multi-state CCDF subsidy claim cockpit for small US daycare and family-childcare providers | GovTech SaaS / US Small Daycare + Family Child Care Providers (subsidy-accepting) | 80 | STRONG GO | [folder](./ideas/2026-05-09-careclaim-childcare-subsidy/) |
 | 2026-05-09 | ESACheck — Ontario job-posting & ESA policy cockpit for 25–250 employee employers | Compliance SaaS / Ontario Mid-Market Employers (25–250 employees) | 79 | GO | [folder](./ideas/2026-05-09-esacheck-ontario-job-posting/) |
