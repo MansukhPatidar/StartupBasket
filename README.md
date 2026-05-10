@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-10 | HullCopy — phone-walkaround listing kit for independent US boat brokers | Marine SaaS / US Independent Boat Brokers & Small Dealers | 76 | GO | [folder](./ideas/2026-05-10-hullcopy-boat-broker-listing/) |
 | 2026-05-10 | PlanFlight — AI ADU plan-check pre-flight for CA designers | PropTech SaaS / California Solo ADU Designers & Drafting Shops | 80 | STRONG GO | [folder](./ideas/2026-05-10-planflight-adu-precheck/) |
 | 2026-05-10 | StillChase — TTB cockpit for solo craft distilleries | Compliance SaaS / US Solo & 2-Person Craft Distilleries (DSP) | 80 | STRONG GO | [folder](./ideas/2026-05-10-stillchase-distillery-ttb/) |
 | 2026-05-09 | PulsePad — iPad anesthesia cockpit for independent US vet clinics | HealthTech SaaS / US Independent Small-Animal Vet Clinics (AVImark + Cornerstone shops) | 79 | GO | [folder](./ideas/2026-05-09-pulsepad-vet-anesthesia/) |
