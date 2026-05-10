@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-11 | Parcelot — EU duty cockpit for Etsy + Shopify sellers | Compliance SaaS / Non-EU Etsy + Shopify Micro-Merchants Shipping into EU | 81 | STRONG GO | [folder](./ideas/2026-05-11-parcelot-eu-deminimis/) |
 | 2026-05-10 | TagRush — AI pricing copilot for US estate sale liquidators | Retail SaaS / US Independent Estate Sale Liquidators (1–5 staff, 30–80 sales/yr) | 79 | GO | [folder](./ideas/2026-05-10-tagrush-estate-pricing/) |
 | 2026-05-10 | PolyDDS — EUDR DDS-pipeline cockpit for smallholder cooperatives | Compliance SaaS / Smallholder Cooperatives in Coffee + Cocoa Producing Countries | 80 | STRONG GO | [folder](./ideas/2026-05-10-polydds-eudr-cooperative/) |
 | 2026-05-10 | QuarterZap — WhatsApp-first MTD ITSA cockpit for UK accidental landlords | Compliance SaaS / UK Accidental Landlords | 81 | STRONG GO | [folder](./ideas/2026-05-10-quarterzap-uk-landlord-mtd/) |
