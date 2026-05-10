@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-10 | MensalZap — Pix Automático cockpit for Brazilian solo operators | FinTech SaaS / Brazil Solo Service Operators (personal trainers, tutors, micro-studios) | 80 | STRONG GO | [folder](./ideas/2026-05-10-mensalzap-pix-automatico/) |
 | 2026-05-10 | TruckPermit — HB 2844 statewide license concierge for Texas food trucks | GovTech SaaS / Texas Mobile Food Trucks (HB 2844 transition) | 80 | STRONG GO | [folder](./ideas/2026-05-10-truckpermit-tx-statewide/) |
 | 2026-05-10 | SoKa — pocket e-invoice + tax cockpit for VN hộ kinh doanh | Compliance SaaS / Vietnam Single-Operator Household Businesses (hộ kinh doanh) | 81 | STRONG GO | [folder](./ideas/2026-05-10-soka-vn-host-tax-cockpit/) |
 | 2026-05-10 | HullCopy — phone-walkaround listing kit for independent US boat brokers | Marine SaaS / US Independent Boat Brokers & Small Dealers | 76 | GO | [folder](./ideas/2026-05-10-hullcopy-boat-broker-listing/) |
