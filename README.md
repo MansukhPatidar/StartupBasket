@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-11 | HookCapsule — Steam launch asset cockpit for solo indie devs | Creator Economy SaaS / Solo & Small Indie Game Developers Launching on Steam | 78 | GO | [folder](./ideas/2026-05-11-hookcapsule-steam-launch/) |
 | 2026-05-11 | RekonZap — WhatsApp PPh 21 + SP2DK cockpit for Indonesian SMEs | Compliance SaaS / Indonesia SMEs (10–100 employees, post-CoreTax) | 80 | STRONG GO | [folder](./ideas/2026-05-11-rekonzap-pph21-cockpit/) |
 | 2026-05-11 | Parcelot — EU duty cockpit for Etsy + Shopify sellers | Compliance SaaS / Non-EU Etsy + Shopify Micro-Merchants Shipping into EU | 81 | STRONG GO | [folder](./ideas/2026-05-11-parcelot-eu-deminimis/) |
 | 2026-05-10 | TagRush — AI pricing copilot for US estate sale liquidators | Retail SaaS / US Independent Estate Sale Liquidators (1–5 staff, 30–80 sales/yr) | 79 | GO | [folder](./ideas/2026-05-10-tagrush-estate-pricing/) |
