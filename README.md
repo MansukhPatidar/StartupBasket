@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-12 | ChairView — AI search visibility cockpit for dental practices | HealthTech SaaS / US Cosmetic + Implant Dental Practices (1–3 DDS, $1M–$5M revenue) | 81 | STRONG GO | [folder](./ideas/2026-05-12-chairview-dental-aeo/) |
 | 2026-05-12 | ClawClaim — Pet-insurance claim cockpit for independent US vet clinics | HealthTech SaaS / US Independent Companion-Animal Veterinary Clinics (1–5 DVMs, non-corporate) | 82 | STRONG GO | [folder](./ideas/2026-05-12-clawclaim-vet-insurance/) |
 | 2026-05-11 | SignPermit — Sign-code pre-check cockpit for US sign shops | TradeTech SaaS / US Independent On-Premise Sign Shops (1–25 staff) | 80 | STRONG GO | [folder](./ideas/2026-05-11-signpermit-precheck/) |
 | 2026-05-11 | PaydayPulse — Payday Super cockpit for AU small employers | Compliance SaaS / Australian Micro & Small Employers (1–19 staff) facing 1 Jul 2026 Payday Super mandate | 81 | STRONG GO | [folder](./ideas/2026-05-11-paydaypulse-au-super/) |
