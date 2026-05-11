@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-11 | DisputeFuel — Stripe chargeback defense cockpit for indie SaaS | FinTech SaaS / Indie & Bootstrapped SaaS Subscription Businesses on Stripe ($5K–$200K MRR) | 80 | STRONG GO | [folder](./ideas/2026-05-11-disputefuel-saas-stripe/) |
 | 2026-05-11 | ReturnLens — Close the returns-to-listing loop for Shopify apparel stores | Retail SaaS / Independent Shopify Apparel + Footwear Merchants ($200K–$5M GMV) | 80 | STRONG GO | [folder](./ideas/2026-05-11-returnlens-shopify-fixer/) |
 | 2026-05-11 | HookCapsule — Steam launch asset cockpit for solo indie devs | Creator Economy SaaS / Solo & Small Indie Game Developers Launching on Steam | 78 | GO | [folder](./ideas/2026-05-11-hookcapsule-steam-launch/) |
 | 2026-05-11 | RekonZap — WhatsApp PPh 21 + SP2DK cockpit for Indonesian SMEs | Compliance SaaS / Indonesia SMEs (10–100 employees, post-CoreTax) | 80 | STRONG GO | [folder](./ideas/2026-05-11-rekonzap-pph21-cockpit/) |
