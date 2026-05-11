@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-11 | WindSnap — OIR-B1-1802 photo-evidence cockpit for Florida wind mit inspectors | PropTech SaaS / Florida Independent Home Inspectors (wind mit + 4-point) | 80 | STRONG GO | [folder](./ideas/2026-05-11-windsnap-florida-oir1802/) |
 | 2026-05-11 | SupplementShield — Short-pay defense cockpit for non-DRP collision shops | InsurTech SaaS / US Non-DRP Independent Collision Repair Shops (1–10 staff) | 81 | STRONG GO | [folder](./ideas/2026-05-11-supplementshield-collision-supplement/) |
 | 2026-05-11 | DisputeFuel — Stripe chargeback defense cockpit for indie SaaS | FinTech SaaS / Indie & Bootstrapped SaaS Subscription Businesses on Stripe ($5K–$200K MRR) | 80 | STRONG GO | [folder](./ideas/2026-05-11-disputefuel-saas-stripe/) |
 | 2026-05-11 | ReturnLens — Close the returns-to-listing loop for Shopify apparel stores | Retail SaaS / Independent Shopify Apparel + Footwear Merchants ($200K–$5M GMV) | 80 | STRONG GO | [folder](./ideas/2026-05-11-returnlens-shopify-fixer/) |
