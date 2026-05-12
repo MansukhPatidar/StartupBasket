@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-12 | AHRShield — TikTok Shop AHR cockpit for SEA sellers | Retail SaaS / Southeast Asia TikTok Shop Sellers (Indonesia, Vietnam, Thailand, Philippines, Malaysia) | 80 | STRONG GO | [folder](./ideas/2026-05-12-ahrshield-tiktok-shop-sea/) |
 | 2026-05-12 | EvictIQ — Section 8 possession cockpit for small UK landlords | PropTech SaaS / UK Small Private Landlords (1–10 properties, post-Section-21) | 81 | STRONG GO | [folder](./ideas/2026-05-12-evictiq-section8-cockpit/) |
 | 2026-05-12 | ChairView — AI search visibility cockpit for dental practices | HealthTech SaaS / US Cosmetic + Implant Dental Practices (1–3 DDS, $1M–$5M revenue) | 81 | STRONG GO | [folder](./ideas/2026-05-12-chairview-dental-aeo/) |
 | 2026-05-12 | ClawClaim — Pet-insurance claim cockpit for independent US vet clinics | HealthTech SaaS / US Independent Companion-Animal Veterinary Clinics (1–5 DVMs, non-corporate) | 82 | STRONG GO | [folder](./ideas/2026-05-12-clawclaim-vet-insurance/) |
