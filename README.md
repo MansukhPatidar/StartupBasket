@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-12 | BillShield — Bill 96 cockpit for small Quebec retailers | Compliance SaaS / Quebec Small Retailers & Shopify Merchants Serving Quebec | 80 | STRONG GO | [folder](./ideas/2026-05-12-billshield-quebec-loi96/) |
 | 2026-05-12 | ReelPoint — 7-day Reel cockpit for India wedding studios | Creator Economy SaaS / India Wedding Photo + Cinema Studios (2–10 staff, 30–80 weddings/yr) | 74 | GO | [folder](./ideas/2026-05-12-reelpoint-wedding-teaser/) |
 | 2026-05-12 | DataQZap — DataQs appeal cockpit for small US carriers | TradeTech SaaS / US Small Motor Carriers & Owner-Operators (1–10 trucks) | 81 | STRONG GO | [folder](./ideas/2026-05-12-dataqzap-csa-cockpit/) |
 | 2026-05-12 | PFASTrack — State PFAS reporting cockpit for small US consumer brands | Compliance SaaS / US Small DTC Consumer-Product Brands hit by MN/WA/ME/CO state PFAS laws | 81 | STRONG GO | [folder](./ideas/2026-05-12-pfastrack-state-reporting/) |
