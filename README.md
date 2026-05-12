@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-13 | SiteLine — AI voice receptionist for independent US RV parks | HomeServices SaaS / US Independent RV Parks & Campgrounds (30–200 sites, 1–3 properties) | 80 | STRONG GO | [folder](./ideas/2026-05-13-siteline-rv-park-voice/) |
 | 2026-05-13 | KitchenLive — FSSAI cockpit for India cloud kitchens | RestaurantTech SaaS / India Cloud Kitchens running Multiple Brands on Swiggy/Zomato | 80 | STRONG GO | [folder](./ideas/2026-05-13-kitchenlive-fssai-aggregator/) |
 | 2026-05-12 | BillShield — Bill 96 cockpit for small Quebec retailers | Compliance SaaS / Quebec Small Retailers & Shopify Merchants Serving Quebec | 80 | STRONG GO | [folder](./ideas/2026-05-12-billshield-quebec-loi96/) |
 | 2026-05-12 | ReelPoint — 7-day Reel cockpit for India wedding studios | Creator Economy SaaS / India Wedding Photo + Cinema Studios (2–10 staff, 30–80 weddings/yr) | 74 | GO | [folder](./ideas/2026-05-12-reelpoint-wedding-teaser/) |
