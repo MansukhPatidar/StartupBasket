@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-13 | PackStamp — EU PPWR + EPR cockpit for non-EU sellers | Compliance SaaS / Non-EU Shopify + Amazon FBA Sellers shipping packaged goods into EU | 81 | STRONG GO | [folder](./ideas/2026-05-13-packstamp-eu-ppwr/) |
 | 2026-05-13 | HomeCove — Cockpit for US family childcare home providers | EdTech SaaS / US Licensed Family Childcare Home Providers (1–2 staff, 6–12 kids) | 80 | STRONG GO | [folder](./ideas/2026-05-13-homecove-home-daycare/) |
 | 2026-05-13 | SiteLine — AI voice receptionist for independent US RV parks | HomeServices SaaS / US Independent RV Parks & Campgrounds (30–200 sites, 1–3 properties) | 80 | STRONG GO | [folder](./ideas/2026-05-13-siteline-rv-park-voice/) |
 | 2026-05-13 | KitchenLive — FSSAI cockpit for India cloud kitchens | RestaurantTech SaaS / India Cloud Kitchens running Multiple Brands on Swiggy/Zomato | 80 | STRONG GO | [folder](./ideas/2026-05-13-kitchenlive-fssai-aggregator/) |
