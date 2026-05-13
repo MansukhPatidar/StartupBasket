@@ -1,5 +1,5 @@
 ---
-title: "AHRShield — TikTok Shop AHR cockpit for SEA sellers"
+title: "AHRShield — TikTok Shop AHR sentry for SEA sellers"
 slug: ahrshield-tiktok-shop-sea
 date: 2026-05-12
 category: Retail SaaS / Southeast Asia TikTok Shop Sellers (Indonesia, Vietnam, Thailand, Philippines, Malaysia)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: WhatsApp cockpit that pre-scans listings, drafts vernacular appeals, and forecasts AHR for SEA TikTok Shop sellers.
+oneLiner: WhatsApp sentry that pre-scans listings, drafts vernacular appeals, and forecasts AHR for SEA TikTok Shop sellers.
 tags:
   vertical: Retail
   model: SaaS

@@ -1,5 +1,5 @@
 ---
-title: "EvictIQ — Section 8 possession cockpit for small UK landlords"
+title: "EvictIQ — Section 8 possession packet builder for small UK landlords"
 slug: evictiq-section8-cockpit
 date: 2026-05-12
 category: PropTech SaaS / UK Small Private Landlords (1–10 properties, post-Section-21)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: "Ground-picking cockpit that drafts court-tight Form 3A Section 8 notices for small UK landlords post Renters' Rights Act."
+oneLiner: "Ground-picking workflow that drafts court-tight Form 3A Section 8 notices for small UK landlords post Renters' Rights Act."
 tags:
   vertical: PropTech
   model: SaaS

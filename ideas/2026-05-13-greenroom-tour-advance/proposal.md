@@ -1,5 +1,5 @@
 ---
-title: GreenRoom — Advance + settlement cockpit for indie tours
+title: GreenRoom — Advance + settlement workspace for indie tours
 slug: greenroom-tour-advance
 date: 2026-05-13
 category: Creator Economy SaaS / US + EU Independent Tour Managers, DIY Touring Artists, and 50–500-cap Music Venues
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: AI cockpit handling advance sheets, day sheets, and settlement for indie tour managers and small music venues.
+oneLiner: AI workspace handling advance sheets, day sheets, and settlement for indie tour managers and small music venues.
 tags:
   vertical: Creator Economy
   model: SaaS

@@ -1,5 +1,5 @@
 ---
-title: KitchenLive — FSSAI cockpit for India cloud kitchens
+title: KitchenLive — FSSAI watchtower for India cloud kitchens
 slug: kitchenlive-fssai-aggregator
 date: 2026-05-13
 category: RestaurantTech SaaS / India
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: High
-oneLiner: Always-listed FSSAI compliance cockpit that keeps every Swiggy/Zomato brand listing alive for India cloud kitchens.
+oneLiner: Always-on FSSAI watchtower that keeps every Swiggy/Zomato brand listing alive for India cloud kitchens.
 tags:
   vertical: RestaurantTech
   model: SaaS

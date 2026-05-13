@@ -1,5 +1,5 @@
 ---
-title: ReelPoint — 7-day Reel cockpit for India wedding studios
+title: ReelPoint — 7-day teaser-Reel studio for India wedding photographers
 slug: reelpoint-wedding-teaser
 date: 2026-05-12
 category: Creator Economy SaaS / India Wedding Photo + Cinema Studios (2–10 staff, 30–80 weddings/yr)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 74
 verdict: GO
 confidence: Medium
-oneLiner: Auto-cut the 30-second Instagram teaser Reel that Indian brides expect 7 days after the wedding.
+oneLiner: Auto-cuts the 30-second Instagram teaser Reel that Indian brides expect 7 days after the wedding.
 tags:
   vertical: Creator Economy
   model: SaaS

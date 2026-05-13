@@ -1,5 +1,5 @@
 ---
-title: HomeCove — Cockpit for US family childcare home providers
+title: HomeCove — All-in-one app for US family childcare home providers
 slug: homecove-home-daycare
 date: 2026-05-13
 category: EdTech SaaS / US Licensed Family Childcare Home Providers (1–2 staff, 6–12 kids)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: iPhone cockpit for US home daycare providers — CACFP claims, parent billing, time-space %, Schedule C in one tap.
+oneLiner: iPhone app that runs CACFP claims, parent billing, time-space %, and Schedule C for US home daycare providers in one tap.
 tags:
   vertical: EdTech
   model: SaaS

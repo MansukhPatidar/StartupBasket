@@ -1,5 +1,5 @@
 ---
-title: BillShield — Bill 96 cockpit for small Quebec retailers
+title: BillShield — Bill 96 sweep + reply tool for small Quebec retailers
 slug: billshield-quebec-loi96
 date: 2026-05-12
 category: Compliance SaaS / Quebec Small Retailers & Shopify Merchants Serving Quebec
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: Photo-to-fix cockpit auditing Bill 96 signage, translating Shopify catalogs, drafting OQLF replies for Quebec shops.
+oneLiner: Photo-to-fix workflow auditing Bill 96 signage, translating Shopify catalogs, and drafting OQLF replies for Quebec shops.
 tags:
   vertical: Compliance
   model: SaaS

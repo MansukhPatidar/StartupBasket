@@ -1,5 +1,5 @@
 ---
-title: PFASTrack — State PFAS reporting cockpit for US brands
+title: PFASTrack — State PFAS reporting autofiler for US brands
 slug: pfastrack-state-reporting
 date: 2026-05-12
 category: Compliance SaaS / US Small DTC Consumer-Product Brands hit by MN/WA/ME/CO state PFAS laws
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: AI cockpit that turns a brand's SKU list into a Minnesota + Washington PFAS report in days.
+oneLiner: Turns a brand's SKU list into a Minnesota + Washington PFAS report in days, not months.
 tags:
   vertical: Compliance
   model: SaaS

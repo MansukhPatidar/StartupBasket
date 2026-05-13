@@ -1,5 +1,5 @@
 ---
-title: PackStamp — EU PPWR + EPR cockpit for non-EU sellers
+title: PackStamp — EU PPWR + EPR autofiler for non-EU sellers
 slug: packstamp-eu-ppwr
 date: 2026-05-13
 category: Compliance SaaS / Non-EU Shopify + Amazon FBA Sellers shipping packaged goods into EU (US, UK, India, China-based, $50K–$3M revenue)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: Flat-fee cockpit that registers packaging EPR across 27 EU states and proves PPWR void-ratio per SKU before Aug 12.
+oneLiner: Flat-fee service that registers packaging EPR across 27 EU states and proves PPWR void-ratio per SKU before Aug 12.
 tags:
   vertical: Compliance
   model: SaaS

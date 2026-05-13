@@ -1,5 +1,5 @@
 ---
-title: RekonZap — WhatsApp PPh 21 + SP2DK cockpit for Indonesian SMEs
+title: RekonZap — WhatsApp PPh 21 + SP2DK assistant for Indonesian SMEs
 slug: rekonzap-pph21-cockpit
 date: 2026-05-11
 category: Compliance SaaS / Indonesia SMEs (10–100 employees, post-CoreTax)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: High
-oneLiner: WhatsApp-first PPh 21 + SP2DK cockpit for Indonesian SMEs racing CoreTax's 14-day clarification clock.
+oneLiner: WhatsApp-first PPh 21 + SP2DK assistant for Indonesian SMEs racing CoreTax's 14-day clarification clock.
 tags:
   vertical: Compliance
   model: SaaS

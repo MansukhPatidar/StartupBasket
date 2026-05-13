@@ -1,5 +1,5 @@
 ---
-title: "PTOzap — Solar interconnection deficiency cockpit"
+title: "PTOzap — Solar interconnection deficiency catcher"
 slug: ptozap-solar-deficiency
 date: 2026-05-11
 category: CleanTech SaaS / US Independent Residential Solar Installers (2–15 staff, CA-IOU + Northeast + TX)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: AI cockpit that catches utility interconnection deficiencies before submission and auto-drafts the fix when a notice lands.
+oneLiner: Catches utility interconnection deficiencies before submission and auto-drafts the fix when a notice lands.
 tags:
   vertical: CleanTech
   model: SaaS

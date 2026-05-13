@@ -1,5 +1,5 @@
 ---
-title: ClawGuard — PBM audit cockpit for US indie pharmacies
+title: ClawGuard — PBM audit defender for US indie pharmacies
 slug: clawguard-pbm-audit-rx
 date: 2026-05-13
 category: HealthTech SaaS / US Independent Retail Pharmacies (1–3 stores)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: Medium
-oneLiner: AI cockpit that reconciles wholesaler invoices to dispensed claims so US indie pharmacies stop losing $26K per PBM audit.
+oneLiner: Reconciles wholesaler invoices to dispensed claims so US indie pharmacies stop losing $26K per PBM audit.
 tags:
   vertical: HealthTech
   model: SaaS

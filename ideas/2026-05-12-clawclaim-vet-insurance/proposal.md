@@ -1,5 +1,5 @@
 ---
-title: ClawClaim — Pet-insurance claim cockpit for US vet clinics
+title: ClawClaim — Pet-insurance claim engine for US vet clinics
 slug: clawclaim-vet-insurance
 date: 2026-05-12
 category: HealthTech SaaS / US Independent Companion-Animal Veterinary Clinics (1–5 DVMs, non-corporate)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 82
 verdict: STRONG GO
 confidence: High
-oneLiner: AI cockpit that turns any vet visit into a claim-ready packet for 12 US pet insurers in under 60 seconds.
+oneLiner: Turns any vet visit into a claim-ready packet for 12 US pet insurers in under 60 seconds.
 tags:
   vertical: HealthTech
   model: SaaS

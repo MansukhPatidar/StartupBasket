@@ -1,5 +1,5 @@
 ---
-title: "LotShield — Compliance cockpit for US used-car dealers"
+title: "LotShield — Compliance console for US used-car dealers"
 slug: lotshield-bhph-compliance
 date: 2026-05-13
 category: Compliance SaaS / US Independent Used-Car & BHPH Dealers (50–500 units/yr)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: AI cockpit that keeps small US used-car dealers compliant with state CARS Acts and the FTC Safeguards Rule.
+oneLiner: AI console that keeps small US used-car dealers compliant with state CARS Acts and the FTC Safeguards Rule.
 tags:
   vertical: Compliance
   model: SaaS

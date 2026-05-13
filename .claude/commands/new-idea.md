@@ -20,6 +20,7 @@ List the contents of `ideas/`. Read the titles, categories, and geographies of t
 - **Do not produce a near-duplicate.**
 - **Check category balance.** If one category (e.g. India SaaS, DevTools) is over-represented in the last 15 ideas, deliberately target an under-represented category: regulatory arbitrage, geographic arbitrage, tech-unlock, underserved niche, workflow automation, or platform shift.
 - **Check geography balance.** If one geography dominates the last 15 ideas, target a different one.
+- **Check naming monotony.** Read the `title:` and `oneLiner:` fields of the last 20 proposals. Tally the head noun used after the em-dash (e.g. "cockpit", "copilot", "console", "shield"). **No single noun may appear in more than 2 of the last 20 titles.** If the obvious noun for your idea is already at the cap, you MUST pick a different one (see Step 7 for the naming rules).
 
 ## Step 2 — Signal Harvesting (Pipeline Stage 1)
 
@@ -112,7 +113,26 @@ If research reveals a fatal flaw (market doesn't exist, incumbents are too stron
 
 ## Step 7 — Write the Proposal (Pipeline Stage 6)
 
-1. Generate a slug: lowercase, hyphen-separated, ≤5 words.
+### Step 7.0 — Name the product (do this BEFORE you start writing)
+
+The `title:` and `oneLiner:` are the part of the proposal a reader sees first. They must NOT sound like the last 20 ideas. Follow these rules:
+
+1. **Title format:** `ProductName — <descriptor> for <specific audience>`. The descriptor is the head noun (e.g. "audit defender", "claim engine", "duty desk").
+2. **Pick the descriptor noun that most accurately fits the product shape.** Use this menu as a vocabulary prompt, not a closed list — invent a better noun if one fits:
+   - **Workflow shape:** workspace, console, dashboard, hub, desk, studio, app, packet builder, packet engine, claim engine, builder, drafter, generator, formatter, autofiler, filer, scheduler, dispatcher
+   - **Defensive / risk:** defender, sentry, watchtower, sweeper, scanner, validator, checker, auditor, monitor, sentinel, catcher, trap, screen
+   - **Assistive:** copilot, autopilot, assistant, concierge, agent, sidekick, navigator, scribe, drafter
+   - **Data / record:** ledger, vault, registry, archive, index, log, tracker, trail
+   - Avoid the word **"cockpit"** unless the product is genuinely an operator's single-pane-of-glass for live, multi-stream operations — and even then, only if "cockpit" is not already used by ≥2 of the last 20 titles.
+3. **Anti-monotony rule (HARD):** no descriptor noun may appear in more than 2 of the last 20 titles. Before writing the title, run a quick check:
+   - `grep -h "^title:" ideas/*/proposal.md | tail -20`
+   - Count the head noun frequency. If your first choice is at the cap, pick the next-best fit from the menu.
+4. **The `oneLiner:` must not repeat the descriptor noun from the title.** If the title says "claim engine", the oneLiner uses a different verb/noun ("turns", "packages", "drafts", "files"). This keeps title+oneLiner from feeling like one phrase repeated twice.
+5. **Slug** stays mechanical: lowercase, hyphen-separated, ≤5 words, descriptive of the domain not the descriptor noun.
+
+### Step 7.1 — Create the file
+
+1. Generate the slug per 7.0.5.
 2. Create the folder: `ideas/YYYY-MM-DD-<slug>/` using **today's date**.
 3. Write `proposal.md` filling every section of `TEMPLATE.md` in the operator's voice.
 4. **The file MUST start with the YAML frontmatter block.** Fill every field. Use canonical taxonomy:
@@ -224,6 +244,7 @@ Do not dump the full proposal — it's in the file.
 - **Every idea must have ≥3 triangulated signals.** No single-signal ideas.
 - **Include a Provenance block.** Every idea traces back to its source signals.
 - **Check portfolio balance before generating.** Don't produce the 5th India SaaS idea in a row.
+- **Check naming monotony before titling.** No descriptor noun may appear in >2 of the last 20 titles. "Cockpit" is reserved for genuine operator-grade live-ops products — most ideas are not cockpits.
 - **No code, no architecture, no implementation details.** Stay at the operator level.
 - **If you can't write section 9 (first 100 customers) concretely, the idea is not ready — start over.**
 - **Write in the persona's voice,** not in Claude's default tone.

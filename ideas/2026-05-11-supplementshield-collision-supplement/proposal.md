@@ -1,5 +1,5 @@
 ---
-title: SupplementShield — Short-pay defense for collision shops
+title: SupplementShield — Short-pay rebuttal builder for collision shops
 slug: supplementshield-collision-supplement
 date: 2026-05-11
 category: InsurTech SaaS / US Non-DRP Independent Collision Repair Shops (1–10 staff)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: AI cockpit that drafts OEM-cited supplement rebuttal packets for non-DRP collision shops in 2 minutes, not 2 hours.
+oneLiner: Drafts OEM-cited supplement rebuttal packets for non-DRP collision shops in 2 minutes, not 2 hours.
 tags:
   vertical: InsurTech
   model: SaaS

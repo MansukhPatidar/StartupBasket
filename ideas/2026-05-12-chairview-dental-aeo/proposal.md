@@ -1,5 +1,5 @@
 ---
-title: ChairView — AI search visibility cockpit for dental practices
+title: ChairView — AI-search visibility console for dental practices
 slug: chairview-dental-aeo
 date: 2026-05-12
 category: HealthTech SaaS / US Cosmetic + Implant Dental Practices (1–3 DDS, $1M–$5M revenue)

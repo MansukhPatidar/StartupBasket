@@ -1,5 +1,5 @@
 ---
-title: PostOpPulse — RTM revenue cockpit for US PT clinics
+title: PostOpPulse — RTM revenue copilot for US PT clinics
 slug: postop-pulse-pt-rtm
 date: 2026-05-13
 category: HealthTech SaaS / US Independent Outpatient Physical Therapy Clinics (1–3 PTs)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: Turn every post-op patient into $135/mo Medicare RTM revenue for small US outpatient physical therapy clinics.
+oneLiner: Turns every post-op patient into $135/mo Medicare RTM billing for small US outpatient physical therapy clinics.
 tags:
   vertical: HealthTech
   model: SaaS

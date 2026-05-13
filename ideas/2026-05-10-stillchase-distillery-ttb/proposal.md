@@ -1,5 +1,5 @@
 ---
-title: StillChase — TTB cockpit for solo craft distilleries
+title: StillChase — TTB filer for solo craft distilleries
 slug: stillchase-distillery-ttb
 date: 2026-05-10
 category: Compliance SaaS / US Solo & 2-Person Craft Distilleries (DSP)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: Photo-and-voice cockpit that turns daily distillery readings into reconciled TTB monthly reports for solo craft distillers.
+oneLiner: Photo-and-voice workflow that turns daily distillery readings into reconciled TTB monthly reports for solo craft distillers.
 tags:
   vertical: Compliance
   model: SaaS

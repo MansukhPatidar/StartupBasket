@@ -1,5 +1,5 @@
 ---
-title: "QuarterZap — MTD ITSA cockpit for UK landlords"
+title: "QuarterZap — WhatsApp MTD ITSA filer for UK landlords"
 slug: quarterzap-uk-landlord-mtd
 date: 2026-05-10
 category: Compliance SaaS / UK Accidental Landlords
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: "Forward-bank-statements WhatsApp cockpit that files MTD ITSA quarterly returns for UK landlords with 1–3 properties."
+oneLiner: "Forward-bank-statements WhatsApp agent that files MTD ITSA quarterly returns for UK landlords with 1–3 properties."
 tags:
   vertical: Compliance
   model: SaaS

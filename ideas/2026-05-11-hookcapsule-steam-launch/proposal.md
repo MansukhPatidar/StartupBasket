@@ -1,5 +1,5 @@
 ---
-title: HookCapsule — Steam launch asset cockpit for solo indie devs
+title: HookCapsule — Steam launch-asset studio for solo indie devs
 slug: hookcapsule-steam-launch
 date: 2026-05-11
 category: Creator Economy SaaS / Solo & Small Indie Game Developers Launching on Steam

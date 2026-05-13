@@ -1,5 +1,5 @@
 ---
-title: WindSnap — Florida wind mit photo cockpit
+title: WindSnap — Florida wind-mit photo validator
 slug: windsnap-florida-oir1802
 date: 2026-05-11
 category: PropTech SaaS / Florida Independent Home Inspectors (wind mit + 4-point)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: High
-oneLiner: Phone-first cockpit that validates every wind mit photo against Florida's new OIR-B1-1802 form on-site.
+oneLiner: Phone-first app that validates every wind-mit photo against Florida's new OIR-B1-1802 form on-site.
 tags:
   vertical: PropTech
   model: SaaS

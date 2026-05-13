@@ -1,5 +1,5 @@
 ---
-title: DataQZap — DataQs appeal cockpit for small US carriers
+title: DataQZap — DataQs appeal builder for small US carriers
 slug: dataqzap-csa-cockpit
 date: 2026-05-12
 category: TradeTech SaaS / US Small Motor Carriers & Owner-Operators (1–10 trucks)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: AI cockpit that turns a roadside inspection photo into a winning DataQs challenge before the violation wrecks CSA scores.
+oneLiner: Turns a roadside inspection photo into a winning DataQs challenge before the violation wrecks CSA scores.
 tags:
   vertical: TradeTech
   model: SaaS

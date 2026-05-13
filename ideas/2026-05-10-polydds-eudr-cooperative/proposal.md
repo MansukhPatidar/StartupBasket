@@ -1,5 +1,5 @@
 ---
-title: "PolyDDS — EUDR DDS cockpit for cooperatives"
+title: "PolyDDS — EUDR DDS packet builder for cooperatives"
 slug: polydds-eudr-cooperative
 date: 2026-05-10
 category: Compliance SaaS / Smallholder Cooperatives in Coffee + Cocoa Producing Countries (Vietnam, Côte d'Ivoire, Ghana, Honduras, Colombia, Indonesia)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 80
 verdict: STRONG GO
 confidence: Medium
-oneLiner: PolyDDS turns a cooperative's messy farm-mapping data into clean EUDR DDS submissions and buyer audit packs in one click.
+oneLiner: Turns a cooperative's messy farm-mapping data into clean EUDR DDS submissions and buyer audit packs in one click.
 tags:
   vertical: Compliance
   model: SaaS

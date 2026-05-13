@@ -1,5 +1,5 @@
 ---
-title: DisputeFuel — Stripe chargeback defense cockpit for indie SaaS
+title: DisputeFuel — Stripe chargeback defender for indie SaaS
 slug: disputefuel-saas-stripe
 date: 2026-05-11
 category: FinTech SaaS / Indie & Bootstrapped SaaS Subscription Businesses on Stripe ($5K–$200K MRR)

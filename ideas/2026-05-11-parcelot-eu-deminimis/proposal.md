@@ -1,5 +1,5 @@
 ---
-title: Parcelot — EU duty cockpit for Etsy + Shopify sellers
+title: Parcelot — EU duty desk for Etsy + Shopify sellers
 slug: parcelot-eu-deminimis
 date: 2026-05-11
 category: Compliance SaaS / Non-EU Etsy + Shopify Micro-Merchants Shipping into EU (US, UK, IN-based, $30K–$500K revenue)
@@ -7,7 +7,7 @@ complexity: Medium
 score: 81
 verdict: STRONG GO
 confidence: High
-oneLiner: Self-serve duty cockpit that auto-classifies HS6, prepays the EU €3 levy, and prints DDP labels for non-EU micro-sellers.
+oneLiner: Self-serve duty desk that auto-classifies HS6, prepays the EU €3 levy, and prints DDP labels for non-EU micro-sellers.
 tags:
   vertical: Compliance
   model: SaaS

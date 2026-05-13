@@ -1,5 +1,5 @@
 ---
-title: "PaydayPulse — Payday Super cockpit for AU small employers"
+title: "PaydayPulse — Payday Super reconciler for AU small employers"
 slug: paydaypulse-au-super
 date: 2026-05-11
 category: Compliance SaaS / Australian Micro & Small Employers (1–19 staff) facing the 1 Jul 2026 Payday Super mandate

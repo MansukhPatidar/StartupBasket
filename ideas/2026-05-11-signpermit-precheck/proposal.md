@@ -1,5 +1,5 @@
 ---
-title: SignPermit — Sign-code pre-check cockpit for US sign shops
+title: SignPermit — Sign-code pre-check + permit filer for US sign shops
 slug: signpermit-precheck
 date: 2026-05-11
 category: DevTools-adjacent SaaS / US Independent On-Premise Sign Shops (1–25 staff)
