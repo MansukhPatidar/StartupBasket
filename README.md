@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-13 | LotShield — Compliance cockpit for US used-car dealers | Compliance SaaS / US Independent Used-Car & BHPH Dealers (50–500 units/yr) | 80 | STRONG GO | [folder](./ideas/2026-05-13-lotshield-bhph-compliance/) |
 | 2026-05-13 | ClawGuard — PBM audit defense cockpit for US independent pharmacies | HealthTech SaaS / US Independent Retail Pharmacies (1–3 stores) | 81 | STRONG GO | [folder](./ideas/2026-05-13-clawguard-pbm-audit-rx/) |
 | 2026-05-13 | PostOpPulse — RTM revenue cockpit for small US outpatient PT clinics | HealthTech SaaS / US Independent Outpatient Physical Therapy Clinics (1–3 PTs) | 81 | STRONG GO | [folder](./ideas/2026-05-13-postop-pulse-pt-rtm/) |
 | 2026-05-13 | PackStamp — EU PPWR + EPR cockpit for non-EU sellers | Compliance SaaS / Non-EU Shopify + Amazon FBA Sellers shipping packaged goods into EU | 81 | STRONG GO | [folder](./ideas/2026-05-13-packstamp-eu-ppwr/) |
