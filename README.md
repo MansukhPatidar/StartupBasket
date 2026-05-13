@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-14 | PorteScribe — Carta Porte scribe for Mexico hombre-camión | Compliance SaaS / Mexico micro-carriers (1–5 trucks) hit by Carta Porte 3.1 enforcement | 82 | STRONG GO | [folder](./ideas/2026-05-14-portescribe-hombre-camion-cfdi/) |
 | 2026-05-13 | ThreshHold — SBR cliff sentry for UAE small businesses | Compliance SaaS / UAE SMEs facing the AED 3M Small Business Relief cliff (Dec 2026 sunset) | 81 | STRONG GO | [folder](./ideas/2026-05-13-threshhold-uae-sbr-cliff/) |
 | 2026-05-13 | VaxGuard — VFC fridge monitor for US indie pharmacies | IoT+SaaS / US Independent Community Pharmacies (1–3 locations) | 80 | STRONG GO | [folder](./ideas/2026-05-13-vaxguard-pharmacy-vfc/) |
 | 2026-05-13 | GreenRoom — Advance + settlement workspace for indie tour managers and small venues | Creator Economy SaaS / US + EU Indie Tour Managers, DIY Touring Artists, and 50–500-cap Music Venues | 80 | STRONG GO | [folder](./ideas/2026-05-13-greenroom-tour-advance/) |
