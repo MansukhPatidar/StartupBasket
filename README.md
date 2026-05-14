@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-14 | PegaLive — IG Live order catcher for Brazil revendedoras | Social Commerce / Brazil | 74 | GO | [folder](./ideas/2026-05-14-pegalive-brazil-live-catcher/) |
 | 2026-05-14 | ChalkVouch — DBS dossier for UK solo tutors | EdTech / UK Solo Private Tutors | 80 | STRONG GO | [folder](./ideas/2026-05-14-chalkvouch-uk-tutor-dbs/) |
 | 2026-05-14 | PorteScribe — Carta Porte scribe for Mexico hombre-camión | Compliance SaaS / Mexico micro-carriers (1–5 trucks) hit by Carta Porte 3.1 enforcement | 82 | STRONG GO | [folder](./ideas/2026-05-14-portescribe-hombre-camion-cfdi/) |
 | 2026-05-13 | ThreshHold — SBR cliff sentry for UAE small businesses | Compliance SaaS / UAE SMEs facing the AED 3M Small Business Relief cliff (Dec 2026 sunset) | 81 | STRONG GO | [folder](./ideas/2026-05-13-threshhold-uae-sbr-cliff/) |
