@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-15 | ResibAI — EIS transmitter for PH marketplace sellers | Compliance / PH-Marketplace | 80 | STRONG GO | [folder](./ideas/2026-05-15-resibai-philippines-eis-marketplace/) |
 | 2026-05-14 | TipProof — Tip-pool audit defender for US indie restaurants | RestaurantTech / US-SMB | 79 | GO | [folder](./ideas/2026-05-14-tipproof-restaurant-tip-pool/) |
 | 2026-05-14 | HaulMate — Voice catch logbook for US offshore captains | GovTech / US-SMB | 79 | GO | [folder](./ideas/2026-05-14-haulmate-noaa-voice-elogbook/) |
 | 2026-05-14 | RisitiChase — eTIMS invoice chaser for Kenya SMEs | Compliance / Kenya SMEs | 81 | STRONG GO | [folder](./ideas/2026-05-14-kenya-etims-buyer-side/) |
