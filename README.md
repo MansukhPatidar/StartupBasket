@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-15 | PaydayBeacon — Super-landing beacon for AU bookkeepers | Compliance / Australia | 80 | STRONG GO | [folder](./ideas/2026-05-15-aus-payday-super-watcher/) |
 | 2026-05-15 | ResibAI — EIS transmitter for PH marketplace sellers | Compliance / PH-Marketplace | 80 | STRONG GO | [folder](./ideas/2026-05-15-resibai-philippines-eis-marketplace/) |
 | 2026-05-14 | TipProof — Tip-pool audit defender for US indie restaurants | RestaurantTech / US-SMB | 79 | GO | [folder](./ideas/2026-05-14-tipproof-restaurant-tip-pool/) |
 | 2026-05-14 | HaulMate — Voice catch logbook for US offshore captains | GovTech / US-SMB | 79 | GO | [folder](./ideas/2026-05-14-haulmate-noaa-voice-elogbook/) |
