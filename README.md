@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-14 | VanLedger — Voice-first MTD ledger for UK CIS subbies | Compliance / UK-CIS | 81 | STRONG GO | [folder](./ideas/2026-05-14-vanledger-uk-cis-mtd/) |
 | 2026-05-14 | HộKế — Voice tax concierge for Vietnamese household businesses | Compliance / Vietnam-SMB | 82 | STRONG GO | [folder](./ideas/2026-05-14-hoke-vietnam-household-tax/) |
 | 2026-05-14 | PegaLive — IG Live order catcher for Brazil revendedoras | Social Commerce / Brazil | 74 | GO | [folder](./ideas/2026-05-14-pegalive-brazil-live-catcher/) |
 | 2026-05-14 | ChalkVouch — DBS dossier for UK solo tutors | EdTech / UK Solo Private Tutors | 80 | STRONG GO | [folder](./ideas/2026-05-14-chalkvouch-uk-tutor-dbs/) |
