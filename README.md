@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-16 | FieldDraft — overnight survey draftsman for small US land-survey firms | Workflow automation / US-SMB | 76 | GO | [folder](./ideas/2026-05-16-survey-field-data-drafting/) |
 | 2026-05-16 | RedlineDodger — preflight planset auditor for US solar installers | CleanTech / US-SMB | 80 | STRONG GO | [folder](./ideas/2026-05-16-redlinedodger-solar-planset-preflight/) |
 | 2026-05-15 | LexTrace — AI use register for European SME law firms | Compliance / EU-Law | 81 | STRONG GO | [folder](./ideas/2026-05-15-lextrace-eu-law-firm-ai-register/) |
 | 2026-05-15 | FaturaPaşa — WhatsApp e-Arşiv filer for Turkish esnaf | Compliance / Turkey-SMB | 81 | STRONG GO | [folder](./ideas/2026-05-15-turkey-esnaf-whatsapp-efatura/) |
