@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-15 | BakayaBot — Section 43B(h) claim engine for Indian MSMEs | Compliance-AI / India-SMB | 81 | STRONG GO | [folder](./ideas/2026-05-15-bakayabot-msme-43bh-claims/) |
 | 2026-05-15 | KhatmTill — WhatsApp ZATCA stamper for KSA Wave 24 SMBs | Compliance / Saudi Arabia SMB | 79 | GO | [folder](./ideas/2026-05-15-ksa-zatca-whatsapp-till/) |
 | 2026-05-15 | WarrantyRail — Post-install registrar for US HVAC contractors | TradeTech / US-SMB | 80 | STRONG GO | [folder](./ideas/2026-05-15-warrantyrail-hvac-closeout/) |
 | 2026-05-15 | PaydayBeacon — Super-landing beacon for AU bookkeepers | Compliance / Australia | 80 | STRONG GO | [folder](./ideas/2026-05-15-aus-payday-super-watcher/) |
