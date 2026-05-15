@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-15 | LexTrace — AI use register for European SME law firms | Compliance / EU-Law | 81 | STRONG GO | [folder](./ideas/2026-05-15-lextrace-eu-law-firm-ai-register/) |
 | 2026-05-15 | FaturaPaşa — WhatsApp e-Arşiv filer for Turkish esnaf | Compliance / Turkey-SMB | 81 | STRONG GO | [folder](./ideas/2026-05-15-turkey-esnaf-whatsapp-efatura/) |
 | 2026-05-15 | BakayaBot — Section 43B(h) claim engine for Indian MSMEs | Compliance-AI / India-SMB | 81 | STRONG GO | [folder](./ideas/2026-05-15-bakayabot-msme-43bh-claims/) |
 | 2026-05-15 | KhatmTill — WhatsApp ZATCA stamper for KSA Wave 24 SMBs | Compliance / Saudi Arabia SMB | 79 | GO | [folder](./ideas/2026-05-15-ksa-zatca-whatsapp-till/) |
