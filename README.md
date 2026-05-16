@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-17 | PartSnap — nameplate-to-part scout for kitchen equipment techs | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-05-17-foodservice-nameplate-part-id/) |
 | 2026-05-16 | DischargeClock — IRDAI SLA clock for small Indian nursing homes | HealthTech / India-SMB | 75 | GO | [folder](./ideas/2026-05-16-india-cashless-discharge-clock/) |
 | 2026-05-16 | CertPreflight — pre-submission death-certificate validator for US funeral homes | ProfessionalServices / US-SMB | 74 | GO | [folder](./ideas/2026-05-16-funeral-death-cert-preflight/) |
 | 2026-05-16 | RxCatch — incomplete-prescription intake screen for dental labs | HealthTech / US-SMB | 77 | GO | [folder](./ideas/2026-05-16-dental-lab-rx-intake-screen/) |
