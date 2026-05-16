@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-17 | AvalAuto — authorization-proof recorder for Mexico talleres | TradeTech / Mexico-SMB | 74 | GO | [folder](./ideas/2026-05-17-mexico-taller-authorization-proof/) |
 | 2026-05-17 | PartSnap — nameplate-to-part scout for kitchen equipment techs | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-05-17-foodservice-nameplate-part-id/) |
 | 2026-05-16 | DischargeClock — IRDAI SLA clock for small Indian nursing homes | HealthTech / India-SMB | 75 | GO | [folder](./ideas/2026-05-16-india-cashless-discharge-clock/) |
 | 2026-05-16 | CertPreflight — pre-submission death-certificate validator for US funeral homes | ProfessionalServices / US-SMB | 74 | GO | [folder](./ideas/2026-05-16-funeral-death-cert-preflight/) |
