@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-16 | RxCatch — incomplete-prescription intake screen for dental labs | HealthTech / US-SMB | 77 | GO | [folder](./ideas/2026-05-16-dental-lab-rx-intake-screen/) |
 | 2026-05-16 | WetVault — tamper-evident chemistry ledger for commercial pool operators | PropTech / US-SMB | 76 | GO | [folder](./ideas/2026-05-16-commercial-pool-chemistry-ledger/) |
 | 2026-05-16 | KlaimLolos — INA-CBG claim screen for Indonesia's small private hospitals | HealthTech / Indonesia | 76 | GO | [folder](./ideas/2026-05-16-indonesia-inacbg-claim-prereject/) |
 | 2026-05-16 | TallyMatch — pre-filing tie-out desk for Indian small exporters | TradeTech / India-SMB | 78 | GO | [folder](./ideas/2026-05-16-india-export-doc-tieout/) |
