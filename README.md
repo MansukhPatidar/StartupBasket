@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-16 | TallyMatch — pre-filing tie-out desk for Indian small exporters | TradeTech / India-SMB | 78 | GO | [folder](./ideas/2026-05-16-india-export-doc-tieout/) |
 | 2026-05-16 | TRAQScribe — voice-to-report writer for consulting arborists | Workflow automation / US-SMB | 77 | GO | [folder](./ideas/2026-05-16-traqscribe-arborist-risk-report/) |
 | 2026-05-16 | FieldDraft — overnight survey draftsman for small US land-survey firms | Workflow automation / US-SMB | 76 | GO | [folder](./ideas/2026-05-16-survey-field-data-drafting/) |
 | 2026-05-16 | RedlineDodger — preflight planset auditor for US solar installers | CleanTech / US-SMB | 80 | STRONG GO | [folder](./ideas/2026-05-16-redlinedodger-solar-planset-preflight/) |
