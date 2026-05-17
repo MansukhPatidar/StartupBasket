@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-17 | OpnameLock — opname evidence ledger for Indonesian subcontractors | ConstructionTech / Indonesia-SMB | 75 | GO | [folder](./ideas/2026-05-17-indonesia-subcontractor-opname-evidence/) |
 | 2026-05-17 | VacateFast — service-fraud motion builder for US debt-defense firms | LegalTech / US-SMB | 75 | GO | [folder](./ideas/2026-05-17-default-judgment-vacate-builder/) |
 | 2026-05-17 | EstornoEscudo — MED defense desk for Brazilian high-ticket Pix sellers | FinTech / Brazil-SMB | 76 | GO | [folder](./ideas/2026-05-17-brazil-pix-med-merchant-defense/) |
 | 2026-05-17 | ScopeAhead — AI first-pass scoping draft for court reporters | LegalTech / US | 76 | GO | [folder](./ideas/2026-05-17-court-reporter-ai-scoping/) |
