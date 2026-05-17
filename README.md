@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-17 | EstornoEscudo — MED defense desk for Brazilian high-ticket Pix sellers | FinTech / Brazil-SMB | 76 | GO | [folder](./ideas/2026-05-17-brazil-pix-med-merchant-defense/) |
 | 2026-05-17 | ScopeAhead — AI first-pass scoping draft for court reporters | LegalTech / US | 76 | GO | [folder](./ideas/2026-05-17-court-reporter-ai-scoping/) |
 | 2026-05-17 | AvalAuto — authorization-proof recorder for Mexico talleres | TradeTech / Mexico-SMB | 74 | GO | [folder](./ideas/2026-05-17-mexico-taller-authorization-proof/) |
 | 2026-05-17 | PartSnap — nameplate-to-part scout for kitchen equipment techs | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-05-17-foodservice-nameplate-part-id/) |
