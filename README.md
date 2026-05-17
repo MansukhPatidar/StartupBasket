@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-17 | KodiMatch — expense-leak reconciler for Kenyan businesses | Compliance / Kenya-SMB | 76 | GO | [folder](./ideas/2026-05-17-kenya-etims-expense-reconciliation/) |
 | 2026-05-17 | DieselSaaf — fuel-slip checker for small Indian transporters | Logistics / India-SMB | 73 | GO | [folder](./ideas/2026-05-17-india-diesel-slip-fraud-check/) |
 | 2026-05-17 | OpnameLock — opname evidence ledger for Indonesian subcontractors | ConstructionTech / Indonesia-SMB | 75 | GO | [folder](./ideas/2026-05-17-indonesia-subcontractor-opname-evidence/) |
 | 2026-05-17 | VacateFast — service-fraud motion builder for US debt-defense firms | LegalTech / US-SMB | 75 | GO | [folder](./ideas/2026-05-17-default-judgment-vacate-builder/) |
