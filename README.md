@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-18 | WageSentry — WPS salary-file guard for UAE micro-employers | Compliance / UAE-SMB | 72 | GO | [folder](./ideas/2026-05-18-uae-wps-sif-presubmission-reconcile/) |
 | 2026-05-18 | ScopeBack — change-order closer for solo creatives | Creator Economy / Global | 68 | VALIDATE | [folder](./ideas/2026-05-18-freelancer-scope-creep-change-order/) |
 | 2026-05-18 | QuoteSift — RFQ gatekeeper for CNC job shops | Manufacturing / US-SMB | 76 | GO | [folder](./ideas/2026-05-18-cnc-rfq-triage-gatekeeper/) |
 | 2026-05-17 | KodiMatch — expense-leak reconciler for Kenyan businesses | Compliance / Kenya-SMB | 76 | GO | [folder](./ideas/2026-05-17-kenya-etims-expense-reconciliation/) |
