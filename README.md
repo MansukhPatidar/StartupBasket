@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-19 | SlipProof — labour-code wage-slip maker for Indian contractors | Compliance / India-SMB | 75 | GO | [folder](./ideas/2026-05-19-india-labour-code-wage-slip/) |
 | 2026-05-19 | RoofProof — install-inspection sentry for residential solar crews | CleanTech / US | 74 | GO | [folder](./ideas/2026-05-19-solar-install-inspection-check/) |
 | 2026-05-18 | SupplementBrief — supplement packet builder for restoration contractors | TradeTech / US-SMB | 75 | GO | [folder](./ideas/2026-05-18-restoration-supplement-justification/) |
 | 2026-05-18 | ChargeSweep — missed-charge recovery for legacy-PIMS vet clinics | HealthTech / US Independent Veterinary Practices | 76 | GO | [folder](./ideas/2026-05-18-vet-missed-charge-recovery/) |
