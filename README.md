@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-18 | SupplementBrief — supplement packet builder for restoration contractors | TradeTech / US-SMB | 75 | GO | [folder](./ideas/2026-05-18-restoration-supplement-justification/) |
 | 2026-05-18 | ChargeSweep — missed-charge recovery for legacy-PIMS vet clinics | HealthTech / US Independent Veterinary Practices | 76 | GO | [folder](./ideas/2026-05-18-vet-missed-charge-recovery/) |
 | 2026-05-18 | DeckNarrate — survey-report narrator for solo marine surveyors | Tech-unlock / Marine Surveying (Global) | 73 | GO | [folder](./ideas/2026-05-18-marine-survey-voice-report/) |
 | 2026-05-18 | PlotProof — EUDR clearance prover for cocoa exporters | Compliance / Origin-Country Agri-Exporters | 71 | GO | [folder](./ideas/2026-05-18-eudr-exporter-dds-packet/) |
