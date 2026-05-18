@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-18 | DeckNarrate — survey-report narrator for solo marine surveyors | Tech-unlock / Marine Surveying (Global) | 73 | GO | [folder](./ideas/2026-05-18-marine-survey-voice-report/) |
 | 2026-05-18 | PlotProof — EUDR clearance prover for cocoa exporters | Compliance / Origin-Country Agri-Exporters | 71 | GO | [folder](./ideas/2026-05-18-eudr-exporter-dds-packet/) |
 | 2026-05-18 | NairaStamp — FIRS e-invoice filer for Nigerian micro-traders | Compliance / Nigeria-SMB | 74 | GO | [folder](./ideas/2026-05-18-nigeria-firs-einvoice-microtrader/) |
 | 2026-05-18 | WageSentry — WPS salary-file guard for UAE micro-employers | Compliance / UAE-SMB | 72 | GO | [folder](./ideas/2026-05-18-uae-wps-sif-presubmission-reconcile/) |
