@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-19 | RentWarden — local-law compliance for US landlords | PropTech / US-SMB | 72 | GO | [folder](./ideas/2026-05-19-us-landlord-local-law-compliance/) |
 | 2026-05-19 | TierWatch — fee-tier watchtower for Amazon FBA sellers | Retail / Global E-commerce | 76 | GO | [folder](./ideas/2026-05-19-amazon-fba-size-tier-watch/) |
 | 2026-05-19 | CostProof — COGS ledger for Amazon FBA sellers | Retail / Global E-commerce | 75 | GO | [folder](./ideas/2026-05-19-amazon-fba-cogs-defense-ledger/) |
 | 2026-05-19 | CapTally — night-cap monitor for multi-city short-let operators | PropTech / EU-SMB | 73 | GO | [folder](./ideas/2026-05-19-eu-str-night-cap-monitor/) |
