@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-19 | StoreKeep — Instagram-ban continuity vault for India D2C brands | Creator Economy / India D2C | 74 | GO | [folder](./ideas/2026-05-19-india-d2c-instagram-ban-continuity/) |
 | 2026-05-19 | ClerkLane — responsive-records desk for one-person government records offices | GovTech / US-SMB | 74 | GO | [folder](./ideas/2026-05-19-public-records-responsive-desk/) |
 | 2026-05-19 | RentWarden — local-law compliance for US landlords | PropTech / US-SMB | 72 | GO | [folder](./ideas/2026-05-19-us-landlord-local-law-compliance/) |
 | 2026-05-19 | TierWatch — fee-tier watchtower for Amazon FBA sellers | Retail / Global E-commerce | 76 | GO | [folder](./ideas/2026-05-19-amazon-fba-size-tier-watch/) |
