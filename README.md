@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-20 | EngageProof — reasonableness dossier for AU small employers | Compliance / Australia-SMB | 75 | GO | [folder](./ideas/2026-05-20-au-contractor-classification-dossier/) |
 | 2026-05-20 | ActaVoz — junta scribe for Spanish property administrators | PropTech / Spain-SMB | 73 | GO | [folder](./ideas/2026-05-20-spain-junta-acta-drafter/) |
 | 2026-05-19 | SoSach — cash-buy expense ledger for Vietnam shops | Compliance / Vietnam-SMB | 77 | GO | [folder](./ideas/2026-05-19-vietnam-household-cash-expense-ledger/) |
 | 2026-05-19 | StoreKeep — Instagram-ban continuity vault for India D2C brands | Creator Economy / India D2C | 74 | GO | [folder](./ideas/2026-05-19-india-d2c-instagram-ban-continuity/) |
