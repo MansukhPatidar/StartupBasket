@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-20 | MochiTally — tax-free refund tally for Japan shops | RetailTech / Japan | 77 | GO | [folder](./ideas/2026-05-20-japan-tax-free-refund-reconciliation/) |
 | 2026-05-20 | PajakBukti — Coretax error catcher for Indonesian tax consultants | Compliance / Indonesia | 80 | STRONG GO | [folder](./ideas/2026-05-20-indonesia-coretax-error-evidence/) |
 | 2026-05-20 | PortAlibi — uptime defender for small EV charging operators | CleanTech / US Small EV Site Hosts (4–20 ports) | 76 | GO | [folder](./ideas/2026-05-20-ev-charger-uptime-exclusion-defense/) |
 | 2026-05-20 | ClawbackShield — audit-defense layer for ABA clinics | HealthTech / US ABA & Autism-Therapy Providers | 78 | GO | [folder](./ideas/2026-05-20-aba-clinic-audit-defense/) |
