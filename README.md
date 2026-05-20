@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-20 | PortAlibi — uptime defender for small EV charging operators | CleanTech / US Small EV Site Hosts (4–20 ports) | 76 | GO | [folder](./ideas/2026-05-20-ev-charger-uptime-exclusion-defense/) |
 | 2026-05-20 | ClawbackShield — audit-defense layer for ABA clinics | HealthTech / US ABA & Autism-Therapy Providers | 78 | GO | [folder](./ideas/2026-05-20-aba-clinic-audit-defense/) |
 | 2026-05-20 | TrocaPix — Pix Automático consent funnel for Brazil SMBs | FinTech / Brazil-SMB | 78 | GO | [folder](./ideas/2026-05-20-brazil-pix-automatico-consent-migration/) |
 | 2026-05-20 | ProvenSync — authorship packet for indie sync composers | Creator Economy / Indie Sync Composers | 75 | GO | [folder](./ideas/2026-05-20-composer-sync-authorship-proof/) |
