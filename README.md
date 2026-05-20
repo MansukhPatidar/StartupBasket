@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-21 | VialTrace — Botox-unit reconciler for independent med spas | Compliance / US Independent Medical Spas | 78 | GO | [folder](./ideas/2026-05-21-med-spa-botox-unit-reconcile/) |
 | 2026-05-21 | RisitiBora — eTIMS reclaim engine for Kenyan SMEs | Compliance / Kenya | 79 | GO | [folder](./ideas/2026-05-21-kenya-etims-expense-reclaim/) |
 | 2026-05-20 | MochiTally — tax-free refund tally for Japan shops | RetailTech / Japan | 77 | GO | [folder](./ideas/2026-05-20-japan-tax-free-refund-reconciliation/) |
 | 2026-05-20 | PajakBukti — Coretax error catcher for Indonesian tax consultants | Compliance / Indonesia | 80 | STRONG GO | [folder](./ideas/2026-05-20-indonesia-coretax-error-evidence/) |
