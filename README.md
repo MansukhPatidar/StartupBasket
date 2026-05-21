@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-21 | ReAuthRx — reauth packet engine for PT & OT clinics | HealthTech / US Outpatient PT, OT & SLP Clinics | 75 | GO | [folder](./ideas/2026-05-21-pt-reauth-packet-engine/) |
 | 2026-05-22 | WarmRing — quote-closing agent for solo home-service contractors | HomeServices / US Solo & Small Contractors | 76 | GO | [folder](./ideas/2026-05-22-contractor-quote-followup-agent/) |
 | 2026-05-22 | PorteScreen — Carta Porte screen for Mexican hombre-camión | Compliance / Mexico Micro-Trucking | 79 | GO | [folder](./ideas/2026-05-22-mexico-carta-porte-screen/) |
 | 2026-05-21 | VialTrace — Botox-unit reconciler for independent med spas | Compliance / US Independent Medical Spas | 78 | GO | [folder](./ideas/2026-05-21-med-spa-botox-unit-reconcile/) |
