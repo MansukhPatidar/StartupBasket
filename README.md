@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-22 | WalkBid — walkthrough-to-bid builder for commercial cleaners | WorkflowAutomation / US Commercial Cleaning | 73 | GO | [folder](./ideas/2026-05-22-cleaning-walkthrough-bid/) |
 | 2026-05-22 | SpecChase — quote-intake concierge for commercial print shops | WorkflowAutomation / US-SMB | 74 | GO | [folder](./ideas/2026-05-22-print-shop-quote-intake/) |
 | 2026-05-22 | BrokerVet — pre-booking screen for owner-operator truckers | Logistics / US Owner-Operator Trucking | 75 | GO | [folder](./ideas/2026-05-22-freight-broker-prebooking-check/) |
 | 2026-05-22 | Loadout — show-advance desk for independent music venues | Creator Economy / US Independent Music Venues | 73 | GO | [folder](./ideas/2026-05-22-venue-show-advance-desk/) |
