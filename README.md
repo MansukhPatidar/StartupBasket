@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-22 | Loadout — show-advance desk for independent music venues | Creator Economy / US Independent Music Venues | 73 | GO | [folder](./ideas/2026-05-22-venue-show-advance-desk/) |
 | 2026-05-21 | ClaimQuill — warranty-claim scribe for car dealerships | AutoTech / US Franchised Dealership Service Departments | 74 | GO | [folder](./ideas/2026-05-21-dealership-warranty-claim-writer/) |
 | 2026-05-21 | ReAuthRx — reauth packet engine for PT & OT clinics | HealthTech / US Outpatient PT, OT & SLP Clinics | 75 | GO | [folder](./ideas/2026-05-21-pt-reauth-packet-engine/) |
 | 2026-05-22 | WarmRing — quote-closing agent for solo home-service contractors | HomeServices / US Solo & Small Contractors | 76 | GO | [folder](./ideas/2026-05-22-contractor-quote-followup-agent/) |
