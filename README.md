@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-22 | TrackPass — accreditation logbook for India's driving schools | Compliance / India Motor Driving Schools | 72 | GO | [folder](./ideas/2026-05-22-india-driving-school-adtc-logbook/) |
 | 2026-05-22 | TenancyTick — Rent Authority filer for Indian landlords | Compliance / India PropTech | 73 | GO | [folder](./ideas/2026-05-22-india-rent-authority-filer/) |
 | 2026-05-22 | CaseClerk — Rx intake desk for small dental labs | HealthTech / US Small Dental Laboratories | 75 | GO | [folder](./ideas/2026-05-22-dental-lab-rx-intake/) |
 | 2026-05-22 | LabelLint — preflight checker for India's small food brands | Compliance / India D2C & Small Packaged-Food Brands | 74 | GO | [folder](./ideas/2026-05-22-india-fssai-label-preflight/) |
