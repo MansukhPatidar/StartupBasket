@@ -18,6 +18,7 @@ export const VERTICALS = [
   "RestaurantTech",
   "IoT",
   "ProfessionalServices",
+  "TravelTech",
 ] as const;
 
 export const MODELS = ["SaaS", "Hardware+SaaS", "IoT+SaaS", "Marketplace", "Hybrid"] as const;
