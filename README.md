@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-22 | LabelLint — preflight checker for India's small food brands | Compliance / India D2C & Small Packaged-Food Brands | 74 | GO | [folder](./ideas/2026-05-22-india-fssai-label-preflight/) |
 | 2026-05-22 | OriginProof — DDS filer for small coffee & cocoa importers | Compliance / EU Coffee & Cocoa SME Importers | 72 | GO | [folder](./ideas/2026-05-22-eudr-importer-dds-filer/) |
 | 2026-05-22 | WalkBid — walkthrough-to-bid builder for commercial cleaners | WorkflowAutomation / US Commercial Cleaning | 73 | GO | [folder](./ideas/2026-05-22-cleaning-walkthrough-bid/) |
 | 2026-05-22 | SpecChase — quote-intake concierge for commercial print shops | WorkflowAutomation / US-SMB | 74 | GO | [folder](./ideas/2026-05-22-print-shop-quote-intake/) |
