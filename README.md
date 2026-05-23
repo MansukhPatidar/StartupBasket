@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-23 | ClaimGreenlight — pre-submit lint for NDIS invoices | HealthTech / Australia NDIS Sole-Trader Providers | 74 | GO | [folder](./ideas/2026-05-23-ndis-invoice-preflight-lint/) |
 | 2026-05-23 | QuoteWala — costed-quote drafter for small SE Asian tour operators | TravelTech / Southeast Asia Inbound Tour Operators & DMCs | 72 | GO | [folder](./ideas/2026-05-23-sea-tour-operator-quoting/) |
 | 2026-05-23 | OversightLedger — AI Act evidence ledger for EU HR teams | Compliance / EU-SMB | 73 | GO | [folder](./ideas/2026-05-23-eu-ai-act-hr-deployer-evidence/) |
 | 2026-05-22 | BidSift — RFQ triage desk for small machine shops | WorkflowAutomation / US Small Contract Machine Shops | 74 | GO | [folder](./ideas/2026-05-22-machine-shop-rfq-triage/) |
