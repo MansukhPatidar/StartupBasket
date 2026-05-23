@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-23 | CapRebut — CRE property-tax appeal kit for small owners | PropTech / US Small Commercial Real Estate | 75 | GO | [folder](./ideas/2026-05-23-small-cre-tax-appeal-kit/) |
 | 2026-05-23 | NCMatch — cClassTrib classifier for Brazil's contadores | Compliance / Brazil Small Accounting Firms | 78 | GO | [folder](./ideas/2026-05-23-brazil-cclasstrib-classifier/) |
 | 2026-05-23 | PayProof — supplement writer for independent collision shops | WorkflowAutomation / US Independent Collision Repair Shops | 76 | GO | [folder](./ideas/2026-05-23-body-shop-supplement-writer/) |
 | 2026-05-23 | FatoorRelay — ZATCA Wave 24 invoice relay for Saudi SMEs | Compliance / Saudi Arabia Micro-SMEs | 76 | GO | [folder](./ideas/2026-05-23-ksa-zatca-wave24-relay/) |
