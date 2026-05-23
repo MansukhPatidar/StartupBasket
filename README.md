@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-23 | PayProof — supplement writer for independent collision shops | WorkflowAutomation / US Independent Collision Repair Shops | 76 | GO | [folder](./ideas/2026-05-23-body-shop-supplement-writer/) |
 | 2026-05-23 | FatoorRelay — ZATCA Wave 24 invoice relay for Saudi SMEs | Compliance / Saudi Arabia Micro-SMEs | 76 | GO | [folder](./ideas/2026-05-23-ksa-zatca-wave24-relay/) |
 | 2026-05-23 | ShelfScout — frontlist buyer for new indie bookstores | RetailTech / US Independent Bookstores | 72 | GO | [folder](./ideas/2026-05-23-indie-bookstore-frontlist-buyer/) |
 | 2026-05-23 | ClaimGreenlight — pre-submit lint for NDIS invoices | HealthTech / Australia NDIS Sole-Trader Providers | 74 | GO | [folder](./ideas/2026-05-23-ndis-invoice-preflight-lint/) |
