@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-24 | SarasFold — affiliation dossier for small CBSE schools | Compliance / India Small CBSE Schools | 76 | GO | [folder](./ideas/2026-05-24-cbse-affiliation-dossier/) |
 | 2026-05-24 | KassenKlar — Kassennachschau drill for German small shops | Compliance / Germany Cash-Intensive Small Shops (Friseur, Tattoo, Nagel, Imbiss) | 77 | GO | [folder](./ideas/2026-05-24-de-kassennachschau-drill/) |
 | 2026-05-24 | OkamiScribe — multilingual guest-comms scribe for ryokan | TravelTech / Japan Small Ryokan & Minshuku | 76 | GO | [folder](./ideas/2026-05-24-japan-ryokan-guest-comms/) |
 | 2026-05-24 | InkBinder — sterilization log for indie tattoo studios | HomeServices / US Independent Tattoo & Body-Art Studios | 74 | GO | [folder](./ideas/2026-05-24-tattoo-shop-sterilization-binder/) |
