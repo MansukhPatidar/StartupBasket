@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-24 | ScripDefense — PBM audit packet builder for indie pharmacies | HealthTech / US Independent Retail Pharmacy | 78 | GO | [folder](./ideas/2026-05-24-indie-pharmacy-pbm-audit/) |
 | 2026-05-24 | KodiSweep — eTIMS expense sweeper for Kenyan SMEs | Compliance / Kenya SME | 77 | GO | [folder](./ideas/2026-05-24-kenya-etims-buyer-side-sweeper/) |
 | 2026-05-24 | ScopeDefender — WC audit rebut for small commercial agencies | WorkflowAutomation / US Small Commercial Insurance Agencies | 76 | GO | [folder](./ideas/2026-05-24-wc-audit-class-defense/) |
 | 2026-05-24 | VoucherProof — CCAP packet builder for home daycares | Compliance / US Family Child Care Homes & Small Subsidy-Accepting Centers | 76 | GO | [folder](./ideas/2026-05-24-home-daycare-subsidy-packet/) |
