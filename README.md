@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-25 | MalhaSentry — Pix-to-IRPF sentry for informal Brazilian earners | FinTech / Brazil Informal & MEI-Adjacent Earners | 78 | GO | [folder](./ideas/2026-05-25-brazil-pix-malha-fina-sentry/) |
 | 2026-05-25 | PaydayPilot — payday-super dispatcher for AU micro employers | Compliance / Australia Micro Employers | 81 | STRONG GO | [folder](./ideas/2026-05-25-au-payday-super-micro-clearing/) |
 | 2026-05-25 | CarbonChase — CBAM data chaser for EU SME importers | Compliance / EU SMB Importers | 79 | GO | [folder](./ideas/2026-05-25-cbam-supplier-data-chaser/) |
 | 2026-05-25 | DueClock — 45-day receivables clock for Indian MSMEs | FinTech / India MSME B2B Suppliers | 79 | GO | [folder](./ideas/2026-05-25-india-msme-receivables-autopilot/) |
