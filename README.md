@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-25 | DueClock — 45-day receivables clock for Indian MSMEs | FinTech / India MSME B2B Suppliers | 79 | GO | [folder](./ideas/2026-05-25-india-msme-receivables-autopilot/) |
 | 2026-05-25 | PackTrace — CE 3.0 chargeback engine for Shopify brands | FinTech / Global SMB | 77 | GO | [folder](./ideas/2026-05-25-ce30-chargeback-evidence/) |
 | 2026-05-25 | StayLicit — permit & violation desk for small Airbnb hosts | PropTech / US Small Short-Term Rental Hosts | 76 | GO | [folder](./ideas/2026-05-25-str-host-permit-defender/) |
 | 2026-05-25 | MarkRent — rent-review autopilot for UK landlords | PropTech / UK Self-Managing Private Landlords | 78 | GO | [folder](./ideas/2026-05-25-uk-section-13-rent-review/) |
