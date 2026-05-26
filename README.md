@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-26 | RetenSync — retention-credit reconciler for MX sellers | FinTech / Mexico Marketplace SMB | 80 | STRONG GO | [folder](./ideas/2026-05-26-mexico-marketplace-retention-credit/) |
 | 2026-05-26 | VATGate — invoice screen for Nigerian medium taxpayers | Compliance / Nigeria-SMB | 79 | GO | [folder](./ideas/2026-05-26-nigeria-firs-buyer-invoice-screen/) |
 | 2026-05-26 | SlotPress — Amazon main-image video press for SMB sellers | RetailTech / US & EU Amazon Private-Label SMB | 78 | GO | [folder](./ideas/2026-05-26-amazon-main-image-video/) |
 | 2026-05-26 | SuratLapak — PMK 37 filer for Indonesian online sellers | Compliance / Indonesia E-Commerce UMKM | 79 | GO | [folder](./ideas/2026-05-26-indonesia-pmk37-marketplace-statement/) |
