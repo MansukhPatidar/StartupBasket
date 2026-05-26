@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-26 | LienLedger — AB 498 evidence packet for CA self-storage | Compliance / US California Self-Storage | 79 | GO | [folder](./ideas/2026-05-26-ca-self-storage-ab498-lien-evidence/) |
 | 2026-05-26 | PolyClear — EUDR DDS clearer for EU coffee importers | Compliance / EU | 78 | GO | [folder](./ideas/2026-05-26-eu-coffee-deforestation-dds/) |
 | 2026-05-26 | RetenSync — retention-credit reconciler for MX sellers | FinTech / Mexico Marketplace SMB | 80 | STRONG GO | [folder](./ideas/2026-05-26-mexico-marketplace-retention-credit/) |
 | 2026-05-26 | VATGate — invoice screen for Nigerian medium taxpayers | Compliance / Nigeria-SMB | 79 | GO | [folder](./ideas/2026-05-26-nigeria-firs-buyer-invoice-screen/) |
