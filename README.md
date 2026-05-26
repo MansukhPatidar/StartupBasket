@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-26 | SlotPress — Amazon main-image video press for SMB sellers | RetailTech / US & EU Amazon Private-Label SMB | 78 | GO | [folder](./ideas/2026-05-26-amazon-main-image-video/) |
 | 2026-05-26 | SuratLapak — PMK 37 filer for Indonesian online sellers | Compliance / Indonesia E-Commerce UMKM | 79 | GO | [folder](./ideas/2026-05-26-indonesia-pmk37-marketplace-statement/) |
 | 2026-05-26 | MapRevive — GBP reinstatement responder for home services | PropTech / US Home-Services SMBs | 81 | STRONG GO | [folder](./ideas/2026-05-26-gbp-reinstatement-home-services/) |
 | 2026-05-26 | HoKhai — quarterly tax filer for Vietnamese household shops | FinTech / Vietnam Household Businesses (hộ kinh doanh) | 80 | STRONG GO | [folder](./ideas/2026-05-26-vietnam-household-quarterly-filer/) |
