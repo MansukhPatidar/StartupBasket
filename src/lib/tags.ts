@@ -19,11 +19,13 @@ export const VERTICALS = [
   "IoT",
   "ProfessionalServices",
   "TravelTech",
+  "AgriTech",
+  "FinTech",
 ] as const;
 
 export const MODELS = ["SaaS", "Hardware+SaaS", "IoT+SaaS", "Marketplace", "Hybrid"] as const;
 
-export const GEOGRAPHIES = ["India", "Global", "India+Global", "LATAM", "SEA"] as const;
+export const GEOGRAPHIES = ["India", "Global", "India+Global", "LATAM", "SEA", "US", "EU", "UK", "MENA", "Kenya"] as const;
 
 // Secondary tags are intentionally free-form. These are the canonical strings used so far.
 export const SECONDARY = [

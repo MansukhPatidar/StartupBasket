@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-27 | AcreTrail — spray-ops trail for US ag-drone applicators | AgriTech / US Ag-Drone Applicators | 74 | GO | [folder](./ideas/2026-05-27-us-ag-drone-spray-trail/) |
 | 2026-05-27 | StateLine — AI-hiring notice router for US mid-market HR | Compliance / US Mid-Market | 79 | GO | [folder](./ideas/2026-05-27-us-ai-hiring-notice-router/) |
 | 2026-05-27 | AssinaPix — recurring-payment rescuer for Brazilian SaaS | FinTech / Brazil-SMB | 78 | GO | [folder](./ideas/2026-05-27-brazil-pix-recurring-rescuer/) |
 | 2026-05-26 | LienLedger — AB 498 evidence packet for CA self-storage | Compliance / US California Self-Storage | 79 | GO | [folder](./ideas/2026-05-26-ca-self-storage-ab498-lien-evidence/) |
