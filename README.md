@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-27 | VoxLedger — TCPA evidence ledger for outbound AI-voice SMBs | Compliance / US SMB AI-Voice Operators | 76 | GO | [folder](./ideas/2026-05-27-voxledger-ai-voice-tcpa-defense/) |
 | 2026-05-27 | TawaWatch — FSSAI watchtower for India cloud kitchens | RestaurantTech / India Cloud Kitchens | 76 | GO | [folder](./ideas/2026-05-27-india-cloud-kitchen-fssai-watchtower/) |
 | 2026-05-27 | GroundCase — Section 8 builder for English small landlords | PropTech / UK | 78 | GO | [folder](./ideas/2026-05-27-uk-section-8-possession-builder/) |
 | 2026-05-27 | OffHours — right-to-disconnect evidence vault for AU SMBs | Compliance / Australia Small Business | 76 | GO | [folder](./ideas/2026-05-27-au-right-to-disconnect-evidence/) |
