@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-28 | HallReady — AI-policy desk for K-12 small school districts | EdTech / US K-12 Small & Mid Districts (500–15,000 students) | 74 | GO | [folder](./ideas/2026-05-28-hallready-k12-ai-policy-desk/) |
 | 2026-05-28 | CueSweep — music-clearance sweeper for indie podcasters | Creator Economy / Global Monetized Indie Podcasters | 75 | GO | [folder](./ideas/2026-05-28-cuesweep-podcast-music-clearance/) |
 | 2026-05-28 | AIStamp — Article 50 stamper for EU marketing agencies | Compliance / EU Small Marketing Agencies & SMB In-house Marketing Teams | 76 | GO | [folder](./ideas/2026-05-28-eu-ai-act-disclosure-stamper/) |
 | 2026-05-28 | NineRamp — 9% CT off-ramp for UAE micro-businesses | Compliance / UAE AED 1-3M Micro-Businesses | 75 | GO | [folder](./ideas/2026-05-28-uae-sbr-off-ramp/) |
