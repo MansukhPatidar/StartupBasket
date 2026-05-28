@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-28 | FudeMark — Freelance-Act scribe for Japan kojin-jigyonushi | Compliance / Japan Solo Freelancers | 75 | GO | [folder](./ideas/2026-05-28-japan-freelance-act-scribe/) |
 | 2026-05-28 | BallotMark — AI-ad disclosure packet for US campaigns | GovTech / US Political | 75 | GO | [folder](./ideas/2026-05-28-us-ai-political-ad-disclosure/) |
 | 2026-05-28 | TinyTokens — DPDP consent vault for India activity centres | Compliance / India After-School Activity Centres (Music, Dance, Sports, Hobby) | 76 | GO | [folder](./ideas/2026-05-28-india-after-school-child-consent/) |
 | 2026-05-28 | ClearRoster — Companies House IDV roster for UK accountants | Compliance / UK Small & Solo Accountancy Practices (1–15 staff) | 76 | GO | [folder](./ideas/2026-05-28-uk-eccta-idv-roster/) |
