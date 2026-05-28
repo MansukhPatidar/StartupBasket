@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-28 | BallotMark — AI-ad disclosure packet for US campaigns | GovTech / US Political | 75 | GO | [folder](./ideas/2026-05-28-us-ai-political-ad-disclosure/) |
 | 2026-05-28 | TinyTokens — DPDP consent vault for India activity centres | Compliance / India After-School Activity Centres (Music, Dance, Sports, Hobby) | 76 | GO | [folder](./ideas/2026-05-28-india-after-school-child-consent/) |
 | 2026-05-28 | ClearRoster — Companies House IDV roster for UK accountants | Compliance / UK Small & Solo Accountancy Practices (1–15 staff) | 76 | GO | [folder](./ideas/2026-05-28-uk-eccta-idv-roster/) |
 | 2026-05-28 | HallReady — AI-policy desk for K-12 small school districts | EdTech / US K-12 Small & Mid Districts (500–15,000 students) | 74 | GO | [folder](./ideas/2026-05-28-hallready-k12-ai-policy-desk/) |
