@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-29 | LotProof — DDS preflight for Vietnamese coffee exporters | TradeTech / SEA | 74 | GO | [folder](./ideas/2026-05-29-vietnam-coffee-eudr-dds/) |
 | 2026-05-29 | PortClear — pre-shipment rejection screen for Indian agri-exporters | TradeTech / India | 74 | GO | [folder](./ideas/2026-05-29-india-agri-export-rejection-screen/) |
 | 2026-05-29 | QuotaCruza — RFQ relay for Mexican nearshoring suppliers | TradeTech / Mexico | 73 | GO | [folder](./ideas/2026-05-29-mexico-nearshoring-rfq-relay/) |
 | 2026-05-29 | HalalKilat — self-declare studio for halal facilitators | Workflow-AI / Indonesia | 76 | GO | [folder](./ideas/2026-05-29-indonesia-halal-self-declare/) |
