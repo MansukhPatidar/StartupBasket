@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-29 | QuotaCruza — RFQ relay for Mexican nearshoring suppliers | TradeTech / Mexico | 73 | GO | [folder](./ideas/2026-05-29-mexico-nearshoring-rfq-relay/) |
 | 2026-05-29 | HalalKilat — self-declare studio for halal facilitators | Workflow-AI / Indonesia | 76 | GO | [folder](./ideas/2026-05-29-indonesia-halal-self-declare/) |
 | 2026-05-29 | InkDesk — RFQ drafter for screen-print & embroidery shops | Workflow-AI / US-SMB | 72 | GO | [folder](./ideas/2026-05-29-decorator-rfq-quote-drafter/) |
 | 2026-05-29 | CostProof — sourcing-cost defender for Amazon sellers | Retail / Global | 75 | GO | [folder](./ideas/2026-05-29-amazon-sourcing-cost-evidence/) |
