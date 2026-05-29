@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-30 | PawClaim — claim autofiler for independent vet clinics | PetTech / US | 73 | GO | [folder](./ideas/2026-05-30-vet-pet-insurance-claim-autofiler/) |
 | 2026-05-29 | ClearPresent — LC discrepancy catcher for Bangladesh exporters | TradeTech / SEA | 75 | GO | [folder](./ideas/2026-05-29-bangladesh-lc-discrepancy-catcher/) |
 | 2026-05-29 | LotProof — DDS preflight for Vietnamese coffee exporters | TradeTech / SEA | 74 | GO | [folder](./ideas/2026-05-29-vietnam-coffee-eudr-dds/) |
 | 2026-05-29 | PortClear — pre-shipment rejection screen for Indian agri-exporters | TradeTech / India | 74 | GO | [folder](./ideas/2026-05-29-india-agri-export-rejection-screen/) |
