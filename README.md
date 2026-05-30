@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-30 | PreCarta — Carta Porte validator for Mexican small carriers | Logistics / LATAM | 76 | GO | [folder](./ideas/2026-05-30-mexico-carta-porte-validator/) |
 | 2026-05-30 | Reclaw — recoupment sentry for solo therapy & allied-health practices | HealthTech / US | 76 | GO | [folder](./ideas/2026-05-30-therapist-clawback-defense/) |
 | 2026-05-30 | PawClaim — claim autofiler for independent vet clinics | PetTech / US | 73 | GO | [folder](./ideas/2026-05-30-vet-pet-insurance-claim-autofiler/) |
 | 2026-05-29 | ClearPresent — LC discrepancy catcher for Bangladesh exporters | TradeTech / SEA | 75 | GO | [folder](./ideas/2026-05-29-bangladesh-lc-discrepancy-catcher/) |
