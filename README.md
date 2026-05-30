@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-30 | GradeFrame — job-architecture builder for EU small employers | Compliance / EU-SMB | 76 | GO | [folder](./ideas/2026-05-30-eu-pay-transparency-job-architecture/) |
 | 2026-05-30 | WalkBid — walkthrough-to-bid builder for cleaning companies | HomeServices / US-SMB | 74 | GO | [folder](./ideas/2026-05-30-commercial-cleaning-walkthrough-bid/) |
 | 2026-05-30 | PackLedger — EPR declaration ledger for small consumer brands | Compliance / US+EU SMB | 75 | GO | [folder](./ideas/2026-05-30-epr-packaging-declaration-ledger/) |
 | 2026-05-30 | FetchBack — revenue-recall desk for independent vet clinics | HealthTech / US Independent Veterinary Clinics | 74 | GO | [folder](./ideas/2026-05-30-vet-declined-estimate-recall/) |
