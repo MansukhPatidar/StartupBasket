@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-31 | ScopeGap — supplement recapture for restoration contractors | TradeTech / US-SMB | 73 | GO | [folder](./ideas/2026-05-31-restoration-supplement-recapture/) |
 | 2026-05-31 | PrintQuote — RFQ estimator for small machine shops | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-05-31-machine-shop-rfq-quoting/) |
 | 2026-05-30 | GradeFrame — job-architecture builder for EU small employers | Compliance / EU-SMB | 76 | GO | [folder](./ideas/2026-05-30-eu-pay-transparency-job-architecture/) |
 | 2026-05-30 | WalkBid — walkthrough-to-bid builder for cleaning companies | HomeServices / US-SMB | 74 | GO | [folder](./ideas/2026-05-30-commercial-cleaning-walkthrough-bid/) |
