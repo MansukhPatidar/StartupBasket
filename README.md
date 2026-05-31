@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-05-31 | ChartGuard — GFE audit sentinel for independent med spas | HealthTech / US Independent Medical Spas | 74 | GO | [folder](./ideas/2026-05-31-medspa-gfe-audit-readiness/) |
 | 2026-05-31 | AppointKit — labour-code paperwork packet for Indian micro-employers | Compliance / India MSME | 75 | GO | [folder](./ideas/2026-05-31-india-labour-code-appointment-letters/) |
 | 2026-05-31 | TallySheet — subsidy-claim defender for childcare providers | EdTech / US-SMB | 74 | GO | [folder](./ideas/2026-05-31-childcare-subsidy-claim-defense/) |
 | 2026-05-31 | ScopeGap — supplement recapture for restoration contractors | TradeTech / US-SMB | 73 | GO | [folder](./ideas/2026-05-31-restoration-supplement-recapture/) |
