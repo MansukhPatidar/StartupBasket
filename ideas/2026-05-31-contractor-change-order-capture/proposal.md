@@ -1,5 +1,5 @@
 ---
-title: "ScopeCatch — change-order capture app for small trade contractors"
+title: "ScopeCatch — change-order capture for trade contractors"
 slug: contractor-change-order-capture
 date: 2026-05-31
 category: TradeTech / US-SMB
