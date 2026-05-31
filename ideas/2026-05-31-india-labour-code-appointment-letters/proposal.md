@@ -1,5 +1,5 @@
 ---
-title: "AppointKit — labour-code paperwork packet for Indian micro-employers"
+title: "AppointKit — labour-code packet for Indian micro-employers"
 slug: india-labour-code-appointment-letters
 date: 2026-05-31
 category: Compliance / India MSME
