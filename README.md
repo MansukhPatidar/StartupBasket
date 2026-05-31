@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-01 | PlateLine — plate-cost tracker for independent restaurants | RestaurantTech / Global-SMB | 74 | GO | [folder](./ideas/2026-06-01-restaurant-plate-cost-tracker/) |
 | 2026-05-31 | ControlaRX — SNGPC reconciler for Brazil drugstores | Compliance / Brazil | 74 | GO | [folder](./ideas/2026-05-31-brazil-sngpc-controlled-rx-reconciler/) |
 | 2026-05-31 | ScopeCatch — change-order capture for trade contractors | TradeTech / US-SMB | 73 | GO | [folder](./ideas/2026-05-31-contractor-change-order-capture/) |
 | 2026-05-31 | ChartGuard — GFE audit sentinel for independent med spas | HealthTech / US Independent Medical Spas | 74 | GO | [folder](./ideas/2026-05-31-medspa-gfe-audit-readiness/) |
