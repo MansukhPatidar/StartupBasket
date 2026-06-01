@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-01 | CarrierProof — selection-trail recorder for small freight brokers | Logistics / US Small Freight Brokers | 78 | GO | [folder](./ideas/2026-06-01-freight-broker-carrier-selection-trail/) |
 | 2026-06-01 | Kafeel — domestic-staff compliance concierge for Saudi homes | Compliance / Saudi-Consumer | 76 | GO | [folder](./ideas/2026-06-01-saudi-domestic-worker-compliance/) |
 | 2026-06-01 | SelfBill — self-billing catcher for Malaysian SMEs | Compliance / Malaysia SME | 74 | GO | [folder](./ideas/2026-06-01-malaysia-self-billed-einvoice/) |
 | 2026-06-01 | OrderBàn — order desk for Vietnamese custom-make workshops | Manufacturing / Vietnam SMB | 73 | GO | [folder](./ideas/2026-06-01-vietnam-zalo-workshop-order-desk/) |
