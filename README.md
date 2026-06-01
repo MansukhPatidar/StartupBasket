@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-02 | PaidProof — barter-and-disclosure ledger for Indian creators | Creator Economy / India | 76 | GO | [folder](./ideas/2026-06-02-india-creator-barter-tax-ledger/) |
 | 2026-06-02 | FrontLine — recon velocity board for small used-car lots | Retail / US Independent Used-Car Dealers | 76 | GO | [folder](./ideas/2026-06-02-used-car-recon-velocity-board/) |
 | 2026-06-01 | InvoiceFit — NRS e-invoice prep for Nigerian SMEs | Compliance / Nigeria SME | 75 | GO | [folder](./ideas/2026-06-01-nigeria-nrs-einvoice-prep/) |
 | 2026-06-01 | ChillTally — cold-chain trail for village milk contractors | AgriTech / India | 72 | GO | [folder](./ideas/2026-06-01-milk-cold-chain-dispute-logger/) |
