@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-01 | ShortPay — supplement engine for collision shops | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-01-collision-supplement-recovery/) |
 | 2026-06-01 | ZeroLine — qualifying-income tripwire for UAE free-zone companies | FinTech / UAE Free-Zone SMBs | 75 | GO | [folder](./ideas/2026-06-01-uae-freezone-qfzp-monitor/) |
 | 2026-06-01 | LienClock — lien-sale engine for self-storage operators | PropTech / US | 76 | GO | [folder](./ideas/2026-06-01-self-storage-lien-compliance/) |
 | 2026-06-01 | PlateLine — plate-cost tracker for independent restaurants | RestaurantTech / Global-SMB | 74 | GO | [folder](./ideas/2026-06-01-restaurant-plate-cost-tracker/) |
