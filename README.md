@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-01 | OrderBàn — order desk for Vietnamese custom-make workshops | Manufacturing / Vietnam SMB | 73 | GO | [folder](./ideas/2026-06-01-vietnam-zalo-workshop-order-desk/) |
 | 2026-06-01 | CaseScreen — intake screen for dental labs | HealthTech / US-SMB | 75 | GO | [folder](./ideas/2026-06-01-dental-lab-intake-qc/) |
 | 2026-06-01 | ShortPay — supplement engine for collision shops | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-01-collision-supplement-recovery/) |
 | 2026-06-01 | ZeroLine — qualifying-income tripwire for UAE free-zone companies | FinTech / UAE Free-Zone SMBs | 75 | GO | [folder](./ideas/2026-06-01-uae-freezone-qfzp-monitor/) |
