@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-02 | ReVue — winback line for independent eye-care practices | HealthTech / US Independent Optometry | 77 | GO | [folder](./ideas/2026-06-02-optometry-lapsed-patient-winback/) |
 | 2026-06-02 | AvisaSAT — cancellation sentry for Mexican accounting firms | FinTech / Mexico Accounting Firms & PyMEs | 74 | GO | [folder](./ideas/2026-06-02-mexico-cfdi-rep-cancellation-watch/) |
 | 2026-06-02 | KassenKlar — Kassennachschau dossier for German cash shops | Compliance / Germany Cash-Intensive Micro-Business | 73 | GO | [folder](./ideas/2026-06-02-germany-kassennachschau-readiness/) |
 | 2026-06-02 | PaidProof — barter-and-disclosure ledger for Indian creators | Creator Economy / India | 76 | GO | [folder](./ideas/2026-06-02-india-creator-barter-tax-ledger/) |
