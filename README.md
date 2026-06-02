@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-03 | SlotRally — cancellation dispatcher for UK driving instructors | HomeServices / UK-SMB | 76 | GO | [folder](./ideas/2026-06-03-driving-instructor-slot-fill/) |
 | 2026-06-02 | ClaimMend — warranty reimbursement recovery line for appliance repair shops | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-02-appliance-warranty-claim-recovery/) |
 | 2026-06-02 | DepositProof — move-out evidence packet for landlords | PropTech / US | 74 | GO | [folder](./ideas/2026-06-02-landlord-deposit-evidence-packet/) |
 | 2026-06-02 | LeakStop — payout auditor for small tour operators | TradeTech / Global Tours & Activities Operators | 75 | GO | [folder](./ideas/2026-06-02-tour-operator-ota-payout-audit/) |
