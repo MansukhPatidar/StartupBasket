@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-02 | DepositProof — move-out evidence packet for landlords | PropTech / US | 74 | GO | [folder](./ideas/2026-06-02-landlord-deposit-evidence-packet/) |
 | 2026-06-02 | LeakStop — payout auditor for small tour operators | TradeTech / Global Tours & Activities Operators | 75 | GO | [folder](./ideas/2026-06-02-tour-operator-ota-payout-audit/) |
 | 2026-06-02 | DepositProof — move-out evidence packet for self-managing landlords | PropTech / US | 74 | GO | [folder](./ideas/2026-06-02-landlord-deposit-evidence-packet/) |
 | 2026-06-02 | Babbl — multilingual comment inbox for YouTubers | Creator Economy / Global | 74 | GO | [folder](./ideas/2026-06-02-youtube-multilingual-comment-inbox/) |
