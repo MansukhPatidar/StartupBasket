@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-03 | HalalSiap — halal self-declare filer for Indonesia food UMKM | Compliance / Indonesia | 77 | GO | [folder](./ideas/2026-06-03-indonesia-halal-self-declare-filer/) |
 | 2026-06-03 | ClearStamp — pre-flight permit screen for sign companies | TradeTech / US | 72 | GO | [folder](./ideas/2026-06-03-sign-permit-preflight-check/) |
 | 2026-06-03 | FechaJá — PIX-deposit closer for Brazil home-service pros | HomeServices / Brazil | 75 | GO | [folder](./ideas/2026-06-03-brazil-quote-deposit-closer/) |
 | 2026-06-03 | GreenLight — deliverability guard for WhatsApp agencies | MarTech / Global | 75 | GO | [folder](./ideas/2026-06-03-whatsapp-quality-guard/) |
