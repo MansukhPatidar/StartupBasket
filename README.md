@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-03 | ClearStamp — pre-flight permit screen for sign companies | TradeTech / US | 72 | GO | [folder](./ideas/2026-06-03-sign-permit-preflight-check/) |
 | 2026-06-03 | FechaJá — PIX-deposit closer for Brazil home-service pros | HomeServices / Brazil | 75 | GO | [folder](./ideas/2026-06-03-brazil-quote-deposit-closer/) |
 | 2026-06-03 | GreenLight — deliverability guard for WhatsApp agencies | MarTech / Global | 75 | GO | [folder](./ideas/2026-06-03-whatsapp-quality-guard/) |
 | 2026-06-03 | WalkBid — scan-to-bid studio for commercial cleaning contractors | TradeTech / Global | 74 | GO | [folder](./ideas/2026-06-03-cleaning-scan-to-bid/) |
