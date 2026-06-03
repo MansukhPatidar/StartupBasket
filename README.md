@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-03 | WalkBid — scan-to-bid studio for commercial cleaning contractors | TradeTech / Global | 74 | GO | [folder](./ideas/2026-06-03-cleaning-scan-to-bid/) |
 | 2026-06-03 | LineGuard — invoice price-creep watchdog for independent restaurants | RestaurantTech / US | 76 | GO | [folder](./ideas/2026-06-03-restaurant-invoice-price-creep/) |
 | 2026-06-03 | SlotRally — cancellation dispatcher for UK driving instructors | HomeServices / UK-SMB | 76 | GO | [folder](./ideas/2026-06-03-driving-instructor-slot-fill/) |
 | 2026-06-02 | ClaimMend — warranty reimbursement recovery line for appliance repair shops | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-02-appliance-warranty-claim-recovery/) |
