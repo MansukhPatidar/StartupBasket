@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-04 | DubScout — dub-quality screen for YouTube creators | Creator Economy / Global | 76 | GO | [folder](./ideas/2026-06-04-youtube-autodub-quality-screen/) |
 | 2026-06-04 | FixForm — repair-fund recovery desk for EU appliance shops | Compliance / EU-SMB | 74 | GO | [folder](./ideas/2026-06-04-eu-repair-fund-recovery/) |
 | 2026-06-03 | ChartArmor — liability dossier for solo med spas | HealthTech / US | 76 | GO | [folder](./ideas/2026-06-03-medspa-consent-photo-dossier/) |
 | 2026-06-03 | HalalSiap — halal self-declare filer for Indonesia food UMKM | Compliance / Indonesia | 77 | GO | [folder](./ideas/2026-06-03-indonesia-halal-self-declare-filer/) |
