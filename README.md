@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-04 | TindaPass — BIR registration onramp for Filipino online sellers | Compliance / Philippines Online Sellers & Creators | 75 | GO | [folder](./ideas/2026-06-04-philippines-bir-seller-onboarding/) |
 | 2026-06-04 | SelectProof — carrier-selection vault for freight brokers | Logistics / US-SMB | 78 | GO | [folder](./ideas/2026-06-04-freight-broker-carrier-selection-vault/) |
 | 2026-06-04 | DubScout — dub-quality screen for YouTube creators | Creator Economy / Global | 76 | GO | [folder](./ideas/2026-06-04-youtube-autodub-quality-screen/) |
 | 2026-06-04 | FixForm — repair-fund recovery desk for EU appliance shops | Compliance / EU-SMB | 74 | GO | [folder](./ideas/2026-06-04-eu-repair-fund-recovery/) |
