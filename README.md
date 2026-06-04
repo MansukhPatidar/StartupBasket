@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-04 | MateriaListo — materiality-file engine for Mexican accounting firms | Compliance / Mexico-SMB | 77 | GO | [folder](./ideas/2026-06-04-mexico-cfdi-materialidad-defense/) |
 | 2026-06-04 | PayeeReady — VOP pre-flight checker for EU bookkeepers | FinTech / EU-SMB | 74 | GO | [folder](./ideas/2026-06-04-eu-vop-payee-prevalidation/) |
 | 2026-06-04 | AccountGuardian — suspension sentinel for Amazon sellers | DevTools / Global Amazon SMB Sellers | 77 | GO | [folder](./ideas/2026-06-04-amazon-account-health-sentinel/) |
 | 2026-06-04 | PrepPass — remake catcher for independent dental labs | HealthTech / US Independent Dental Labs | 76 | GO | [folder](./ideas/2026-06-04-dental-scan-remake-catcher/) |
