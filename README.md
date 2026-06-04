@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-04 | AccountGuardian — suspension sentinel for Amazon sellers | DevTools / Global Amazon SMB Sellers | 77 | GO | [folder](./ideas/2026-06-04-amazon-account-health-sentinel/) |
 | 2026-06-04 | PrepPass — remake catcher for independent dental labs | HealthTech / US Independent Dental Labs | 76 | GO | [folder](./ideas/2026-06-04-dental-scan-remake-catcher/) |
 | 2026-06-04 | TindaPass — BIR registration onramp for Filipino online sellers | Compliance / Philippines Online Sellers & Creators | 75 | GO | [folder](./ideas/2026-06-04-philippines-bir-seller-onboarding/) |
 | 2026-06-04 | SelectProof — carrier-selection vault for freight brokers | Logistics / US-SMB | 78 | GO | [folder](./ideas/2026-06-04-freight-broker-carrier-selection-vault/) |
