@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-05 | RigProof — damage dossier for towing operators | TradeTech / US Towing & Vehicle-Storage SMBs | 74 | GO | [folder](./ideas/2026-06-05-towing-damage-condition-proof/) |
 | 2026-06-05 | BidWright — RFQ quote drafter for small metal-fab shops | TradeTech / US-SMB | 74 | GO | [folder](./ideas/2026-06-05-metal-fab-rfq-quoting/) |
 | 2026-06-05 | VerifyClear — ID-verification board for UK accountants | Compliance / UK Accountancy Practices | 78 | GO | [folder](./ideas/2026-06-05-uk-companies-house-id-verification/) |
 | 2026-06-05 | UdyamProof — MSME-status ledger for Indian buyers and CA firms | Compliance / India SMB & CA Firms | 75 | GO | [folder](./ideas/2026-06-05-india-msme-status-evidence-ledger/) |
