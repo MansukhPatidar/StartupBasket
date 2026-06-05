@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-05 | SlotSentry — overbooking tripwire for small tour operators | Travel / Global | 73 | GO | [folder](./ideas/2026-06-05-tour-operator-overbooking-tripwire/) |
 | 2026-06-05 | SettleScale — settlement reconciler for poultry growers | AgriTech / US Contract Broiler Growers | 71 | GO | [folder](./ideas/2026-06-05-poultry-grower-settlement-audit/) |
 | 2026-06-05 | NiyuktiReady — appointment-letter register for India MSMEs | Compliance / India MSME | 76 | GO | [folder](./ideas/2026-06-05-india-appointment-letter-register/) |
 | 2026-06-04 | MateriaListo — materiality-file engine for Mexican accounting firms | Compliance / Mexico-SMB | 77 | GO | [folder](./ideas/2026-06-04-mexico-cfdi-materialidad-defense/) |
