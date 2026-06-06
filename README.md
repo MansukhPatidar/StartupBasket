@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-07 | KhaiReady — tax-filing copilot for Vietnamese shopkeepers | Compliance / Vietnam | 74 | GO | [folder](./ideas/2026-06-07-vietnam-household-tax-filing/) |
 | 2026-06-06 | WalkBid — site-walk estimator for cleaning contractors | TradeTech / US | 76 | GO | [folder](./ideas/2026-06-06-cleaning-bid-walkthrough/) |
 | 2026-06-06 | WarrantyDesk — registration & claim filer for HVAC and plumbing contractors | TradeTech / US | 76 | GO | [folder](./ideas/2026-06-06-hvac-warranty-claim-filer/) |
 | 2026-06-06 | CostProof — sourcing-cost ledger for Amazon FBA sellers | Retail / Global | 77 | GO | [folder](./ideas/2026-06-06-amazon-fba-sourcing-cost-evidence/) |
