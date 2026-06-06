@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-06 | WarrantyDesk — registration & claim filer for HVAC and plumbing contractors | TradeTech / US | 76 | GO | [folder](./ideas/2026-06-06-hvac-warranty-claim-filer/) |
 | 2026-06-06 | CostProof — sourcing-cost ledger for Amazon FBA sellers | Retail / Global | 77 | GO | [folder](./ideas/2026-06-06-amazon-fba-sourcing-cost-evidence/) |
 | 2026-06-06 | ClawGuard — clawback sentry for NDIS sole traders | HealthTech / Australia | 75 | GO | [folder](./ideas/2026-06-06-ndis-claim-clawback-check/) |
 | 2026-06-06 | ZelaDAE — eSocial concierge for Brazilian household employers | ProfessionalServices / Brazil | 73 | GO | [folder](./ideas/2026-06-06-brazil-domestic-employer-esocial/) |
