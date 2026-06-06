@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-06 | ClawGuard — clawback sentry for NDIS sole traders | HealthTech / Australia | 75 | GO | [folder](./ideas/2026-06-06-ndis-claim-clawback-check/) |
 | 2026-06-06 | ZelaDAE — eSocial concierge for Brazilian household employers | ProfessionalServices / Brazil | 73 | GO | [folder](./ideas/2026-06-06-brazil-domestic-employer-esocial/) |
 | 2026-06-06 | HaulDue — accessorial collector for owner-operators | Logistics / US Trucking SMB | 77 | GO | [folder](./ideas/2026-06-06-trucking-accessorial-recovery/) |
 | 2026-06-06 | FileWise — visa file auditor for study-abroad agents | EdTech / India | 76 | GO | [folder](./ideas/2026-06-06-study-abroad-file-audit/) |
