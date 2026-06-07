@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-08 | StaySquare — permit navigator for short-term rental hosts | PropTech / US | 76 | GO | [folder](./ideas/2026-06-08-str-host-permit-compliance/) |
 | 2026-06-07 | NairaScribe — voice e-invoice scribe for Nigerian merchants | Compliance / Nigeria SMB | 74 | GO | [folder](./ideas/2026-06-07-nigeria-voice-einvoice/) |
 | 2026-06-07 | ClearFirst — SBA eligibility pre-screen for loan packagers | FinTech / US-SMB | 75 | GO | [folder](./ideas/2026-06-07-sba-eligibility-prescreen/) |
 | 2026-06-07 | Article4Ready — AI-literacy proof file for EU SMEs | Compliance / EU SMB | 72 | GO | [folder](./ideas/2026-06-07-eu-ai-act-literacy-proof/) |
