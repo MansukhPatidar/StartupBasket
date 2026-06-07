@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-07 | Article4Ready — AI-literacy proof file for EU SMEs | Compliance / EU SMB | 72 | GO | [folder](./ideas/2026-06-07-eu-ai-act-literacy-proof/) |
 | 2026-06-07 | HalalLengkap — submission-packet builder for Indonesian food SMEs | Compliance / Indonesia | 74 | GO | [folder](./ideas/2026-06-07-indonesia-halal-submission-packet/) |
 | 2026-06-07 | SnapReel — vernacular video studio for SEA marketplace sellers | Retail / SEA | 73 | GO | [folder](./ideas/2026-06-07-sea-marketplace-product-video/) |
 | 2026-06-07 | TruthWatch — AI-answer watchtower for local businesses | Local Marketing-AI / US-SMB | 71 | GO | [folder](./ideas/2026-06-07-ai-answer-misinfo-watch/) |
