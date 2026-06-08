@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-09 | Autoriza — consent concierge for Brazil's Pix Automático billers | FinTech / Brazil | 74 | GO | [folder](./ideas/2026-06-09-pix-automatico-consent-concierge/) |
 | 2026-06-08 | DukaanDM — order desk for India's WhatsApp sellers | Retail / India | 74 | GO | [folder](./ideas/2026-06-08-india-social-seller-voice-orders/) |
 | 2026-06-08 | MaterialMx — audit defender for Mexican SMBs | Compliance / Mexico | 76 | GO | [folder](./ideas/2026-06-08-mexico-materialidad-evidence/) |
 | 2026-06-08 | GreenLodge — Annex VII filer for small EU waste shippers | Compliance / EU | 73 | GO | [folder](./ideas/2026-06-08-eu-annex-vii-waste-filer/) |
