@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-08 | TallyLive — commission reconciler for TikTok Shop sellers | Creator Economy / SEA | 77 | GO | [folder](./ideas/2026-06-08-tiktok-shop-creator-commission-reconcile/) |
 | 2026-06-08 | WarmStart — instant applicant intake for hourly hiring | HRTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-08-hourly-applicant-intake/) |
 | 2026-06-08 | RebuildRight — replacement-cost second opinion for commercial insurance agents | InsurTech / US-SMB | 74 | GO | [folder](./ideas/2026-06-08-commercial-building-replacement-cost/) |
 | 2026-06-08 | ShipSure — pre-flight document check for Indian exporters | TradeTech / India | 73 | GO | [folder](./ideas/2026-06-08-india-export-doc-preflight/) |
