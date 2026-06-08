@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-08 | GreenLodge — Annex VII filer for small EU waste shippers | Compliance / EU | 73 | GO | [folder](./ideas/2026-06-08-eu-annex-vii-waste-filer/) |
 | 2026-06-08 | BookFast — inquiry responder for independent caterers | RestaurantTech / US | 75 | GO | [folder](./ideas/2026-06-08-catering-inquiry-responder/) |
 | 2026-06-08 | LineHound — supplement engine for collision repair shops | TradeTech / US | 75 | GO | [folder](./ideas/2026-06-08-collision-supplement-capture/) |
 | 2026-06-08 | TallyLive — commission reconciler for TikTok Shop sellers | Creator Economy / SEA | 77 | GO | [folder](./ideas/2026-06-08-tiktok-shop-creator-commission-reconcile/) |
