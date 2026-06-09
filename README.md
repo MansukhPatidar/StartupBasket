@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-09 | WageFix — wage-code rebuilder for India's payroll teams | HRTech / India | 76 | GO | [folder](./ideas/2026-06-09-india-wage-code-restructuring/) |
 | 2026-06-09 | ClasseCerta — classification ledger for Brazilian accounting offices | Compliance / Brazil | 77 | GO | [folder](./ideas/2026-06-09-brazil-cclasstrib-classification/) |
 | 2026-06-09 | CertSwift — certificate drafter for independent insurance agencies | InsurTech / US | 76 | GO | [folder](./ideas/2026-06-09-insurance-coi-issuance-drafter/) |
 | 2026-06-09 | ShopSift — RFQ intake desk for small machine shops | TradeTech / US | 76 | GO | [folder](./ideas/2026-06-09-cnc-rfq-intake-triage/) |
