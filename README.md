@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-09 | ShopSift — RFQ intake desk for small machine shops | TradeTech / US | 76 | GO | [folder](./ideas/2026-06-09-cnc-rfq-intake-triage/) |
 | 2026-06-09 | ColdProof — claim-defense packets for reefer carriers | Logistics / US | 74 | GO | [folder](./ideas/2026-06-09-reefer-claim-defense-packet/) |
 | 2026-06-09 | FirstPass — pre-submission screen for solar installers | CleanTech / US | 75 | GO | [folder](./ideas/2026-06-09-solar-interconnection-prescreen/) |
 | 2026-06-09 | Autoriza — consent concierge for Brazil's Pix Automático billers | FinTech / Brazil | 74 | GO | [folder](./ideas/2026-06-09-pix-automatico-consent-concierge/) |
