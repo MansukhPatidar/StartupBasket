@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-10 | FatooraFix — clearance desk for Saudi Arabia's e-invoicing SMBs | Compliance / Saudi Arabia | 75 | GO | [folder](./ideas/2026-06-10-zatca-invoice-rejection-fix/) |
 | 2026-06-10 | ClearReturn — condition logbook for equipment rental yards | TradeTech / US | 74 | GO | [folder](./ideas/2026-06-10-rental-damage-condition-evidence/) |
 | 2026-06-09 | PushBack — dispute defender for SEA marketplace sellers | Retail / SEA | 75 | GO | [folder](./ideas/2026-06-09-sea-marketplace-return-dispute/) |
 | 2026-06-09 | WageFix — wage-code rebuilder for India's payroll teams | HRTech / India | 76 | GO | [folder](./ideas/2026-06-09-india-wage-code-restructuring/) |
