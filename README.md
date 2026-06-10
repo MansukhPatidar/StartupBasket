@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-10 | CycleBack — rebooking line for solo med-spa injectors | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-10-medspa-lapsed-patient-rebooking/) |
 | 2026-06-10 | HesabuRescue — deduction rescue for Kenyan eTIMS SMEs | Compliance / Kenya | 75 | GO | [folder](./ideas/2026-06-10-kenya-etims-deduction-rescue/) |
 | 2026-06-10 | FatooraFix — clearance desk for Saudi Arabia's e-invoicing SMBs | Compliance / Saudi Arabia | 75 | GO | [folder](./ideas/2026-06-10-zatca-invoice-rejection-fix/) |
 | 2026-06-10 | ClearReturn — condition logbook for equipment rental yards | TradeTech / US | 74 | GO | [folder](./ideas/2026-06-10-rental-damage-condition-evidence/) |
