@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-10 | ArrearsProof — possession dossier for self-managing UK landlords | PropTech / UK | 76 | GO | [folder](./ideas/2026-06-10-uk-section8-possession-evidence/) |
 | 2026-06-10 | TallyLet — quarterly tax autofiler for buy-to-let landlords | FinTech / UK | 74 | GO | [folder](./ideas/2026-06-10-uk-mtd-landlord-quarterly-filing/) |
 | 2026-06-10 | FirstLight — at-need intake scribe for funeral homes | ProfessionalServices / US | 76 | GO | [folder](./ideas/2026-06-10-funeral-first-call-intake/) |
 | 2026-06-10 | ClockCatcher — clock-in catcher for home-care agencies | HealthTech / US | 76 | GO | [folder](./ideas/2026-06-10-evv-manual-edit-clawback-prevention/) |
