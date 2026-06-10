@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-10 | ClockCatcher — clock-in catcher for home-care agencies | HealthTech / US | 76 | GO | [folder](./ideas/2026-06-10-evv-manual-edit-clawback-prevention/) |
 | 2026-06-10 | YesVet — treatment-acceptance closer for veterinary front desks | HealthTech / US | 76 | GO | [folder](./ideas/2026-06-10-vet-treatment-acceptance-financing/) |
 | 2026-06-10 | CycleBack — rebooking line for solo med-spa injectors | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-10-medspa-lapsed-patient-rebooking/) |
 | 2026-06-10 | HesabuRescue — deduction rescue for Kenyan eTIMS SMEs | Compliance / Kenya | 75 | GO | [folder](./ideas/2026-06-10-kenya-etims-deduction-rescue/) |
