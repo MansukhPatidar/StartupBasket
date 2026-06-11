@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-11 | GovActive — renewal warden for federal contractors | GovTech / US | 76 | GO | [folder](./ideas/2026-06-11-sam-registration-renewal-monitor/) |
 | 2026-06-11 | EskwelaNet — subsidy steward for Philippine private schools | EdTech / Philippines | 74 | GO | [folder](./ideas/2026-06-11-philippines-esc-voucher-reconciliation/) |
 | 2026-06-11 | RevivAuto — quote-recovery agent for LATAM auto shops | TradeTech / LATAM | 73 | GO | [folder](./ideas/2026-06-11-latam-auto-quote-winback/) |
 | 2026-06-11 | GateProof — Gateway 2 validator for HRB architects | PropTech / UK | 75 | GO | [folder](./ideas/2026-06-11-uk-gateway2-submission-validator/) |
