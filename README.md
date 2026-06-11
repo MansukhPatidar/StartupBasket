@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-12 | SlotSync — booking desk for WhatsApp-first tour operators | TravelTech / SEA | 73 | GO | [folder](./ideas/2026-06-12-sea-whatsapp-tour-availability/) |
 | 2026-06-12 | CoopCheck — settlement auditor for broiler growers | AgriTech / India | 71 | GO | [folder](./ideas/2026-06-12-india-broiler-settlement-audit/) |
 | 2026-06-11 | VetTrail — carrier-selection record for freight brokers | Logistics / US | 77 | GO | [folder](./ideas/2026-06-11-freight-broker-carrier-selection-record/) |
 | 2026-06-11 | CaseProof — Rx record-keeper for dental labs | HealthTech / US | 74 | GO | [folder](./ideas/2026-06-11-dental-lab-remake-evidence/) |
