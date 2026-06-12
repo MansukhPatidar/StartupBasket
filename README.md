@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-12 | RefundRoute — refund unblocker for stuck Indian exporters | FinTech / India | 73 | GO | [folder](./ideas/2026-06-12-india-igst-export-refund-unblock/) |
 | 2026-06-12 | PayoutSnap — recovery clerk for independent restaurants | RestaurantTech / US | 76 | GO | [folder](./ideas/2026-06-12-restaurant-delivery-payout-recovery/) |
 | 2026-06-12 | WalkBid — bid builder for commercial cleaning estimators | TradeTech / US | 74 | GO | [folder](./ideas/2026-06-12-janitorial-walkthrough-bid-capture/) |
 | 2026-06-12 | DwellProof — detention-claim engine for trucking carriers | Logistics / US-SMB | 74 | GO | [folder](./ideas/2026-06-12-trucking-detention-claim-recovery/) |
