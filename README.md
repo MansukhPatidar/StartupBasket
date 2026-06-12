@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-12 | DwellProof — detention-claim engine for trucking carriers | Logistics / US-SMB | 74 | GO | [folder](./ideas/2026-06-12-trucking-detention-claim-recovery/) |
 | 2026-06-12 | FakturMatch — input-VAT reconciler for Indonesia PKP firms | Compliance / SEA | 74 | GO | [folder](./ideas/2026-06-12-indonesia-coretax-input-vat-reconciliation/) |
 | 2026-06-12 | FirstCrate — order taker for perishables distributors | Logistics / US | 75 | GO | [folder](./ideas/2026-06-12-perishables-distributor-phone-orders/) |
 | 2026-06-12 | SlotSync — booking desk for WhatsApp-first tour operators | TravelTech / SEA | 73 | GO | [folder](./ideas/2026-06-12-sea-whatsapp-tour-availability/) |
