@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-13 | FielPix — recurrence sentinel for Brazil's small merchants | FinTech / Brazil | 72 | GO | [folder](./ideas/2026-06-13-brazil-pix-automatico-recurrence-recovery/) |
 | 2026-06-13 | CertClear — certificate concierge for independent insurance agencies | InsurTech / US | 75 | GO | [folder](./ideas/2026-06-13-coi-issuance-agency-desk/) |
 | 2026-06-12 | RefundRoute — refund unblocker for stuck Indian exporters | FinTech / India | 73 | GO | [folder](./ideas/2026-06-12-india-igst-export-refund-unblock/) |
 | 2026-06-12 | PayoutSnap — recovery clerk for independent restaurants | RestaurantTech / US | 76 | GO | [folder](./ideas/2026-06-12-restaurant-delivery-payout-recovery/) |
