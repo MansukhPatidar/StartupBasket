@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-14 | SettleSweep — fee-leak sweeper for Southeast Asian marketplace sellers | Retail / SEA | 74 | GO | [folder](./ideas/2026-06-14-sea-marketplace-fee-recovery/) |
 | 2026-06-14 | SuperCatch — Payday Super bounce catcher for AU bookkeepers | Compliance / Australia | 76 | GO | [folder](./ideas/2026-06-14-australia-payday-super-rejection-recovery/) |
 | 2026-06-13 | AxisProof — accessibility-compliance warden for EU ecommerce sellers | Compliance / EU | 75 | GO | [folder](./ideas/2026-06-13-eu-ecommerce-accessibility-compliance/) |
 | 2026-06-13 | TriTally — trust-reconciliation closer for solo law firms | ProfessionalServices / US | 76 | GO | [folder](./ideas/2026-06-13-iolta-three-way-reconciliation-solo-firms/) |
