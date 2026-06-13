@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-13 | JuaSync — reverse-invoice clerk for Kenyan SMB buyers | Compliance / Kenya | 73 | GO | [folder](./ideas/2026-06-13-kenya-etims-reverse-invoice-clerk/) |
 | 2026-06-13 | KlaarBox — e-invoice inbox for Belgium's self-employed | Compliance / Belgium | 73 | GO | [folder](./ideas/2026-06-13-belgium-peppol-einvoice-inbox/) |
 | 2026-06-13 | RepairScope — quote studio for independent EU repairers | TradeTech / EU | 72 | GO | [folder](./ideas/2026-06-13-eu-repair-quote-subsidy/) |
 | 2026-06-13 | EmberProof — CBAM emissions packet desk for Indian metal exporters | Compliance / India | 74 | GO | [folder](./ideas/2026-06-13-india-cbam-exporter-emissions-packet/) |
