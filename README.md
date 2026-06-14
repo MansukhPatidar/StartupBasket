@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-14 | StayLicit — registration registry for EU rental operators | PropTech / EU | 76 | GO | [folder](./ideas/2026-06-14-eu-str-registration-compliance/) |
 | 2026-06-14 | ScripBook — WhatsApp intake agent for India's diagnostic labs | HealthTech / India | 71 | GO | [folder](./ideas/2026-06-14-india-lab-whatsapp-prescription-booking/) |
 | 2026-06-14 | HaulProof — claim defender for residential moving companies | Logistics / US | 74 | GO | [folder](./ideas/2026-06-14-mover-damage-claim-defense/) |
 | 2026-06-14 | SettleSweep — fee-leak sweeper for Southeast Asian marketplace sellers | Retail / SEA | 74 | GO | [folder](./ideas/2026-06-14-sea-marketplace-fee-recovery/) |
