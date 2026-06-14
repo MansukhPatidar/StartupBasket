@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-14 | PolyShip — localization autopilot for indie game studios | Creator Economy / Global Indie Game Developers | 72 | GO | [folder](./ideas/2026-06-14-indie-game-localization-autopilot/) |
 | 2026-06-14 | EvidenceLoop — dispute-evidence packet engine for SaaS merchants | FinTech / Global SaaS & Subscription Merchants | 68 | VALIDATE | [folder](./ideas/2026-06-14-saas-subscription-chargeback-evidence/) |
 | 2026-06-14 | RetailLift — warranty-rate filer for powersports dealers | TradeTech / US Powersports, Marine & RV Dealers | 73 | GO | [folder](./ideas/2026-06-14-powersports-warranty-rate-recovery/) |
 | 2026-06-14 | QuietQuill — arrangement scribe for independent funeral homes | DeathTech / US-SMB | 72 | GO | [folder](./ideas/2026-06-14-funeral-arrangement-intake-paperwork/) |
