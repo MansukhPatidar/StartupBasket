@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-14 | RetailLift — warranty-rate filer for powersports dealers | TradeTech / US Powersports, Marine & RV Dealers | 73 | GO | [folder](./ideas/2026-06-14-powersports-warranty-rate-recovery/) |
 | 2026-06-14 | QuietQuill — arrangement scribe for independent funeral homes | DeathTech / US-SMB | 72 | GO | [folder](./ideas/2026-06-14-funeral-arrangement-intake-paperwork/) |
 | 2026-06-14 | StayLicit — registration registry for EU rental operators | PropTech / EU | 76 | GO | [folder](./ideas/2026-06-14-eu-str-registration-compliance/) |
 | 2026-06-14 | ScripBook — WhatsApp intake agent for India's diagnostic labs | HealthTech / India | 71 | GO | [folder](./ideas/2026-06-14-india-lab-whatsapp-prescription-booking/) |
