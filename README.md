@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-15 | CaseGate — intake screen for independent dental labs | HealthTech / US Dental Labs (3–40 staff) | 73 | GO | [folder](./ideas/2026-06-15-dental-lab-case-intake-qc/) |
 | 2026-06-15 | FechaDoc — document chaser for Brazil's accounting firms | AccountingTech / Brazil-SMB | 72 | GO | [folder](./ideas/2026-06-15-brazil-contador-document-chasing/) |
 | 2026-06-15 | ProofKeep — Reg S-P evidence binder for small RIAs | Compliance / US Small RIAs (under $1.5B AUM) | 74 | GO | [folder](./ideas/2026-06-15-ria-reg-sp-evidence-binder/) |
 | 2026-06-15 | ClearComp — pre-delivery redline desk for independent appraisers | PropTech / US Independent Real Estate Appraisers | 74 | GO | [folder](./ideas/2026-06-15-appraisal-uspap-preflight-review/) |
