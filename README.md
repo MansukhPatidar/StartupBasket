@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-15 | LaneSentry — carrier-identity sentry for small trucking fleets | Logistics / US Owner-Operators & Small Carriers | 73 | GO | [folder](./ideas/2026-06-15-carrier-identity-fraud-monitor/) |
 | 2026-06-15 | RutaLista — roadside-rejection screen for Mexico's hombre-camión carriers | Compliance / Mexico Owner-Operator Truckers | 73 | GO | [folder](./ideas/2026-06-15-mexico-carta-porte-preflight/) |
 | 2026-06-15 | BukuBeres — receipt-to-ledger line for Indonesian bookkeepers | AccountingTech / Indonesia KJA Firms | 71 | GO | [folder](./ideas/2026-06-15-indonesia-bookkeeper-receipt-to-ledger/) |
 | 2026-06-15 | CaseGate — intake screen for independent dental labs | HealthTech / US Dental Labs (3–40 staff) | 73 | GO | [folder](./ideas/2026-06-15-dental-lab-case-intake-qc/) |
