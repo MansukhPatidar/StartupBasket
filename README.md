@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-16 | QuarterLock — RERA quarterly autofiler for Indian developers | PropTech / India Real Estate Developers | 73 | GO | [folder](./ideas/2026-06-16-rera-quarterly-progress-autofiler/) |
 | 2026-06-16 | QuoteKite — rate-to-quote builder for Indian forwarders | Logistics / India Freight Forwarders | 72 | GO | [folder](./ideas/2026-06-16-india-freight-coloader-rate-quoting/) |
 | 2026-06-16 | PlotScrub — GeoJSON scrubber for small EUDR importers | Compliance / EU SMB Importers | 72 | GO | [folder](./ideas/2026-06-16-eudr-geojson-dds-validator/) |
 | 2026-06-16 | KennelClear — inspection-prep desk for USDA-licensed animal facilities | Compliance / US Animal Facilities | 72 | GO | [folder](./ideas/2026-06-16-usda-animal-welfare-inspection-prep/) |
