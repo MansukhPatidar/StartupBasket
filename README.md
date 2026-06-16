@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-16 | PlotScrub — GeoJSON scrubber for small EUDR importers | Compliance / EU SMB Importers | 72 | GO | [folder](./ideas/2026-06-16-eudr-geojson-dds-validator/) |
 | 2026-06-16 | KennelClear — inspection-prep desk for USDA-licensed animal facilities | Compliance / US Animal Facilities | 72 | GO | [folder](./ideas/2026-06-16-usda-animal-welfare-inspection-prep/) |
 | 2026-06-16 | MarkProof — disclosure ledger for EU content agencies | Compliance / EU Marketing Agencies | 73 | GO | [folder](./ideas/2026-06-16-eu-ai-content-disclosure-ledger/) |
 | 2026-06-16 | ShortPay — underpayment auditor for independent specialty practices | HealthTech / US Independent Specialty Practices | 74 | GO | [folder](./ideas/2026-06-16-specialty-practice-underpayment-recovery/) |
