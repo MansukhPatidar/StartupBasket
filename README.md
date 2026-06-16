@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-16 | SpecLark — spec generator for interior designers | Creator Economy / Global Interior Designers | 73 | GO | [folder](./ideas/2026-06-16-interior-design-spec-automation/) |
 | 2026-06-16 | WeightBack — overcharge reclaimer for Indian e-commerce sellers | Logistics / India D2C & Marketplace Sellers | 74 | GO | [folder](./ideas/2026-06-16-india-courier-weight-overcharge-reclaim/) |
 | 2026-06-16 | QuarterLock — RERA quarterly autofiler for Indian developers | PropTech / India Real Estate Developers | 73 | GO | [folder](./ideas/2026-06-16-rera-quarterly-progress-autofiler/) |
 | 2026-06-16 | QuoteKite — rate-to-quote builder for Indian forwarders | Logistics / India Freight Forwarders | 72 | GO | [folder](./ideas/2026-06-16-india-freight-coloader-rate-quoting/) |
