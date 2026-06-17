@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-18 | AssureFile — claim filing engine for funeral homes | ProfessionalServices / US Funeral Homes | 74 | GO | [folder](./ideas/2026-06-18-funeral-insurance-assignment-filing/) |
 | 2026-06-18 | BounceBlock — rejection screen for solar permit packages | CleanTech / US Solar Installers | 77 | GO | [folder](./ideas/2026-06-18-solar-permit-rejection-preflight/) |
 | 2026-06-17 | CommSweep — commission auditor for manufacturers' rep agencies | SalesTech / US Rep Agencies | 76 | GO | [folder](./ideas/2026-06-17-rep-agency-commission-audit/) |
 | 2026-06-17 | ClaimSetu — claim-recovery desk for India's FMCG distributors | TradeTech / India FMCG Distributors | 76 | GO | [folder](./ideas/2026-06-17-india-fmcg-distributor-claim-recovery/) |
