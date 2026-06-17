@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-17 | SafeDossier — GPSR risk-assessment dossier for EU sellers | Compliance / EU e-commerce | 73 | GO | [folder](./ideas/2026-06-17-gpsr-risk-assessment-dossier/) |
 | 2026-06-17 | LabelLag — label-drift watchtower for small EU & UK food makers | Compliance / EU & UK SMB Food Producers | 75 | GO | [folder](./ideas/2026-06-17-food-label-spec-drift-monitor/) |
 | 2026-06-17 | ScriptMargin — invoice-cost recovery engine for independent pharmacies | HealthTech / US Independent Pharmacies | 78 | GO | [folder](./ideas/2026-06-17-pharmacy-wholesaler-invoice-overcharge/) |
 | 2026-06-17 | WalkBid — bid builder for commercial cleaning companies | HomeServices / US-SMB | 74 | GO | [folder](./ideas/2026-06-17-cleaning-bid-walkthrough-estimator/) |
