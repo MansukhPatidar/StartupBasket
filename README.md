@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-17 | ScriptMargin — invoice-cost recovery engine for independent pharmacies | HealthTech / US Independent Pharmacies | 78 | GO | [folder](./ideas/2026-06-17-pharmacy-wholesaler-invoice-overcharge/) |
 | 2026-06-17 | WalkBid — bid builder for commercial cleaning companies | HomeServices / US-SMB | 74 | GO | [folder](./ideas/2026-06-17-cleaning-bid-walkthrough-estimator/) |
 | 2026-06-17 | GlosaGiro — denial-recovery autopilot for Brazilian clinics | HealthTech / Brazil-SMB | 75 | GO | [folder](./ideas/2026-06-17-brazil-glosa-denial-recovery/) |
 | 2026-06-16 | RepairClock — guarantee tracker for EU appliance & electronics sellers | Compliance / EU SMB Retailers | 71 | GO | [folder](./ideas/2026-06-16-eu-repair-guarantee-clock/) |
