@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-18 | CarrierProof — selection-defense ledger for freight brokers | Logistics / US | 77 | GO | [folder](./ideas/2026-06-18-freight-broker-carrier-selection-defense/) |
 | 2026-06-18 | TurnPage — transcript finisher for solo court reporters | ProfessionalServices / US | 74 | GO | [folder](./ideas/2026-06-18-court-reporter-ai-scopist/) |
 | 2026-06-18 | PortClear — customs preflight for India's SME exporters | TradeTech / India | 76 | GO | [folder](./ideas/2026-06-18-india-export-doc-preflight/) |
 | 2026-06-18 | PaidProof — payment verifier for India's social-commerce sellers | FinTech / India Social Commerce | 75 | GO | [folder](./ideas/2026-06-18-india-social-seller-payment-verify/) |
