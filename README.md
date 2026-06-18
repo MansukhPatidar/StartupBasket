@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-18 | ReceiptRun — e-invoice dispatcher for Philippine marketplace sellers | Compliance / Philippines E-commerce | 71 | GO | [folder](./ideas/2026-06-18-ph-marketplace-einvoice-eis/) |
 | 2026-06-18 | RxCatch — remake catcher for optical dispensaries | HealthTech / US Optical | 73 | GO | [folder](./ideas/2026-06-18-optical-rx-order-validation/) |
 | 2026-06-18 | AssureFile — claim filing engine for funeral homes | ProfessionalServices / US Funeral Homes | 74 | GO | [folder](./ideas/2026-06-18-funeral-insurance-assignment-filing/) |
 | 2026-06-18 | BounceBlock — rejection screen for solar permit packages | CleanTech / US Solar Installers | 77 | GO | [folder](./ideas/2026-06-18-solar-permit-rejection-preflight/) |
