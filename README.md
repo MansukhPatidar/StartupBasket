@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-19 | LaudoLeve — NR-1 psychosocial kit for Brazil's small firms | Compliance / Brazil | 76 | GO | [folder](./ideas/2026-06-19-brazil-nr1-psychosocial-compliance/) |
 | 2026-06-19 | HalalPilot — self-declare copilot for halal facilitators | Compliance / SEA | 75 | GO | [folder](./ideas/2026-06-19-indonesia-halal-self-declare-copilot/) |
 | 2026-06-18 | CarrierProof — selection-defense ledger for freight brokers | Logistics / US | 77 | GO | [folder](./ideas/2026-06-18-freight-broker-carrier-selection-defense/) |
 | 2026-06-18 | TurnPage — transcript finisher for solo court reporters | ProfessionalServices / US | 74 | GO | [folder](./ideas/2026-06-18-court-reporter-ai-scopist/) |
