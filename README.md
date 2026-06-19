@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-19 | ManifestReady — ISF clearance prep for new ocean importers | TradeTech / US | 75 | GO | [folder](./ideas/2026-06-19-isf-importer-filing-validation/) |
 | 2026-06-19 | CaseClear — intake desk for small dental labs | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-19-dental-lab-rx-intake-triage/) |
 | 2026-06-19 | RepasseCerto — payout reclaimer for Brazil's iFood & Rappi restaurants | RestaurantTech / Brazil | 76 | GO | [folder](./ideas/2026-06-19-brazil-ifood-payout-reclaim/) |
 | 2026-06-19 | BandGuard — Nitaqat sentry for Saudi SMEs | Compliance / Saudi Arabia | 76 | GO | [folder](./ideas/2026-06-19-saudi-nitaqat-compliance-monitor/) |
