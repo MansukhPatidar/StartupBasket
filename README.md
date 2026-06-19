@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-20 | PlayProof — audit drafter for independent playground inspectors | PropTech / US | 73 | GO | [folder](./ideas/2026-06-20-playground-cpsi-audit-drafter/) |
 | 2026-06-19 | PlotProof — EUDR clearance checker for coffee & cocoa exporters | AgriTech / Global | 74 | GO | [folder](./ideas/2026-06-19-eudr-plot-clearance-checker/) |
 | 2026-06-19 | SureMine — reservation gate for Philippine live sellers | Retail / SEA | 81 | STRONG GO | [folder](./ideas/2026-06-19-ph-live-selling-buyer-commitment/) |
 | 2026-06-19 | ManifestReady — ISF clearance prep for new ocean importers | TradeTech / US | 75 | GO | [folder](./ideas/2026-06-19-isf-importer-filing-validation/) |
