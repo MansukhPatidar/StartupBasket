@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-20 | TrueCost — cost-basis defender for Amazon FBA sellers | Retail / Amazon FBA Sellers | 75 | GO | [folder](./ideas/2026-06-20-amazon-fba-cost-basis-reimbursement/) |
 | 2026-06-20 | DwellProof — detention packet builder for owner-operators | Logistics / US-SMB | 76 | GO | [folder](./ideas/2026-06-20-trucking-detention-claim-packet/) |
 | 2026-06-20 | PartPakka — fitment concierge for India's spare-parts counters | TradeTech / India | 76 | GO | [folder](./ideas/2026-06-20-india-spare-parts-fitment-whatsapp/) |
 | 2026-06-20 | PlayProof — audit drafter for independent playground inspectors | PropTech / US | 73 | GO | [folder](./ideas/2026-06-20-playground-cpsi-audit-drafter/) |
