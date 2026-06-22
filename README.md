@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-22 | SpecReply — questionnaire autopilot for food co-packers | Compliance / US Food Co-Packers | 74 | GO | [folder](./ideas/2026-06-22-food-supplier-questionnaire-autofill/) |
 | 2026-06-20 | CertCleared — issuance verifier for independent insurance agencies | InsurTech / US-SMB | 77 | GO | [folder](./ideas/2026-06-20-coi-issuance-policy-verification/) |
 | 2026-06-20 | WattReady — competency registry for UK electrical firms | Compliance / UK Electrical Contractors | 82 | STRONG GO | [folder](./ideas/2026-06-20-uk-electrician-competency-registry/) |
 | 2026-06-20 | TrueCost — cost-basis defender for Amazon FBA sellers | Retail / Amazon FBA Sellers | 75 | GO | [folder](./ideas/2026-06-20-amazon-fba-cost-basis-reimbursement/) |
