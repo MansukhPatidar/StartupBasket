@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-22 | HarvestScribe — audit log keeper for small produce growers | AgriTech / US | 75 | GO | [folder](./ideas/2026-06-22-farm-gap-audit-logs/) |
 | 2026-06-22 | TimbreSeguro — Carta Porte validator for owner-operators | Logistics / LATAM | 76 | GO | [folder](./ideas/2026-06-22-mexico-carta-porte-validator/) |
 | 2026-06-22 | SunVerdict — payback estimator for balcony-solar storage sellers | CleanTech / EU | 76 | GO | [folder](./ideas/2026-06-22-balcony-solar-storage-payback/) |
 | 2026-06-22 | ShelfRadar — stockout radar for India's quick-commerce brands | Retail / India | 74 | GO | [folder](./ideas/2026-06-22-india-qcommerce-stockout-alerts/) |
