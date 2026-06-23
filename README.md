@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-23 | PartyVolley — quote responder for solo event-rental operators | RentalTech / US | 74 | GO | [folder](./ideas/2026-06-23-event-rental-quote-responder/) |
 | 2026-06-23 | FirstCall — case autofiler for independent funeral homes | DeathTech / US | 71 | GO | [folder](./ideas/2026-06-23-funeral-home-intake-autofiler/) |
 | 2026-06-23 | CreditChase — GST supplier-filing chaser for India's MSMEs | FinTech / India-SMB | 77 | GO | [folder](./ideas/2026-06-23-gst-supplier-filing-chaser/) |
 | 2026-06-22 | HarvestScribe — audit log keeper for small produce growers | AgriTech / US | 75 | GO | [folder](./ideas/2026-06-22-farm-gap-audit-logs/) |
