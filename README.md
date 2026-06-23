@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-23 | SoRo — quarterly-tax ledger for Vietnam's service-business households | Compliance / Vietnam | 72 | GO | [folder](./ideas/2026-06-23-vietnam-household-tax-declaration-ledger/) |
 | 2026-06-23 | RideReply — booking line for India's outstation taxi operators | TravelTech / India | 76 | GO | [folder](./ideas/2026-06-23-india-taxi-outstation-voice-booking/) |
 | 2026-06-23 | ClaimComb — loss-run normalizer for independent insurance agencies | InsurTech / US | 73 | GO | [folder](./ideas/2026-06-23-loss-run-normalizer-agencies/) |
 | 2026-06-23 | AlertSafe — fake-alert screen for Nigeria's WhatsApp sellers | FinTech / Nigeria | 75 | GO | [folder](./ideas/2026-06-23-nigeria-fake-alert-payment-screen/) |
