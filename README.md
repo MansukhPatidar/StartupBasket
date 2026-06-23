@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-24 | TallyClear — e-invoice reconciler for Malaysia retailers | Compliance / Malaysia | 74 | GO | [folder](./ideas/2026-06-24-malaysia-einvoice-reconciler/) |
 | 2026-06-23 | VoltaPet — rebooker for Brazil's independent vet clinics | HealthTech / Brazil | 72 | GO | [folder](./ideas/2026-06-23-brazil-vet-lapsed-patient-winback/) |
 | 2026-06-23 | SoRo — quarterly-tax ledger for Vietnam's service-business households | Compliance / Vietnam | 72 | GO | [folder](./ideas/2026-06-23-vietnam-household-tax-declaration-ledger/) |
 | 2026-06-23 | RideReply — booking line for India's outstation taxi operators | TravelTech / India | 76 | GO | [folder](./ideas/2026-06-23-india-taxi-outstation-voice-booking/) |
