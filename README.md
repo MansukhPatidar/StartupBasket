@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-24 | ChargeLog — refrigerant compliance register for multi-site facility owners | Compliance / US-SMB | 76 | GO | [folder](./ideas/2026-06-24-epa-refrigerant-owner-register/) |
 | 2026-06-24 | ClaimMend — denial-recovery engine for UAE clinics | HealthTech / UAE | 75 | GO | [folder](./ideas/2026-06-24-uae-clinic-denial-recovery/) |
 | 2026-06-24 | LeadGlow — DM concierge for independent med spas | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-24-medspa-dm-lead-concierge/) |
 | 2026-06-24 | TallyClear — e-invoice reconciler for Malaysia retailers | Compliance / Malaysia | 74 | GO | [folder](./ideas/2026-06-24-malaysia-einvoice-reconciler/) |
