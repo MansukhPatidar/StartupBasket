@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-24 | RecoupRoll — CAM true-up desk for small commercial landlords | PropTech / US-SMB | 74 | GO | [folder](./ideas/2026-06-24-cam-reconciliation-trueup/) |
 | 2026-06-24 | ScrubProof — HazCom binder builder for small cleaning crews | Compliance / US-SMB | 74 | GO | [folder](./ideas/2026-06-24-janitorial-hazcom-sds-binder/) |
 | 2026-06-24 | AtaPronta — assembly-minutes scribe for Brazil's professional síndicos | PropTech / Brazil | 73 | GO | [folder](./ideas/2026-06-24-brazil-condo-assembly-minutes/) |
 | 2026-06-24 | ChargeLog — refrigerant compliance register for multi-site facility owners | Compliance / US-SMB | 76 | GO | [folder](./ideas/2026-06-24-epa-refrigerant-owner-register/) |
