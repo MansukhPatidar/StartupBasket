@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-25 | DowodVault — proof vault for Poland's KSeF B2B sellers | Compliance / Poland SMB | 73 | GO | [folder](./ideas/2026-06-25-poland-ksef-document-evidence/) |
 | 2026-06-25 | TaxPerch — lodging-tax filer for self-managing STR hosts | PropTech / US STR Hosts | 75 | GO | [folder](./ideas/2026-06-25-str-lodging-tax-filer/) |
 | 2026-06-25 | DeductSafe — expense-deduction catcher for Kenya's SMEs | FinTech / Kenya SMB | 75 | GO | [folder](./ideas/2026-06-25-kenya-etims-expense-reconciler/) |
 | 2026-06-24 | RecoupRoll — CAM true-up desk for small commercial landlords | PropTech / US-SMB | 74 | GO | [folder](./ideas/2026-06-24-cam-reconciliation-trueup/) |
