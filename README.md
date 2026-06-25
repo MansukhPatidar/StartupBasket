@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-25 | CaseCatch — Rx intake desk for restorative dental labs | HealthTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-25-dental-lab-rx-intake/) |
 | 2026-06-25 | HalalSiap — halal dossier builder for Indonesia's pendamping & UMKM | Compliance / Indonesia SMB | 74 | GO | [folder](./ideas/2026-06-25-indonesia-halal-dossier-prep/) |
 | 2026-06-25 | TabRecoup — overcharge-recovery service for independent restaurants | RestaurantTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-25-restaurant-overcharge-recovery/) |
 | 2026-06-25 | DowodVault — proof vault for Poland's KSeF B2B sellers | Compliance / Poland SMB | 73 | GO | [folder](./ideas/2026-06-25-poland-ksef-document-evidence/) |
