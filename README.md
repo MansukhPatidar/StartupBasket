@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-26 | MarginSentry — invoice-price sentry for dental practices | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-26-dental-supply-invoice-audit/) |
 | 2026-06-26 | SiapJual — legalization navigator for Indonesia sellers | Compliance / Indonesia-SMB | 76 | GO | [folder](./ideas/2026-06-26-indonesia-seller-legalization-navigator/) |
 | 2026-06-26 | RemediMap — EICR remedial decoder for UK letting agents | PropTech / UK | 73 | GO | [folder](./ideas/2026-06-26-uk-eicr-remedial-decoder/) |
 | 2026-06-26 | Adjoinr — deed-research plotter for boundary surveyors | TradeTech / US | 74 | GO | [folder](./ideas/2026-06-26-surveyor-deed-research-plotter/) |
