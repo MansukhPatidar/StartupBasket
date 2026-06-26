@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-27 | TareTally — EPR packaging-declaration engine for cross-border Amazon sellers | Compliance / EU | 74 | GO | [folder](./ideas/2026-06-27-eu-epr-packaging-declaration/) |
 | 2026-06-26 | Unflag — pre-publish flag check for Etsy handmade sellers | Creator Economy / Global | 72 | GO | [folder](./ideas/2026-06-26-etsy-ai-flag-screen/) |
 | 2026-06-26 | FatooraGuard — pre-clearance validator for Saudi Wave-24 SMEs | Compliance / Saudi Arabia | 75 | GO | [folder](./ideas/2026-06-26-zatca-preclearance-validator/) |
 | 2026-06-26 | MarginSentry — invoice-price sentry for dental practices | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-26-dental-supply-invoice-audit/) |
