@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-26 | RemediMap — EICR remedial decoder for UK letting agents | PropTech / UK | 73 | GO | [folder](./ideas/2026-06-26-uk-eicr-remedial-decoder/) |
 | 2026-06-26 | Adjoinr — deed-research plotter for boundary surveyors | TradeTech / US | 74 | GO | [folder](./ideas/2026-06-26-surveyor-deed-research-plotter/) |
 | 2026-06-26 | PartPay — warranty recouper for HVAC service contractors | TradeTech / US | 76 | GO | [folder](./ideas/2026-06-26-hvac-warranty-claim-recovery/) |
 | 2026-06-26 | ShipClear — export clearance gate for India's spice exporters | TradeTech / India | 75 | GO | [folder](./ideas/2026-06-26-india-spice-export-rejection-screen/) |
