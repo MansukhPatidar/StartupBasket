@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-28 | MandatoMover — Pix Automático authorization drive for Brazil subscriptions | FinTech / LATAM | 74 | GO | [folder](./ideas/2026-06-28-pix-automatico-authorization-migration/) |
 | 2026-06-28 | PreqVault — prequalification packet keeper for subcontractors | TradeTech / US | 74 | GO | [folder](./ideas/2026-06-28-subcontractor-prequal-packet/) |
 | 2026-06-28 | ClawBack — refund-dispute defender for TikTok Shop sellers | Retail / US | 75 | GO | [folder](./ideas/2026-06-28-tiktok-shop-refund-dispute-defense/) |
 | 2026-06-27 | QuoteReady — RFQ prep copilot for hardware teams | TradeTech / Global | 73 | GO | [folder](./ideas/2026-06-27-rfq-prep-hardware-buyers/) |
