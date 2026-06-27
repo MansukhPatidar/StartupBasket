@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-27 | CompForge — total-loss rebuttal engine for auto appraisers | InsurTech / US | 76 | GO | [folder](./ideas/2026-06-27-total-loss-appraisal-rebuttal/) |
 | 2026-06-27 | eBRClear — caution-list watchtower for Indian exporters | Compliance / India | 76 | GO | [folder](./ideas/2026-06-27-edpms-ebrc-caution-watch/) |
 | 2026-06-27 | DueLane — carrier-selection docket for small freight brokers | Logistics / US-SMB | 77 | GO | [folder](./ideas/2026-06-27-freight-broker-selection-docket/) |
 | 2026-06-27 | TareTally — EPR packaging-declaration engine for cross-border Amazon sellers | Compliance / EU | 74 | GO | [folder](./ideas/2026-06-27-eu-epr-packaging-declaration/) |
