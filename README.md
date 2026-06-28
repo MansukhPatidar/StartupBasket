@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-28 | SyncShelf — sync-readiness studio for independent artists | Creator Economy / Global | 72 | GO | [folder](./ideas/2026-06-28-sync-ready-delivery-packets/) |
 | 2026-06-28 | DesencalhaNF — NF-e rejection desk for Brazilian accountants | FinTech / LATAM | 76 | GO | [folder](./ideas/2026-06-28-brazil-nfe-rejection-fixer/) |
 | 2026-06-28 | PaybackRx — PBM underpayment complaint filer for independent pharmacies | HealthTech / US | 76 | GO | [folder](./ideas/2026-06-28-pbm-underpayment-complaint-filer/) |
 | 2026-06-28 | MandatoMover — Pix Automático authorization drive for Brazil subscriptions | FinTech / LATAM | 74 | GO | [folder](./ideas/2026-06-28-pix-automatico-authorization-migration/) |
