@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-29 | ClearCharge — self-pay price estimator for surgery centers | HealthTech / US ASC | 74 | GO | [folder](./ideas/2026-06-29-asc-self-pay-price-estimator/) |
 | 2026-06-29 | AnswerLane — AI-citation fixer for local service businesses | MarTech / Local SMB | 73 | GO | [folder](./ideas/2026-06-29-ai-citation-fixer-local-business/) |
 | 2026-06-29 | ZeroFile — corporate-tax books ledger for UAE freelancers | FinTech / UAE-SMB | 75 | GO | [folder](./ideas/2026-06-29-uae-freelancer-corporate-tax-books/) |
 | 2026-06-28 | ParcelBack — denial-rebuttal desk for small online sellers | Logistics / US | 74 | GO | [folder](./ideas/2026-06-28-carrier-claim-denial-rebuttal/) |
