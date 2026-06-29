@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-30 | PlanPry — PPO fee-recovery engine for dental practices | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-30-dental-ppo-fee-recovery/) |
 | 2026-06-30 | CaseProof — Rx-intake screen for dental labs | HealthTech / US | 74 | GO | [folder](./ideas/2026-06-30-dental-lab-rx-intake-proof/) |
 | 2026-06-29 | PellProof — Workforce Pell qualifier for career schools | GovTech / US | 76 | GO | [folder](./ideas/2026-06-29-workforce-pell-eligibility-packet/) |
 | 2026-06-29 | CreditChase — vendor-filing chaser for Indian GST filers | FinTech / India | 76 | GO | [folder](./ideas/2026-06-29-gst-vendor-filing-chaser/) |
