@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-29 | CreditChase — vendor-filing chaser for Indian GST filers | FinTech / India | 76 | GO | [folder](./ideas/2026-06-29-gst-vendor-filing-chaser/) |
 | 2026-06-29 | ZoneSentry — STR rule-change sentry for rental managers | PropTech / US | 73 | GO | [folder](./ideas/2026-06-29-str-ordinance-compliance-monitor/) |
 | 2026-06-29 | FeeBól — fee-recovery line for Indian coaching institutes | EdTech / India | 75 | GO | [folder](./ideas/2026-06-29-coaching-fee-recovery-voice/) |
 | 2026-06-29 | FiskaMatch — Coretax reconciliation guard for Indonesian tax firms | FinTech / Indonesia | 74 | GO | [folder](./ideas/2026-06-29-coretax-reconciliation-guard/) |
