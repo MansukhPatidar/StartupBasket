@@ -29,6 +29,8 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-01 | ProbaMX — materialidad trail builder for Mexican SMBs | Compliance / Mexico SMBs | 75 | GO | [folder](./ideas/2026-07-01-mexico-materialidad-capture/) |
+| 2026-07-01 | LoanGauge — loan-readiness gauge for Indian MSMEs | FinTech / India MSME Lending | 76 | GO | [folder](./ideas/2026-07-01-msme-loan-readiness-diagnostic/) |
 | 2026-07-01 | LienClock — lien-sale autopilot for small storage operators | PropTech / US Independent Self-Storage | 75 | GO | [folder](./ideas/2026-07-01-self-storage-lien-autopilot/) |
 | 2026-06-30 | KeepLive — WhatsApp ban-risk screen for bot-run businesses | DevTools / Global WhatsApp-SMB | 75 | GO | [folder](./ideas/2026-06-30-whatsapp-bot-ban-risk-screen/) |
 | 2026-06-30 | TrailProof — audit-defense vault for small federal grantees | GovTech / US Small Grantees | 74 | GO | [folder](./ideas/2026-06-30-federal-grant-audit-defense/) |
