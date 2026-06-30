@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-30 | TrailProof — audit-defense vault for small federal grantees | GovTech / US Small Grantees | 74 | GO | [folder](./ideas/2026-06-30-federal-grant-audit-defense/) |
 | 2026-06-30 | PriceBark — invoice price-creep watchdog for restaurants | RestaurantTech / US-SMB | 76 | GO | [folder](./ideas/2026-06-30-restaurant-invoice-price-watchdog/) |
 | 2026-06-30 | CleartoSet — vendor-insurance clearance for wedding venues | PropTech / US | 73 | GO | [folder](./ideas/2026-06-30-venue-vendor-coi-clearance/) |
 | 2026-06-30 | BondSentry — broker-default watchtower for carriers | Logistics / US | 76 | GO | [folder](./ideas/2026-06-30-freight-broker-bond-claim/) |
