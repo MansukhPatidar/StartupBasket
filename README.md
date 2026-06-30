@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-06-30 | BondSentry — broker-default watchtower for carriers | Logistics / US | 76 | GO | [folder](./ideas/2026-06-30-freight-broker-bond-claim/) |
 | 2026-06-30 | HalalPass — Indonesia halal import-clearance navigator | Compliance / SEA | 75 | GO | [folder](./ideas/2026-06-30-indonesia-halal-import-clearance/) |
 | 2026-06-30 | PlanPry — PPO fee-recovery engine for dental practices | HealthTech / US | 75 | GO | [folder](./ideas/2026-06-30-dental-ppo-fee-recovery/) |
 | 2026-06-30 | CaseProof — Rx-intake screen for dental labs | HealthTech / US | 74 | GO | [folder](./ideas/2026-06-30-dental-lab-rx-intake-proof/) |
