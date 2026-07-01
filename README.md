@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-02 | PickPack — album-selection concierge for Indian wedding studios | Creator Economy / India | 71 | GO | [folder](./ideas/2026-07-02-wedding-album-selection-loop/) |
 | 2026-07-02 | Reclaimo — repair-bonus filer for EU repair shops | HomeServices / EU | 74 | GO | [folder](./ideas/2026-07-02-eu-repair-bonus-claim/) |
 | 2026-07-02 | ScanScript — order-intake proofer for Indian diagnostic labs | HealthTech / India | 72 | GO | [folder](./ideas/2026-07-02-lab-order-intake-proofer/) |
 | 2026-07-01 | Tindig — buyer-risk registry for Philippine COD live sellers | Retail / Philippines | 72 | GO | [folder](./ideas/2026-07-01-ph-cod-bogus-buyer-registry/) |
