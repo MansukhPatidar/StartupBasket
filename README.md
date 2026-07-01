@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-01 | CertClear — death-certificate checker for funeral homes | GovTech / US Funeral Homes | 74 | GO | [folder](./ideas/2026-07-01-funeral-death-cert-validator/) |
 | 2026-07-01 | ProbaMX — materialidad trail builder for Mexican SMBs | Compliance / Mexico SMBs | 75 | GO | [folder](./ideas/2026-07-01-mexico-materialidad-capture/) |
 | 2026-07-01 | LoanGauge — loan-readiness gauge for Indian MSMEs | FinTech / India MSME Lending | 76 | GO | [folder](./ideas/2026-07-01-msme-loan-readiness-diagnostic/) |
 | 2026-07-01 | LienClock — lien-sale autopilot for small storage operators | PropTech / US Independent Self-Storage | 75 | GO | [folder](./ideas/2026-07-01-self-storage-lien-autopilot/) |
