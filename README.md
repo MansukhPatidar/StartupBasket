@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-01 | PixFiel — recurring-revenue medic for Brazilian subscription sellers | FinTech / Brazil Subscription SMBs | 76 | GO | [folder](./ideas/2026-07-01-pix-automatico-mandate-recovery/) |
 | 2026-07-01 | RebateLock — reservation desk for heat-pump installers | CleanTech / US HVAC Contractors | 78 | GO | [folder](./ideas/2026-07-01-heat-pump-rebate-reservation/) |
 | 2026-07-01 | CertClear — death-certificate checker for funeral homes | GovTech / US Funeral Homes | 74 | GO | [folder](./ideas/2026-07-01-funeral-death-cert-validator/) |
 | 2026-07-01 | ProbaMX — materialidad trail builder for Mexican SMBs | Compliance / Mexico SMBs | 75 | GO | [folder](./ideas/2026-07-01-mexico-materialidad-capture/) |
