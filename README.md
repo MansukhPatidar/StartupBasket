@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-03 | HaulDue — accessorial-recovery agent for owner-operators | Logistics / US | 74 | GO | [folder](./ideas/2026-07-03-owner-operator-detention-recovery/) |
 | 2026-07-02 | VerpackWatch — EPR listing-suspension sentry for EU sellers | Compliance / EU | 74 | GO | [folder](./ideas/2026-07-02-eu-epr-listing-suspension-sentry/) |
 | 2026-07-02 | StageDesk — inbound advance desk for independent music venues | Creator Economy / US | 72 | GO | [folder](./ideas/2026-07-02-venue-show-advance-desk/) |
 | 2026-07-02 | AgroFito — receituário compliance screen for Brazilian agronomists | AgriTech / Brazil | 74 | GO | [folder](./ideas/2026-07-02-brazil-agrofit-receituario-precheck/) |
