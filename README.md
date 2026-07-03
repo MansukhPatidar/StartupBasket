@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-03 | KinGate — parental-consent gate for India's kids-app developers | Compliance / India | 76 | GO | [folder](./ideas/2026-07-03-dpdp-parental-consent-gate/) |
 | 2026-07-03 | RemitSweep — underpayment sweeper for solo optometry practices | HealthTech / US | 74 | GO | [folder](./ideas/2026-07-03-optometry-underpayment-recovery/) |
 | 2026-07-03 | CertMirror — USCIS-compliance packet for certified translators | ProfessionalServices / US | 74 | GO | [folder](./ideas/2026-07-03-uscis-certified-translation-packet/) |
 | 2026-07-03 | ClaimFetch — records concierge for independent vet clinics | HealthTech / US | 72 | GO | [folder](./ideas/2026-07-03-vet-insurance-records-concierge/) |
