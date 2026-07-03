@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-04 | QuoteQuill — RFQ-drawing prefiller for small job shops | TradeTech / Global | 74 | GO | [folder](./ideas/2026-07-04-machine-shop-quote-prefill/) |
 | 2026-07-04 | PorteListo — Carta Porte checker for Mexico's one-truck haulers | Logistics / Mexico-SMB | 75 | GO | [folder](./ideas/2026-07-04-carta-porte-precheck-mexico/) |
 | 2026-07-03 | NoticeForge — AI-hiring disclosure packet builder for small staffing agencies | Compliance / US | 73 | GO | [folder](./ideas/2026-07-03-ai-hiring-notice-compliance/) |
 | 2026-07-03 | BahanCek — halal self-declare prep engine for Indonesia | Compliance / SEA | 76 | GO | [folder](./ideas/2026-07-03-indonesia-halal-self-declare-prep/) |
