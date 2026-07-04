@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-04 | LocProof — localization audit for indie game studios | DevTools / Global | 74 | GO | [folder](./ideas/2026-07-04-indie-game-localization-audit/) |
 | 2026-07-04 | PetroTally — diesel-spend ledger for Nigerian SME generator owners | CleanTech / Nigeria | 73 | GO | [folder](./ideas/2026-07-04-nigeria-generator-fuel-ledger/) |
 | 2026-07-04 | CaseClear — pre-production screen for dental labs | HealthTech / Global-SMB | 76 | GO | [folder](./ideas/2026-07-04-dental-lab-case-prescreen/) |
 | 2026-07-04 | KhaiGọn — tax-declaration drafter for Vietnam shop households | Compliance / Vietnam | 76 | GO | [folder](./ideas/2026-07-04-vietnam-household-tax-declaration/) |
