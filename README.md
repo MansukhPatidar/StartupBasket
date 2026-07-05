@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-05 | AuditRunway — new-entrant safety-audit runway for first-year carriers | Compliance / US | 76 | GO | [folder](./ideas/2026-07-05-new-entrant-safety-audit/) |
 | 2026-07-05 | SunClose — closeout autofiler for residential solar installers | CleanTech / US | 75 | GO | [folder](./ideas/2026-07-05-solar-closeout-autofiler/) |
 | 2026-07-05 | FlockReckon — settlement reckoner for broiler contract growers | AgriTech / India | 74 | GO | [folder](./ideas/2026-07-05-broiler-settlement-audit/) |
 | 2026-07-04 | ZapCobra — Pix Automático collections for solo billers | FinTech / Brazil-SMB | 76 | GO | [folder](./ideas/2026-07-04-brazil-pix-recurring-billing/) |
