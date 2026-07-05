@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-05 | HeadingGuard — classification screen for Philippine customs brokers | Logistics / SEA | 71 | GO | [folder](./ideas/2026-07-05-philippine-customs-hs-classification/) |
 | 2026-07-05 | ClearFirst — COI clearance desk for subcontractors | PropTech / US | 74 | GO | [folder](./ideas/2026-07-05-subcontractor-coi-clearance/) |
 | 2026-07-05 | NitaqWatch — Nitaqat band sentinel for Saudi micro-employers | Compliance / Saudi Arabia | 76 | GO | [folder](./ideas/2026-07-05-saudi-nitaqat-band-sentinel/) |
 | 2026-07-05 | BasisKeeper — cost-basis keeper for Amazon FBA sellers | Retail / Global | 78 | GO | [folder](./ideas/2026-07-05-amazon-fba-cost-basis/) |
