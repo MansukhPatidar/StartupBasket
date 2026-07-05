@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-06 | FirstBite — instant-quote responder for off-premise caterers | RestaurantTech / US | 74 | GO | [folder](./ideas/2026-07-06-caterer-instant-quote-responder/) |
 | 2026-07-06 | PackFile — packaging-data ledger for cross-border sellers | Compliance / EU-SMB | 75 | GO | [folder](./ideas/2026-07-06-epr-packaging-data-prep/) |
 | 2026-07-05 | ClaimSnap — warranty-packet builder for HVAC contractors | HomeServices / US | 75 | GO | [folder](./ideas/2026-07-05-hvac-warranty-claim-packet/) |
 | 2026-07-05 | DutyBack — duty-refund reclaimer for small importers | TradeTech / US | 77 | GO | [folder](./ideas/2026-07-05-import-duty-refund-recovery/) |
