@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-05 | ClaimSnap — warranty-packet builder for HVAC contractors | HomeServices / US | 75 | GO | [folder](./ideas/2026-07-05-hvac-warranty-claim-packet/) |
 | 2026-07-05 | DutyBack — duty-refund reclaimer for small importers | TradeTech / US | 77 | GO | [folder](./ideas/2026-07-05-import-duty-refund-recovery/) |
 | 2026-07-05 | HeadingGuard — classification screen for Philippine customs brokers | Logistics / SEA | 71 | GO | [folder](./ideas/2026-07-05-philippine-customs-hs-classification/) |
 | 2026-07-05 | ClearFirst — COI clearance desk for subcontractors | PropTech / US | 74 | GO | [folder](./ideas/2026-07-05-subcontractor-coi-clearance/) |
