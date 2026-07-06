@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-07 | PattiBack — claim-recovery desk for FMCG distributors | Underserved niche / India | 75 | GO | [folder](./ideas/2026-07-07-fmcg-distributor-claim-recovery/) |
 | 2026-07-07 | ReturnGate — refund gatekeeper for small Shopify merchants | Tech-unlock / Global | 72 | GO | [folder](./ideas/2026-07-07-shopify-return-abuse-defense/) |
 | 2026-07-06 | ShelfRead — allergen labeler for delis and grab-and-go counters | Regulatory arbitrage / US | 72 | GO | [folder](./ideas/2026-07-06-deli-allergen-labeling/) |
 | 2026-07-06 | BarterBrain — brand-deal tax brain for solo Indian creators | Underserved niche / India | 73 | GO | [folder](./ideas/2026-07-06-creator-brand-deal-gst/) |
