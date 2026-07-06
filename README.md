@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-06 | GroveProof — EUDR clearance engine for small importers | Regulatory arbitrage / EU | 76 | GO | [folder](./ideas/2026-07-06-eudr-deforestation-dds-filing/) |
 | 2026-07-06 | TagProof — AI-disclosure trail for localization agencies | Compliance / EU | 73 | GO | [folder](./ideas/2026-07-06-ai-content-disclosure-trail/) |
 | 2026-07-06 | VendorProof — contractor-liability watch for principal employers | Compliance / India | 76 | GO | [folder](./ideas/2026-07-06-contractor-pf-esi-verification/) |
 | 2026-07-06 | FirstBite — instant-quote responder for off-premise caterers | RestaurantTech / US | 74 | GO | [folder](./ideas/2026-07-06-caterer-instant-quote-responder/) |
