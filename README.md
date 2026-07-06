@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-06 | BarterBrain — brand-deal tax brain for solo Indian creators | Underserved niche / India | 73 | GO | [folder](./ideas/2026-07-06-creator-brand-deal-gst/) |
 | 2026-07-06 | ReelPull — recruiting-reel cutter for youth-athlete parents | Tech-unlock / US | 74 | GO | [folder](./ideas/2026-07-06-athlete-recruiting-reel/) |
 | 2026-07-06 | ClaimFrame — damage-claim dossier for Airbnb hosts | Tech-unlock / US | 74 | GO | [folder](./ideas/2026-07-06-str-damage-claim-dossier/) |
 | 2026-07-06 | Contigo — bilingual field-sales closer for home techs | Tech-unlock / US | 75 | GO | [folder](./ideas/2026-07-06-bilingual-field-sales-interpreter/) |
