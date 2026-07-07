@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-07 | PriceHold — invoice referee for independent restaurants | Workflow-automation / US-RestaurantTech | 68 | VALIDATE | [folder](./ideas/2026-07-07-restaurant-distributor-price-audit/) |
 | 2026-07-07 | HookLingua — micro-drama adaptation studio for localizers | Tech-unlock / India | 76 | GO | [folder](./ideas/2026-07-07-micro-drama-script-adaptation/) |
 | 2026-07-07 | CodeShield — 90837 audit defender for solo therapists | Tech-unlock / US-HealthTech | 73 | GO | [folder](./ideas/2026-07-07-therapist-90837-audit-defense/) |
 | 2026-07-07 | CargaClara — Carta Porte prefiller for Mexico SMBs | Underserved niche / Mexico | 74 | GO | [folder](./ideas/2026-07-07-mexico-carta-porte-prefiller/) |
