@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-08 | VasooliLever — 43B(h) collection lever for Indian MSME suppliers | Regulatory arbitrage / India-FinTech | 74 | GO | [folder](./ideas/2026-07-08-msme-receivables-43bh-leverage/) |
 | 2026-07-08 | SelloSeguro — sello-freeze sentinel for Mexican micro-businesses | Regulatory arbitrage / Mexico-FinTech | 71 | GO | [folder](./ideas/2026-07-08-mexico-csd-freeze-monitor/) |
 | 2026-07-08 | DhoopProof — performance proof desk for small solar installers | Tech-unlock / India-CleanTech | 74 | GO | [folder](./ideas/2026-07-08-solar-performance-proof/) |
 | 2026-07-07 | BolBook — voice-note order clerk for small distributors | Tech-unlock / India-Retail | 76 | GO | [folder](./ideas/2026-07-07-whatsapp-voice-order-capture/) |
