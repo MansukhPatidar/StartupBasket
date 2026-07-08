@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-08 | DocketProof — intake docket for small dental labs | Underserved niche / US-HealthTech | 73 | GO | [folder](./ideas/2026-07-08-dental-lab-remake-evidence/) |
 | 2026-07-08 | CertCounter — certificate window for small insurance agencies | Workflow automation / US-InsurTech | 72 | GO | [folder](./ideas/2026-07-08-coi-issuance-small-agencies/) |
 | 2026-07-08 | SoSach — AI tax bookkeeper for Vietnamese household shops | Regulatory arbitrage / Vietnam-FinTech | 72 | GO | [folder](./ideas/2026-07-08-vietnam-household-tax-declaration/) |
 | 2026-07-08 | VasooliLever — 43B(h) collection lever for Indian MSME suppliers | Regulatory arbitrage / India-FinTech | 74 | GO | [folder](./ideas/2026-07-08-msme-receivables-43bh-leverage/) |
