@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-09 | FixQuote — repair-form generator for EU independent repair shops | Regulatory arbitrage / EU-Compliance | 72 | GO | [folder](./ideas/2026-07-09-eu-repair-information-form/) |
 | 2026-07-09 | ClearStamp — input-VAT recovery sentry for Nigerian buyers | Regulatory arbitrage / Nigeria-FinTech | 75 | GO | [folder](./ideas/2026-07-09-nigeria-input-vat-defense/) |
 | 2026-07-09 | FetchFile — pet-insurance claim filer for independent vet clinics | Workflow automation / US-HealthTech | 74 | GO | [folder](./ideas/2026-07-09-vet-insurance-claim-filing/) |
 | 2026-07-09 | SetList — settlement clerk for independent music venues | Underserved niche / US-Live-Events | 73 | GO | [folder](./ideas/2026-07-09-venue-show-settlement/) |
