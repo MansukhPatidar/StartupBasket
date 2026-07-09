@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-09 | FetchFile — pet-insurance claim filer for independent vet clinics | Workflow automation / US-HealthTech | 74 | GO | [folder](./ideas/2026-07-09-vet-insurance-claim-filing/) |
 | 2026-07-09 | SetList — settlement clerk for independent music venues | Underserved niche / US-Live-Events | 73 | GO | [folder](./ideas/2026-07-09-venue-show-settlement/) |
 | 2026-07-09 | StatementKeep — living EAA conformance ledger for EU-facing SMBs | Regulatory arbitrage / EU-Compliance | 74 | GO | [folder](./ideas/2026-07-09-eaa-accessibility-statement/) |
 | 2026-07-08 | TrocaFácil — PIX Automático switchboard for Brazilian recurring-revenue SMBs | Tech-unlock / Brazil-FinTech | 74 | GO | [folder](./ideas/2026-07-08-pix-automatico-mandate-activation/) |
