@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-11 | ClaimBay — warranty-claim builder for small truck fleets | Workflow automation / TradeTech-US | 74 | GO | [folder](./ideas/2026-07-11-truck-warranty-claim-builder/) |
 | 2026-07-10 | VialTrace — vial pedigree for med spas facing DSCSA | Regulatory arbitrage / HealthTech-US | 74 | GO | [folder](./ideas/2026-07-10-medspa-dscsa-vial-pedigree/) |
 | 2026-07-10 | TrueShelf — margin verdict for D2C brands on quick commerce | Underserved niche / Retail-India | 73 | GO | [folder](./ideas/2026-07-10-qcommerce-sku-margin-verdict/) |
 | 2026-07-10 | ModClock — reserve-review clock for small contractors | Workflow automation / FinTech-US | 72 | GO | [folder](./ideas/2026-07-10-workers-comp-mod-valuation-clock/) |
