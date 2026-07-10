@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-10 | ModClock — reserve-review clock for small contractors | Workflow automation / FinTech-US | 72 | GO | [folder](./ideas/2026-07-10-workers-comp-mod-valuation-clock/) |
 | 2026-07-10 | LabelTrail — AI-disclosure trail for EU ad agencies | Regulatory arbitrage / Compliance-EU | 72 | GO | [folder](./ideas/2026-07-10-ai-act-label-provenance/) |
 | 2026-07-10 | ClauseGuard — rate-con screen for small trucking carriers | Underserved niche / Logistics-US | 71 | GO | [folder](./ideas/2026-07-10-rate-con-clause-screen/) |
 | 2026-07-09 | Vouchsafe — MCP-server trust seal for indie AI-tool builders | Tech-unlock / DevTools-Global | 73 | GO | [folder](./ideas/2026-07-09-mcp-server-trust-attestation/) |
