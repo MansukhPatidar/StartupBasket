@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-12 | ShotSworn — capture notary for restoration contractors | Tech-unlock / TradeTech-US | 75 | GO | [folder](./ideas/2026-07-12-contractor-photo-provenance/) |
 | 2026-07-11 | BillBack — utility-class recovery engine for WhatsApp brands | Platform shift / Retail-India+Global | 76 | GO | [folder](./ideas/2026-07-11-whatsapp-template-class-recovery/) |
 | 2026-07-11 | CaseReferee — remake-fault referee for independent dental labs | Tech-unlock / HealthTech-US | 74 | GO | [folder](./ideas/2026-07-11-dental-lab-remake-fault/) |
 | 2026-07-11 | PisoGuarda — freight-floor sentry for Brazilian shippers | Regulatory arbitrage / Logistics-Brazil | 77 | GO | [folder](./ideas/2026-07-11-freight-floor-exposure-sentry/) |
