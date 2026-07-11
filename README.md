@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-11 | HalalPrep — self-declare packet engine for halal companions | Regulatory arbitrage / Compliance-Indonesia | 75 | GO | [folder](./ideas/2026-07-11-halal-self-declare-packet/) |
 | 2026-07-11 | BhaavWatch — price watchtower for independent Indian restaurants | Geographic arbitrage / RestaurantTech-India | 73 | GO | [folder](./ideas/2026-07-11-restaurant-supplier-price-watch/) |
 | 2026-07-11 | ClaimBay — warranty-claim builder for small truck fleets | Workflow automation / TradeTech-US | 74 | GO | [folder](./ideas/2026-07-11-truck-warranty-claim-builder/) |
 | 2026-07-10 | VialTrace — vial pedigree for med spas facing DSCSA | Regulatory arbitrage / HealthTech-US | 74 | GO | [folder](./ideas/2026-07-10-medspa-dscsa-vial-pedigree/) |
