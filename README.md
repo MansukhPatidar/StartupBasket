@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-12 | PromiseKeeper — commit broker for DTC brands on AI agents | Platform shift / Retail-Global | 73 | GO | [folder](./ideas/2026-07-12-agentic-oversell-broker/) |
 | 2026-07-12 | RegimeCall — Simples híbrido election clerk for accountants | Regulatory arbitrage / Compliance-Brazil | 78 | GO | [folder](./ideas/2026-07-12-simples-hibrido-election-clerk/) |
 | 2026-07-12 | ShotSworn — capture notary for restoration contractors | Tech-unlock / TradeTech-US | 75 | GO | [folder](./ideas/2026-07-12-contractor-photo-provenance/) |
 | 2026-07-11 | BillBack — utility-class recovery engine for WhatsApp brands | Platform shift / Retail-India+Global | 76 | GO | [folder](./ideas/2026-07-11-whatsapp-template-class-recovery/) |
