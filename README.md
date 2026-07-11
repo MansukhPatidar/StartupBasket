@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-11 | AskProof — AI-recommendation gap scanner for local trades | Platform shift / HomeServices-Global | 76 | GO | [folder](./ideas/2026-07-11-local-ai-recommendation-gap/) |
 | 2026-07-11 | SameHand — identity-continuity dossier for contract staffing agencies | Tech-unlock / ProfessionalServices-US | 76 | GO | [folder](./ideas/2026-07-11-staffing-candidate-identity-continuity/) |
 | 2026-07-11 | HalalPrep — self-declare packet engine for halal companions | Regulatory arbitrage / Compliance-Indonesia | 75 | GO | [folder](./ideas/2026-07-11-halal-self-declare-packet/) |
 | 2026-07-11 | BhaavWatch — price watchtower for independent Indian restaurants | Geographic arbitrage / RestaurantTech-India | 73 | GO | [folder](./ideas/2026-07-11-restaurant-supplier-price-watch/) |
