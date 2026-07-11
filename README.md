@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-11 | CaseReferee — remake-fault referee for independent dental labs | Tech-unlock / HealthTech-US | 74 | GO | [folder](./ideas/2026-07-11-dental-lab-remake-fault/) |
 | 2026-07-11 | PisoGuarda — freight-floor sentry for Brazilian shippers | Regulatory arbitrage / Logistics-Brazil | 77 | GO | [folder](./ideas/2026-07-11-freight-floor-exposure-sentry/) |
 | 2026-07-11 | AskProof — AI-recommendation gap scanner for local trades | Platform shift / HomeServices-Global | 76 | GO | [folder](./ideas/2026-07-11-local-ai-recommendation-gap/) |
 | 2026-07-11 | SameHand — identity-continuity dossier for contract staffing agencies | Tech-unlock / ProfessionalServices-US | 76 | GO | [folder](./ideas/2026-07-11-staffing-candidate-identity-continuity/) |
