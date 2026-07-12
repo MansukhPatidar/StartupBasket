@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-12 | ProbaMX | Compliance / Mexico | 76 | GO | [folder](./ideas/2026-07-12-mexico-cfdi-materiality-brief/) |
 | 2026-07-12 | JoinFile — co-filing desk for Japan's subsidy-catalog vendors | Geographic arbitrage / GovTech-Japan | 74 | GO | [folder](./ideas/2026-07-12-japan-subsidy-vendor-cofiling/) |
 | 2026-07-12 | TillVerdict — sweethearting adjudicator for retail | Tech-unlock / Retail-US | 74 | GO | [folder](./ideas/2026-07-12-sweethearting-clip-adjudicator/) |
 | 2026-07-12 | PlotAssay — supplier-data assay for EU commodity importers | Regulatory arbitrage / Compliance-EU | 77 | GO | [folder](./ideas/2026-07-12-eudr-supplier-data-assay/) |
