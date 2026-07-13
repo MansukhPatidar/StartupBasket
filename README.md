@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-13 | MarkPass | Compliance / EU | 74 | GO | [folder](./ideas/2026-07-13-eu-ai-act-disclosure-log/) |
 | 2026-07-13 | ClaimJury | Retail / Global | 77 | GO | [folder](./ideas/2026-07-13-return-photo-forensics/) |
 | 2026-07-13 | VendorNudge | Compliance / India | 77 | GO | [folder](./ideas/2026-07-13-gst-supplier-filing-chaser/) |
 | 2026-07-13 | PartPost | Compliance / EU | 76 | GO | [folder](./ideas/2026-07-13-eu-repair-price-publication/) |
