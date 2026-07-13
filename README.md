@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-14 | AdVeto | RestaurantTech / India | 76 | GO | [folder](./ideas/2026-07-14-aggregator-ad-consent-trail/) |
 | 2026-07-14 | CertGuard | PropTech / US | 75 | GO | [folder](./ideas/2026-07-14-coi-authenticity-screen/) |
 | 2026-07-13 | TransmitProof | Compliance / Philippines | 76 | GO | [folder](./ideas/2026-07-13-bir-eis-transmission-proof/) |
 | 2026-07-13 | KilowattCheck | CleanTech / US | 74 | GO | [folder](./ideas/2026-07-13-ev-depot-bill-reconciler/) |
