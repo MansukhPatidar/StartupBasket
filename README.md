@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-13 | VendorNudge | Compliance / India | 77 | GO | [folder](./ideas/2026-07-13-gst-supplier-filing-chaser/) |
 | 2026-07-13 | PartPost | Compliance / EU | 76 | GO | [folder](./ideas/2026-07-13-eu-repair-price-publication/) |
 | 2026-07-13 | UnderRx — underwater-claim appeal desk for independent pharmacies | Regulatory arbitrage / HealthTech-US | 78 | GO | [folder](./ideas/2026-07-13-pharmacy-underwater-claim-appeals/) |
 | 2026-07-13 | DutyDrift — exposure ledger for small US importers | Regulatory arbitrage / TradeTech-US | 76 | GO | [folder](./ideas/2026-07-13-tariff-quote-exposure-ledger/) |
