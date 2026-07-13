@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-13 | TransmitProof | Compliance / Philippines | 76 | GO | [folder](./ideas/2026-07-13-bir-eis-transmission-proof/) |
 | 2026-07-13 | KilowattCheck | CleanTech / US | 74 | GO | [folder](./ideas/2026-07-13-ev-depot-bill-reconciler/) |
 | 2026-07-13 | MarkPass | Compliance / EU | 74 | GO | [folder](./ideas/2026-07-13-eu-ai-act-disclosure-log/) |
 | 2026-07-13 | ClaimJury | Retail / Global | 77 | GO | [folder](./ideas/2026-07-13-return-photo-forensics/) |
