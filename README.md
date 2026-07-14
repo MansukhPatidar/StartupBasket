@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-14 | PromiseCatcher | ProfessionalServices / US | 76 | GO | [folder](./ideas/2026-07-14-voice-agent-promise-exposure/) |
 | 2026-07-14 | ScriptTribunal | DevTools / Global | 74 | GO | [folder](./ideas/2026-07-14-npm-install-script-verdicts/) |
 | 2026-07-14 | AgentGate | Retail / Global | 77 | GO | [folder](./ideas/2026-07-14-ai-agent-access-tripwire/) |
 | 2026-07-14 | AdVeto | RestaurantTech / India | 76 | GO | [folder](./ideas/2026-07-14-aggregator-ad-consent-trail/) |
