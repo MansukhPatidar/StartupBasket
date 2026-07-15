@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-15 | ShelfClear | Retail / US-Global | 76 | GO | [folder](./ideas/2026-07-15-marketplace-ai-flag-prescreen/) |
 | 2026-07-15 | PresentPerfect | TradeTech / India | 75 | GO | [folder](./ideas/2026-07-15-india-lc-discrepancy-precheck/) |
 | 2026-07-15 | StateLine | Compliance / India | 76 | GO | [folder](./ideas/2026-07-15-labour-code-multistate-compliance/) |
 | 2026-07-15 | Mensualito | FinTech / Mexico | 73 | GO | [folder](./ideas/2026-07-15-mexico-recurring-fee-collector/) |
