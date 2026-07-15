@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-16 | RxIntact | HealthTech / US | 76 | GO | [folder](./ideas/2026-07-16-dental-lab-rx-intake/) |
 | 2026-07-15 | CodigoCerto | Compliance / Brazil | 74 | GO | [folder](./ideas/2026-07-15-brazil-nfse-code-classifier/) |
 | 2026-07-15 | OrderPabili | Logistics / Philippines | 74 | GO | [folder](./ideas/2026-07-15-sari-sari-voice-order-desk/) |
 | 2026-07-15 | ShelfClear | Retail / US-Global | 76 | GO | [folder](./ideas/2026-07-15-marketplace-ai-flag-prescreen/) |
