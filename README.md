@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-15 | Mensualito | FinTech / Mexico | 73 | GO | [folder](./ideas/2026-07-15-mexico-recurring-fee-collector/) |
 | 2026-07-15 | SubEqual | PropTech / US | 74 | GO | [folder](./ideas/2026-07-15-or-equal-substitution-verdict/) |
 | 2026-07-15 | PakkaDate | TradeTech / India | 72 | GO | [folder](./ideas/2026-07-15-whatsapp-delivery-date-job-shops/) |
 | 2026-07-15 | PotongBalik | Retail / Indonesia | 77 | GO | [folder](./ideas/2026-07-15-marketplace-fee-objection-agent/) |
