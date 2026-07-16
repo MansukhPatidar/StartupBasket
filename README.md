@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-16 | CanopyFile | Compliance / EU | 76 | GO | [folder](./ideas/2026-07-16-eudr-importer-dds-filing/) |
 | 2026-07-16 | DwellPay | Logistics / US | 74 | GO | [folder](./ideas/2026-07-16-trucking-detention-pay-recovery/) |
 | 2026-07-16 | GroundProof | PropTech / UK | 75 | GO | [folder](./ideas/2026-07-16-uk-section8-evidence-case/) |
 | 2026-07-16 | ShelfSonar | Retail / US | 66 | VALIDATE | [folder](./ideas/2026-07-16-ai-shopping-visibility-radar/) |
