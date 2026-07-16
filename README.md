@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-17 | RecordRoom | PropTech / US | 71 | GO | [folder](./ideas/2026-07-17-florida-condo-records-request-desk/) |
 | 2026-07-17 | ShopLens | TradeTech / Global | 69 | VALIDATE | [folder](./ideas/2026-07-17-rfq-drawing-quote-readiness/) |
 | 2026-07-17 | CertChase | ProfessionalServices / US | 72 | GO | [folder](./ideas/2026-07-17-death-certificate-chase-funeral-homes/) |
 | 2026-07-16 | FabGate | HealthTech / US | 68 | VALIDATE | [folder](./ideas/2026-07-16-op-referral-documentation-gate/) |
