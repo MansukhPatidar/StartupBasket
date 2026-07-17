@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-18 | ZeroTrip | Compliance / UAE | 77 | GO | [folder](./ideas/2026-07-18-uae-freezone-qfzp-monitor/) |
 | 2026-07-17 | PaidBy45 | Compliance / India | 75 | GO | [folder](./ideas/2026-07-17-msme-43bh-payment-filer/) |
 | 2026-07-17 | AskRank | HomeServices / US | 76 | GO | [folder](./ideas/2026-07-17-local-ai-recommendation-scout/) |
 | 2026-07-17 | CostProof | Compliance / Vietnam | 74 | GO | [folder](./ideas/2026-07-17-vietnam-household-deduction-packet/) |
