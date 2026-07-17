@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-17 | HalalPass | Compliance / Indonesia | 74 | GO | [folder](./ideas/2026-07-17-indonesia-halal-dossier-screen/) |
 | 2026-07-17 | ReviveWatt | CleanTech / US | 75 | GO | [folder](./ideas/2026-07-17-orphaned-solar-service-intake/) |
 | 2026-07-17 | CaterReply | RestaurantTech / US | 76 | GO | [folder](./ideas/2026-07-17-catering-inquiry-auto-proposal/) |
 | 2026-07-17 | RecordRoom | PropTech / US | 71 | GO | [folder](./ideas/2026-07-17-florida-condo-records-request-desk/) |
