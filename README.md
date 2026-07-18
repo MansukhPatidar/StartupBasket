@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-18 | DraftHold | TradeTech / India | 76 | GO | [folder](./ideas/2026-07-18-shipping-bill-prefiling-check/) |
 | 2026-07-18 | MenorSeguro | Compliance / Brazil | 76 | GO | [folder](./ideas/2026-07-18-brazil-eca-digital-studio-dossier/) |
 | 2026-07-18 | DryProof | PropTech / US | 81 | STRONG GO | [folder](./ideas/2026-07-18-restoration-drying-log-auditor/) |
 | 2026-07-18 | CarrierClear | Logistics / US | 77 | GO | [folder](./ideas/2026-07-18-freight-broker-carrier-vetting-dossier/) |
