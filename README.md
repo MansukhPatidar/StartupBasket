@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-19 | RatingLock | DevTools / Global | 74 | GO | [folder](./ideas/2026-07-19-app-age-rating-release-guard/) |
 | 2026-07-18 | PlanB | HealthTech / US | 76 | GO | [folder](./ideas/2026-07-18-vet-tiered-estimate-options/) |
 | 2026-07-18 | DraftHold | TradeTech / India | 76 | GO | [folder](./ideas/2026-07-18-shipping-bill-prefiling-check/) |
 | 2026-07-18 | MenorSeguro | Compliance / Brazil | 76 | GO | [folder](./ideas/2026-07-18-brazil-eca-digital-studio-dossier/) |
