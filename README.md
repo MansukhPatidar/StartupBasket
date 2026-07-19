@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-20 | AnswerOnce | TradeTech / India+SEA | 74 | GO | [folder](./ideas/2026-07-20-factory-audit-evidence-reuse/) |
 | 2026-07-20 | CellChase | Compliance / EU | 75 | GO | [folder](./ideas/2026-07-20-battery-passport-supplier-data/) |
 | 2026-07-19 | PartsLever | TradeTech / EU | 74 | GO | [folder](./ideas/2026-07-19-repairer-parts-access-demand/) |
 | 2026-07-19 | PaneClaim | TradeTech / US | 76 | GO | [folder](./ideas/2026-07-19-auto-glass-calibration-payfile/) |
