@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-19 | SignOff | Compliance / EU | 75 | GO | [folder](./ideas/2026-07-19-ai-act-editorial-review-record/) |
 | 2026-07-19 | KompletKSeF | Compliance / Poland | 77 | GO | [folder](./ideas/2026-07-19-ksef-purchase-completeness-ledger/) |
 | 2026-07-19 | RatingLock | DevTools / Global | 74 | GO | [folder](./ideas/2026-07-19-app-age-rating-release-guard/) |
 | 2026-07-18 | PlanB | HealthTech / US | 76 | GO | [folder](./ideas/2026-07-18-vet-tiered-estimate-options/) |
