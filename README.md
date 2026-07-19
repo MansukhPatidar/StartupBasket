@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-19 | PriorProof | HealthTech / US | 76 | GO | [folder](./ideas/2026-07-19-pet-insurance-record-defensibility/) |
 | 2026-07-19 | FuyoCheck | Compliance / Japan | 76 | GO | [folder](./ideas/2026-07-19-japan-overseas-dependent-proof/) |
 | 2026-07-19 | OverExposed | HomeServices / US | 76 | GO | [folder](./ideas/2026-07-19-roof-nonrenewal-rebuttal-file/) |
 | 2026-07-19 | SignOff | Compliance / EU | 75 | GO | [folder](./ideas/2026-07-19-ai-act-editorial-review-record/) |
