@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-20 | GuaranteeClock | AgriTech / US | 73 | GO | [folder](./ideas/2026-07-20-h2a-three-fourths-clock/) |
 | 2026-07-20 | ConsentGuard | FinTech / Brazil | 76 | GO | [folder](./ideas/2026-07-20-pix-automatico-consent-sentry/) |
 | 2026-07-20 | AnswerOnce | TradeTech / India+SEA | 74 | GO | [folder](./ideas/2026-07-20-factory-audit-evidence-reuse/) |
 | 2026-07-20 | CellChase | Compliance / EU | 75 | GO | [folder](./ideas/2026-07-20-battery-passport-supplier-data/) |
