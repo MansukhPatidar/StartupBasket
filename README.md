@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-20 | PeerBrief | HealthTech / US | 76 | GO | [folder](./ideas/2026-07-20-peer-to-peer-call-prep/) |
 | 2026-07-20 | PointBack | Retail / SEA | 74 | GO | [folder](./ideas/2026-07-20-marketplace-penalty-appeal-packet/) |
 | 2026-07-20 | BidSort | Manufacturing / US-SMB | 72 | GO | [folder](./ideas/2026-07-20-job-shop-bid-triage/) |
 | 2026-07-20 | GuaranteeClock | AgriTech / US | 73 | GO | [folder](./ideas/2026-07-20-h2a-three-fourths-clock/) |
