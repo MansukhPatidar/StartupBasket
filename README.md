@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-21 | CreditKeeper | FinTech / Brazil | 73 | GO | [folder](./ideas/2026-07-21-simples-hybrid-regime-decision/) |
 | 2026-07-21 | WageShift | Compliance / India | 74 | GO | [folder](./ideas/2026-07-21-labour-code-salary-restructuring/) |
 | 2026-07-21 | CutMatch | Creator Economy / Global | 72 | GO | [folder](./ideas/2026-07-21-wedding-video-backlog-editor/) |
 | 2026-07-21 | QuickClaimBack | Retail / India | 76 | GO | [folder](./ideas/2026-07-21-qcommerce-deduction-recovery/) |
