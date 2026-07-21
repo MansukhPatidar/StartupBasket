@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-21 | ClaveListo | TradeTech / Mexico | 74 | GO | [folder](./ideas/2026-07-21-carta-porte-clave-preflight/) |
 | 2026-07-21 | SourceReady | ProfessionalServices / Global | 74 | GO | [folder](./ideas/2026-07-21-translation-file-prep/) |
 | 2026-07-21 | SignedInLanguage | EdTech / Global | 71 | GO | [folder](./ideas/2026-07-21-training-translation-attestation/) |
 | 2026-07-20 | DenialWorth | HealthTech / US | 78 | GO | [folder](./ideas/2026-07-20-dental-denial-triage/) |
