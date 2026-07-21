@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-22 | AnumatiTrail | Compliance / India | 74 | GO | [folder](./ideas/2026-07-22-coaching-institute-consent-trail/) |
 | 2026-07-22 | ClaimYard | HomeServices / US-SMB | 74 | GO | [folder](./ideas/2026-07-22-hvac-warranty-recovery/) |
 | 2026-07-21 | FlagRadar | Compliance / Indonesia | 75 | GO | [folder](./ideas/2026-07-21-sp2dk-preflag-tax-consultants/) |
 | 2026-07-21 | CreditKeeper | FinTech / Brazil | 73 | GO | [folder](./ideas/2026-07-21-simples-hybrid-regime-decision/) |
