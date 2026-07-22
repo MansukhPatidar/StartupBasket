@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-23 | BenchClear | HealthTech / US-SMB | 74 | GO | [folder](./ideas/2026-07-23-dental-lab-case-intake-screen/) |
 | 2026-07-22 | TrueTemp | RestaurantTech / US-SMB | 71 | GO | [folder](./ideas/2026-07-22-tamper-evident-temp-logs/) |
 | 2026-07-22 | TradeTongue | HomeServices / US | 72 | GO | [folder](./ideas/2026-07-22-trades-onsite-interpreter/) |
 | 2026-07-22 | Reparo | Compliance / EU-SMB | 66 | VALIDATE | [folder](./ideas/2026-07-22-eu-repair-quote-form/) |
