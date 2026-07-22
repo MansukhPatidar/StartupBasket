@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-22 | Reparo | Compliance / EU-SMB | 66 | VALIDATE | [folder](./ideas/2026-07-22-eu-repair-quote-form/) |
 | 2026-07-22 | PhysioLekh | HealthTech / India | 73 | GO | [folder](./ideas/2026-07-22-india-physio-claim-scribe/) |
 | 2026-07-22 | ListingClear | Retail / Global | 76 | GO | [folder](./ideas/2026-07-22-ai-disclosure-listing-checker/) |
 | 2026-07-22 | ClaimCounter | InsurTech / US-SMB | 76 | GO | [folder](./ideas/2026-07-22-public-adjuster-supplement-drafter/) |
