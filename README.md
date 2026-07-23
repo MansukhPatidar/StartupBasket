@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-24 | ShingleProof | HomeServices / US | 76 | GO | [folder](./ideas/2026-07-24-roofing-claim-photo-mapper/) |
 | 2026-07-23 | PostSafe | HealthTech / US | 74 | GO | [folder](./ideas/2026-07-23-medspa-before-after-content/) |
 | 2026-07-23 | ClearAhead | Compliance / Nigeria | 75 | GO | [folder](./ideas/2026-07-23-nigeria-einvoice-preclearance/) |
 | 2026-07-23 | KhaiSẵn | Compliance / Vietnam | 76 | GO | [folder](./ideas/2026-07-23-vietnam-household-tax-declaration/) |
