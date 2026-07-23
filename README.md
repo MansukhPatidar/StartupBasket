@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-23 | FlockRecap | AgriTech / Indonesia | 72 | GO | [folder](./ideas/2026-07-23-poultry-whatsapp-flock-recap/) |
 | 2026-07-23 | CobraCerta | PropTech / Brazil | 74 | GO | [folder](./ideas/2026-07-23-brazil-landlord-dispute-dossier/) |
 | 2026-07-23 | ForkProof | Compliance / US-SMB | 73 | GO | [folder](./ideas/2026-07-23-forklift-preshift-inspection-witness/) |
 | 2026-07-23 | WattVeer | CleanTech / India | 71 | GO | [folder](./ideas/2026-07-23-solar-shortfall-referee/) |
