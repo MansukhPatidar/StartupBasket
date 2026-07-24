@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-24 | ProofBack | MarTech / US-SMB | 73 | GO | [folder](./ideas/2026-07-24-gbp-suspension-reinstatement-kit/) |
 | 2026-07-24 | CODPasti | Retail / Indonesia | 74 | GO | [folder](./ideas/2026-07-24-indonesia-cod-order-confirmation/) |
 | 2026-07-24 | RecebeJá | FinTech / LATAM-SMB | 77 | GO | [folder](./ideas/2026-07-24-brazil-pix-recurring-mei/) |
 | 2026-07-24 | LandedTrue | Retail / Global | 76 | GO | [folder](./ideas/2026-07-24-fba-cost-basis-reimbursement/) |
