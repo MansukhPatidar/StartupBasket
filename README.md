@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-25 | ScopeFinish | LegalTech / US | 76 | GO | [folder](./ideas/2026-07-25-court-reporter-ai-scoping/) |
 | 2026-07-25 | PlotPull | Compliance / EU-SMB | 74 | GO | [folder](./ideas/2026-07-25-eudr-supplier-geodata-collector/) |
 | 2026-07-25 | CreditChase | Compliance / India | 76 | GO | [folder](./ideas/2026-07-25-gst-supplier-itc-chase/) |
 | 2026-07-24 | Muwathiq | Compliance / Saudi-SMB | 75 | GO | [folder](./ideas/2026-07-24-saudi-nitaqat-qiwa-reconciler/) |
