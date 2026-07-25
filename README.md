@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-25 | Conformly | Compliance / Global | 72 | GO | [folder](./ideas/2026-07-25-eaa-accessibility-conformance-dossier/) |
 | 2026-07-25 | ClaroSite | HomeServices / US-SMB | 73 | GO | [folder](./ideas/2026-07-25-bilingual-job-site-interpreter/) |
 | 2026-07-25 | ScopeFinish | LegalTech / US | 76 | GO | [folder](./ideas/2026-07-25-court-reporter-ai-scoping/) |
 | 2026-07-25 | PlotPull | Compliance / EU-SMB | 74 | GO | [folder](./ideas/2026-07-25-eudr-supplier-geodata-collector/) |
