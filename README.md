@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-26 | PaisaClear | PeopleTech / India | 69 | VALIDATE | [folder](./ideas/2026-07-26-india-wage-code-pay-explainer/) |
 | 2026-07-26 | KshatiPro | InsurTech / India | 64 | VALIDATE | [folder](./ideas/2026-07-26-india-motor-surveyor-estimate/) |
 | 2026-07-26 | CaseCheck | RestaurantTech / US-SMB | 76 | GO | [folder](./ideas/2026-07-26-restaurant-distributor-invoice-audit/) |
 | 2026-07-25 | ShipLingua | Creator Economy / Global | 74 | GO | [folder](./ideas/2026-07-25-steam-indie-localization-concierge/) |
