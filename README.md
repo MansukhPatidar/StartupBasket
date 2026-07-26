@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-27 | LoadVet | Logistics / US-SMB | 75 | GO | [folder](./ideas/2026-07-27-freight-broker-fraud-screen/) |
 | 2026-07-26 | KodiClose | Compliance / Kenya-SMB | 75 | GO | [folder](./ideas/2026-07-26-kenya-etims-deduction-gap/) |
 | 2026-07-26 | QuickThread | RetailTech / US-SMB | 72 | GO | [folder](./ideas/2026-07-26-apparel-quote-mockup-packager/) |
 | 2026-07-26 | ScanReferee | HealthTech / US-SMB | 71 | GO | [folder](./ideas/2026-07-26-dental-lab-scan-intake/) |
