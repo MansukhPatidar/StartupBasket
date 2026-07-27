@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-28 | PixelRamp | Compliance / EU-SMB | 74 | GO | [folder](./ideas/2026-07-28-eaa-shopify-accessibility-remediation/) |
 | 2026-07-27 | ReinState | Creator Economy / Global | 72 | GO | [folder](./ideas/2026-07-27-amazon-seller-reinstatement-appeal/) |
 | 2026-07-27 | HalalSiap | Compliance / SEA | 73 | GO | [folder](./ideas/2026-07-27-indonesia-halal-self-declare-filer/) |
 | 2026-07-27 | CleanCut | Creator Economy / Global | 69 | VALIDATE | [folder](./ideas/2026-07-27-music-metadata-preflight/) |
