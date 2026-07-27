@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-27 | CleanCut | Creator Economy / Global | 69 | VALIDATE | [folder](./ideas/2026-07-27-music-metadata-preflight/) |
 | 2026-07-27 | PlanReply | PropTech / US-SMB | 71 | GO | [folder](./ideas/2026-07-27-permit-comment-response-drafter/) |
 | 2026-07-27 | KhaiSafe | Logistics / Vietnam-SMB | 71 | GO | [folder](./ideas/2026-07-27-vietnam-customs-declaration-precheck/) |
 | 2026-07-27 | Aprubo | TradeTech / LATAM | 68 | VALIDATE | [folder](./ideas/2026-07-27-latam-taller-estimate-approval/) |
