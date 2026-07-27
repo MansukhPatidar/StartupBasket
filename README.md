@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-27 | Aprubo | TradeTech / LATAM | 68 | VALIDATE | [folder](./ideas/2026-07-27-latam-taller-estimate-approval/) |
 | 2026-07-27 | IronLister | TradeTech / US-SMB | 64 | VALIDATE | [folder](./ideas/2026-07-27-heavy-equipment-listing-agent/) |
 | 2026-07-27 | LoadVet | Logistics / US-SMB | 75 | GO | [folder](./ideas/2026-07-27-freight-broker-fraud-screen/) |
 | 2026-07-26 | KodiClose | Compliance / Kenya-SMB | 75 | GO | [folder](./ideas/2026-07-26-kenya-etims-deduction-gap/) |
