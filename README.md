@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-28 | CrewTally | Logistics / US-SMB | 73 | GO | [folder](./ideas/2026-07-28-party-rental-load-count/) |
 | 2026-07-28 | ClaimScribe | HealthTech / US-SMB | 74 | GO | [folder](./ideas/2026-07-28-dental-claim-appeal-narrative/) |
 | 2026-07-28 | PinFirme | Logistics / LATAM-SMB | 74 | GO | [folder](./ideas/2026-07-28-latam-cod-address-resolver/) |
 | 2026-07-28 | PixelRamp | Compliance / EU-SMB | 74 | GO | [folder](./ideas/2026-07-28-eaa-shopify-accessibility-remediation/) |
