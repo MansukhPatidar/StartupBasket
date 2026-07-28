@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-28 | PrepLine | RestaurantTech / US-SMB | 74 | GO | [folder](./ideas/2026-07-28-catering-kitchen-prep-translator/) |
 | 2026-07-28 | SidelineLog | GovTech / US-SMB | 72 | GO | [folder](./ideas/2026-07-28-youth-sports-incident-log/) |
 | 2026-07-28 | EximVigil | Compliance / India-SMB | 75 | GO | [folder](./ideas/2026-07-28-india-export-incentive-watch/) |
 | 2026-07-28 | ExploitClock | Compliance / EU-SMB | 76 | GO | [folder](./ideas/2026-07-28-cra-exploit-triage-sentry/) |
