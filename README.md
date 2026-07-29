@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-29 | AffirmRate | HealthTech / US-SMB | 75 | GO | [folder](./ideas/2026-07-29-dmepos-prior-auth-goldcard/) |
 | 2026-07-29 | BalanceProof | AgriTech / US-SMB | 74 | GO | [folder](./ideas/2026-07-29-organic-mass-balance-audit/) |
 | 2026-07-29 | DiscomPass | CleanTech / India-SMB | 76 | GO | [folder](./ideas/2026-07-29-discom-net-metering-precheck/) |
 | 2026-07-29 | KasanGuard | HealthTech / Japan-SMB | 77 | GO | [folder](./ideas/2026-07-29-kaigo-kasan-selfaudit/) |
