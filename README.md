@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-29 | DiscomPass | CleanTech / India-SMB | 76 | GO | [folder](./ideas/2026-07-29-discom-net-metering-precheck/) |
 | 2026-07-29 | KasanGuard | HealthTech / Japan-SMB | 77 | GO | [folder](./ideas/2026-07-29-kaigo-kasan-selfaudit/) |
 | 2026-07-29 | NoticeClock | TradeTech / GCC-SMB | 76 | GO | [folder](./ideas/2026-07-29-gcc-variation-notice-clock/) |
 | 2026-07-29 | KommNr | TradeTech / Germany-SMB | 76 | GO | [folder](./ideas/2026-07-29-handwerk-supplier-cost-allocator/) |
