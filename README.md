@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-29 | NoticeClock | TradeTech / GCC-SMB | 76 | GO | [folder](./ideas/2026-07-29-gcc-variation-notice-clock/) |
 | 2026-07-29 | KommNr | TradeTech / Germany-SMB | 76 | GO | [folder](./ideas/2026-07-29-handwerk-supplier-cost-allocator/) |
 | 2026-07-29 | CreditoZero | FinTech / Brazil-SMB | 77 | GO | [folder](./ideas/2026-07-29-brazil-ibs-cbs-credit-screen/) |
 | 2026-07-28 | ZgodaKSeF | FinTech / Poland-SMB | 75 | GO | [folder](./ideas/2026-07-28-ksef-jpk-reconciler/) |
