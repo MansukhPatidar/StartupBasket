@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-30 | DubMargin | Creator Economy / Global | 72 | GO | [folder](./ideas/2026-07-30-youtube-language-expansion-roi/) |
 | 2026-07-30 | RedlineZero | CleanTech / US-SMB | 73 | GO | [folder](./ideas/2026-07-30-solar-permit-redline-catcher/) |
 | 2026-07-30 | LastBuy | Logistics / Global | 74 | GO | [folder](./ideas/2026-07-30-spare-parts-obsolescence-watch/) |
 | 2026-07-29 | PremiumBack | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-07-29-subcontractor-audit-defense/) |
