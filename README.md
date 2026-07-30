@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-31 | ShelfWright | Retail / Global | 74 | GO | [folder](./ideas/2026-07-31-agentic-catalog-readiness/) |
 | 2026-07-31 | FindingSweep | Compliance / SEA-Manufacturing | 75 | GO | [folder](./ideas/2026-07-31-garment-audit-evidence-prep/) |
 | 2026-07-30 | UnderwaterRx | HealthTech / US-SMB | 78 | GO | [folder](./ideas/2026-07-30-pbm-underwater-claim-appeals/) |
 | 2026-07-30 | LienProof | PropTech / US-SMB | 76 | GO | [folder](./ideas/2026-07-30-storage-lien-notice-proofer/) |
