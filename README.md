@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-31 | SaidWhat | Retail / India+LATAM-SMB | 72 | GO | [folder](./ideas/2026-07-31-whatsapp-agent-promise-audit/) |
 | 2026-07-31 | BookTriage | InsurTech / US-SMB | 77 | GO | [folder](./ideas/2026-07-31-medicare-book-anoc-triage/) |
 | 2026-07-31 | ProviderLine | Compliance / EU-SMB | 73 | GO | [folder](./ideas/2026-07-31-ai-act-provider-role-line/) |
 | 2026-07-31 | TenderGate | Logistics / US-SMB | 74 | GO | [folder](./ideas/2026-07-31-carrier-fraud-tender-screen/) |
