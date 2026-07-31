@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-01 | ScripClock | TradeTech / India | 75 | GO | [folder](./ideas/2026-08-01-export-scrip-expiry-clock/) |
 | 2026-07-31 | BaseCheck | Compliance / Australia-SMB | 76 | GO | [folder](./ideas/2026-07-31-qualifying-earnings-shortfall/) |
 | 2026-07-31 | SaidWhat | Retail / India+LATAM-SMB | 72 | GO | [folder](./ideas/2026-07-31-whatsapp-agent-promise-audit/) |
 | 2026-07-31 | BookTriage | InsurTech / US-SMB | 77 | GO | [folder](./ideas/2026-07-31-medicare-book-anoc-triage/) |
