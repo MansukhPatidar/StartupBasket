@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-07-31 | ProviderLine | Compliance / EU-SMB | 73 | GO | [folder](./ideas/2026-07-31-ai-act-provider-role-line/) |
 | 2026-07-31 | TenderGate | Logistics / US-SMB | 74 | GO | [folder](./ideas/2026-07-31-carrier-fraud-tender-screen/) |
 | 2026-07-31 | LampiranSatu | FinTech / Indonesia-SMB | 76 | GO | [folder](./ideas/2026-07-31-coretax-l1-mapper/) |
 | 2026-07-31 | ShelfWright | Retail / Global | 74 | GO | [folder](./ideas/2026-07-31-agentic-catalog-readiness/) |
