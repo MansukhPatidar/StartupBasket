@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-01 | DoCChaser | Compliance / EU-SMB | 76 | GO | [folder](./ideas/2026-08-01-ppwr-supplier-doc-chase/) |
 | 2026-08-01 | RatioMeter | FinTech / Global | 74 | GO | [folder](./ideas/2026-08-01-vamp-ratio-early-warning/) |
 | 2026-08-01 | ScripClock | TradeTech / India | 75 | GO | [folder](./ideas/2026-08-01-export-scrip-expiry-clock/) |
 | 2026-07-31 | BaseCheck | Compliance / Australia-SMB | 76 | GO | [folder](./ideas/2026-07-31-qualifying-earnings-shortfall/) |
