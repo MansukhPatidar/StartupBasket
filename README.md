@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-02 | FilingDesk | HealthTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-02-therapy-claim-deadline-desk/) |
 | 2026-08-01 | PageBound | LegalTech / US-SMB | 72 | GO | [folder](./ideas/2026-08-01-transcript-format-warden/) |
 | 2026-08-01 | RoadReady | Logistics / US-SMB | 76 | GO | [folder](./ideas/2026-08-01-elp-driver-readiness-dossier/) |
 | 2026-08-01 | HacchuTrace | Compliance / Japan-SMB | 77 | GO | [folder](./ideas/2026-08-01-toriteki-order-reconciler/) |
