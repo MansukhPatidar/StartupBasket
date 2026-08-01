@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-01 | HacchuTrace | Compliance / Japan-SMB | 77 | GO | [folder](./ideas/2026-08-01-toriteki-order-reconciler/) |
 | 2026-08-01 | CellPull | Compliance / EU-SMB | 73 | GO | [folder](./ideas/2026-08-01-battery-passport-data-pull/) |
 | 2026-08-01 | ConsentWatch | FinTech / Brazil-SMB | 75 | GO | [folder](./ideas/2026-08-01-pix-automatico-consent-watch/) |
 | 2026-08-01 | DoCChaser | Compliance / EU-SMB | 76 | GO | [folder](./ideas/2026-08-01-ppwr-supplier-doc-chase/) |
