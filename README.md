@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-03 | NimachiCase | Logistics / Japan | 74 | GO | [folder](./ideas/2026-08-03-japan-shipper-delay-casefile/) |
 | 2026-08-03 | StatusProof | Compliance / Vietnam-SME | 73 | GO | [folder](./ideas/2026-08-03-vietnam-worker-status-test/) |
 | 2026-08-02 | ExceptionGap | PropTech / US-SMB | 72 | GO | [folder](./ideas/2026-08-02-alta-record-gap-scout/) |
 | 2026-08-02 | FactDrift | HomeServices / US-SMB | 72 | GO | [folder](./ideas/2026-08-02-ai-answer-fact-drift/) |
