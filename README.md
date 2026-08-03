@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-03 | CodeRoster | Compliance / UK-SMB | 76 | GO | [folder](./ideas/2026-08-03-director-verification-roster/) |
 | 2026-08-03 | VerifyDesk | PropTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-03-comp-verification-desk/) |
 | 2026-08-03 | FloorClaim | HealthTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-03-underwater-claim-appeal-filer/) |
 | 2026-08-03 | IzinKeeper | Compliance / Indonesia-SMB | 74 | GO | [folder](./ideas/2026-08-03-lkpm-filing-keeper/) |
