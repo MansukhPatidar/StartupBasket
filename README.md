@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-03 | FloorClaim | HealthTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-03-underwater-claim-appeal-filer/) |
 | 2026-08-03 | IzinKeeper | Compliance / Indonesia-SMB | 74 | GO | [folder](./ideas/2026-08-03-lkpm-filing-keeper/) |
 | 2026-08-03 | NimachiCase | Logistics / Japan | 74 | GO | [folder](./ideas/2026-08-03-japan-shipper-delay-casefile/) |
 | 2026-08-03 | StatusProof | Compliance / Vietnam-SME | 73 | GO | [folder](./ideas/2026-08-03-vietnam-worker-status-test/) |
