@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-03 | AllowedGap | HealthTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-03-payer-underpayment-variance/) |
 | 2026-08-03 | ProofReel | Creator Economy / Global | 73 | GO | [folder](./ideas/2026-08-03-originality-evidence-trail/) |
 | 2026-08-03 | CodeRoster | Compliance / UK-SMB | 76 | GO | [folder](./ideas/2026-08-03-director-verification-roster/) |
 | 2026-08-03 | VerifyDesk | PropTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-03-comp-verification-desk/) |
