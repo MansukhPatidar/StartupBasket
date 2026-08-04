@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-04 | WageFloor | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-04-electrician-wage-floor-bid/) |
 | 2026-08-04 | BrandKey | TradeTech / EU | 72 | GO | [folder](./ideas/2026-08-04-eu-repairer-parts-access/) |
 | 2026-08-04 | MadeBy | Creator Economy / EU-SMB | 71 | GO | [folder](./ideas/2026-08-04-ai-disclosure-authorship-trail/) |
 | 2026-08-04 | HandoffLedger | Compliance / Poland-SME | 74 | GO | [folder](./ideas/2026-08-04-ksef-foreign-buyer-delivery/) |
