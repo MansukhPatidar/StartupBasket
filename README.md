@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-04 | RoadProof | TradeTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-04-adas-validation-witness/) |
 | 2026-08-04 | PrepScreen | HealthTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-04-dental-lab-remake-fault/) |
 | 2026-08-04 | CreditSentry | Compliance / Brazil | 76 | GO | [folder](./ideas/2026-08-04-supplier-credit-risk-brazil/) |
 | 2026-08-03 | CrawlGate | Creator Economy / Global | 77 | GO | [folder](./ideas/2026-08-03-ai-crawler-access-proof/) |
