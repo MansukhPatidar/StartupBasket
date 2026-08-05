@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-05 | ChargeSift | PropTech / UK-SMB | 75 | GO | [folder](./ideas/2026-08-05-uk-service-charge-recovery/) |
 | 2026-08-05 | NinushiFiler | Logistics / Japan | 76 | GO | [folder](./ideas/2026-08-05-japan-shipper-clo-filing/) |
 | 2026-08-05 | AccrueMeter | FinTech / India-SMB | 74 | GO | [folder](./ideas/2026-08-05-gratuity-liability-meter/) |
 | 2026-08-05 | LiveProof | Compliance / EU-SMB | 75 | GO | [folder](./ideas/2026-08-05-ai-disclosure-live-proof/) |
