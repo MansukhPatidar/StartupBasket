@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-05 | TailgateCheck | HomeServices / US-SMB | 77 | GO | [folder](./ideas/2026-08-05-hvac-rebate-field-capture/) |
 | 2026-08-05 | PriceSentry | VetTech / UK | 76 | GO | [folder](./ideas/2026-08-05-vet-price-list-drift/) |
 | 2026-08-05 | ChargeSift | PropTech / UK-SMB | 75 | GO | [folder](./ideas/2026-08-05-uk-service-charge-recovery/) |
 | 2026-08-05 | NinushiFiler | Logistics / Japan | 76 | GO | [folder](./ideas/2026-08-05-japan-shipper-clo-filing/) |
