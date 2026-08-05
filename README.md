@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-06 | PrintBench | TradeTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-06-scanned-print-quote-bench/) |
 | 2026-08-06 | LostClick | MarTech / Global | 72 | GO | [folder](./ideas/2026-08-06-ai-overview-loss-docket/) |
 | 2026-08-05 | HojoKeeper | GovTech / Japan-SMB | 76 | GO | [folder](./ideas/2026-08-05-japan-subsidy-report-keeper/) |
 | 2026-08-05 | BatchBook | Compliance / India-MSME | 74 | GO | [folder](./ideas/2026-08-05-schedule-m-gmp-logbook/) |
