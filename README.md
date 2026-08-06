@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-07 | WarrantWatch | TradeTech / US+Mexico | 73 | GO | [folder](./ideas/2026-08-07-ppap-change-drift-watch/) |
 | 2026-08-06 | ReturnClock | Retail / US+EU DTC | 71 | GO | [folder](./ideas/2026-08-06-return-window-exposure-clock/) |
 | 2026-08-06 | TitleTow | PropTech / US-SMB | 72 | GO | [folder](./ideas/2026-08-06-storage-vehicle-title-recovery/) |
 | 2026-08-06 | ShramDaybook | Compliance / India | 74 | GO | [folder](./ideas/2026-08-06-gig-engagement-daybook/) |
