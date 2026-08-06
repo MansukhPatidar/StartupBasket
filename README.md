@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-06 | TitleTow | PropTech / US-SMB | 72 | GO | [folder](./ideas/2026-08-06-storage-vehicle-title-recovery/) |
 | 2026-08-06 | ShramDaybook | Compliance / India | 74 | GO | [folder](./ideas/2026-08-06-gig-engagement-daybook/) |
 | 2026-08-06 | QuotaTripwire | Compliance / Saudi Arabia-SME | 74 | GO | [folder](./ideas/2026-08-06-saudi-profession-quota-tripwire/) |
 | 2026-08-06 | SahihPrep | GovTech / Indonesia-Micro | 76 | GO | [folder](./ideas/2026-08-06-halal-self-declare-prep/) |
