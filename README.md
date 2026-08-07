@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-07 | FalsoCatch | Compliance / LATAM | 76 | GO | [folder](./ideas/2026-08-07-cfdi-49bis-reversal-catcher/) |
 | 2026-08-07 | FenceWorks | Hospitality / EU | 74 | GO | [folder](./ideas/2026-08-07-hotel-rate-fence-launcher/) |
 | 2026-08-07 | AlertScrub | FinTech / Global | 77 | GO | [folder](./ideas/2026-08-07-tc40-vamp-ratio-defense/) |
 | 2026-08-07 | OpenGate | Retail / Global | 74 | GO | [folder](./ideas/2026-08-07-ai-crawler-access-monitor/) |
