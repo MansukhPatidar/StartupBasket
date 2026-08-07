@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-07 | ConsentChase | FinTech / LATAM | 76 | GO | [folder](./ideas/2026-08-07-pix-consent-authorization-chase/) |
 | 2026-08-07 | FurnishWatch | TradeTech / US | 75 | GO | [folder](./ideas/2026-08-07-first-furnishing-notice-clock/) |
 | 2026-08-07 | FalsoCatch | Compliance / LATAM | 76 | GO | [folder](./ideas/2026-08-07-cfdi-49bis-reversal-catcher/) |
 | 2026-08-07 | FenceWorks | Hospitality / EU | 74 | GO | [folder](./ideas/2026-08-07-hotel-rate-fence-launcher/) |
