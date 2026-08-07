@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-07 | OpenGate | Retail / Global | 74 | GO | [folder](./ideas/2026-08-07-ai-crawler-access-monitor/) |
 | 2026-08-07 | CardClaim | HealthTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-07-gold-card-exemption-ledger/) |
 | 2026-08-07 | PostSweeper | Compliance / US-SMB | 76 | GO | [folder](./ideas/2026-08-07-dealer-social-ad-sweep/) |
 | 2026-08-07 | WarrantWatch | TradeTech / US+Mexico | 73 | GO | [folder](./ideas/2026-08-07-ppap-change-drift-watch/) |
