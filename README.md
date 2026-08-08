@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-08 | TenkaCase | TradeTech / Japan-SME | 76 | GO | [folder](./ideas/2026-08-08-japan-price-passthrough-case/) |
 | 2026-08-08 | LEOGuard | TradeTech / India | 74 | GO | [folder](./ideas/2026-08-08-shipping-bill-prefiling-screen/) |
 | 2026-08-08 | DwellSign | PropTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-08-storage-unit-habitation-sensing/) |
 | 2026-08-07 | UnderClaim | HealthTech / US-SMB | 78 | GO | [folder](./ideas/2026-08-07-pharmacy-underwater-claim-appeals/) |
