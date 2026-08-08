@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-09 | TrueUp | PropTech / US-SMB | 73 | GO | [folder](./ideas/2026-08-09-cam-reconciliation-workbench/) |
 | 2026-08-08 | FreeTimeProof | Logistics / US-SMB | 74 | GO | [folder](./ideas/2026-08-08-demurrage-invoice-defect-audit/) |
 | 2026-08-08 | GridPreflight | CleanTech / US | 72 | GO | [folder](./ideas/2026-08-08-interconnection-preflight-check/) |
 | 2026-08-08 | KreditLedger | Compliance / Indonesia-SME | 74 | GO | [folder](./ideas/2026-08-08-coretax-input-vat-expiry/) |
