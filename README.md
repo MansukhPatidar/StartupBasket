@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-08 | KreditLedger | Compliance / Indonesia-SME | 74 | GO | [folder](./ideas/2026-08-08-coretax-input-vat-expiry/) |
 | 2026-08-08 | KosztTriage | Compliance / Poland-SMB | 75 | GO | [folder](./ideas/2026-08-08-ksef-cost-invoice-triage/) |
 | 2026-08-08 | ClearRun | Compliance / India | 76 | GO | [folder](./ideas/2026-08-08-exit-clearance-parallel-chase/) |
 | 2026-08-08 | TenkaCase | TradeTech / Japan-SME | 76 | GO | [folder](./ideas/2026-08-08-japan-price-passthrough-case/) |
