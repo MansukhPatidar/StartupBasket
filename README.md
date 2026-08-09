@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-09 | SpecDrift | Compliance / US-SMB | 74 | GO | [folder](./ideas/2026-08-09-supplier-spec-drift-sentry/) |
 | 2026-08-09 | DeemedYes | HealthTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-09-prior-auth-clock-expiry/) |
 | 2026-08-09 | MisSold | Retail / Global | 75 | GO | [folder](./ideas/2026-08-09-agent-answer-transcript/) |
 | 2026-08-09 | ShortStop | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-09-calibration-shortpay-recovery/) |
