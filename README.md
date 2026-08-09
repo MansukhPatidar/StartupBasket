@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-10 | DelegaCheck | HealthTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-10-delegation-log-crosswalk/) |
 | 2026-08-09 | ClawBack | FinTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-09-carrier-commission-shortfall-tracker/) |
 | 2026-08-09 | RefChain | Compliance / EU | 73 | GO | [folder](./ideas/2026-08-09-eudr-reference-number-reconciler/) |
 | 2026-08-09 | TruthDesk | HomeServices / US-SMB | 73 | GO | [folder](./ideas/2026-08-09-ai-fact-correction-desk/) |
