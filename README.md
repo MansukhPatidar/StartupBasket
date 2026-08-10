@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-10 | TimbraVoz | Logistics / Mexico | 74 | GO | [folder](./ideas/2026-08-10-carta-porte-roadside-capture/) |
 | 2026-08-10 | DeadAir | FinTech / India | 76 | GO | [folder](./ideas/2026-08-10-bfsi-reachability-router/) |
 | 2026-08-10 | NativeCopy | EdTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-10-iep-translation-turnaround/) |
 | 2026-08-10 | DelegaCheck | HealthTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-10-delegation-log-crosswalk/) |
