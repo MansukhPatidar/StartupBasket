@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-11 | NegoDossier | ProfessionalServices / Japan | 74 | GO | [folder](./ideas/2026-08-11-price-passthrough-dossier/) |
 | 2026-08-11 | BondRush | Logistics / US-SMB | 77 | GO | [folder](./ideas/2026-08-11-broker-failure-claim-race/) |
 | 2026-08-10 | MachiLedger | Logistics / Japan | 76 | GO | [folder](./ideas/2026-08-10-waiting-time-billing-evidence/) |
 | 2026-08-10 | CaixaCurto | FinTech / Brazil | 75 | GO | [folder](./ideas/2026-08-10-split-payment-working-capital/) |
