@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-10 | NguongMeter | Compliance / Vietnam | 72 | GO | [folder](./ideas/2026-08-10-revenue-threshold-meter/) |
 | 2026-08-10 | TeachBack | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-10-safety-comprehension-proof/) |
 | 2026-08-10 | TimbraVoz | Logistics / Mexico | 74 | GO | [folder](./ideas/2026-08-10-carta-porte-roadside-capture/) |
 | 2026-08-10 | DeadAir | FinTech / India | 76 | GO | [folder](./ideas/2026-08-10-bfsi-reachability-router/) |
