@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-12 | MarkTrail | Compliance / EU | 76 | GO | [folder](./ideas/2026-08-12-ai-content-labelling-trail/) |
 | 2026-08-12 | ShelfLife | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-12-bid-quote-staleness-watch/) |
 | 2026-08-11 | UnderCost | HealthTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-11-underwater-claim-recovery/) |
 | 2026-08-11 | ChargeBack | Retail / India | 76 | GO | [folder](./ideas/2026-08-11-quick-commerce-debit-note-defence/) |
