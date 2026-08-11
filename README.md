@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-11 | ChargeBack | Retail / India | 76 | GO | [folder](./ideas/2026-08-11-quick-commerce-debit-note-defence/) |
 | 2026-08-11 | DeckFile | PropTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-11-roof-evidence-archive/) |
 | 2026-08-11 | LateWatch | Compliance / Australia | 77 | GO | [folder](./ideas/2026-08-11-payday-super-disclosure-clock/) |
 | 2026-08-11 | SoSweep | Compliance / Vietnam | 75 | GO | [folder](./ideas/2026-08-11-vietnam-unenrolled-worker-sweep/) |
