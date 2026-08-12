@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-13 | RevTripwire | TradeTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-13-revision-installed-collision/) |
 | 2026-08-13 | CoreClock | TradeTech / US-SMB | 76 | GO | [folder](./ideas/2026-08-13-hvac-warranty-claim-clock/) |
 | 2026-08-12 | TrocaBase | FinTech / Brazil | 72 | GO | [folder](./ideas/2026-08-12-pix-recurring-migration-campaign/) |
 | 2026-08-12 | AtoTsuke | GovTech / Japan-SMB | 76 | GO | [folder](./ideas/2026-08-12-japan-subsidy-effect-reporting/) |
