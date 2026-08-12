@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-12 | TrocaBase | FinTech / Brazil | 72 | GO | [folder](./ideas/2026-08-12-pix-recurring-migration-campaign/) |
 | 2026-08-12 | AtoTsuke | GovTech / Japan-SMB | 76 | GO | [folder](./ideas/2026-08-12-japan-subsidy-effect-reporting/) |
 | 2026-08-12 | ShelfProof | Retail / US | 74 | GO | [folder](./ideas/2026-08-12-agentic-shelf-audit/) |
 | 2026-08-12 | PerDiem | Logistics / US-SMB | 77 | GO | [folder](./ideas/2026-08-12-drayage-per-diem-defence/) |
