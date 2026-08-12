@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-12 | PerDiem | Logistics / US-SMB | 77 | GO | [folder](./ideas/2026-08-12-drayage-per-diem-defence/) |
 | 2026-08-12 | OriginVault | TradeTech / India | 75 | GO | [folder](./ideas/2026-08-12-ceta-origin-substantiation/) |
 | 2026-08-12 | SealCheck | ProfessionalServices / US-SMB | 74 | GO | [folder](./ideas/2026-08-12-uscis-translation-defect-screen/) |
 | 2026-08-12 | MarkTrail | Compliance / EU | 76 | GO | [folder](./ideas/2026-08-12-ai-content-labelling-trail/) |
