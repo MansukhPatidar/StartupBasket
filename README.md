@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-13 | TocaLive | HealthTech / Brazil | 76 | GO | [folder](./ideas/2026-08-13-whatsapp-inbound-call-answering/) |
 | 2026-08-13 | StatusDrift | Compliance / India | 76 | GO | [folder](./ideas/2026-08-13-msme-vendor-status-drift/) |
 | 2026-08-13 | CureGone | Compliance / US-SMB | 78 | GO | [folder](./ideas/2026-08-13-i9-substantive-error-sweep/) |
 | 2026-08-13 | MateriaLedger | Compliance / Mexico | 77 | GO | [folder](./ideas/2026-08-13-cfdi-materiality-evidence/) |
