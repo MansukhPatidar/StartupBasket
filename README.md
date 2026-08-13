@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-13 | MateriaLedger | Compliance / Mexico | 77 | GO | [folder](./ideas/2026-08-13-cfdi-materiality-evidence/) |
 | 2026-08-13 | TruckRide | HomeServices / US-SMB | 78 | GO | [folder](./ideas/2026-08-13-technician-work-verification/) |
 | 2026-08-13 | PartsOwed | Compliance / EU | 75 | GO | [folder](./ideas/2026-08-13-importer-repair-obligation-handoff/) |
 | 2026-08-13 | RevTripwire | TradeTech / US-SMB | 75 | GO | [folder](./ideas/2026-08-13-revision-installed-collision/) |
