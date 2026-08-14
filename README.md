@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-15 | DriftLedger | Compliance / Australia | 76 | GO | [folder](./ideas/2026-08-15-austrac-program-practice-gap/) |
 | 2026-08-14 | BindProof | DevTools / US-SMB | 77 | GO | [folder](./ideas/2026-08-14-cyber-attestation-drift/) |
 | 2026-08-14 | SariRelay | Compliance / Philippines | 77 | GO | [folder](./ideas/2026-08-14-bir-eis-seller-relay/) |
 | 2026-08-14 | NiKirei | Logistics / Japan | 76 | GO | [folder](./ideas/2026-08-14-japan-freight-order-slip/) |
