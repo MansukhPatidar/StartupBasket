@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-14 | NiKirei | Logistics / Japan | 76 | GO | [folder](./ideas/2026-08-14-japan-freight-order-slip/) |
 | 2026-08-14 | PlotScreen | AgriTech / EU | 74 | GO | [folder](./ideas/2026-08-14-eudr-polygon-prescreen/) |
 | 2026-08-14 | BandWatch | Compliance / Saudi Arabia | 76 | GO | [folder](./ideas/2026-08-14-qiwa-saudization-credit-gap/) |
 | 2026-08-14 | PinDrop | Retail / India | 74 | GO | [folder](./ideas/2026-08-14-quick-commerce-shelf-defence/) |
