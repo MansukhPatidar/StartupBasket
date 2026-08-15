@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-15 | TenureTender | Logistics / US-SMB | 76 | GO | [folder](./ideas/2026-08-15-broker-driver-tenure-attestation/) |
 | 2026-08-15 | CertChase | DeathCare / US | 74 | GO | [folder](./ideas/2026-08-15-death-certificate-signature-chase/) |
 | 2026-08-15 | AssureLog | EdTech / Australia | 76 | GO | [folder](./ideas/2026-08-15-asqa-self-assurance-evidence/) |
 | 2026-08-15 | DriftLedger | Compliance / Australia | 76 | GO | [folder](./ideas/2026-08-15-austrac-program-practice-gap/) |
