@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-16 | MillStetho | IoT / India | 74 | GO | [folder](./ideas/2026-08-16-msme-machine-vibration-listener/) |
 | 2026-08-16 | OddsEngine | HealthTech / US | 75 | GO | [folder](./ideas/2026-08-16-payer-denial-odds/) |
 | 2026-08-16 | ShopSense | TradeTech / US-SMB | 74 | GO | [folder](./ideas/2026-08-16-estimator-knowledge-capture/) |
 | 2026-08-15 | ClaimVault | EdTech / India | 76 | GO | [folder](./ideas/2026-08-15-coaching-ad-claim-substantiation/) |
