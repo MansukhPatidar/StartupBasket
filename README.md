@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-17 | LeadLock | TradeTech / US | 74 | GO | [folder](./ideas/2026-08-17-gear-leadtime-bid-window/) |
 | 2026-08-17 | ChartExposure | HealthTech / US | 75 | GO | [folder](./ideas/2026-08-17-dental-chart-audit-exposure/) |
 | 2026-08-16 | DeltaPrice | TradeTech / US | 73 | GO | [folder](./ideas/2026-08-16-addendum-bid-reprice/) |
 | 2026-08-16 | MandaTrip | FinTech / Brazil | 76 | GO | [folder](./ideas/2026-08-16-pix-mandate-revenue-leak/) |
