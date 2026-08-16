@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-16 | PeakWarden | CleanTech / US | 76 | GO | [folder](./ideas/2026-08-16-demand-charge-peak-warden/) |
 | 2026-08-16 | CaDance | Compliance / Vietnam | 74 | GO | [folder](./ideas/2026-08-16-factory-audit-record-rehearsal/) |
 | 2026-08-16 | MillStetho | IoT / India | 74 | GO | [folder](./ideas/2026-08-16-msme-machine-vibration-listener/) |
 | 2026-08-16 | OddsEngine | HealthTech / US | 75 | GO | [folder](./ideas/2026-08-16-payer-denial-odds/) |
