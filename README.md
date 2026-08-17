@@ -29,6 +29,7 @@ Newest first. Click a row's folder link to read the full proposal.
 | Date | Idea | Category | Score | Verdict | Folder |
 |------|------|----------|-------|---------|--------|
 <!-- new ideas get inserted here, directly below this line -->
+| 2026-08-17 | NimachiPay | Logistics / Japan | 75 | GO | [folder](./ideas/2026-08-17-nimachi-waiting-fee-recovery/) |
 | 2026-08-17 | ReturnAdvocate | Retail / Indonesia | 73 | GO | [folder](./ideas/2026-08-17-marketplace-return-dispute-advocate/) |
 | 2026-08-17 | PackDossier | Compliance / EU | 76 | GO | [folder](./ideas/2026-08-17-ppwr-doc-evidence-dossier/) |
 | 2026-08-17 | ShiftRate | TravelTech / EU | 74 | GO | [folder](./ideas/2026-08-17-ota-channel-shift-desk/) |
